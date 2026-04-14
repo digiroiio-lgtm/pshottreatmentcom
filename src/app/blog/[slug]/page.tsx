@@ -44,7 +44,7 @@ export default async function BlogPostPage({ params }: Props) {
           <span>/</span>
           <Link href="/blog" className="hover:text-blue-700">Blog</Link>
           <span>/</span>
-          <span className="text-gray-700 truncate max-w-xs">{post.title}</span>
+          <span className="text-gray-700 truncate max-w-xs" title={post.title}>{post.title}</span>
         </nav>
 
         {/* Category + meta */}

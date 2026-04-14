@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "p-shot-cost-uk",
     title: "P-Shot Cost in the UK: Why Patients Are Travelling to Turkey",
-    metaTitle: "P-Shot Cost UK 2024 – How Much Does It Cost & Cheaper Alternatives",
+    metaTitle: "P-Shot Cost UK – How Much Does It Cost & Cheaper Alternatives",
     metaDescription:
       "P-Shot in the UK costs £1,200–£2,000. Discover why 1,000+ UK patients travel to Turkey to get the same procedure for just £300. All-inclusive, certified doctors.",
     publishedAt: "2024-01-15",
@@ -173,7 +173,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "prp-for-erectile-dysfunction",
     title: "PRP for Erectile Dysfunction: How It Works and Who It Helps",
-    metaTitle: "PRP for Erectile Dysfunction: The Complete 2024 Guide",
+    metaTitle: "PRP for Erectile Dysfunction: The Complete Guide",
     metaDescription:
       "PRP therapy for ED uses your own blood to stimulate tissue repair and improve erectile function. Learn how it works, who it helps, and the cost in Turkey vs the UK.",
     publishedAt: "2024-02-15",
@@ -251,7 +251,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "p-shot-reviews-uk",
     title: "P-Shot Reviews from UK Patients: Real Experiences",
-    metaTitle: "P-Shot Reviews UK 2024 – Real Patient Experiences from British Men",
+    metaTitle: "P-Shot Reviews UK – Real Patient Experiences from British Men",
     metaDescription:
       "Read honest P-Shot reviews from UK patients who travelled to Turkey. Discover why 500+ British men chose our clinic and what results they achieved.",
     publishedAt: "2024-03-01",
