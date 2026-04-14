@@ -5,9 +5,11 @@ import { locations } from "@/data/locations";
 const BASE = "https://pshottreatment.com";
 
 // IndexNow key — set INDEXNOW_KEY in your deployment environment variables.
-// 1. Generate a unique key at https://www.bing.com/indexnow/getstarted
-// 2. Set it as INDEXNOW_KEY in your environment
-// 3. The key verification file is served at /api/indexnow-key
+// Setup guide:
+//   1. Generate a unique key at https://www.bing.com/indexnow/getstarted
+//   2. Add INDEXNOW_KEY=<your-key> to your Vercel / hosting env vars
+//   3. The key verification file is served at GET /api/indexnow-key
+//   4. Call GET /api/indexnow (e.g. via a deploy webhook) to submit all URLs
 const KEY = process.env.INDEXNOW_KEY ?? "";
 
 /** POST or GET /api/indexnow — submit all site URLs to IndexNow */

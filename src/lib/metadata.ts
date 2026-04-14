@@ -1,5 +1,14 @@
 import type { Metadata } from "next";
 
+/** Format an ISO date string (YYYY-MM-DD) for display, e.g. "14 January 2024". */
+export function formatDate(isoDate: string): string {
+  return new Date(isoDate).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
 export const defaultMetadata: Metadata = {
   metadataBase: new URL("https://pshottreatment.com"),
   title: {

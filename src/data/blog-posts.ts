@@ -3,7 +3,13 @@ export interface BlogPost {
   title: string;
   metaTitle: string;
   metaDescription: string;
+  /** ISO date string (YYYY-MM-DD) of first publication. Used as Article schema `datePublished`. */
   publishedAt: string;
+  /**
+   * ISO date string (YYYY-MM-DD) of the last significant content update.
+   * Used as Article schema `dateModified` and displayed in the post header.
+   * Omit if the post has not been updated since its original publication.
+   */
   updatedAt?: string;
   readingTime: string;
   category: string;

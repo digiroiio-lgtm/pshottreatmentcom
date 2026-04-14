@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts, getBlogPost } from "@/data/blog-posts";
 import JsonLd from "@/components/JsonLd";
+import { formatDate } from "@/lib/metadata";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -78,11 +79,11 @@ export default async function BlogPostPage({ params }: Props) {
           <span className="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">{post.category}</span>
           <span className="text-gray-400 text-xs">{post.readingTime} read</span>
           <span className="text-gray-400 text-xs">·</span>
-          <span className="text-gray-400 text-xs">Published {new Date(post.publishedAt).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
+          <span className="text-gray-400 text-xs">Published {formatDate(post.publishedAt)}</span>
           {post.updatedAt && (
             <>
               <span className="text-gray-400 text-xs">·</span>
-              <span className="text-gray-400 text-xs">Updated {new Date(post.updatedAt).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
+              <span className="text-gray-400 text-xs">Updated {formatDate(post.updatedAt)}</span>
             </>
           )}
         </div>
