@@ -73,18 +73,22 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 my-10">
           <h3 className="font-bold text-gray-900 mb-4">Explore Further</h3>
           <div className="flex flex-wrap gap-3">
-            <Link href="/p-shot-price" className="text-blue-700 hover:text-blue-900 font-medium text-sm bg-white border border-blue-200 px-4 py-2 rounded-full transition-colors">
-              → P-Shot Price
-            </Link>
-            <Link href="/p-shot-before-after" className="text-blue-700 hover:text-blue-900 font-medium text-sm bg-white border border-blue-200 px-4 py-2 rounded-full transition-colors">
-              → Before & After
-            </Link>
-            <Link href="/p-shot-reviews" className="text-blue-700 hover:text-blue-900 font-medium text-sm bg-white border border-blue-200 px-4 py-2 rounded-full transition-colors">
-              → Patient Reviews
-            </Link>
-            <Link href="/how-it-works" className="text-blue-700 hover:text-blue-900 font-medium text-sm bg-white border border-blue-200 px-4 py-2 rounded-full transition-colors">
-              → How It Works
-            </Link>
+            {(post.exploreLinks ?? [
+              { href: "/p-shot-price", label: "P-Shot Price" },
+              { href: "/p-shot-before-after", label: "Before & After" },
+              { href: "/p-shot-reviews", label: "Patient Reviews" },
+              { href: "/how-it-works", label: "How It Works" },
+              { href: "/locations/turkey", label: "Book in Turkey" },
+              { href: "/locations", label: "All Locations" },
+            ]).map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-blue-700 hover:text-blue-900 font-medium text-sm bg-white border border-blue-200 px-4 py-2 rounded-full transition-colors"
+              >
+                → {link.label}
+              </Link>
+            ))}
           </div>
         </div>
 

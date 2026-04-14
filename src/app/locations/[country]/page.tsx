@@ -7,7 +7,7 @@ interface Props {
   params: Promise<{ country: string }>;
 }
 
-const validCountries = ["turkey", "uk", "usa", "canada", "australia"];
+const validCountries = ["turkey", "uk", "usa", "canada", "australia", "germany", "ireland"];
 
 export async function generateStaticParams() {
   return validCountries.map((country) => ({ country }));

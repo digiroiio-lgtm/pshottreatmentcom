@@ -21,6 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/locations/usa`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/locations/canada`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/locations/australia`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/locations/germany`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${base}/locations/ireland`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({

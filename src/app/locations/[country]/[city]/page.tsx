@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = isConversionFocused
     ? `P-Shot in ${name} – £300 All-Inclusive | Certified Clinic`
-    : `P-Shot in ${name} – Cost, Results & Turkey Alternative (£300)`;
+    : `P-Shot in ${name} – £300 PRP Treatment | Save ${cityData.savingsAmount ?? `${cityData.savingsPercent}%`}`;
 
   const description = isConversionFocused
     ? `Get a P-Shot in ${name}, ${countryName} for just £300 all-inclusive. Certified doctors, same-day procedure, 1000+ patients treated. Book via WhatsApp today.`
@@ -57,7 +57,7 @@ export default async function LocationCityPage({ params }: Props) {
   const cityData = getCityData(country, city);
   if (!cityData) notFound();
 
-  const { name, countryName, flag, localCost, savingsPercent, isConversionFocused } = cityData;
+  const { name, countryName, flag, localCost, savingsPercent, savingsAmount, isConversionFocused } = cityData;
   const nearbyCities = getCitiesByCountry(country)
     .filter((c) => c.slug !== city)
     .slice(0, 4);
@@ -73,6 +73,7 @@ export default async function LocationCityPage({ params }: Props) {
       flag={flag}
       localCost={localCost}
       savingsPercent={savingsPercent}
+      savingsAmount={savingsAmount}
       nearbyCities={nearbyCities}
     />
   );
@@ -231,6 +232,7 @@ function ComparisonLocationPage({
   flag,
   localCost,
   savingsPercent,
+  savingsAmount,
   nearbyCities,
 }: {
   name: string;
@@ -238,6 +240,7 @@ function ComparisonLocationPage({
   flag: string;
   localCost: string;
   savingsPercent: number;
+  savingsAmount?: string;
   nearbyCities: Array<{ name: string; slug: string; countrySlug: string }>;
 }) {
   return (
@@ -251,6 +254,11 @@ function ComparisonLocationPage({
         <p className="text-xl text-gray-500 max-w-2xl mx-auto">
           Looking for a P-Shot in {name}? Compare local costs and discover why thousands of {countryName} patients choose Turkey — saving up to {savingsPercent}%.
         </p>
+        {savingsAmount && (
+          <div className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-900 font-semibold px-5 py-2 rounded-full text-sm mt-6">
+            💰 {countryName} patients save {savingsAmount} on average by choosing Turkey
+          </div>
+        )}
       </div>
 
       {/* Cost comparison */}
