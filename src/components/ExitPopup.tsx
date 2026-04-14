@@ -29,7 +29,7 @@ export default function ExitPopup() {
           ⚡ Only 3 slots available this week
         </div>
         <a
-          href="https://wa.me/905XXXXXXXXX?text=Hi%2C%20I%27d%20like%20to%20lock%20in%20the%20P-Shot%20price"
+          href="https://wa.me/905353998999?text=Hi%2C%20I%27d%20like%20to%20lock%20in%20the%20P-Shot%20price"
           target="_blank"
           rel="noopener noreferrer"
           className="block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-lg transition-colors mb-3"

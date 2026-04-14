@@ -48,7 +48,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="https://wa.me/905XXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"
+              href="https://wa.me/905353998999?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-full transition-colors"
@@ -72,7 +72,7 @@ export default function Navbar() {
                 {l.label}
               </Link>
             ))}
-            <a href="https://wa.me/905XXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment" target="_blank" rel="noopener noreferrer" className="mt-3 flex items-center gap-2 bg-green-500 text-white text-sm font-semibold px-4 py-2 rounded-full w-fit">
+            <a href="https://wa.me/905353998999?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment" target="_blank" rel="noopener noreferrer" className="mt-3 flex items-center gap-2 bg-green-500 text-white text-sm font-semibold px-4 py-2 rounded-full w-fit">
               WhatsApp Now
             </a>
           </div>

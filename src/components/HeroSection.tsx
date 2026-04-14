@@ -31,7 +31,7 @@ export default function HeroSection() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
           <a
-            href="https://wa.me/905XXXXXXXXX?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"
+            href="https://wa.me/905353998999?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors shadow-lg"
