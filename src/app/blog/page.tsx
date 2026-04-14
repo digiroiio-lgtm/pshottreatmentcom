@@ -48,7 +48,7 @@ export default function BlogIndexPage() {
                 <span className="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">{post.category}</span>
                 <span className="text-gray-400 text-xs">{post.readingTime} read</span>
               </div>
-              <h2 className="font-bold text-gray-900 text-lg leading-snug mb-2 group-hover:text-blue-700 transition-colors">{post.title}</h2>
+              <h3 className="font-bold text-gray-900 text-lg leading-snug mb-2 group-hover:text-blue-700 transition-colors">{post.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed line-clamp-2">{post.excerpt}</p>
               <span className="text-blue-600 text-sm font-medium mt-4 block">Read article →</span>
             </Link>
@@ -59,7 +59,7 @@ export default function BlogIndexPage() {
       {/* CTA */}
       <div className="bg-blue-700 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Book Your P-Shot?</h2>
+          <h3 className="text-3xl font-bold mb-4">Ready to Book Your P-Shot?</h3>
           <p className="text-blue-100 mb-8">£300 all-inclusive in Turkey. Certified doctors. Same-day procedure. WhatsApp us to get started.</p>
           <a
             href="https://wa.me/905353998999?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"

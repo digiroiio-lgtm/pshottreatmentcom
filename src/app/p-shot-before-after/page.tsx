@@ -21,7 +21,7 @@ export default function PShotBeforeAfterPage() {
       <BeforeAfterGrid />
       <div className="max-w-4xl mx-auto px-4 py-10">
         <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-2">When do you see results?</h2>
+          <h3 className="text-xl font-bold text-gray-900 mb-2">When do you see results?</h3>
           <div className="grid md:grid-cols-3 gap-4 mt-4">
             {[
               { period: "2–4 weeks", desc: "Initial tissue regeneration begins. Some patients report early improvements." },

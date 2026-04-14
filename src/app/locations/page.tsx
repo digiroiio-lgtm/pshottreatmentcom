@@ -90,7 +90,7 @@ export default function LocationsPage() {
       {/* CTA */}
       <div className="bg-blue-700 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Book? Skip Local Prices.</h2>
+          <h3 className="text-3xl font-bold mb-4">Ready to Book? Skip Local Prices.</h3>
           <p className="text-blue-100 mb-8">
             Wherever you are in the world, our Turkey clinic saves you up to 75%. Same procedure. Certified doctors. WhatsApp us to start.
           </p>

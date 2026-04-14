@@ -20,7 +20,7 @@ export default function PShotSideEffectsPage() {
 
       <div className="max-w-4xl mx-auto px-4 pb-10">
         <div className="bg-green-50 border border-green-200 rounded-2xl p-6 mb-8">
-          <h2 className="text-xl font-bold text-green-800 mb-2">✅ The Short Answer: Yes, the P-Shot is Very Safe</h2>
+          <h3 className="text-xl font-bold text-green-800 mb-2">✅ The Short Answer: Yes, the P-Shot is Very Safe</h3>
           <p className="text-green-700">
             The P-Shot (Priapus Shot) uses your own blood plasma (PRP – Platelet-Rich Plasma), which means there is virtually zero risk of allergic reaction or rejection. It has been performed on thousands of men worldwide.
           </p>
@@ -65,7 +65,7 @@ export default function PShotSideEffectsPage() {
         </div>
 
         <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-3">Who Should NOT Get a P-Shot?</h2>
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Who Should NOT Get a P-Shot?</h3>
           <ul className="space-y-2 text-sm text-gray-700">
             {[
               "Men with active infections or penile skin conditions",
@@ -98,7 +98,7 @@ export default function PShotSideEffectsPage() {
         </div>
 
         <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6">
-          <h2 className="text-xl font-bold text-gray-900 mb-3">Medical Disclaimer</h2>
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Medical Disclaimer</h3>
           <p className="text-sm text-gray-500">
             The information on this page is for educational purposes only and does not constitute medical advice. Always consult a qualified medical professional before undergoing any procedure. Our doctors will perform a full assessment before your treatment.
           </p>

@@ -21,7 +21,7 @@ export default function PShotPricePage() {
       </div>
       <PriceTable />
       <div className="max-w-4xl mx-auto px-4 py-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">What&apos;s Included in the Price?</h2>
+        <h3 className="text-2xl font-bold text-gray-900 mb-4">What&apos;s Included in the Price?</h3>
         <div className="grid md:grid-cols-2 gap-4">
           {["Doctor consultation", "PRP extraction and processing", "P-Shot injection procedure", "Medical aftercare instructions", "English-speaking medical staff", "Clinic accommodation"].map((item) => (
             <div key={item} className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl p-4">

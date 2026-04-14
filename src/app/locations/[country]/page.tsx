@@ -103,9 +103,9 @@ export default async function CountryPage({ params }: Props) {
       {/* CTA */}
       <div className="bg-blue-700 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">
+          <h3 className="text-3xl font-bold mb-4">
             {isTurkey ? "Book Your P-Shot in Turkey Today" : `Don't Pay ${meta.name} Prices`}
-          </h2>
+          </h3>
           <p className="text-blue-100 mb-8">
             {isTurkey
               ? "£300 all-inclusive. WhatsApp us to book in minutes."

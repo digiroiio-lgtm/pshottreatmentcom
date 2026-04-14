@@ -206,7 +206,7 @@ function TurkeyLocationPage({
       {/* Final CTA */}
       <div className="bg-blue-700 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Book Your P-Shot in {name}?</h2>
+          <h3 className="text-3xl font-bold mb-4">Ready to Book Your P-Shot in {name}?</h3>
           <p className="text-blue-100 mb-8">£300 all-inclusive. Same-day procedure. WhatsApp us to get started — typically replies within minutes.</p>
           <a
             href="https://wa.me/905353998999?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"
@@ -290,7 +290,7 @@ function ComparisonLocationPage({
         </div>
 
         {/* Travel process */}
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">How the Travel Process Works</h2>
+        <h3 className="text-3xl font-bold text-gray-900 mb-6">How the Travel Process Works</h3>
         <div className="space-y-4 mb-12">
           {[
             { step: "1", title: "WhatsApp Us", desc: "Message us to book a free consultation. We'll discuss your history and goals, usually within hours." },
@@ -349,7 +349,7 @@ function ComparisonLocationPage({
       {/* CTA */}
       <div className="bg-blue-700 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Skip {name} Prices. Book Turkey for £300.</h2>
+          <h3 className="text-3xl font-bold mb-4">Skip {name} Prices. Book Turkey for £300.</h3>
           <p className="text-blue-100 mb-8">Same procedure. Same results. Save up to {savingsPercent}%. WhatsApp us for a free consultation — usually responds within minutes.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

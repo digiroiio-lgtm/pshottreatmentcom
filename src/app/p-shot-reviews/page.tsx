@@ -37,7 +37,7 @@ export default function PShotReviewsPage() {
       </div>
       <Testimonials />
       <div className="max-w-6xl mx-auto px-4 pb-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">More Patient Stories</h2>
+        <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">More Patient Stories</h3>
         <div className="grid md:grid-cols-2 gap-6">
           {moreReviews.map((r) => (
             <div key={r.name} className="bg-gray-50 rounded-2xl p-6 border border-gray-100">
