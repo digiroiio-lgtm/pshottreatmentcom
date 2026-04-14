@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 interface Props {
   limit?: number;
@@ -43,10 +44,10 @@ export default function BeforeAfterGrid({ limit }: Props) {
         </div>
         {limit && (
           <div className="text-center mt-8">
-            <a href="/before-after" className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-8 rounded-full transition-colors">
+            <Link href="/before-after" className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-8 rounded-full transition-colors">
               View All Results
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/></svg>
-            </a>
+            </Link>
           </div>
         )}
       </div>
