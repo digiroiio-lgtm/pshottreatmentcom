@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 pt-12 pb-20 md:pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-white font-bold text-lg mb-3">P-Shot Treatment</h3>
             <p className="text-sm leading-relaxed">World-class P-Shot treatment for just £300 / €300 / $300. Certified doctors, same-day procedure, 1000+ patients treated.</p>
@@ -13,12 +13,29 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-3">Pages</h3>
             <ul className="space-y-2 text-sm">
               {[
-                { href: "/price", label: "Pricing" },
+                { href: "/p-shot-price", label: "Pricing" },
                 { href: "/how-it-works", label: "How It Works" },
-                { href: "/before-after", label: "Before & After" },
-                { href: "/reviews", label: "Reviews" },
-                { href: "/side-effects", label: "Side Effects" },
+                { href: "/p-shot-before-after", label: "Before & After" },
+                { href: "/p-shot-reviews", label: "Reviews" },
+                { href: "/p-shot-side-effects", label: "Side Effects" },
+                { href: "/blog", label: "Blog" },
+                { href: "/locations", label: "Locations" },
                 { href: "/contact", label: "Contact" },
+              ].map((l) => (
+                <li key={l.href}><Link href={l.href} className="hover:text-white transition-colors">{l.label}</Link></li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-white font-semibold mb-3">Top Locations</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                { href: "/locations/uk/p-shot-london", label: "P-Shot London" },
+                { href: "/locations/usa/p-shot-new-york", label: "P-Shot New York" },
+                { href: "/locations/turkey/p-shot-istanbul", label: "P-Shot Istanbul" },
+                { href: "/locations/turkey/p-shot-antalya", label: "P-Shot Antalya" },
+                { href: "/locations/australia/p-shot-sydney", label: "P-Shot Sydney" },
+                { href: "/locations/canada/p-shot-toronto", label: "P-Shot Toronto" },
               ].map((l) => (
                 <li key={l.href}><Link href={l.href} className="hover:text-white transition-colors">{l.label}</Link></li>
               ))}

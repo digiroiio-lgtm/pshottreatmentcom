@@ -9,11 +9,12 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/price", label: "Price" },
+    { href: "/p-shot-price", label: "Price" },
     { href: "/how-it-works", label: "How It Works" },
-    { href: "/before-after", label: "Before & After" },
-    { href: "/reviews", label: "Reviews" },
-    { href: "/side-effects", label: "Side Effects" },
+    { href: "/p-shot-before-after", label: "Before & After" },
+    { href: "/p-shot-reviews", label: "Reviews" },
+    { href: "/blog", label: "Blog" },
+    { href: "/locations", label: "Locations" },
     { href: "/contact", label: "Contact" },
   ];
 
