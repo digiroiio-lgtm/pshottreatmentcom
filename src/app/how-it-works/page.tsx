@@ -19,7 +19,7 @@ export default function HowItWorksPage() {
 
       <div className="max-w-4xl mx-auto px-4 pb-10">
         <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
-          <h3 className="text-xl font-bold text-gray-900 mb-3">What is the P-Shot?</h3>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">What is the P-Shot?</h2>
           <p className="text-gray-700 leading-relaxed">The P-Shot (Priapus Shot) is a regenerative medical procedure that uses Platelet-Rich Plasma (PRP) derived from your own blood to stimulate natural tissue growth, improve blood flow, and enhance sexual performance. It is non-surgical, minimally invasive, and has been used by thousands of men worldwide.</p>
         </div>
 
