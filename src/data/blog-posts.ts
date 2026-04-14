@@ -4,6 +4,7 @@ export interface BlogPost {
   metaTitle: string;
   metaDescription: string;
   publishedAt: string;
+  updatedAt?: string;
   readingTime: string;
   category: string;
   excerpt: string;

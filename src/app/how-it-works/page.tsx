@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import HowItWorks from "@/components/HowItWorks";
 import CtaBlock from "@/components/CtaBlock";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "How the P-Shot Works – Procedure & Process Explained",
@@ -9,8 +10,57 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://pshottreatment.com/how-it-works" },
 };
 
+const howItWorksFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What is the P-Shot (Priapus Shot)?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The P-Shot is a non-surgical PRP (Platelet-Rich Plasma) treatment that uses growth factors from your own blood to improve erectile function, sensitivity, and sexual performance.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long does the P-Shot procedure take?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The entire procedure takes approximately 90 minutes: 15 minutes for PRP centrifugation, 20–30 minutes for numbing cream, and 20 minutes for the injection itself.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is the P-Shot painful?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A topical anaesthetic cream is applied before the injections, making the procedure virtually painless. Most patients report minimal discomfort.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "When will I see results from the P-Shot?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Most patients notice improvements in sensitivity within 2–4 weeks. Full results — including enhanced erectile quality — develop over 8–12 weeks and typically last 12–18 months.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is there any downtime after the P-Shot?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No surgery and no downtime. Most patients resume normal daily activities the same day. You can fly home the same day or the day after treatment.",
+      },
+    },
+  ],
+};
+
 export default function HowItWorksPage() {
   return (
+    <>
+    <JsonLd data={howItWorksFaqSchema} />
     <div className="pt-6">
       <div className="max-w-3xl mx-auto px-4 text-center py-10">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">How the P-Shot Works</h1>
@@ -65,5 +115,6 @@ export default function HowItWorksPage() {
       <HowItWorks />
       <CtaBlock />
     </div>
+    </>
   );
 }

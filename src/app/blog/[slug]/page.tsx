@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts, getBlogPost } from "@/data/blog-posts";
+import JsonLd from "@/components/JsonLd";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -35,7 +36,32 @@ export default async function BlogPostPage({ params }: Props) {
 
   const relatedPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3);
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.metaTitle,
+    description: post.metaDescription,
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt ?? post.publishedAt,
+    author: {
+      "@type": "Organization",
+      name: "P-Shot Treatment",
+      url: "https://pshottreatment.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "P-Shot Treatment",
+      url: "https://pshottreatment.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://pshottreatment.com/blog/${slug}`,
+    },
+  };
+
   return (
+    <>
+    <JsonLd data={articleSchema} />
     <div className="pt-6">
       <div className="max-w-3xl mx-auto px-4 py-10">
         {/* Breadcrumb */}
@@ -48,11 +74,17 @@ export default async function BlogPostPage({ params }: Props) {
         </nav>
 
         {/* Category + meta */}
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex flex-wrap items-center gap-3 mb-4">
           <span className="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">{post.category}</span>
           <span className="text-gray-400 text-xs">{post.readingTime} read</span>
           <span className="text-gray-400 text-xs">·</span>
-          <span className="text-gray-400 text-xs">{new Date(post.publishedAt).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
+          <span className="text-gray-400 text-xs">Published {new Date(post.publishedAt).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
+          {post.updatedAt && (
+            <>
+              <span className="text-gray-400 text-xs">·</span>
+              <span className="text-gray-400 text-xs">Updated {new Date(post.updatedAt).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</span>
+            </>
+          )}
         </div>
 
         <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 leading-tight">{post.title}</h1>
@@ -133,5 +165,6 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       </div>
     </div>
+    </>
   );
 }

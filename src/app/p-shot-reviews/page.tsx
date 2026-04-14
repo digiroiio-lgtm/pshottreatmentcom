@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Testimonials from "@/components/Testimonials";
 import CtaBlock from "@/components/CtaBlock";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "P-Shot Patient Reviews – 500+ 5-Star Reviews",
@@ -11,9 +12,52 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://pshottreatment.com/p-shot-reviews" },
 };
 
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://pshottreatment.com/#business",
+  name: "P-Shot Treatment Turkey",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    bestRating: "5",
+    worstRating: "1",
+    reviewCount: "500",
+  },
+  review: [
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "James T." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Absolutely worth every penny. I paid £300 and the results have been incredible. The clinic was professional and the doctor spoke excellent English. I'd been quoted £1,800 in London.",
+      datePublished: "2024-03-10",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Michael R." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "I was skeptical at first but took the plunge. Best decision I've made. The procedure was quick, painless, and the results showed within weeks. Saved over $1,200.",
+      datePublished: "2024-02-14",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "David S." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Flew to Istanbul on a Friday, had the treatment Saturday morning, and was back home Sunday. The team was incredible and the price was unbeatable. 10/10.",
+      datePublished: "2024-01-28",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Andrew B." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Life-changing. I drove 4 hours to see a specialist in London who wanted £1,600. Found this clinic online, booked Istanbul, and couldn't be happier with the results.",
+      datePublished: "2024-04-01",
+    },
+  ],
+};
+
 export default function PShotReviewsPage() {
   const moreReviews = [
-    { name: "Andrew B.", location: "Edinburgh, UK", flag: "🇬🇧", rating: 5, text: "Life-changing. I drove 4 hours to see a specialist in London who wanted £1,600. Found this clinic online, booked Istanbul, and couldn't be happier with the results. Professional team, spotless clinic." },
     { name: "Robert K.", location: "Chicago, US", flag: "🇺🇸", rating: 5, text: "I was hesitant to travel abroad for a medical procedure but the team made it seamless. Picked up from airport, treated next morning, flight home same evening. Results exceeded expectations." },
     { name: "Pierre L.", location: "Paris, France", flag: "🇫🇷", rating: 5, text: "Les cliniques en France demandent minimum €1,200. Ici j&apos;ai payé €300 pour exactement la même procédure. L&apos;équipe parle anglais, les installations sont modernes." },
     { name: "Carlos M.", location: "Madrid, Spain", flag: "🇪🇸", rating: 5, text: "Incredible value. The clinic is modern, the doctors are highly qualified, and the entire experience was smooth. I&apos;m already recommending it to friends." },
@@ -22,6 +66,8 @@ export default function PShotReviewsPage() {
   ];
 
   return (
+    <>
+    <JsonLd data={reviewSchema} />
     <div className="pt-6">
       <div className="max-w-3xl mx-auto px-4 text-center py-10">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">What Our Patients Say</h1>
@@ -81,5 +127,6 @@ export default function PShotReviewsPage() {
 
       <CtaBlock />
     </div>
+    </>
   );
 }

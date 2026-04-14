@@ -3,6 +3,7 @@ import PriceTable from "@/components/PriceTable";
 import CtaBlock from "@/components/CtaBlock";
 import HowItWorks from "@/components/HowItWorks";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "P-Shot Price – £300 / €300 / $300 All-Inclusive",
@@ -12,8 +13,49 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://pshottreatment.com/p-shot-price" },
 };
 
+const priceFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "How much does the P-Shot cost in Turkey?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Our P-Shot treatment in Turkey costs £300 / €300 / $300 all-inclusive. This covers the full consultation, PRP extraction, injection procedure, and aftercare support.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does the £300 P-Shot price include?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The £300 price includes: doctor consultation, PRP blood draw and centrifugation, the P-Shot injection procedure, medical aftercare instructions, and English-speaking medical staff support.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Why is the P-Shot cheaper in Turkey than in the UK?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Turkish private clinics have significantly lower operating costs (rent, staff, overheads) compared to UK clinics in London or major cities. The medical procedure and quality are the same — only the cost of running the clinic differs.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are there any hidden fees?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. The £300 price is all-inclusive with no hidden fees. Optional extras such as airport transfers and hotel accommodation are quoted separately if needed.",
+      },
+    },
+  ],
+};
+
 export default function PShotPricePage() {
   return (
+    <>
+    <JsonLd data={priceFaqSchema} />
     <div className="pt-6">
       <div className="max-w-3xl mx-auto px-4 text-center py-10">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-4">P-Shot Treatment Price</h1>
@@ -58,5 +100,6 @@ export default function PShotPricePage() {
       <CtaBlock />
       <HowItWorks />
     </div>
+    </>
   );
 }

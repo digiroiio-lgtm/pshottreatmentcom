@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import StickyCtaBar from "@/components/StickyCtaBar";
 import ExitPopup from "@/components/ExitPopup";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pshottreatment.com"),
@@ -23,10 +24,54 @@ export const metadata: Metadata = {
   },
 };
 
+const medicalBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://pshottreatment.com/#business",
+  name: "P-Shot Treatment Turkey",
+  url: "https://pshottreatment.com",
+  description: "Certified P-Shot (Priapus Shot) PRP treatment in Istanbul and Antalya, Turkey. £300 all-inclusive. 1000+ international patients treated.",
+  medicalSpecialty: "Urology",
+  priceRange: "£300",
+  currenciesAccepted: "GBP, EUR, USD",
+  telephone: "+905353998999",
+  address: [
+    {
+      "@type": "PostalAddress",
+      addressLocality: "Istanbul",
+      addressCountry: "TR",
+    },
+    {
+      "@type": "PostalAddress",
+      addressLocality: "Antalya",
+      addressCountry: "TR",
+    },
+  ],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    bestRating: "5",
+    worstRating: "1",
+    reviewCount: "500",
+  },
+  sameAs: ["https://wa.me/905353998999"],
+};
+
+const webSiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://pshottreatment.com/#website",
+  name: "P-Shot Treatment",
+  url: "https://pshottreatment.com",
+  publisher: { "@id": "https://pshottreatment.com/#business" },
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className="font-sans antialiased">
+        <JsonLd data={medicalBusinessSchema} />
+        <JsonLd data={webSiteSchema} />
         <CurrencyProvider>
           <Navbar />
           <main>{children}</main>
