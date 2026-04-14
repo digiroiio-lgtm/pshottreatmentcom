@@ -14,8 +14,8 @@ export default function HowItWorks() {
     },
     {
       number: "03",
-      title: "Travel & Treatment in Turkey",
-      desc: "Fly to Istanbul. We handle transfers. Same-day treatment. You're back home within 48 hours.",
+      title: "Fly to Istanbul or Antalya",
+      desc: "We handle transfers at both airports. Same-day treatment. You're back home within 48 hours.",
       icon: "✈️",
     },
   ];

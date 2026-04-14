@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import HeroSection from "@/components/HeroSection";
+import WhatIsPShot from "@/components/WhatIsPShot";
 import PriceTable from "@/components/PriceTable";
 import HowItWorks from "@/components/HowItWorks";
 import BeforeAfterGrid from "@/components/BeforeAfterGrid";
@@ -17,6 +18,7 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
+      <WhatIsPShot />
       <PriceTable />
       <CtaBlock />
       <HowItWorks />
