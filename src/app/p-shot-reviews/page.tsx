@@ -3,6 +3,7 @@ import Testimonials from "@/components/Testimonials";
 import CtaBlock from "@/components/CtaBlock";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
+import { SITE } from "@/data/site-config";
 
 export const metadata: Metadata = {
   title: "P-Shot Patient Reviews – 500+ 5-Star Reviews",
@@ -15,14 +16,14 @@ export const metadata: Metadata = {
 const reviewSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  "@id": "https://pshottreatment.com/#business",
-  name: "P-Shot Treatment Turkey",
+  "@id": `${SITE.url}/#business`,
+  name: SITE.name,
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "5.0",
+    ratingValue: SITE.ratingValue,
     bestRating: "5",
     worstRating: "1",
-    reviewCount: "500",
+    reviewCount: String(SITE.reviewCount),
   },
   review: [
     {

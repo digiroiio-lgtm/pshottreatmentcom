@@ -7,6 +7,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import StickyCtaBar from "@/components/StickyCtaBar";
 import ExitPopup from "@/components/ExitPopup";
 import JsonLd from "@/components/JsonLd";
+import { SITE } from "@/data/site-config";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pshottreatment.com"),
@@ -27,14 +28,14 @@ export const metadata: Metadata = {
 const medicalBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  "@id": "https://pshottreatment.com/#business",
-  name: "P-Shot Treatment Turkey",
-  url: "https://pshottreatment.com",
+  "@id": `${SITE.url}/#business`,
+  name: SITE.name,
+  url: SITE.url,
   description: "Certified P-Shot (Priapus Shot) PRP treatment in Istanbul and Antalya, Turkey. £300 all-inclusive. 1000+ international patients treated.",
   medicalSpecialty: "Urology",
   priceRange: "£300",
   currenciesAccepted: "GBP, EUR, USD",
-  telephone: "+905353998999",
+  telephone: SITE.phone,
   address: [
     {
       "@type": "PostalAddress",
@@ -49,21 +50,21 @@ const medicalBusinessSchema = {
   ],
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "5.0",
+    ratingValue: SITE.ratingValue,
     bestRating: "5",
     worstRating: "1",
-    reviewCount: "500",
+    reviewCount: String(SITE.reviewCount),
   },
-  sameAs: ["https://wa.me/905353998999"],
+  sameAs: [`https://wa.me/${SITE.phone.replace(/\D/g, "")}`],
 };
 
 const webSiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://pshottreatment.com/#website",
+  "@id": `${SITE.url}/#website`,
   name: "P-Shot Treatment",
-  url: "https://pshottreatment.com",
-  publisher: { "@id": "https://pshottreatment.com/#business" },
+  url: SITE.url,
+  publisher: { "@id": `${SITE.url}/#business` },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
