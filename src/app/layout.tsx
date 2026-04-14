@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { CurrencyProvider } from "@/context/CurrencyContext";
 import Navbar from "@/components/Navbar";
@@ -26,6 +27,20 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-24CL20NTM1"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-24CL20NTM1');
+          `}
+        </Script>
+      </head>
       <body className="font-sans antialiased">
         <CurrencyProvider>
           <Navbar />
