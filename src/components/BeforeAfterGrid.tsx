@@ -10,8 +10,8 @@ export default function BeforeAfterGrid({ limit }: Props) {
 
   const results = Array.from({ length: limit ?? 8 }, (_, i) => ({
     id: i + 1,
-    alt: `P-Shot before and after results – patient ${i + 1}`,
-    label: `Patient ${i + 1}`,
+    alt: `P-Shot PRP before and after results – patient ${i + 1}, ${[4, 6, 8, 10, 12, 6, 8, 10][i] ?? 8} weeks post-treatment, Istanbul Turkey`,
+    label: `P-Shot Result – Patient ${i + 1}`,
     weeks: [4, 6, 8, 10, 12, 6, 8, 10][i] ?? 8,
   }));
 
@@ -27,6 +27,7 @@ export default function BeforeAfterGrid({ limit }: Props) {
             <button
               key={r.id}
               onClick={() => setSelected(r.id === selected ? null : r.id)}
+              aria-label={r.alt}
               className="relative group rounded-xl overflow-hidden bg-gradient-to-br from-gray-200 to-gray-300 aspect-square flex flex-col items-center justify-center hover:shadow-lg transition-shadow cursor-pointer border-2 border-transparent hover:border-blue-500"
             >
               <div className="text-6xl opacity-30">📷</div>

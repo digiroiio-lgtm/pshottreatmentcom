@@ -10,16 +10,31 @@ import ExitPopup from "@/components/ExitPopup";
 export const metadata: Metadata = {
   metadataBase: new URL("https://pshottreatment.com"),
   title: {
-    default: "P-Shot Treatment – £300 | Certified Clinic Turkey",
-    template: "%s | P-Shot Treatment",
+    default: "P-Shot Treatment in Turkey (£300) | PRP Therapy for ED – Certified Clinic Istanbul",
+    template: "%s | P-Shot Treatment Turkey",
   },
-  description: "Get a P-Shot treatment for just £300 / €300 / $300. Same medical procedure as UK clinics – 70% cheaper. Certified doctors. 1000+ patients treated.",
-  keywords: ["P-Shot treatment", "P-Shot cost", "P-Shot price", "P-Shot results", "P-Shot benefits", "P-Shot Turkey"],
+  description:
+    "P-Shot PRP therapy for erectile dysfunction from just £300 in Istanbul, Turkey. Same certified procedure as UK clinics – 70% cheaper. Board-certified doctors. 1000+ patients treated.",
+  keywords: [
+    "P-Shot treatment",
+    "P-Shot Turkey",
+    "P-Shot Istanbul",
+    "PRP for erectile dysfunction",
+    "erectile dysfunction treatment Turkey",
+    "P-Shot cost UK",
+    "P-Shot price",
+    "PRP therapy",
+    "medical tourism Turkey",
+    "Priapus Shot",
+  ],
   openGraph: {
     type: "website",
     locale: "en_GB",
     url: "https://pshottreatment.com",
-    siteName: "P-Shot Treatment",
+    siteName: "P-Shot Treatment Turkey",
+    title: "P-Shot Treatment in Turkey (£300) | PRP Therapy for ED",
+    description:
+      "Board-certified doctors. 1000+ patients. 70% cheaper than UK & US clinics. Book via WhatsApp.",
   },
 };
 

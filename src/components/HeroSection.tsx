@@ -18,11 +18,11 @@ export default function HeroSection() {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
-          P-Shot Treatment<br />
-          <span className="text-yellow-300">for Just {symbol}300</span>
+          P-Shot Treatment in Turkey<br />
+          <span className="text-yellow-300 text-3xl md:text-5xl">PRP Therapy for Erectile Dysfunction</span>
         </h1>
-        <p className="text-xl md:text-2xl text-blue-100 font-medium mb-3">
-          Save up to 70% compared to UK &amp; US clinics
+        <p className="text-xl md:text-2xl text-blue-100 font-bold mb-3">
+          All-inclusive from just {symbol}300 — save up to 70% vs UK &amp; US clinics
         </p>
         <p className="text-blue-200 mb-8 max-w-2xl mx-auto text-lg">
           The same certified medical procedure. Experienced doctors. No hidden fees.<br />
