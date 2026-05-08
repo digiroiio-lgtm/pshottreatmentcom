@@ -11,6 +11,7 @@ export default function Navbar() {
     { href: "/", label: "Home" },
     { href: "/price", label: "Price" },
     { href: "/how-it-works", label: "How It Works" },
+    { href: "/ed-knowledge-hub", label: "ED Guide" },
     { href: "/before-after", label: "Before & After" },
     { href: "/reviews", label: "Reviews" },
     { href: "/side-effects", label: "Side Effects" },

@@ -22,11 +22,11 @@ export default function HeroSection() {
           <span className="text-yellow-300">for Just {symbol}300</span>
         </h1>
         <p className="text-xl md:text-2xl text-blue-100 font-medium mb-3">
-          Save up to 70% compared to UK &amp; US clinics
+          The smart medical decision — not the cheap one
         </p>
         <p className="text-blue-200 mb-8 max-w-2xl mx-auto text-lg">
-          The same certified medical procedure. Experienced doctors. No hidden fees.<br />
-          UK clinics charge £1,200–£2,000 — we charge <strong className="text-white">{formatted}</strong>, all-in.
+          Why pay £1,800 in London for the same PRP procedure available in a certified Turkish clinic for <strong className="text-white">{formatted}</strong>?<br />
+          Same FDA-cleared equipment. Same-qualified doctors. No hidden fees.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">

@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-400 pt-12 pb-20 md:pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-white font-bold text-lg mb-3">P-Shot Treatment</h3>
-            <p className="text-sm leading-relaxed">World-class P-Shot treatment for just £300 / €300 / $300. Certified doctors, same-day procedure, 1000+ patients treated.</p>
+            <p className="text-sm leading-relaxed">Certified P-Shot treatment from £300. The smart medical decision — same procedure as UK clinics, a fraction of the cost.</p>
           </div>
           <div>
             <h3 className="text-white font-semibold mb-3">Pages</h3>
@@ -19,6 +19,23 @@ export default function Footer() {
                 { href: "/reviews", label: "Reviews" },
                 { href: "/side-effects", label: "Side Effects" },
                 { href: "/contact", label: "Contact" },
+              ].map((l) => (
+                <li key={l.href}><Link href={l.href} className="hover:text-white transition-colors">{l.label}</Link></li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-white font-semibold mb-3">ED Knowledge Hub</h3>
+            <ul className="space-y-2 text-sm">
+              {[
+                { href: "/ed-knowledge-hub", label: "Hub Overview" },
+                { href: "/ed-causes", label: "What Causes ED?" },
+                { href: "/diabetes-erectile-dysfunction", label: "Diabetes & ED" },
+                { href: "/p-shot-venous-leak-ed", label: "Venous Leak ED" },
+                { href: "/post-finasteride-syndrome-ed", label: "Post-Finasteride ED" },
+                { href: "/post-prostatectomy-ed", label: "Post-Prostatectomy ED" },
+                { href: "/testosterone-ed", label: "Testosterone & ED" },
+                { href: "/shockwave-therapy-ed", label: "Shockwave Therapy" },
               ].map((l) => (
                 <li key={l.href}><Link href={l.href} className="hover:text-white transition-colors">{l.label}</Link></li>
               ))}

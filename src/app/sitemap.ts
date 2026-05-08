@@ -23,6 +23,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/i-paid-1800-london-p-shot",
     "/what-uk-clinics-dont-tell-you-p-shot-pricing",
     "/flew-to-turkey-for-ed-treatment-reality",
+    "/ed-knowledge-hub",
+    "/ed-causes",
+    "/diabetes-erectile-dysfunction",
+    "/post-finasteride-syndrome-ed",
+    "/post-prostatectomy-ed",
+    "/shockwave-therapy-ed",
+    "/testosterone-ed",
   ];
   return pages.map((path) => ({
     url: `${base}${path}`,
