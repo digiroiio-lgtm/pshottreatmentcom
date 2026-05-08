@@ -2,7 +2,25 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://pshottreatment.com";
-  const pages = ["/", "/price", "/before-after", "/reviews", "/side-effects", "/how-it-works", "/contact"];
+  const pages = [
+    "/",
+    "/price",
+    "/before-after",
+    "/reviews",
+    "/side-effects",
+    "/how-it-works",
+    "/contact",
+    "/best-p-shot-clinic-turkey",
+    "/is-p-shot-worth-it",
+    "/p-shot-scam-or-legit",
+    "/why-is-p-shot-expensive-london",
+    "/p-shot-vs-viagra",
+    "/p-shot-venous-leak-ed",
+    "/prp-fix-erectile-dysfunction-naturally",
+    "/prp-vs-stem-cell-erectile-dysfunction",
+    "/p-shot-cost-reddit",
+    "/flying-to-turkey-ed-treatment",
+  ];
   return pages.map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),
