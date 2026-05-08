@@ -20,6 +20,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/prp-vs-stem-cell-erectile-dysfunction",
     "/p-shot-cost-reddit",
     "/flying-to-turkey-ed-treatment",
+    "/i-paid-1800-london-p-shot",
+    "/what-uk-clinics-dont-tell-you-p-shot-pricing",
+    "/flew-to-turkey-for-ed-treatment-reality",
   ];
   return pages.map((path) => ({
     url: `${base}${path}`,
