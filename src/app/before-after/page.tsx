@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import BeforeAfterGrid from "@/components/BeforeAfterGrid";
 import CtaBlock from "@/components/CtaBlock";
 
@@ -32,6 +33,18 @@ export default function BeforeAfterPage() {
               </div>
             ))}
           </div>
+          <p className="text-sm text-gray-600 mt-4">
+            Results vary and some men see no change. For what the published follow-up data supports — and
+            why the commonly quoted 12–18 month figure sits beyond it — read{" "}
+            <Link href="/blog/how-long-does-the-p-shot-last" className="text-blue-700 underline underline-offset-2">
+              how long does the P-Shot last?
+            </Link>{" "}
+            and our guide to{" "}
+            <Link href="/guides/does-the-p-shot-work" className="text-blue-700 underline underline-offset-2">
+              the clinical evidence
+            </Link>
+            .
+          </p>
         </div>
       </div>
       <CtaBlock title="Ready to See Your Own Results?" />

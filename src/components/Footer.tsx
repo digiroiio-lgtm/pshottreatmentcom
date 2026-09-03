@@ -18,6 +18,8 @@ export default function Footer() {
                 { href: "/before-after", label: "Before & After" },
                 { href: "/reviews", label: "Reviews" },
                 { href: "/side-effects", label: "Side Effects" },
+                { href: "/guides", label: "P-Shot Guides" },
+                { href: "/blog", label: "Blog" },
                 { href: "/contact", label: "Contact" },
               ].map((l) => (
                 <li key={l.href}><Link href={l.href} className="hover:text-white transition-colors">{l.label}</Link></li>

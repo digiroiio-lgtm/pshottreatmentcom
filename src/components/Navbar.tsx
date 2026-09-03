@@ -12,8 +12,10 @@ export default function Navbar() {
     { href: "/price", label: "Price" },
     { href: "/how-it-works", label: "How It Works" },
     { href: "/before-after", label: "Before & After" },
-    { href: "/reviews", label: "Reviews" },
     { href: "/side-effects", label: "Side Effects" },
+    { href: "/guides", label: "Guides" },
+    { href: "/blog", label: "Blog" },
+    { href: "/reviews", label: "Reviews" },
     { href: "/contact", label: "Contact" },
   ];
 

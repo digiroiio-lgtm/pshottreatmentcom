@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import CtaBlock from "@/components/CtaBlock";
 
 export const metadata: Metadata = {
@@ -66,6 +67,32 @@ export default function SideEffectsPage() {
             {["Men with active infections or penile skin conditions", "Patients on blood thinners (discuss with doctor)", "Men with certain blood disorders (platelet dysfunction)", "Anyone who has not had a free consultation with our doctor first"].map(item => (
               <li key={item} className="flex items-start gap-2"><span className="text-red-500 mt-0.5">⚠️</span>{item}</li>
             ))}
+          </ul>
+        </div>
+
+        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-3">Safety and effectiveness are different questions</h2>
+          <p className="text-gray-700 leading-relaxed mb-3">
+            Published trials have consistently reported PRP injections as well tolerated. Whether the P-Shot
+            actually improves erectile function is a separate question, and the randomised evidence there is
+            mixed — PRP for erectile dysfunction remains investigational and is not FDA approved for this use.
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li>
+              <Link href="/guides/does-the-p-shot-work" className="text-blue-700 underline underline-offset-2">
+                Does the P-Shot work? What the clinical evidence shows
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/how-long-does-the-p-shot-last" className="text-blue-700 underline underline-offset-2">
+                How long does the P-Shot last?
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog/p-shot-vs-viagra" className="text-blue-700 underline underline-offset-2">
+                P-Shot vs Viagra: how they compare
+              </Link>
+            </li>
           </ul>
         </div>
 
