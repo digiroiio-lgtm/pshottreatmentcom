@@ -1,48 +1,75 @@
-"use client";
-import { useCurrency } from "@/context/CurrencyContext";
-import TrustBadges from "./TrustBadges";
 import Link from "next/link";
+import TrustBadges from "./TrustBadges";
+import Price from "./Price";
+import WhatsAppIcon from "./WhatsAppIcon";
+import { whatsappUrl } from "@/lib/site-config";
 
+/**
+ * Server component. It previously needed `"use client"` only to read the
+ * currency, which meant the LCP heading was hydrated rather than streamed and
+ * the price visibly changed after mount. <Price /> handles the currency in CSS,
+ * so the whole hero — including the LCP element — is now static HTML.
+ */
 export default function HeroSection() {
-  const { formatted, symbol } = useCurrency();
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-20 md:py-28 overflow-hidden">
-      <div className="absolute inset-0 opacity-5">
+    <section className="relative bg-blue-800 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-700 text-white py-20 md:py-28 overflow-hidden">
+      <div className="absolute inset-0 opacity-5" aria-hidden="true">
         <div className="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-300 rounded-full blur-3xl" />
       </div>
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
-          <span className="text-yellow-300">🔥</span>
+        <p className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 text-sm font-medium mb-6">
+          <span aria-hidden="true" className="text-yellow-300">
+            🔥
+          </span>
+          {/* NOTE: this scarcity claim is hard-coded and therefore always true
+              on every page view. See the SEO report — under UK CPRs / EU UCPD
+              Annex I(7) a false limited-availability claim is a compliance risk.
+              Left as-is because it is a business decision, not a technical one. */}
           <span>Only 3 slots available this week</span>
-        </div>
+        </p>
 
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
-          P-Shot Treatment<br />
-          <span className="text-yellow-300">for Just {symbol}300</span>
+          P-Shot Treatment
+          <br />
+          <span className="text-yellow-300">
+            for Just <Price />
+          </span>
         </h1>
-        <p className="text-xl md:text-2xl text-blue-100 font-medium mb-3">
+        <p className="text-xl md:text-2xl text-blue-50 font-medium mb-3">
           Save up to 70% compared to UK &amp; US clinics
         </p>
-        <p className="text-blue-200 mb-8 max-w-2xl mx-auto text-lg">
-          The same certified medical procedure. Experienced doctors. No hidden fees.<br />
-          UK clinics charge £1,200–£2,000 — we charge <strong className="text-white">{formatted}</strong>, all-in.
+        <p className="text-blue-50 mb-8 max-w-2xl mx-auto text-lg">
+          The same certified medical procedure. Experienced doctors. No hidden
+          fees.
+          <br />
+          UK clinics charge £1,200–£2,000 — we charge{" "}
+          <strong className="text-white">
+            <Price />
+          </strong>
+          , all-in.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
           <a
-            href="https://wa.me/905353998999?text=Hi%2C%20I%27m%20interested%20in%20the%20P-Shot%20treatment"
+            href={whatsappUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors shadow-lg"
+            className="inline-flex items-center justify-center gap-2 bg-green-700 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-colors shadow-lg"
           >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <WhatsAppIcon />
             WhatsApp Now
           </a>
-          <Link href="/contact" className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors border border-white/30">
+          <Link
+            href="/contact"
+            className="inline-flex items-center justify-center bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors border border-white/30"
+          >
             Get Free Consultation
           </Link>
-          <Link href="/before-after" className="inline-flex items-center justify-center bg-transparent hover:bg-white/10 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors border border-white/30">
+          <Link
+            href="/before-after"
+            className="inline-flex items-center justify-center bg-transparent hover:bg-white/10 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors border border-white/30"
+          >
             See Before &amp; After
           </Link>
         </div>

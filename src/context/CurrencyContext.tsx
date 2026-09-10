@@ -1,58 +1,61 @@
 "use client";
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 
-type Currency = "GBP" | "EUR" | "USD";
+export type Currency = "GBP" | "EUR" | "USD";
+
+export const CURRENCY_COOKIE = "currency";
 
 interface CurrencyContextType {
   currency: Currency;
   setCurrency: (c: Currency) => void;
-  symbol: string;
-  price: string;
-  formatted: string;
 }
 
 const CurrencyContext = createContext<CurrencyContextType>({
   currency: "GBP",
   setCurrency: () => {},
-  symbol: "£",
-  price: "300",
-  formatted: "£300",
 });
 
-const MAP: Record<Currency, { symbol: string; price: string }> = {
-  GBP: { symbol: "£", price: "300" },
-  EUR: { symbol: "€", price: "300" },
-  USD: { symbol: "$", price: "300" },
-};
-
+/**
+ * Tracks the selected currency for interactive affordances only — the nav
+ * toggle's pressed state and the price table's highlighted row.
+ *
+ * The prices the visitor actually reads are rendered by <Price />, revealed by
+ * CSS from `data-currency` on <html>, which the inline script in <head> sets
+ * before first paint. That split is deliberate: it keeps every page statically
+ * rendered while still showing the right price immediately, instead of
+ * server-rendering £300 and swapping it after hydration.
+ */
 export function CurrencyProvider({ children }: { children: ReactNode }) {
+  // Starts at GBP on both server and client so the first client render matches
+  // the HTML; the effect below syncs it to whatever the pre-paint script chose.
   const [currency, setCurrencyState] = useState<Currency>("GBP");
 
   useEffect(() => {
-    const stored = localStorage.getItem("currency") as Currency | null;
-    if (stored && MAP[stored]) {
-      setCurrencyState(stored);
-      return;
-    }
-    const lang = navigator.language || "";
-    if (lang.startsWith("en-US")) setCurrencyState("USD");
-    else if (lang.startsWith("en-GB")) setCurrencyState("GBP");
-    else {
-      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-      const euTz = ["Europe/Berlin","Europe/Paris","Europe/Madrid","Europe/Rome","Europe/Amsterdam","Europe/Brussels","Europe/Vienna","Europe/Warsaw","Europe/Prague","Europe/Budapest","Europe/Bucharest","Europe/Sofia","Europe/Athens","Europe/Helsinki","Europe/Stockholm","Europe/Oslo","Europe/Copenhagen","Europe/Dublin","Europe/Lisbon","Europe/Riga","Europe/Tallinn","Europe/Vilnius","Europe/Ljubljana","Europe/Bratislava","Europe/Zagreb","Europe/Nicosia","Europe/Luxembourg","Europe/Malta"];
-      if (euTz.includes(tz)) setCurrencyState("EUR");
-    }
+    const fromDom = document.documentElement.dataset.currency as
+      | Currency
+      | undefined;
+    if (fromDom && fromDom !== currency) setCurrencyState(fromDom);
+    // Only syncing once, from what the pre-paint script already decided.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const setCurrency = (c: Currency) => {
+  const setCurrency = useCallback((c: Currency) => {
     setCurrencyState(c);
-    localStorage.setItem("currency", c);
-  };
-
-  const { symbol, price } = MAP[currency];
+    document.documentElement.dataset.currency = c;
+    // Cookie rather than localStorage: readable by the server if we ever need
+    // it, and survives across subdomains. One year, lax.
+    document.cookie = `${CURRENCY_COOKIE}=${c};path=/;max-age=31536000;samesite=lax`;
+  }, []);
 
   return (
-    <CurrencyContext.Provider value={{ currency, setCurrency, symbol, price, formatted: `${symbol}${price}` }}>
+    <CurrencyContext.Provider value={{ currency, setCurrency }}>
       {children}
     </CurrencyContext.Provider>
   );
