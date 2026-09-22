@@ -5,35 +5,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import StickyCtaBar from "@/components/StickyCtaBar";
-import ExitPopup from "@/components/ExitPopup";
+import { SITE_NAME, SITE_URL } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pshottreatment.com"),
-  title: {
-    default: "P-Shot Treatment – £300 | Certified Clinic Turkey",
-    template: "%s | P-Shot Treatment",
-  },
-  description: "Get a P-Shot treatment for just £300 / €300 / $300. Same medical procedure as UK clinics – 70% cheaper. Certified doctors. 1000+ patients treated.",
-  keywords: ["P-Shot treatment", "P-Shot cost", "P-Shot price", "P-Shot results", "P-Shot benefits", "P-Shot Turkey"],
-  openGraph: {
-    type: "website",
-    locale: "en_GB",
-    url: "https://pshottreatment.com",
-    siteName: "P-Shot Treatment",
-  },
+  metadataBase: new URL(SITE_URL),
+  title: { default: "P-Shot and PRP for ED: Evidence, Limits and Cost", template: `%s | ${SITE_NAME}` },
+  description: "Evidence-led information about P-Shot/PRP for erectile dysfunction, including limitations, risks, alternatives, price and assessment questions.",
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="font-sans antialiased">
+    <html lang="en-GB">
+      <body className="font-sans antialiased bg-white text-gray-900">
         <CurrencyProvider>
           <Navbar />
           <main>{children}</main>
           <Footer />
           <FloatingWhatsApp />
           <StickyCtaBar />
-          <ExitPopup />
         </CurrencyProvider>
       </body>
     </html>

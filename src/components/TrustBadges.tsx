@@ -1,19 +1,19 @@
+const facts = [
+  "Experimental status stated clearly",
+  "Guidelines and trials linked",
+  "No guaranteed outcomes",
+  "No unverified reviewer claim",
+  "Provider details available on request",
+];
+
 export default function TrustBadges() {
-  const badges = [
-    { icon: "👨‍⚕️", label: "Board-Certified Doctors" },
-    { icon: "⭐", label: "500+ 5-Star Reviews" },
-    { icon: "🏥", label: "1000+ Patients Treated" },
-    { icon: "✈️", label: "Medical Tourism Experts" },
-    { icon: "🔒", label: "No Hidden Fees" },
-  ];
   return (
-    <div className="flex flex-wrap justify-center gap-4 py-6">
-      {badges.map((b) => (
-        <div key={b.label} className="flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-full px-4 py-2 text-sm font-medium text-gray-700">
-          <span>{b.icon}</span>
-          <span>{b.label}</span>
-        </div>
+    <ul className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3 max-w-6xl mx-auto px-4 py-8">
+      {facts.map((fact) => (
+        <li key={fact} className="bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm font-medium text-gray-700">
+          <span aria-hidden="true" className="text-blue-700 mr-2">✓</span>{fact}
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }

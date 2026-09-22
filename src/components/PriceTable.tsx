@@ -1,84 +1,41 @@
 "use client";
+
 import { useCurrency } from "@/context/CurrencyContext";
+
+const fees = [
+  { currency: "GBP", symbol: "£", amount: "300", label: "British pound" },
+  { currency: "EUR", symbol: "€", amount: "300", label: "Euro" },
+  { currency: "USD", symbol: "$", amount: "300", label: "US dollar" },
+];
 
 export default function PriceTable() {
   const { currency } = useCurrency();
-
-  const rows = [
-    { currency: "GBP", symbol: "£", price: "300", flag: "🇬🇧", label: "British Pound" },
-    { currency: "EUR", symbol: "€", price: "300", flag: "🇪🇺", label: "Euro" },
-    { currency: "USD", symbol: "$", price: "300", flag: "🇺🇸", label: "US Dollar" },
-  ];
-
-  const competitors = [
-    { country: "UK Clinic", price: "£1,200–£2,000" },
-    { country: "US Clinic", price: "$1,500–$2,500" },
-    { country: "EU Clinic", price: "€1,000–€1,800" },
-  ];
-
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">Transparent Pricing</h2>
-          <p className="text-gray-500 text-lg">All-inclusive. No hidden fees. Same price regardless of your nationality.</p>
+    <section className="max-w-4xl mx-auto px-4 py-10">
+      <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden">
+        <div className="p-6 md:p-8 border-b border-gray-200">
+          <p className="text-xs font-bold uppercase tracking-wide text-blue-700 mb-2">Advertised treatment fee</p>
+          <h2 className="text-3xl font-extrabold text-gray-950">Choose a billing currency</h2>
+          <p className="text-gray-600 mt-2">These are stated billing options, not live exchange-rate conversions.</p>
         </div>
-
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-blue-50 border-2 border-blue-600 rounded-2xl p-8">
-            <div className="flex items-center gap-2 mb-6">
-              <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">OUR PRICE</span>
-            </div>
-            <table className="w-full">
-              <thead>
-                <tr className="text-left text-sm font-semibold text-gray-500 border-b border-blue-200">
-                  <th className="pb-3">Currency</th>
-                  <th className="pb-3">Price</th>
-                  <th className="pb-3">Includes</th>
+        <div className="overflow-x-auto">
+          <table className="w-full text-left">
+            <thead className="bg-gray-50 text-sm text-gray-600">
+              <tr><th className="px-6 py-3">Currency</th><th className="px-6 py-3">Fee</th><th className="px-6 py-3">Scope</th></tr>
+            </thead>
+            <tbody className="divide-y divide-gray-100">
+              {fees.map((fee) => (
+                <tr key={fee.currency} className={currency === fee.currency ? "bg-blue-50" : "bg-white"}>
+                  <td className="px-6 py-4 font-medium text-gray-900">{fee.label}</td>
+                  <td className="px-6 py-4 text-2xl font-extrabold text-blue-800">{fee.symbol}{fee.amount}</td>
+                  <td className="px-6 py-4 text-sm text-gray-600">Not independently verified. Request the complete itemised scope in writing.</td>
                 </tr>
-              </thead>
-              <tbody>
-                {rows.map((r) => (
-                  <tr key={r.currency} className={`border-b border-blue-100 last:border-0 ${currency === r.currency ? "bg-blue-100 font-bold" : ""}`}>
-                    <td className="py-3 flex items-center gap-2">{r.flag} {r.label}</td>
-                    <td className="py-3 text-2xl font-extrabold text-blue-700">{r.symbol}{r.price}</td>
-                    <td className="py-3 text-sm text-gray-600">All-in</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <ul className="mt-6 space-y-2 text-sm text-gray-700">
-              {["✅ No hidden fees", "✅ Same-day treatment", "✅ Certified doctor", "✅ Medical aftercare", "✅ Optional hotel & transfer"].map(item => (
-                <li key={item}>{item}</li>
               ))}
-            </ul>
-          </div>
-
-          <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
-            <div className="flex items-center gap-2 mb-6">
-              <span className="bg-gray-500 text-white text-xs font-bold px-3 py-1 rounded-full">COMPETITOR PRICES</span>
-            </div>
-            <table className="w-full">
-              <thead>
-                <tr className="text-left text-sm font-semibold text-gray-500 border-b border-gray-200">
-                  <th className="pb-3">Location</th>
-                  <th className="pb-3">Typical Cost</th>
-                </tr>
-              </thead>
-              <tbody>
-                {competitors.map((c) => (
-                  <tr key={c.country} className="border-b border-gray-100 last:border-0">
-                    <td className="py-3 text-gray-700">{c.country}</td>
-                    <td className="py-3 text-xl font-bold text-red-500">{c.price}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-            <div className="mt-6 bg-red-50 border border-red-200 rounded-xl p-4 text-center">
-              <p className="text-red-700 font-bold text-lg">You save up to 70%</p>
-              <p className="text-red-500 text-sm">Same medical procedure. Different location.</p>
-            </div>
-          </div>
+            </tbody>
+          </table>
+        </div>
+        <div className="p-6 bg-amber-50 border-t border-amber-200 text-sm text-amber-950">
+          Flights, hotel, transfers, tests, medication, extra sessions and complication care are not assumed to be included. Request an itemised written quote before paying.
         </div>
       </div>
     </section>
