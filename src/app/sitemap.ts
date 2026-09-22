@@ -1,12 +1,11 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
+import { absoluteUrl, routes } from "@/lib/site-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://pshottreatment.com";
-  const pages = ["/", "/price", "/before-after", "/reviews", "/side-effects", "/how-it-works", "/contact"];
-  return pages.map((path) => ({
-    url: `${base}${path}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: path === "/" ? 1 : 0.8,
+  return routes.map((route) => ({
+    url: absoluteUrl(route.path),
+    lastModified: new Date(`${route.modified}T00:00:00.000Z`),
+    changeFrequency: route.utility ? "yearly" : "monthly",
+    priority: route.priority,
   }));
 }

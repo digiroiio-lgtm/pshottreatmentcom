@@ -1,44 +1,30 @@
-import type { Metadata } from "next";
-import PriceTable from "@/components/PriceTable";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import CtaBlock from "@/components/CtaBlock";
-import HowItWorks from "@/components/HowItWorks";
+import JsonLd from "@/components/JsonLd";
+import PriceTable from "@/components/PriceTable";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "P-Shot Price – £300 / €300 / $300 All-Inclusive",
-  description: "P-Shot treatment costs just £300 / €300 / $300 at our certified clinic in Turkey. No hidden fees. Compare to UK prices of £1,200–£2,000.",
-  keywords: ["P-Shot price", "P-Shot cost", "P-Shot cost UK", "how much does P-Shot cost"],
-  alternates: { canonical: "https://pshottreatment.com/price" },
-};
+export const metadata = buildMetadata("/price");
+const trail = [{ name: "Home", path: "/" }, { name: "Price", path: "/price" }];
 
-export default function PricePage() {
+export default function Page() {
   return (
-    <div className="pt-6">
-      <div className="max-w-3xl mx-auto px-4 text-center py-10">
-        <h1 className="text-4xl font-extrabold text-gray-900 mb-4">P-Shot Treatment Price</h1>
-        <p className="text-xl text-gray-500">Fixed price. No surprises. All-inclusive.</p>
-      </div>
+    <div className="pb-14">
+      <JsonLd path="/price" breadcrumbs={trail} />
+      <Breadcrumbs items={trail} />
+      <header className="max-w-4xl mx-auto px-4 pt-10 pb-2"><p className="text-sm font-bold uppercase tracking-wide text-blue-700 mb-3">Cost</p><h1 className="text-4xl md:text-5xl font-extrabold mb-5">P-Shot Treatment Price</h1><p data-direct-answer className="text-xl text-gray-700 leading-relaxed">The site advertises a treatment fee of £300, €300 or $300 depending on the chosen billing currency. This is a first-party price, not a clinical recommendation or a live currency conversion, and the complete scope must be confirmed in writing.</p></header>
       <PriceTable />
-      <div className="max-w-4xl mx-auto px-4 py-10">
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">What&apos;s Included in the Price?</h2>
-        <div className="grid md:grid-cols-2 gap-4">
-          {["Doctor consultation", "PRP extraction and processing", "P-Shot injection procedure", "Medical aftercare instructions", "English-speaking medical staff", "Clinic accommodation"].map(item => (
-            <div key={item} className="flex items-center gap-3 bg-green-50 border border-green-200 rounded-xl p-4">
-              <span className="text-green-500 text-xl">✅</span>
-              <span className="text-gray-700 font-medium">{item}</span>
-            </div>
-          ))}
-        </div>
-        <div className="mt-8 bg-yellow-50 border border-yellow-200 rounded-2xl p-6">
-          <h3 className="font-bold text-gray-900 mb-2">Optional Add-ons (quoted separately)</h3>
-          <ul className="list-disc list-inside text-gray-600 space-y-1 text-sm">
-            <li>Airport transfer (approx. £30 / €35 / $40)</li>
-            <li>Hotel accommodation (from £60/night)</li>
-            <li>City tour package</li>
-          </ul>
-        </div>
-      </div>
-      <CtaBlock />
-      <HowItWorks />
+      <main className="max-w-4xl mx-auto px-4 space-y-9">
+        <section><h2 className="text-2xl font-bold mb-3">Confirm before paying</h2><ul className="space-y-3 text-gray-700">{[
+          "The legal provider, treating clinician and facility address.",
+          "Whether the fee covers one session or a course and the exact PRP protocol.",
+          "What assessment, local anaesthetic, tests, medication and follow-up are included.",
+          "Travel, hotel, transfer, card fees and complication care that remain separate.",
+          "Cancellation and refund terms if the clinician decides treatment is unsuitable.",
+        ].map((item) => <li key={item}>• {item}</li>)}</ul></section>
+        <section><h2 className="text-2xl font-bold mb-3">Do not infer quality from price alone</h2><p className="text-gray-700 leading-relaxed">A higher price does not prove better outcomes, and a lower price does not prove that protocols or providers are equivalent. Compare itemised quotations, credentials, consent and follow-up. The possibility of no meaningful benefit belongs in the cost decision because PRP remains experimental for ED.</p></section>
+      </main>
+      <CtaBlock title="Request an Itemised Quote" subtitle="Ask for the clinician, protocol, inclusions, exclusions and refund terms in writing." />
     </div>
   );
 }
