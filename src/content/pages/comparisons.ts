@@ -1,0 +1,175 @@
+import { DATE, EAU_PRP, NO_GUARANTEE } from "../shared";
+import type { PageDef } from "../types";
+
+const PARENT = { name: "ED treatment options", path: "/ed-treatment-options" };
+
+export const comparisonPages: PageDef[] = [
+  {
+    path: "/p-shot-vs-shockwave",
+    metaTitle: "P-Shot vs Shockwave Therapy for ED | UZ Clinic Antalya",
+    description:
+      "P-Shot (PRP) vs shockwave therapy (EdSWT) for ED: how they differ, who each may suit, evidence status and how a urologist chooses.",
+    h1: "P-Shot vs Shockwave Therapy for Erectile Dysfunction",
+    eyebrow: "Comparison",
+    kind: "comparison",
+    treatment: "not-sure",
+    medical: true,
+    evidence: "Mixed",
+    parent: PARENT,
+    answer: {
+      q: "What is the difference between P-Shot and shockwave therapy?",
+      a: "P-Shot is an injection of platelet-rich plasma from your own blood and is experimental for ED. Shockwave therapy (EdSWT) applies low-intensity shockwaves without injection and is intended mainly for vasculogenic ED, with a weak guideline recommendation for selected men. Neither is a universal best choice. The most appropriate treatment depends on the underlying cause of ED.",
+    },
+    ctaLabel: "Check Which May Fit My ED Type",
+    modified: DATE,
+    priority: 0.8,
+    blocks: [
+      {
+        type: "table",
+        heading: "P-Shot vs shockwave at a glance",
+        id: "table",
+        caption: "Key differences between P-Shot and shockwave therapy for ED",
+        headers: ["", "P-Shot (PRP)", "Shockwave (EdSWT)"],
+        rows: [
+          ["Concept", "Injected platelet concentrate from your blood", "Low-intensity shockwaves applied to the penis"],
+          ["Invasiveness", "Minimally invasive (blood draw and injection)", "Non-invasive, no injection"],
+          ["Typical candidate", "Selected men with organic ED after assessment", "Vasculogenic ED, including some partial responders to tablets"],
+          ["Course", "Protocol varies; confirmed at assessment", "Clinic protocol: 12 sessions (6, 3-week interval, 6)"],
+          ["Evidence status", "Experimental. " + EAU_PRP, "Emerging. Weak EAU recommendation for selected men"],
+          ["Assessment required", "Yes", "Yes, with patient selection and often Doppler"],
+        ],
+      },
+      { type: "cta", title: "Which May Fit Your ED Type?", text: "Send your case and the urologist can advise which option, if either, may be relevant.", label: "Check Which May Fit My ED Type" },
+      {
+        type: "text",
+        heading: "How a urologist chooses",
+        id: "choosing",
+        bullets: [
+          "The likely cause of ED, including whether blood flow is the main issue.",
+          "What you have already tried, and how tablets were used.",
+          "Your health, medicines and preferences, including comfort with injections.",
+          "The strength of evidence and the risks of each option.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Can they be combined?",
+        id: "combine",
+        paragraphs: ["Some clinics combine PRP and shockwave. There is not enough high-quality evidence to say a combination is better, so it is treated as investigational. " + NO_GUARANTEE],
+      },
+      { type: "treatment-nav", heading: "Read the full guides", exclude: ["stem-cell", "exosome", "rehabilitation"] },
+      { type: "doctor" },
+    ],
+    faqs: [
+      { q: "Which is better, P-Shot or shockwave?", a: "Neither is universally better. The most appropriate treatment depends on the underlying cause of ED." },
+      { q: "Is shockwave therapy less invasive?", a: "Yes. It involves no injection or blood draw." },
+      { q: "Can I have both?", a: "Sometimes discussed, but evidence for the combination is limited." },
+    ],
+    sources: ["eau2026", "masterson2023", "panunzio2024"],
+    related: ["/p-shot", "/shockwave-therapy-ed", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/edswt"],
+  },
+  {
+    path: "/p-shot-vs-stem-cell",
+    metaTitle: "P-Shot vs Stem Cell Therapy for ED | UZ Clinic Antalya",
+    description:
+      "P-Shot (PRP) vs stem cell therapy for ED: concept, evidence, standardisation and what to ask. Both are experimental and need specialist assessment.",
+    h1: "P-Shot vs Stem Cell Therapy for Erectile Dysfunction",
+    eyebrow: "Comparison",
+    kind: "comparison",
+    treatment: "not-sure",
+    medical: true,
+    evidence: "Experimental",
+    parent: PARENT,
+    answer: {
+      q: "What is the difference between P-Shot and stem cell therapy for ED?",
+      a: "P-Shot injects platelet-rich plasma prepared from your blood. Stem-cell therapy uses cells or a cell-based preparation. Both are experimental for ED, and current evidence cannot show that one is better. Preparation and protocols differ between clinics, so ask exactly what is injected and what evidence supports it.",
+    },
+    ctaLabel: "Check Which May Fit My Case",
+    modified: DATE,
+    priority: 0.75,
+    blocks: [
+      {
+        type: "table",
+        heading: "P-Shot vs stem cells at a glance",
+        id: "table",
+        caption: "Key differences between PRP and stem-cell approaches for ED",
+        headers: ["", "P-Shot (PRP)", "Stem cell therapy"],
+        rows: [
+          ["What is injected", "Platelet-rich plasma from your blood", "Cells or a cell-based preparation"],
+          ["Preparation", "Blood draw and centrifuge", "Varies by source and processing method"],
+          ["Standardisation", "Protocols vary", "Sources, methods and regulation vary widely"],
+          ["Evidence", "Mixed trials; EAU: clinical trials only", "Small, varied studies; EAU: insufficient evidence"],
+          ["Assessment required", "Yes", "Yes"],
+        ],
+      },
+      { type: "cta", title: "Not Sure Which Regenerative Option, If Any?", text: "Send your case. The urologist can say whether any regenerative option is worth discussing.", label: "Check Which May Fit My Case" },
+      {
+        type: "callout",
+        tone: "caution",
+        title: "Higher price does not mean stronger evidence",
+        text: "Neither label tells you the dose, product quality, sterility or evidence for a provider's protocol. Ask for these in writing. " + NO_GUARANTEE,
+      },
+      { type: "treatment-nav", heading: "Read the full guides", exclude: ["shockwave", "rehabilitation"] },
+      { type: "doctor" },
+    ],
+    faqs: [
+      { q: "Which is more effective, PRP or stem cells?", a: "Evidence cannot show that either is superior. Both are experimental for ED." },
+      { q: "Is stem cell therapy more expensive?", a: "Prices differ by provider and protocol. A higher price does not establish a better outcome." },
+    ],
+    sources: ["eau2026", "aua2018", "clinicalTrial"],
+    related: ["/p-shot", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/exosome-therapy-turkey"],
+  },
+  {
+    path: "/shockwave-vs-stem-cell",
+    metaTitle: "Shockwave vs Stem Cell Therapy for ED | UZ Clinic Antalya",
+    description:
+      "Shockwave therapy vs stem cell therapy for ED: evidence status, invasiveness, who each may suit and how assessment guides the choice.",
+    h1: "Shockwave Therapy vs Stem Cell Therapy for Erectile Dysfunction",
+    eyebrow: "Comparison",
+    kind: "comparison",
+    treatment: "not-sure",
+    medical: true,
+    evidence: "Mixed",
+    parent: PARENT,
+    answer: {
+      q: "How do shockwave therapy and stem cell therapy differ for ED?",
+      a: "Shockwave therapy is non-invasive and has an emerging evidence base, with a weak EAU recommendation for selected men with vasculogenic ED. Stem cell therapy involves an injection of a cell-based preparation and remains experimental, with insufficient evidence for routine use. Which is relevant depends on the cause of your ED.",
+    },
+    ctaLabel: "Check Which May Fit My ED Type",
+    modified: DATE,
+    priority: 0.7,
+    blocks: [
+      {
+        type: "table",
+        heading: "Shockwave vs stem cells at a glance",
+        id: "table",
+        caption: "Key differences between shockwave and stem cell therapy for ED",
+        headers: ["", "Shockwave (EdSWT)", "Stem cell therapy"],
+        rows: [
+          ["Concept", "Low-intensity shockwaves, proposed to support blood flow", "Cell-based preparation, proposed to support repair"],
+          ["Invasiveness", "Non-invasive", "Minimally invasive; may involve cell collection"],
+          ["Typical candidate", "Vasculogenic ED", "Selected men when established options were unsuitable or ineffective"],
+          ["Evidence status", "Emerging; weak EAU recommendation", "Experimental; evidence insufficient"],
+          ["Assessment required", "Yes, with patient selection", "Yes"],
+        ],
+      },
+      { type: "cta", title: "See Which Option Is Relevant to Your ED Type", text: "Send your case. The urologist can advise which, if either, may be worth discussing.", label: "Check Which May Fit My ED Type" },
+      {
+        type: "text",
+        heading: "Why the cause matters",
+        id: "cause",
+        paragraphs: [
+          "Shockwave therapy is aimed at blood-flow related ED. Regenerative approaches are being studied more broadly, but evidence is limited. Assessment, and sometimes penile Doppler, helps the doctor decide. " + EAU_PRP,
+        ],
+      },
+      { type: "treatment-nav", heading: "Read the full guides", exclude: ["p-shot", "exosome", "rehabilitation"] },
+      { type: "doctor" },
+    ],
+    faqs: [
+      { q: "Is shockwave safer than stem cells?", a: "Shockwave is non-invasive, so its risk profile differs. The doctor explains the risks of each option." },
+      { q: "Can they be combined?", a: "Combinations are investigational, and evidence is limited." },
+    ],
+    sources: ["eau2026", "aua2018"],
+    related: ["/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/p-shot-vs-shockwave", "/erectile-dysfunction-assessment"],
+  },
+];

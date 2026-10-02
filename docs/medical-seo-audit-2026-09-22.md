@@ -1,3 +1,5 @@
+> **Superseded (2026-10-02).** This audit described the previous evidence-only site, where no provider was published. The site is now the UZ Clinic Antalya patient-acquisition funnel; see `uz-clinic-funnel-playbook.md` and `medical-claims-review.md`. Kept for history.
+
 # Medical SEO, YMYL and AI Information Architecture Audit
 
 Audit date: 2026-09-22  

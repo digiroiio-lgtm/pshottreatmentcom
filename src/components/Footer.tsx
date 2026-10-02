@@ -1,22 +1,43 @@
 import Link from "next/link";
-import { whatsappUrl } from "@/lib/site-config";
-
-const groups = [
-  { title: "P-Shot", links: [["/how-it-works", "How it is performed"], ["/prp-fix-erectile-dysfunction-naturally", "Evidence"], ["/side-effects", "Risks and side effects"], ["/price", "Price"]] },
-  { title: "ED information", links: [["/ed-knowledge-hub", "Knowledge hub"], ["/ed-causes", "Causes"], ["/p-shot-vs-viagra", "P-Shot vs Viagra"], ["/shockwave-therapy-ed", "Shockwave therapy"]] },
-  { title: "Trust", links: [["/about", "About"], ["/editorial-policy", "Editorial policy"], ["/evidence-methodology", "Evidence methodology"], ["/reviews", "Review policy"]] },
-];
+import { navGroups } from "@/content/nav";
+import { CLINIC, DOCTOR } from "@/lib/clinic";
+import { WhatsAppCTA } from "./cta";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-slate-300 pt-12 pb-20 md:pb-8">
-      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
-        <div><h2 className="text-white font-bold text-lg mb-3">PShotTreatment.com</h2><p className="text-sm leading-relaxed">Educational and commercial information about PRP for ED. Medical information does not replace individual assessment.</p></div>
-        {groups.map((group) => <div key={group.title}><h2 className="text-white font-semibold mb-3">{group.title}</h2><ul className="space-y-2 text-sm">{group.links.map(([href,label]) => <li key={href}><Link href={href} className="hover:text-white">{label}</Link></li>)}</ul></div>)}
+    <footer className="bg-slate-950 text-slate-300 pt-12 pb-28 md:pb-10">
+      <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-5 gap-8">
+        <div className="md:col-span-1">
+          <p className="text-white font-bold text-lg mb-2">{CLINIC.name}</p>
+          <p className="text-sm leading-relaxed mb-4">{DOCTOR.name}, {DOCTOR.title}. {CLINIC.specialty}. {CLINIC.city}, {CLINIC.country}.</p>
+          {CLINIC.streetAddress && <p className="text-sm mb-2">{CLINIC.streetAddress}, {CLINIC.postalCode} {CLINIC.district} / {CLINIC.region}</p>}
+          {CLINIC.phone && <p className="text-sm mb-2"><a href={`tel:${CLINIC.phone}`} className="hover:text-white">{CLINIC.phoneDisplay}</a></p>}
+          {CLINIC.email && <p className="text-sm mb-4"><a href={`mailto:${CLINIC.email}`} className="hover:text-white">{CLINIC.email}</a></p>}
+          <WhatsAppCTA placement="footer" variant="onDark" className="text-sm px-4 py-2" />
+        </div>
+        {navGroups.map((group) => (
+          <nav key={group.title} aria-label={group.title}>
+            <p className="text-white font-semibold mb-3">{group.title}</p>
+            <ul className="space-y-2 text-sm">
+              {group.links.map(([href, label]) => <li key={href}><Link href={href} className="hover:text-white inline-block py-1">{label}</Link></li>)}
+            </ul>
+          </nav>
+        ))}
       </div>
-      <div className="max-w-7xl mx-auto px-4 mt-10 pt-6 border-t border-slate-800 text-xs text-slate-400 flex flex-col md:flex-row gap-3 justify-between">
-        <p>© {new Date().getFullYear()} PShotTreatment.com</p>
-        <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer" className="hover:text-white">Treatment enquiry via WhatsApp</a>
+      <div className="max-w-7xl mx-auto px-4 mt-10 pt-6 border-t border-slate-800 text-xs text-slate-400 space-y-3">
+        <p>Medical information on this site does not replace an individual assessment. PRP, stem-cell and exosome therapies are experimental or investigational for erectile dysfunction, and no outcome is guaranteed.</p>
+        <p className="flex flex-wrap gap-x-5 gap-y-0">
+          <span>© {new Date().getFullYear()} {CLINIC.name}</span>
+          <Link href="/ed-treatment-options" className="hover:text-white inline-block py-2">ED treatment options</Link>
+          <Link href="/side-effects" className="hover:text-white inline-block py-2">P-Shot side effects</Link>
+          <Link href="/price" className="hover:text-white inline-block py-2">Price</Link>
+          <Link href="/patient-experiences" className="hover:text-white inline-block py-2">Patient experiences</Link>
+          <Link href="/international-patients" className="hover:text-white inline-block py-2">International patients</Link>
+          <Link href="/ed-knowledge-hub" className="hover:text-white inline-block py-2">Knowledge hub</Link>
+          <Link href="/editorial-policy" className="hover:text-white inline-block py-2">Editorial policy</Link>
+          <Link href="/evidence-methodology" className="hover:text-white inline-block py-2">Evidence methodology</Link>
+          <Link href="/privacy" className="hover:text-white inline-block py-2">Privacy</Link>
+        </p>
       </div>
     </footer>
   );
