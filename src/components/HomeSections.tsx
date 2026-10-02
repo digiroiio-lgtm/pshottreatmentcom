@@ -3,6 +3,7 @@ import { treatmentCards } from "@/content/treatments";
 import { CLINIC, DOCTOR } from "@/lib/clinic";
 import { AssessmentButton, ConfidentialNote, WhatsAppCTA } from "./cta";
 import EvidenceChip from "./EvidenceChip";
+import GoogleRatingBadge from "./GoogleRatingBadge";
 
 const heroTreatments: [string, string][] = [
   ["/p-shot", "P-Shot / PRP"],
@@ -33,7 +34,8 @@ export function Hero({ answer }: { answer: { q: string; a: string } }) {
             <WhatsAppCTA label="WHATSAPP THE CLINIC" placement="hero" variant="outline" className="uppercase tracking-wide" />
           </div>
           <ConfidentialNote className="text-slate-700" />
-          <p className="text-sm text-slate-700 mt-2">International patients accepted.</p>
+          <p className="text-sm text-slate-700 mt-2 mb-3">International patients accepted.</p>
+          <GoogleRatingBadge />
         </div>
         <aside aria-label="Your physician" className="rounded-2xl bg-white border border-slate-200 shadow-sm p-6">
           <div className="flex items-center gap-4 mb-4">

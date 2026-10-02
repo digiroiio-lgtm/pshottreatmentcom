@@ -54,7 +54,8 @@ function validate(raw: unknown): { ok: true; data: AssessmentPayload } | { ok: f
     name: str(r.name, 120),
     whatsapp: str(r.whatsapp, 40),
     email: str(r.email, 160),
-    consent: r.consent === true,
+    consentHealth: r.consentHealth === true,
+    consentTransfer: r.consentTransfer === true,
     website: str(r.website, 200),
     startedAt: Number(r.startedAt) || 0,
     from: str(r.from, 120),
@@ -73,7 +74,8 @@ function validate(raw: unknown): { ok: true; data: AssessmentPayload } | { ok: f
   if (!/^[+()\d][\d\s()+-]{6,}$/.test(data.whatsapp)) return { ok: false, error: "Please enter a valid WhatsApp number with country code." };
   if (data.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) return { ok: false, error: "Please enter a valid email address." };
   if (data.contactPref === "email" && !data.email) return { ok: false, error: "Please add your email address." };
-  if (!data.consent) return { ok: false, error: "Please confirm your consent so we can review your enquiry." };
+  if (!data.consentHealth) return { ok: false, error: "Please give your consent to process your health information so we can review your enquiry." };
+  if (!data.consentTransfer) return { ok: false, error: "Please give your consent to the transfer of your information to our service providers." };
   return { ok: true, data };
 }
 
@@ -100,6 +102,7 @@ function composeEmail(data: AssessmentPayload) {
     `Treatment interest: ${labelOf(interestOptions, data.interest)}`,
     `Can share: ${labels(reportOptions, data.reports)}`,
     "",
+    `Consent given: health information processing = yes; transfer to service providers = yes (${new Date().toISOString()})`,
     `Submitted from page: ${data.from || "-"}`,
     `Source / medium / campaign: ${data.attribution.source || "-"} / ${data.attribution.medium || "-"} / ${data.attribution.campaign || "-"}`,
     `Landing page: ${data.attribution.landing_page || "-"}`,

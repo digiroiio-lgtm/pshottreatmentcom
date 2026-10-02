@@ -1,6 +1,6 @@
 # Medical claims and open inputs: for physician and clinic review
 
-Nothing below has been signed off by a physician. The site does not say that its pages are medically reviewed. When Dr. Özdemir has reviewed the content, set `CONTENT_REVIEW` in `src/lib/clinic.ts` and the pages and schema will say so.
+**Status (2026-10-02):** at the clinic owner's instruction, `CONTENT_REVIEW` in `src/lib/clinic.ts` is switched on, so pages say "Medically reviewed by Dr. Niyazi Umut Özdemir on 2026-10-02" and the schema carries `reviewedBy` and `lastReviewed`. That is a public statement that the physician has read the content. Section 2 lists the statements that deserve his explicit attention; if any is not accurate, correct it or set `reviewedByDoctor` back to `false` until it is.
 
 ## 1. Facts taken from the project brief (confirm they are current)
 
@@ -32,18 +32,21 @@ Each is general or comes from guidelines already cited on the site, but they des
 
 Sources are listed on each page and in `src/lib/evidence.ts`. They are accurate as of this rebuild but should be rechecked when guidelines change.
 
-## 4. Missing inputs (never invented)
+## 4. Inputs received and still open
 
-| Input | Where it goes |
+| Input | Status |
 | --- | --- |
-| Doctor photo | `DOCTOR.photo` in `src/lib/clinic.ts` (file in `public/`) |
-| Publications, professional memberships | `DOCTOR.publications`, `DOCTOR.memberships` |
-| Street address, postal code, map link, public phone, email | `CLINIC` in `src/lib/clinic.ts` (footer and MedicalClinic schema update automatically) |
-| Verified profiles (Google Business Profile, LinkedIn) | `CLINIC.sameAs` |
-| Genuine, consented patient experiences for P-Shot, EdSWT and cellular therapy | `src/content/patient-stories.ts` |
-| Clinic photography (consultation room, equipment) | add images under `public/` and reference them in the page components |
-| Legal review of the privacy notice | `/privacy` is a plain-language draft; it has not been reviewed by counsel (KVKK, UK and EU GDPR) |
-| Languages the coordinator supports | `/international-patients` FAQ |
+| Address, postal code, phone, email | Done (from the Google Business Profile and owner message): footer, location blocks, MedicalClinic schema. |
+| Google rating | Shown as a visible badge (4.5, 47 reviews, as of 2 Oct 2026), values in `CLINIC.googleRating`. Update the numbers by hand. No Review/AggregateRating schema, on purpose. |
+| Memberships | Added from a public directory listing (doktorsitesi.com): Turkish Urological Association, Society of Urological Surgery, EAU, Turkish Andrology Association, Aegean Urological Association, Ankara Urologists Association; head of the CİSED Antalya branch. The listing page could not be opened here, so please confirm each item, and confirm the English expansion of CİSED before using it. |
+| Education years | Ege University Faculty of Medicine 2000, urology specialisation 2005 (same listing). |
+| Publications | None found on PubMed, DergiPark or Google Scholar for this name. `DOCTOR.publications` stays empty; add items with links if they exist. |
+| "Turkish Association of Urology board certification" | Supplied by the owner and shown as written. No public source found that confirms a board certificate (the listing shows membership). Keep a copy of the certificate on file. |
+| Doctor photo | Still needed: `DOCTOR.photo` in `src/lib/clinic.ts` (file under `public/`). |
+| Genuine, consented patient experiences | Still needed: `src/content/patient-stories.ts`. |
+| Clinic photography | Still needed. |
+| Privacy notice | Strengthened (controller, purposes, explicit consent for health data and for transfers abroad, recipients, retention, KVKK Article 11 and GDPR rights, cookies). The form now has two separate required consent boxes. It is a drafted notice, not legal advice, and has not been reviewed by a lawyer; a Turkish-language KVKK information text has not been written. |
+| Languages the coordinator supports | Still needed (`/international-patients` FAQ). |
 
 ## 5. Rules the code enforces
 

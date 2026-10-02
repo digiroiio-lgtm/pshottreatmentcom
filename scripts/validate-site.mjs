@@ -150,8 +150,25 @@ for (const [from, to] of Object.entries(redirects)) {
 // Assessment API: rejects invalid input and never reports success for a missing consent.
 const post = (body) => fetch(`${base}/api/assessment`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
 if ((await post({})).status !== 400) fail("/api/assessment accepted an empty payload");
-const honeypot = await post({ website: "bot", age: 40, problem: "cannot-get", duration: "lt3m", country: "UK", name: "Test", whatsapp: "+44 7000 000000", consent: true });
+const honeypot = await post({ website: "bot", age: 40, problem: "cannot-get", duration: "lt3m", country: "UK", name: "Test", whatsapp: "+44 7000 000000", consentHealth: true, consentTransfer: true });
 if (honeypot.status !== 200) fail(`/api/assessment honeypot returned ${honeypot.status}`);
+
+// Clinic facts supplied by the owner must be visible and in structured data.
+const home = await fetchText("/");
+for (const needle of ["Kanyon Plaza", 'href="tel:+905353998999"', 'href="mailto:penilerehab@gmail.com"', "data-google-rating"]) {
+  if (!home.includes(needle)) fail(`home page is missing ${needle}`);
+}
+const homeLd = decode(home.match(/<script type="application\/ld\+json">([^<]+)<\/script>/)?.[1] ?? "");
+for (const needle of ['"streetAddress"', '"telephone":"+905353998999"', '"email":"penilerehab@gmail.com"', '"addressLocality":"Muratpaşa"', '"memberOf"', '"reviewedBy"']) {
+  if (!homeLd.includes(needle)) fail(`home JSON-LD is missing ${needle}`);
+}
+const doctorPage = await fetchText("/dr-niyazi-umut-ozdemir");
+if (!doctorPage.includes("European Association of Urology")) fail("doctor page does not list memberships");
+if (!textOf(doctorPage).includes("Medically reviewed by")) fail("doctor page does not show the review status");
+
+const consentBase = { age: 40, problem: "cannot-get", duration: "lt3m", country: "UK", name: "Test", whatsapp: "+44 7000 000000" };
+if ((await post({ ...consentBase, consentHealth: true, consentTransfer: false })).status !== 400) fail("/api/assessment accepted a missing transfer consent");
+if ((await post({ ...consentBase, consentHealth: false, consentTransfer: true })).status !== 400) fail("/api/assessment accepted a missing health-data consent");
 
 if (!process.exitCode) {
   console.log(`PASS ${paths.length} sitemap routes, ${linkedPaths.size} internal links, canonical/H1/main/title/meta/OG/JSON-LD/FAQ/CTA/WhatsApp/redirect/API/robots/llms checks`);

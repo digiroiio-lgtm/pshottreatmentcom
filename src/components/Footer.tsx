@@ -10,8 +10,8 @@ export default function Footer() {
         <div className="md:col-span-1">
           <p className="text-white font-bold text-lg mb-2">{CLINIC.name}</p>
           <p className="text-sm leading-relaxed mb-4">{DOCTOR.name}, {DOCTOR.title}. {CLINIC.specialty}. {CLINIC.city}, {CLINIC.country}.</p>
-          {CLINIC.streetAddress && <p className="text-sm mb-2">{CLINIC.streetAddress}</p>}
-          {CLINIC.phone && <p className="text-sm mb-2"><a href={`tel:${CLINIC.phone}`} className="hover:text-white">{CLINIC.phone}</a></p>}
+          {CLINIC.streetAddress && <p className="text-sm mb-2">{CLINIC.streetAddress}, {CLINIC.postalCode} {CLINIC.district} / {CLINIC.region}</p>}
+          {CLINIC.phone && <p className="text-sm mb-2"><a href={`tel:${CLINIC.phone}`} className="hover:text-white">{CLINIC.phoneDisplay}</a></p>}
           {CLINIC.email && <p className="text-sm mb-4"><a href={`mailto:${CLINIC.email}`} className="hover:text-white">{CLINIC.email}</a></p>}
           <WhatsAppCTA placement="footer" variant="onDark" className="text-sm px-4 py-2" />
         </div>

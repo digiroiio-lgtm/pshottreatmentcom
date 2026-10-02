@@ -42,7 +42,8 @@ function organization(): Node {
     isAcceptingNewPatients: true,
     address: {
       "@type": "PostalAddress",
-      addressLocality: CLINIC.city,
+      addressLocality: CLINIC.district,
+      addressRegion: CLINIC.region,
       addressCountry: CLINIC.countryCode,
       ...(CLINIC.streetAddress ? { streetAddress: CLINIC.streetAddress } : {}),
       ...(CLINIC.postalCode ? { postalCode: CLINIC.postalCode } : {}),
@@ -75,13 +76,14 @@ function physician(): Node {
     medicalSpecialty: "https://schema.org/Urologic",
     worksFor: { "@id": ORG_ID },
     alumniOf: { "@type": "CollegeOrUniversity", name: "Ege University" },
+    ...(DOCTOR.memberships.length ? { memberOf: DOCTOR.memberships.map((name) => ({ "@type": "Organization", name })) } : {}),
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "Board certification",
       recognizedBy: { "@type": "Organization", name: "Turkish Association of Urology" },
     },
     knowsAbout: DOCTOR.focus,
-    workLocation: { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: CLINIC.city, addressCountry: CLINIC.countryCode } },
+    workLocation: { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: CLINIC.district, addressRegion: CLINIC.region, addressCountry: CLINIC.countryCode } },
   };
 }
 

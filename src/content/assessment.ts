@@ -89,7 +89,10 @@ export type AssessmentPayload = {
   name: string;
   whatsapp: string;
   email: string;
-  consent: boolean;
+  /** Explicit consent to process health information to review the enquiry. */
+  consentHealth: boolean;
+  /** Explicit consent to transfer the data to service providers that may be outside Turkey. */
+  consentTransfer: boolean;
   website: string; // honeypot
   startedAt: number;
   from: string;

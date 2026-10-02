@@ -339,12 +339,7 @@ export const corePages: PageDef[] = [
       },
       { type: "cta", title: "Send Your Case to the Clinic", text: "Share your history confidentially. A patient coordinator will contact you.", label: "Send Your Case" },
       { type: "doctor" },
-      {
-        type: "text",
-        heading: "Clinic location",
-        id: "location",
-        paragraphs: ["The clinic is in Antalya, Turkey. The patient coordinator shares the exact address and directions when your consultation is arranged."],
-      },
+      { type: "location" },
       { type: "international" },
       { type: "treatment-nav", heading: "Treatments you can ask about" },
       { type: "cta", title: "Speak to the Clinic", text: "Prefer to chat? Message the clinic on WhatsApp.", label: "Speak to the Clinic", whatsapp: true },

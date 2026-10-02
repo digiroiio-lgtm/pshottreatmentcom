@@ -7,10 +7,12 @@ import { ASSESSMENT_PATH } from "@/lib/site-config";
 import AssessmentForm from "./AssessmentForm";
 import Breadcrumbs from "./Breadcrumbs";
 import CandidateChecker from "./CandidateChecker";
+import ClinicLocation from "./ClinicLocation";
 import ConfidentialAssessment from "./ConfidentialAssessment";
 import { AssessmentButton, ConfidentialNote, CtaBlock, WhatsAppCTA } from "./cta";
 import { DoctorCredentials, DoctorReviewCTA } from "./DoctorCredentials";
 import EvidenceChip from "./EvidenceChip";
+import GoogleRatingBadge from "./GoogleRatingBadge";
 import Faq from "./Faq";
 import InternationalPatientCTA from "./InternationalPatientCTA";
 import JsonLd from "./JsonLd";
@@ -171,6 +173,15 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
       return <TreatmentNavigation heading={block.heading} exclude={block.exclude} />;
     case "price":
       return <PriceTable />;
+    case "location":
+      return <ClinicLocation />;
+    case "rating":
+      return (
+        <div className="flex flex-wrap items-center gap-3">
+          <GoogleRatingBadge />
+          <span className="text-sm text-slate-600">Ratings on Google are from independent reviewers, not selected by the clinic.</span>
+        </div>
+      );
   }
 }
 

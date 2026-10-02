@@ -18,7 +18,9 @@ export type Block =
   | { type: "international" }
   | { type: "assessment-form" }
   | { type: "treatment-nav"; heading?: string; exclude?: TreatmentId[] }
-  | { type: "price" };
+  | { type: "price" }
+  | { type: "location" }
+  | { type: "rating" };
 
 export type PageKind = "money" | "condition" | "comparison" | "diagnostic" | "trust" | "article" | "legal";
 

@@ -255,6 +255,7 @@ export const pshotPages: PageDef[] = [
         title: "What we tell every patient",
         text: "PRP for ED is experimental. " + EAU_PRP + " " + NO_GUARANTEE + " P-Shot is not a penile-enlargement treatment.",
       },
+      { type: "location" },
       { type: "international" },
       { type: "stories", heading: "P-Shot patient stories" },
       { type: "cta", title: "Ask the Urologist", text: "Questions before you decide? Message the clinic on WhatsApp.", label: "Ask the Urologist", whatsapp: true },
@@ -262,7 +263,7 @@ export const pshotPages: PageDef[] = [
     faqs: [
       { q: "Can I have a P-Shot on the day I arrive?", a: "Treatment follows assessment. Whether it can happen on the same trip depends on your case, and the coordinator explains the plan in advance." },
       { q: "Who performs the P-Shot?", a: "Dr. Niyazi Umut Özdemir, the clinic's urological surgeon, leads assessment and treatment planning." },
-      { q: "Where is the clinic?", a: "In Antalya, Turkey. The coordinator shares the exact address when your visit is arranged." },
+      { q: "Where is the clinic?", a: "UZ Clinic Antalya is at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey. Directions are on the contact section of this page." },
     ],
     sources: prpSources,
     related: ["/p-shot", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-assessment"],

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CLINIC, DOCTOR } from "@/lib/clinic";
 import { AssessmentButton, WhatsAppCTA } from "./cta";
+import GoogleRatingBadge from "./GoogleRatingBadge";
 import TrackView from "./TrackView";
 import type { TreatmentId } from "@/content/types";
 
@@ -21,9 +22,10 @@ export function DoctorCredentials({ compact = false }: { compact?: boolean }) {
             <p className="text-sm font-semibold uppercase tracking-wide text-teal-800 mb-1">Your physician</p>
             <h2 id="doctor-heading" className="text-2xl font-bold text-slate-950">{DOCTOR.name}</h2>
             <p className="text-slate-700 mb-3">{DOCTOR.title}, {CLINIC.name}</p>
-            <p className="text-slate-700 text-sm leading-relaxed">
+            <p className="text-slate-700 text-sm leading-relaxed mb-3">
               Responsible for assessment and treatment planning at the clinic, with a clinical focus on male sexual health and penile rehabilitation.
             </p>
+            <GoogleRatingBadge />
           </div>
         </div>
         {!compact && (
@@ -38,6 +40,13 @@ export function DoctorCredentials({ compact = false }: { compact?: boolean }) {
               <h3 className="font-semibold text-slate-950 mb-2">Clinical focus</h3>
               <ul className="space-y-1.5 text-sm text-slate-700">
                 {DOCTOR.focus.map((item) => <li key={item}>• {item}</li>)}
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold text-slate-950 mb-2">Education and roles</h3>
+              <ul className="space-y-1.5 text-sm text-slate-700">
+                <li>• {DOCTOR.education}</li>
+                {DOCTOR.roles.map((item) => <li key={item}>• {item}</li>)}
               </ul>
             </div>
             {DOCTOR.publications.length > 0 && (

@@ -183,6 +183,7 @@ export const clinicPages: PageDef[] = [
         ],
       },
       { type: "doctor" },
+      { type: "location" },
       { type: "international" },
       { type: "cta", title: "Speak to the Clinic", text: "Start with a confidential message or form.", label: "Speak to the Clinic", whatsapp: true },
     ],
@@ -231,12 +232,7 @@ export const clinicPages: PageDef[] = [
         ],
       },
       { type: "cta", title: "Send Your Case Before You Travel", text: "Share your information confidentially and the clinic will tell you the best next step.", label: "Send Your Case Before You Travel" },
-      {
-        type: "text",
-        heading: "Clinic location",
-        id: "location",
-        paragraphs: ["The clinic is in Antalya, Turkey. The patient coordinator shares the exact address and directions once your visit is arranged."],
-      },
+      { type: "location" },
       {
         type: "callout",
         tone: "info",
@@ -271,6 +267,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.6,
     blocks: [
+      { type: "rating" },
       { type: "stories", heading: "What patients say" },
       {
         type: "text",
@@ -532,14 +529,14 @@ export const clinicPages: PageDef[] = [
     path: "/privacy",
     metaTitle: "Privacy Notice | UZ Clinic Antalya",
     description:
-      "How UZ Clinic Antalya handles information you send through the assessment form, WhatsApp and website analytics, and your choices.",
+      "How UZ Clinic Antalya handles information from the assessment form, WhatsApp, email and website analytics, and your rights under KVKK and GDPR.",
     h1: "Privacy Notice",
     eyebrow: "Privacy",
     kind: "legal",
     medical: false,
     answer: {
       q: "How is my information used?",
-      a: "Information you send through the assessment form or WhatsApp is used to review your enquiry and contact you about assessment. We ask for your consent before processing health information. Analytics cookies are used only if you accept them.",
+      a: "Information you send through the assessment form, WhatsApp or email is used to review your enquiry and contact you about assessment. Health information is processed only with your explicit consent. Analytics cookies are used only if you accept them, and no health information is sent to analytics.",
     },
     ctaLabel: "Ask the Urologist",
     modified: DATE,
@@ -547,34 +544,95 @@ export const clinicPages: PageDef[] = [
     blocks: [
       {
         type: "text",
+        heading: "Who is responsible for your information",
+        id: "controller",
+        paragraphs: [
+          "The data controller is UZ Clinic Antalya, the practice of Op. Dr. Niyazi Umut Özdemir, Urological Surgeon, at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey.",
+          "For any privacy question or request, email penilerehab@gmail.com or message the clinic on WhatsApp.",
+        ],
+      },
+      {
+        type: "text",
         heading: "What we collect",
+        id: "collect",
         bullets: [
-          "Assessment form answers: age, symptoms, history, treatments tried, treatment interest, country, contact preference, name, WhatsApp number and email.",
-          "Messages you send us on WhatsApp.",
-          "Website usage information, only if you accept analytics cookies.",
+          "Assessment form answers: age, symptoms, how long you have had them, treatments tried, medical history, treatment interest, country, travel timing, contact preference, name, WhatsApp number and email.",
+          "Messages, phone calls and emails you send us, including any reports you choose to share.",
+          "Technical data needed to run and protect the website, such as your IP address in server logs.",
+          "Website usage data (pages viewed, source of your visit), only if you accept analytics cookies.",
         ],
       },
       {
         type: "text",
-        heading: "Why we use it",
+        heading: "Why we use it, and on what basis",
+        id: "purposes",
         bullets: [
-          "To review your enquiry and contact you about next steps.",
-          "To prepare for a consultation, if you go ahead.",
-          "To understand how the website is used, with your consent, so we can improve it.",
+          "To review your enquiry and contact you about next steps, and to prepare a consultation if you go ahead. Health information is special-category data, so we ask for your explicit consent (KVKK Article 6; UK and EU GDPR Article 9(2)(a)). You give it with the first tick box on the form.",
+          "To transfer your enquiry to service providers that may be outside Turkey, for the same purpose. We ask for your separate explicit consent for this, with the second tick box.",
+          "To understand how the website is used and improve it, with your consent to analytics cookies.",
+          "To keep the website secure and to meet legal obligations, including those that apply to medical records if you become a patient.",
+        ],
+        note: "You can withdraw consent at any time by contacting us. Withdrawal does not affect processing carried out before it.",
+      },
+      {
+        type: "text",
+        heading: "Who receives your information",
+        id: "recipients",
+        paragraphs: [
+          "Your enquiry is seen by the clinic team that handles patient enquiries. It is also processed by service providers that run our systems, such as website hosting, email delivery and messaging (WhatsApp is operated by Meta). We may disclose information to public authorities where the law requires it.",
+          "We do not sell your information. Health information is never sent to advertising or analytics platforms.",
         ],
       },
       {
         type: "text",
-        heading: "Who sees it",
+        heading: "Transfers outside Turkey",
+        id: "transfers",
         paragraphs: [
-          "Your enquiry is seen by the clinic team and the service providers that deliver our systems (for example email delivery). We do not sell your information. Health information is not sent to advertising or analytics platforms.",
+          "Some providers process data on servers outside Turkey and, for UK and EU patients, outside the UK or European Economic Area. We transfer your information abroad only with your explicit consent and, where the law requires, with additional safeguards.",
         ],
       },
       {
         type: "text",
-        heading: "Your choices",
+        heading: "How long we keep it",
+        id: "retention",
         paragraphs: [
-          "You can withdraw consent, ask to see, correct or delete your information, and ask questions about how it is handled, by contacting the clinic through WhatsApp. We keep information only as long as needed for your enquiry and as required by law. Applicable data-protection law, including Turkish data protection law and, for UK or EU patients, UK or EU GDPR where they apply, governs your rights.",
+          "We keep enquiry information only as long as needed to respond to you and, if you become a patient, for the period the law requires for medical records. When it is no longer needed, we delete or anonymise it.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Your rights",
+        id: "rights",
+        paragraphs: [
+          "Under Turkish Law No. 6698 (KVKK), Article 11, you may ask whether your data is processed and for information about it, learn the purpose and whether it is used appropriately, learn who it has been passed to, ask for correction, ask for deletion or destruction, ask for those actions to be notified to recipients, object to a result produced solely by automated analysis, and claim compensation for loss caused by unlawful processing.",
+          "If UK or EU GDPR applies to you, you may also ask for access, rectification, erasure, restriction, portability and object to processing.",
+          "Email penilerehab@gmail.com. We aim to reply within 30 days. You may also complain to the Turkish Personal Data Protection Authority (KVKK), or, if you live in the UK or EU, to the Information Commissioner's Office or your local data-protection authority.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Cookies and analytics",
+        id: "cookies",
+        paragraphs: [
+          "If analytics is enabled, we use Google Analytics 4 with consent settings that start as denied. Analytics cookies are set only if you accept them, and you can decline. Your choice is stored in your browser. We also keep the source of your visit (for example the website or campaign that sent you) for the current browser session so we can understand which pages lead to enquiries.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Security, messaging and emergencies",
+        id: "security",
+        paragraphs: [
+          "We take reasonable technical and organisational measures to protect your information, and the website uses encrypted connections. No method of transmission is completely secure, so share only what you are comfortable sending by WhatsApp or email.",
+          "Do not use the form, WhatsApp or email for emergencies. Contact local emergency services instead.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Age and changes",
+        id: "changes",
+        paragraphs: [
+          "This service is for adults. Do not submit the form if you are under 18.",
+          "We may update this notice. The date of the latest update is shown on this page: 2 October 2026.",
         ],
       },
     ],

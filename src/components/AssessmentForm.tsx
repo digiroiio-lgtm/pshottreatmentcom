@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import {
   type AssessmentPayload,
@@ -35,13 +36,14 @@ type State = {
   name: string;
   whatsapp: string;
   email: string;
-  consent: boolean;
+  consentHealth: boolean;
+  consentTransfer: boolean;
   website: string;
 };
 
 const initial: State = {
   age: "", problem: "", duration: "", using: [], helped: "", history: [], historyOther: "", interest: "",
-  country: "", travel: "", contactPref: "", reports: [], name: "", whatsapp: "", email: "", consent: false, website: "",
+  country: "", travel: "", contactPref: "", reports: [], name: "", whatsapp: "", email: "", consentHealth: false, consentTransfer: false, website: "",
 };
 
 const STEPS = [
@@ -148,7 +150,8 @@ export default function AssessmentForm() {
       if (!/^[+()\d][\d\s()+-]{6,}$/.test(state.whatsapp.trim())) return "Please enter your WhatsApp number with country code.";
       if (state.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.email)) return "Please check your email address.";
       if (state.contactPref === "email" && !state.email) return "Please add your email address.";
-      if (!state.consent) return "Please tick the consent box so we can review your enquiry.";
+      if (!state.consentHealth) return "Please tick the first consent box so we can review your health information.";
+      if (!state.consentTransfer) return "Please tick the second consent box so we can pass your enquiry to our service providers.";
     }
     return "";
   };
@@ -168,7 +171,7 @@ export default function AssessmentForm() {
       age: Number(state.age), problem: state.problem, duration: state.duration, using: state.using, helped: state.helped || "na",
       history: state.history, historyOther: state.historyOther, interest: state.interest, country: state.country, travel: state.travel,
       contactPref: state.contactPref, reports: state.reports, name: state.name, whatsapp: state.whatsapp, email: state.email,
-      consent: state.consent, website: state.website, startedAt: startedAt.current || Date.now() - 60_000,
+      consentHealth: state.consentHealth, consentTransfer: state.consentTransfer, website: state.website, startedAt: startedAt.current || Date.now() - 60_000,
       from: window.location.pathname, attribution: getAttribution(),
     };
     try {
@@ -275,10 +278,17 @@ export default function AssessmentForm() {
               <input id="website" tabIndex={-1} autoComplete="off" value={state.website} onChange={(e) => set("website", e.target.value)} />
             </div>
           </div>
-          <label className="flex gap-3 items-start text-sm text-slate-700 mb-2">
-            <input type="checkbox" checked={state.consent} onChange={(e) => set("consent", e.target.checked)} className="mt-1 w-4 h-4 accent-teal-700" />
-            <span>I consent to UZ Clinic Antalya using the information above, including health information, to review my enquiry and contact me. I have read the <a href="/privacy" target="_blank" className="underline text-teal-800">privacy notice</a>. This is not a diagnosis or a booking.</span>
-          </label>
+          <div className="space-y-3 mb-2">
+            <label className="flex gap-3 items-start text-sm text-slate-700">
+              <input type="checkbox" checked={state.consentHealth} onChange={(e) => set("consentHealth", e.target.checked)} className="mt-1 w-4 h-4 shrink-0 accent-teal-700" />
+              <span>I give my explicit consent to UZ Clinic Antalya processing the information I have provided, including my health information, to review my enquiry and contact me about assessment. I can withdraw this consent at any time.</span>
+            </label>
+            <label className="flex gap-3 items-start text-sm text-slate-700">
+              <input type="checkbox" checked={state.consentTransfer} onChange={(e) => set("consentTransfer", e.target.checked)} className="mt-1 w-4 h-4 shrink-0 accent-teal-700" />
+              <span>I give my explicit consent to this information being transferred to service providers (for example email and messaging services) whose servers may be outside Turkey, for the same purpose.</span>
+            </label>
+            <p className="text-xs text-slate-600">See the <Link href="/privacy" target="_blank" className="underline text-teal-800">privacy notice</Link>. This form is not a diagnosis or a booking.</p>
+          </div>
         </>
       )}
 
