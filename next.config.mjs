@@ -7,6 +7,11 @@ const nextConfig = {
     // 301 so rankings and inbound links carry over from the previous URL structure.
     return Object.entries(redirects).map(([source, destination]) => ({ source, destination, statusCode: 301 }));
   },
+  async rewrites() {
+    // IndexNow ownership file: /<INDEXNOW_KEY>.txt. Only registered when the key is set at build time.
+    const key = process.env.INDEXNOW_KEY;
+    return key ? [{ source: `/${key}.txt`, destination: "/api/indexnow-key" }] : [];
+  },
   async headers() {
     return [
       {

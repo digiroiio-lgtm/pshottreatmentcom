@@ -110,7 +110,7 @@ export const pshotPages: PageDef[] = [
         cols: 2,
         intro: "Reported adverse events in studies have generally been minor, but trials are too small to define uncommon risks. Using your own blood avoids rejection but does not make an injection risk-free.",
         cards: [
-          { title: "Common", text: "Temporary pain, tenderness, bruising, redness or swelling at the injection site." },
+          { title: "Common", text: "Temporary pain, tenderness, bruising, redness or swelling at the injection site.", href: "/side-effects" },
           { title: "Bleeding", text: "Bleeding or a haematoma can occur, and risk may be higher with blood thinners or bleeding disorders." },
           { title: "Infection", text: "Any injection can cause infection if sterile technique is not followed." },
           { title: "Seek urgent help", text: "Fever, spreading redness, pus, severe or worsening pain, heavy bleeding, difficulty passing urine or an erection lasting more than four hours." },
@@ -137,7 +137,7 @@ export const pshotPages: PageDef[] = [
       { q: "What is the difference between P-Shot and PRP for ED?", a: "P-Shot is a brand-style name for penile PRP injection. The medical term is intracavernosal platelet-rich plasma injection." },
     ],
     sources: prpSources,
-    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment"],
+    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences"],
   },
   {
     path: "/p-shot-turkey",
@@ -212,7 +212,7 @@ export const pshotPages: PageDef[] = [
       { q: "How much does a P-Shot cost in Turkey?", a: "See the price page for the advertised fee. The final plan and what it includes are confirmed after assessment." },
     ],
     sources: prpSources,
-    related: ["/p-shot", "/p-shot-antalya", "/price", "/international-patients", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/p-shot-antalya", "/price", "/international-patients", "/erectile-dysfunction-assessment", "/side-effects", "/erectile-dysfunction-treatment-turkey"],
   },
   {
     path: "/p-shot-antalya",
@@ -266,7 +266,7 @@ export const pshotPages: PageDef[] = [
       { q: "Where is the clinic?", a: "UZ Clinic Antalya is at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey. Directions are on the contact section of this page." },
     ],
     sources: prpSources,
-    related: ["/p-shot", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-assessment", "/price", "/side-effects"],
   },
   {
     path: "/prp-for-erectile-dysfunction",
@@ -328,11 +328,12 @@ export const pshotPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "What is a PRP penis injection?", a: "A PRP penis injection, also called the P Shot or penile PRP, injects platelet-rich plasma prepared from your own blood into penile tissue. It is experimental for ED, and results are mixed." },
       { q: "Is PRP approved for erectile dysfunction?", a: "PRP for ED is not part of standard guideline care. The EAU says it should be used only in clinical trials." },
       { q: "Is PRP better than Viagra?", a: "No evidence shows that. PDE5 inhibitors have established evidence and are first-line for many men. PRP is experimental." },
       { q: "Who might still consider PRP?", a: "Some well-informed men with organic ED, after discussing established options, may choose to explore it. The doctor decides after assessment." },
     ],
     sources: prpSources,
-    related: ["/p-shot", "/p-shot-vs-viagra", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/p-shot-vs-viagra", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-antalya"],
   },
 ];

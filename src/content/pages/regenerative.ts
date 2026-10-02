@@ -41,7 +41,7 @@ export const regenerativePages: PageDef[] = [
       },
       {
         type: "text",
-        heading: "Why are regenerative approaches studied for ED?",
+        heading: "Why is regenerative erectile dysfunction treatment being studied?",
         id: "why-studied",
         paragraphs: [
           "In many men, ED involves damage to blood vessels, nerves or the smooth muscle in the penis. Tablets treat symptoms but do not repair these tissues. Researchers are therefore testing whether cell-based therapies could support repair.",
@@ -98,6 +98,7 @@ export const regenerativePages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "What is penile stem cell therapy?", a: "Penile stem cell therapy is an experimental approach in which a cell-based preparation is injected into penile tissue with the aim of supporting tissue repair. It is not an established ED treatment, and protocols differ between clinics." },
       { q: "Are stem cells proven for erectile dysfunction?", a: "No. Evidence is limited and the guideline considers it insufficient for routine use. No success rate can responsibly be promised." },
       { q: "What is the difference between stem cell therapy and PRP?", a: "PRP is concentrated platelets from your blood. Stem-cell approaches use cells or cell-based preparations. Both are experimental for ED." },
       { q: "Is stem cell therapy safe?", a: "Risks depend on the source and the procedure. The doctor explains them in writing. Long-term safety data in ED are limited." },
@@ -105,7 +106,7 @@ export const regenerativePages: PageDef[] = [
       { q: "Can stem cell therapy enlarge the penis?", a: "No. The clinic does not claim that it does." },
     ],
     sources: ["eau2026", "aua2018", "clinicalTrial"],
-    related: ["/stem-cell-treatment-ed-turkey", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/exosome-therapy-erectile-dysfunction", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/stem-cell-treatment-ed-turkey", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/exosome-therapy-erectile-dysfunction", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/patient-experiences", "/exosome-therapy-turkey"],
   },
   {
     path: "/stem-cell-treatment-ed-turkey",
@@ -155,7 +156,7 @@ export const regenerativePages: PageDef[] = [
       { q: "Do you promise results?", a: "No. " + NO_GUARANTEE },
     ],
     sources: ["eau2026", "clinicalTrial"],
-    related: ["/stem-cell-therapy-erectile-dysfunction", "/international-patients", "/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-assessment"],
+    related: ["/stem-cell-therapy-erectile-dysfunction", "/international-patients", "/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/p-shot-vs-stem-cell"],
   },
   {
     path: "/exosome-therapy-erectile-dysfunction",
@@ -203,7 +204,7 @@ export const regenerativePages: PageDef[] = [
       { type: "cta", title: "Ask Whether Exosome Therapy Is Suitable for Your Case", text: "Send your history. The urologist can say whether this investigational option is relevant, and what comes first.", label: "Ask Whether Exosome Therapy Is Suitable for Your Case" },
       {
         type: "table",
-        heading: "PRP, exosomes, stem cells and shockwave: key differences",
+        heading: "Exosome ED treatment compared: PRP, stem cells and shockwave",
         id: "differences",
         caption: "Concept and evidence status for ED, as understood from current guidelines and research.",
         headers: ["Approach", "What it is", "Status for ED"],
@@ -292,7 +293,7 @@ export const regenerativePages: PageDef[] = [
       { q: "What if exosome therapy is not suitable for me?", a: "The doctor explains which other options may be relevant to the likely cause of your ED." },
     ],
     sources: ["eau2026"],
-    related: ["/exosome-therapy-erectile-dysfunction", "/international-patients", "/erectile-dysfunction-assessment"],
+    related: ["/exosome-therapy-erectile-dysfunction", "/international-patients", "/erectile-dysfunction-assessment", "/erectile-dysfunction-treatment-turkey", "/ed-treatment-options", "/stem-cell-treatment-ed-turkey"],
   },
 ];
 

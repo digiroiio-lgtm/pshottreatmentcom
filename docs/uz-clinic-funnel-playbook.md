@@ -78,6 +78,13 @@ Deliberately not emitted: `Review` and `AggregateRating` (self-published testimo
 
 See `medical-claims-review.md`. In short: the doctor's photo, publications and memberships; street address and a public phone or email; genuine consented patient experiences (add them to `src/content/patient-stories.ts` and pages render them automatically); confirmation of the fee scope; and physician sign-off of every medical statement.
 
+## SEO, GEO and AI search
+
+- Keyword map and the validator checks that enforce it: `keyword-map.md`.
+- Answer-engine discovery, IndexNow (`npm run indexnow`), off-page signals and the monthly prompt test: `ai-visibility-playbook.md`.
+- Lab performance and accessibility results: `performance.md`.
+- Internal linking rule: at least 3 inbound links from page content to every content page (validator-enforced).
+
 ## Launch checklist
 
 1. Deploy with the environment variables, then send a test lead and confirm the email or webhook arrives.
@@ -86,4 +93,5 @@ See `medical-claims-review.md`. In short: the doctor's photo, publications and m
 4. Test every WhatsApp and form CTA on a real phone and a desktop browser.
 5. Run Lighthouse or PageSpeed Insights on the home page, /p-shot and the assessment page. The pages are static HTML with no images and about 102 to 114 kB of shared JavaScript, so expect good results, but field Core Web Vitals need real traffic and were not measured here.
 6. Physician sign-off, then switch on `CONTENT_REVIEW`.
-7. Re-run the validator against production: `SITE_BASE_URL=https://pshottreatment.com npm run validate:site`.
+7. Set `INDEXNOW_KEY`, redeploy, and run `npm run indexnow`.
+8. Re-run the validator against production: `SITE_BASE_URL=https://pshottreatment.com npm run validate:site`.

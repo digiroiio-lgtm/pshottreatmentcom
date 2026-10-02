@@ -107,7 +107,7 @@ export const shockwavePages: PageDef[] = [
       { q: "Can I use shockwave with my tablets?", a: "Some men continue tablets during treatment. The doctor advises on your medicines and does not expect you to change them yourself." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/edswt", "/shockwave-therapy-erectile-dysfunction-turkey", "/penile-doppler-ultrasound", "/vasculogenic-erectile-dysfunction", "/p-shot-vs-shockwave", "/shockwave-vs-stem-cell", "/erectile-dysfunction-assessment"],
+    related: ["/edswt", "/shockwave-therapy-erectile-dysfunction-turkey", "/penile-doppler-ultrasound", "/vasculogenic-erectile-dysfunction", "/p-shot-vs-shockwave", "/shockwave-vs-stem-cell", "/erectile-dysfunction-assessment", "/patient-experiences", "/ed-treatment-options"],
   },
   {
     path: "/edswt",
@@ -177,7 +177,7 @@ export const shockwavePages: PageDef[] = [
       { q: "Is the device approved for ED?", a: "Ask the clinic for the device documentation. This site does not make regulatory claims about the device." },
     ],
     sources: ["eau2026"],
-    related: ["/shockwave-therapy-ed", "/shockwave-therapy-erectile-dysfunction-turkey", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment"],
+    related: ["/shockwave-therapy-ed", "/shockwave-therapy-erectile-dysfunction-turkey", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment", "/p-shot-vs-shockwave", "/shockwave-vs-stem-cell", "/erectile-dysfunction-treatment-turkey"],
   },
   {
     path: "/shockwave-therapy-erectile-dysfunction-turkey",
@@ -227,6 +227,6 @@ export const shockwavePages: PageDef[] = [
       { q: "Do I need a Doppler scan before travelling?", a: "Not always. Send it if you have one. The doctor decides whether to arrange one." },
     ],
     sources: ["eau2026"],
-    related: ["/shockwave-therapy-ed", "/edswt", "/international-patients", "/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-assessment"],
+    related: ["/shockwave-therapy-ed", "/edswt", "/international-patients", "/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-assessment", "/erectile-dysfunction-treatment-antalya"],
   },
 ];

@@ -12,7 +12,7 @@ const styles = {
 };
 
 const waStyles = {
-  solid: "bg-green-600 hover:bg-green-700 text-white",
+  solid: "bg-green-700 hover:bg-green-800 text-white",
   onDark: "bg-green-500 hover:bg-green-400 text-slate-950",
   outline: "border border-green-700 text-green-800 hover:bg-green-50",
 };

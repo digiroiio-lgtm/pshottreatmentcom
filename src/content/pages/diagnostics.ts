@@ -123,6 +123,6 @@ export const diagnosticPages: PageDef[] = [
       { q: "Can I send an old Doppler report?", a: "Yes. Send it with your case, and the doctor will review it." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/vasculogenic-erectile-dysfunction", "/venous-leak", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment"],
+    related: ["/vasculogenic-erectile-dysfunction", "/venous-leak", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/edswt"],
   },
 ];

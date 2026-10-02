@@ -61,7 +61,7 @@ export const clinicPages: PageDef[] = [
       { q: "Does rehabilitation involve regenerative therapies?", a: "Only when they are appropriate and you have given informed consent. " + EAU_PRP },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-after-prostate-surgery", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-after-prostate-surgery", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/erectile-dysfunction-over-60", "/erectile-dysfunction-treatment"],
   },
   {
     path: "/penile-implant",
@@ -123,7 +123,7 @@ export const clinicPages: PageDef[] = [
     parent: TRUST,
     answer: {
       q: "Who is Dr. Niyazi Umut Özdemir?",
-      a: "Dr. Niyazi Umut Özdemir is a urological surgeon in Antalya, Turkey, and the physician responsible for UZ Clinic Antalya. He studied medicine at Ege University, specialised in urology and holds Turkish Association of Urology board certification. His clinical focus is male sexual health and penile rehabilitation.",
+      a: "Dr. Niyazi Umut Özdemir is an erectile dysfunction urologist and urological surgeon in Antalya, Turkey, and the physician responsible for UZ Clinic Antalya. He studied medicine at Ege University, specialised in urology and holds Turkish Association of Urology board certification. His clinical focus is male sexual health and penile rehabilitation.",
     },
     ctaLabel: "Ask the Urologist",
     modified: DATE,
@@ -164,7 +164,7 @@ export const clinicPages: PageDef[] = [
     blocks: [
       {
         type: "cards",
-        heading: "What we treat",
+        heading: "What we treat at our male sexual health clinic",
         id: "treat",
         cols: 2,
         cards: [
@@ -187,7 +187,7 @@ export const clinicPages: PageDef[] = [
       { type: "international" },
       { type: "cta", title: "Speak to the Clinic", text: "Start with a confidential message or form.", label: "Speak to the Clinic", whatsapp: true },
     ],
-    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients"],
+    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment"],
   },
   {
     path: "/international-patients",
@@ -247,7 +247,7 @@ export const clinicPages: PageDef[] = [
       { q: "What languages are supported?", a: "Please ask the coordinator which languages are available when you make contact." },
       { q: "What if something goes wrong after I go home?", a: "You receive a contact and written warning signs. Seek urgent local care for emergencies, such as an erection lasting more than four hours." },
     ],
-    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment"],
   },
   {
     path: "/patient-experiences",
@@ -288,7 +288,7 @@ export const clinicPages: PageDef[] = [
       },
       { type: "cta", title: "Ask About Experiences Similar to Yours", text: "Ask the clinic what to expect for your type of ED, and what the evidence says.", label: "Ask About Cases Like Yours", whatsapp: true },
     ],
-    related: ["/p-shot", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/dr-niyazi-umut-ozdemir"],
   },
   {
     path: "/price",
@@ -335,7 +335,7 @@ export const clinicPages: PageDef[] = [
       { q: "Does the fee cover flights and hotel?", a: "Travel and accommodation are arranged separately. Your written plan confirms what the treatment fee includes." },
       { q: "Can I get a quote before travelling?", a: "Yes. Send your case and the coordinator explains the plan once the doctor has reviewed your information." },
     ],
-    related: ["/p-shot", "/p-shot-turkey", "/international-patients", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/p-shot-turkey", "/international-patients", "/erectile-dysfunction-assessment", "/side-effects"],
   },
   {
     path: "/side-effects",

@@ -2,6 +2,7 @@ import { pages } from "@/content";
 import { treatmentCards } from "@/content/treatments";
 import type { PageDef } from "@/content/types";
 import { advertisedFees } from "@/lib/page-data";
+import { glossary } from "@/content/glossary";
 import { CLINIC, CONTENT_REVIEW, DOCTOR } from "@/lib/clinic";
 import { getSources } from "@/lib/evidence";
 import { absoluteUrl, ogImageUrl, SITE_LOCALE, SITE_NAME, SITE_URL } from "@/lib/site-config";
@@ -62,7 +63,9 @@ function organization(): Node {
       url: `https://wa.me/${CLINIC.whatsapp}`,
       availableLanguage: ["English"],
     },
-    ...(CLINIC.sameAs.length ? { sameAs: CLINIC.sameAs } : {}),
+    ...(CLINIC.sameAs.length || CLINIC.googleProfileUrl ? { sameAs: [...CLINIC.sameAs, ...(CLINIC.googleProfileUrl ? [CLINIC.googleProfileUrl] : [])] } : {}),
+    ...(CLINIC.geo ? { geo: { "@type": "GeoCoordinates", latitude: CLINIC.geo.latitude, longitude: CLINIC.geo.longitude } } : {}),
+    ...(CLINIC.openingHours ? { openingHoursSpecification: CLINIC.openingHours.map((h) => ({ "@type": "OpeningHoursSpecification", dayOfWeek: h.days, opens: h.opens, closes: h.closes })) } : {}),
   };
 }
 
@@ -83,6 +86,7 @@ function physician(): Node {
       recognizedBy: { "@type": "Organization", name: "Turkish Association of Urology" },
     },
     knowsAbout: DOCTOR.focus,
+    ...(DOCTOR.sameAs.length ? { sameAs: DOCTOR.sameAs } : {}),
     workLocation: { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: CLINIC.district, addressRegion: CLINIC.region, addressCountry: CLINIC.countryCode } },
   };
 }
@@ -182,6 +186,7 @@ export default function JsonLd({ page, breadcrumbs }: { page: PageDef; breadcrum
     speakable: { "@type": "SpeakableSpecification", cssSelector: ["[data-direct-answer]"] },
     breadcrumb: { "@id": `${pageUrl}#breadcrumb` },
     ...(page.schema?.condition ? { about: { "@id": `${pageUrl}#condition` } } : {}),
+    ...(glossary[page.path] ? { mentions: glossary[page.path].map((t) => ({ "@type": "DefinedTerm", name: t.name, description: t.description })) } : {}),
     ...(sources.length ? { citation: sources } : {}),
     ...(page.medical ? { audience: { "@type": "Patient", audienceType: "Adults seeking ED information" } } : {}),
     ...(reviewed ? { reviewedBy: { "@id": DOCTOR_ID }, lastReviewed: CONTENT_REVIEW.reviewDate } : {}),

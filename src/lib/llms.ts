@@ -2,6 +2,7 @@ import { pages } from "@/content";
 import { comparisonHeaders, comparisonRows } from "@/content/treatments";
 import type { Block, PageDef } from "@/content/types";
 import { CLINIC, DOCTOR } from "./clinic";
+import { DATE } from "@/content/shared";
 import { getSources } from "./evidence";
 import { absoluteUrl, SITE_NAME, SITE_URL } from "./site-config";
 
@@ -26,6 +27,16 @@ const header = `# ${SITE_NAME}
 - Stem cell therapy and exosome therapy are experimental or investigational for ED; evidence is limited.
 - PDE5 inhibitors (for example sildenafil, tadalafil) are guideline-supported first-line therapy for many men.
 - No cure, permanent-result, penile-enlargement or guaranteed-outcome claim is made, and no success rates are published.
+
+## Facts
+
+- Clinic: ${CLINIC.name} (male sexual health and penile rehabilitation).
+- Physician: ${DOCTOR.name}, ${DOCTOR.title}. ${DOCTOR.education}.
+- Address: ${CLINIC.streetAddress}, ${CLINIC.postalCode} ${CLINIC.district} / ${CLINIC.region}, ${CLINIC.country}.
+- Phone / WhatsApp: ${CLINIC.phoneDisplay}. Email: ${CLINIC.email}.
+- Accepts international patients; remote case review before travel; English-language service.
+- Treatments assessed: P-Shot (PRP), shockwave therapy (EdSWT), stem cell therapy, exosome therapy (availability subject to evaluation), penile rehabilitation.
+- Last updated: ${DATE}.
 
 ## About this resource
 

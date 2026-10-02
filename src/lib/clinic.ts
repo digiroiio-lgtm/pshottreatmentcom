@@ -20,6 +20,13 @@ export const CLINIC = {
   phone: "+905353998999" as string | undefined,
   phoneDisplay: "+90 535 399 8999",
   email: "penilerehab@gmail.com" as string | undefined,
+  // Google Business Profile share link (for example https://maps.app.goo.gl/...). When set it becomes Organization.sameAs
+  // and the target of the rating badge. Leave undefined until the clinic provides it.
+  googleProfileUrl: undefined as string | undefined,
+  // Map pin coordinates, for GeoCoordinates in schema. Not set until confirmed.
+  geo: undefined as { latitude: number; longitude: number } | undefined,
+  // Opening hours as schema.org specs, for example { days: ["Monday", "Tuesday"], opens: "09:00", closes: "18:00" }. Not set until confirmed.
+  openingHours: undefined as { days: string[]; opens: string; closes: string }[] | undefined,
   // Google Business Profile rating, entered by hand from the profile. Shown as a visible badge only.
   // Review / AggregateRating schema is deliberately not emitted: a site's own reviews are not eligible for rich results.
   googleRating: { value: 4.5, count: 47, asOf: "2 Oct 2026" },
@@ -62,6 +69,8 @@ export const DOCTOR = {
   education: "Ege University Faculty of Medicine (2000); urology specialisation, Ege University (2005)",
   // Path under /public (for example "/dr-ozdemir.jpg"). Until set, a monogram is shown instead of a photo.
   photo: undefined as string | undefined,
+  // Public profiles of the physician (directory listing found during research).
+  sameAs: ["https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"],
 };
 
 // Set by the clinic owner on 2026-10-02: the physician has reviewed the medical content. Keep the date current when content is re-reviewed.

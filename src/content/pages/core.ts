@@ -99,7 +99,7 @@ export const corePages: PageDef[] = [
       { q: "Do I need to know which treatment I want before contacting the clinic?", a: "No. Send your case and the clinic can advise which options may be relevant to you." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-treatment", "/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-treatment", "/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/diabetes-erectile-dysfunction"],
   },
   {
     path: "/erectile-dysfunction-treatment",
@@ -116,7 +116,7 @@ export const corePages: PageDef[] = [
       q: "How is erectile dysfunction treated?",
       a: "ED treatment starts with finding the likely cause. Lifestyle changes and tablets such as sildenafil or tadalafil are first-line for many men. If they are unsuitable or not enough, a urologist may discuss devices, injections, shockwave therapy, regenerative options or surgery. The most appropriate treatment depends on the underlying cause.",
     },
-    lead: "At UZ Clinic Antalya, Dr. Niyazi Umut Özdemir, a urological surgeon, assesses your case first and then explains which options may be relevant to you.",
+    lead: "At UZ Clinic Antalya, Dr. Niyazi Umut Özdemir, a urological surgeon and erectile dysfunction specialist, assesses your case first and then explains which options may be relevant to you.",
     takeaways: [
       "Assessment comes before treatment, so the plan fits the cause of your ED.",
       "Established treatments are discussed first. Emerging and experimental options are clearly labelled.",
@@ -232,7 +232,7 @@ export const corePages: PageDef[] = [
   },
   {
     path: "/erectile-dysfunction-treatment-turkey",
-    metaTitle: "ED Treatment in Turkey | Urologist-Led | UZ Clinic",
+    metaTitle: "Erectile Dysfunction Treatment Turkey | UZ Clinic Antalya",
     description:
       "Considering ED treatment in Turkey? How to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
     h1: "Erectile Dysfunction Treatment in Turkey",
@@ -245,6 +245,7 @@ export const corePages: PageDef[] = [
       q: "Can I have erectile dysfunction treatment in Turkey?",
       a: "Yes. Men travel to Turkey for ED assessment and treatment. The medical question comes first: you need a diagnosis-led plan from a qualified urologist, clear information about the evidence and risks, and a follow-up plan. UZ Clinic Antalya starts with a remote review of your case before you decide to travel.",
     },
+    lead: "UZ Clinic Antalya is a male sexual health clinic in Turkey led by a urologist. International patients can find out which ED specialist-led options may be relevant before they travel.",
     takeaways: [
       "Choose the physician and the plan first, then the travel.",
       "Ask who treats you, what exactly is offered, the evidence and the aftercare.",
@@ -256,7 +257,7 @@ export const corePages: PageDef[] = [
     blocks: [
       {
         type: "cards",
-        heading: "What to check before choosing any provider abroad",
+        heading: "What to check before choosing an ED specialist in Turkey",
         id: "provider-checks",
         cols: 2,
         cards: [
@@ -289,7 +290,7 @@ export const corePages: PageDef[] = [
       { q: "Is treatment in Turkey equivalent to treatment at home?", a: "Quality depends on the doctor, the facility and the plan, not on the country. Ask for the doctor's qualifications, the written treatment plan, the evidence and the follow-up arrangements." },
     ],
     sources: ["eau2026"],
-    related: ["/erectile-dysfunction-treatment-antalya", "/international-patients", "/erectile-dysfunction-assessment", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir"],
+    related: ["/erectile-dysfunction-treatment-antalya", "/international-patients", "/erectile-dysfunction-assessment", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-treatment"],
   },
   {
     path: "/erectile-dysfunction-treatment-antalya",
@@ -350,6 +351,6 @@ export const corePages: PageDef[] = [
       { q: "Can I begin treatment on my first visit?", a: "Treatment is planned after assessment. Whether anything can be done on the same trip depends on your case and is explained by the clinic." },
     ],
     sources: ["eau2026"],
-    related: ["/erectile-dysfunction-treatment-turkey", "/international-patients", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-treatment-turkey", "/international-patients", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-assessment", "/p-shot-antalya", "/shockwave-therapy-ed", "/price"],
   },
 ];

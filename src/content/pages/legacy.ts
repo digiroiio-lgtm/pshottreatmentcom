@@ -25,6 +25,13 @@ const meta: Record<string, { metaTitle: string; description: string; ctaLabel: s
 
 const remap = (path: string) => redirects[path] ?? path;
 
+// Extra links so the retained guides connect to the new funnel pages.
+const extraRelated: Record<string, string[]> = {
+  "/p-shot-vs-viagra": ["/side-effects", "/p-shot", "/ed-treatment-options"],
+  "/testosterone-ed": ["/erectile-dysfunction", "/ed-treatment-options", "/post-finasteride-syndrome-ed"],
+  "/post-finasteride-syndrome-ed": ["/erectile-dysfunction", "/erectile-dysfunction-assessment", "/testosterone-ed"],
+};
+
 export const legacyPages: PageDef[] = Object.values(articles).map((article) => {
   const m = meta[article.path];
   const geo = geoContent[article.path];
@@ -52,7 +59,7 @@ export const legacyPages: PageDef[] = Object.values(articles).map((article) => {
     blocks,
     faqs: geo?.faqs,
     sources: article.sources.map((s) => s.id),
-    related: [...new Set(article.related.map((r) => remap(r.path)))],
+    related: [...new Set([...article.related.map((r) => remap(r.path)), ...(extraRelated[article.path] ?? [])])],
     parent: { name: "ED knowledge hub", path: "/ed-knowledge-hub" },
     ctaLabel: m.ctaLabel,
     modified: DATE,

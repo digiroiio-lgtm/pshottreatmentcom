@@ -66,7 +66,7 @@ export const comparisonPages: PageDef[] = [
       { q: "Can I have both?", a: "Sometimes discussed, but evidence for the combination is limited." },
     ],
     sources: ["eau2026", "masterson2023", "panunzio2024"],
-    related: ["/p-shot", "/shockwave-therapy-ed", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/shockwave-therapy-ed", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/edswt"],
   },
   {
     path: "/p-shot-vs-stem-cell",
@@ -117,7 +117,7 @@ export const comparisonPages: PageDef[] = [
       { q: "Is stem cell therapy more expensive?", a: "Prices differ by provider and protocol. A higher price does not establish a better outcome." },
     ],
     sources: ["eau2026", "aua2018", "clinicalTrial"],
-    related: ["/p-shot", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment"],
+    related: ["/p-shot", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/exosome-therapy-turkey"],
   },
   {
     path: "/shockwave-vs-stem-cell",

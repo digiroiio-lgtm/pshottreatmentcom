@@ -1,10 +1,10 @@
 "use client";
 
-import { useCurrency } from "@/context/CurrencyContext";
+import { CurrencyProvider, useCurrency } from "@/context/CurrencyContext";
 import { advertisedFees as fees } from "@/lib/page-data";
 
 
-export default function PriceTable() {
+function PriceTableInner() {
   const { currency, setCurrency } = useCurrency();
   return (
     <section data-price>
@@ -40,5 +40,14 @@ export default function PriceTable() {
         <div className="p-6 bg-slate-50 border-t border-slate-200 text-sm text-slate-800">What the fee includes is confirmed in your written treatment plan after assessment. Request an itemised quote before you decide.</div>
       </div>
     </section>
+  );
+}
+
+// The currency state is only needed here, so the provider lives here instead of in the root layout.
+export default function PriceTable() {
+  return (
+    <CurrencyProvider>
+      <PriceTableInner />
+    </CurrencyProvider>
   );
 }

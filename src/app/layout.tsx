@@ -2,12 +2,11 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
 import ClickTracker from "@/components/ClickTracker";
-import ExitIntent from "@/components/ExitIntent";
+import LazyWidgets from "@/components/LazyWidgets";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Footer from "@/components/Footer";
 import MobileStickyBar from "@/components/MobileStickyBar";
 import Navbar from "@/components/Navbar";
-import { CurrencyProvider } from "@/context/CurrencyContext";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -35,16 +34,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en-GB">
       <body className="font-sans antialiased bg-white text-slate-900">
         <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[80] focus:bg-white focus:px-4 focus:py-2 focus:rounded focus:shadow">Skip to content</a>
-        <CurrencyProvider>
-          <Navbar />
-          <main id="main-content">{children}</main>
-          <Footer />
-          <FloatingWhatsApp />
-          <MobileStickyBar />
-          <ExitIntent />
-          <ClickTracker />
-          <Analytics />
-        </CurrencyProvider>
+        <Navbar />
+        <main id="main-content">{children}</main>
+        <Footer />
+        <FloatingWhatsApp />
+        <MobileStickyBar />
+        <LazyWidgets />
+        <ClickTracker />
+        <Analytics />
       </body>
     </html>
   );

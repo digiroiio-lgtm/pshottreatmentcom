@@ -199,7 +199,7 @@ export default function AssessmentForm() {
       <div role="status" className="rounded-2xl border border-teal-200 bg-teal-50 p-8 text-center">
         <h2 className="text-2xl font-bold text-slate-950 mb-3">Thank you</h2>
         <p className="text-slate-800 mb-6">Thank you. Your information has been sent for confidential review. A patient coordinator will contact you.</p>
-        <a href={whatsappLink(state.interest as TreatmentId)} target="_blank" rel="noopener noreferrer" data-wa data-treatment={state.interest} data-placement="assessment-thanks" className="inline-flex rounded-full bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3">
+        <a href={whatsappLink(state.interest as TreatmentId)} target="_blank" rel="noopener noreferrer" data-wa data-treatment={state.interest} data-placement="assessment-thanks" className="inline-flex rounded-full bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3">
           Prefer to chat now? WhatsApp the clinic
         </a>
       </div>

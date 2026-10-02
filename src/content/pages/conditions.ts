@@ -84,7 +84,7 @@ export const conditionPages: PageDef[] = [
       { q: "Is shockwave therapy for vasculogenic ED?", a: "Yes, it is intended primarily for vasculogenic ED, with careful patient selection. The EAU recommendation is weak and for selected men." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/venous-leak", "/penile-doppler-ultrasound", "/shockwave-therapy-ed", "/diabetes-erectile-dysfunction", "/erectile-dysfunction-assessment"],
+    related: ["/venous-leak", "/penile-doppler-ultrasound", "/shockwave-therapy-ed", "/diabetes-erectile-dysfunction", "/erectile-dysfunction-assessment", "/edswt"],
   },
   {
     path: "/venous-leak",
@@ -142,7 +142,7 @@ export const conditionPages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Options a urologist may discuss",
+        heading: "Venous leak treatment: options a urologist may discuss",
         id: "options",
         cols: 2,
         cards: [
@@ -247,7 +247,7 @@ export const conditionPages: PageDef[] = [
     parent: PARENT,
     answer: {
       q: "Can diabetes cause erectile dysfunction?",
-      a: "Yes. Diabetes can damage blood vessels and nerves and often coexists with high blood pressure and cholesterol, all of which can affect erections. ED may also be an early sign of poorly controlled diabetes. Managing blood sugar and cardiovascular risk matters alongside any ED treatment.",
+      a: "Yes. Diabetic erectile dysfunction is common: diabetes can damage blood vessels and nerves and often coexists with high blood pressure and cholesterol, all of which can affect erections. ED may also be an early sign of poorly controlled diabetes. Managing blood sugar and cardiovascular risk matters alongside any ED treatment.",
     },
     ctaLabel: "Ask About Diabetes-Related ED",
     modified: DATE,
@@ -268,7 +268,7 @@ export const conditionPages: PageDef[] = [
       { type: "cta", title: "Get Specialist Advice for Diabetic ED", text: "Share your diabetes history and medicines. The urologist can advise which options may be relevant.", label: "Ask About Diabetes-Related ED" },
       {
         type: "text",
-        heading: "Assessment and treatment options",
+        heading: "Diabetic erectile dysfunction: assessment and treatment options",
         id: "options",
         paragraphs: [
           "The doctor reviews blood sugar control, cardiovascular risk, medicines and hormones where indicated. PDE5 tablets are commonly first-line. Vacuum devices, injections and other therapies may be used when tablets are unsuitable or insufficient. Shockwave therapy may be considered in selected men with a blood-flow pattern.",
@@ -287,7 +287,7 @@ export const conditionPages: PageDef[] = [
       { q: "Are tablets safe with diabetes?", a: "Often yes, but the doctor checks your heart health and other medicines first." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/vasculogenic-erectile-dysfunction", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/ed-treatment-options"],
+    related: ["/vasculogenic-erectile-dysfunction", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/testosterone-ed"],
   },
   {
     path: "/erectile-dysfunction-over-50",
@@ -339,7 +339,7 @@ export const conditionPages: PageDef[] = [
       { q: "Do I need a Doppler scan?", a: "Not for everyone. The doctor decides after history and examination." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-over-60", "/erectile-dysfunction", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-over-60", "/erectile-dysfunction", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/vasculogenic-erectile-dysfunction", "/testosterone-ed", "/post-finasteride-syndrome-ed"],
   },
   {
     path: "/erectile-dysfunction-over-60",
@@ -389,6 +389,6 @@ export const conditionPages: PageDef[] = [
       { q: "Are regenerative treatments suitable?", a: "They are experimental. A doctor decides after assessment, and established options are discussed first." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-over-50", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-over-50", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/penile-doppler-ultrasound", "/testosterone-ed"],
   },
 ];

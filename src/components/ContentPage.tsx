@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { getPage } from "@/content";
+import { breadcrumbLabels } from "@/content/breadcrumbs";
 import type { Block, PageDef } from "@/content/types";
 import { getSources } from "@/lib/evidence";
 import { ASSESSMENT_PATH } from "@/lib/site-config";
@@ -48,7 +49,7 @@ export const breadcrumbsFor = (page: PageDef) => {
   return [
     { name: "Home", path: "/" },
     ...(parent && parent.path !== page.path ? [parent] : []),
-    { name: page.h1, path: page.path },
+    { name: breadcrumbLabels[page.path] ?? page.h1, path: page.path },
   ];
 };
 

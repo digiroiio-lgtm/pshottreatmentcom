@@ -26,8 +26,10 @@ const decode = (value) =>
 const textOf = (html) => decode(html.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
 
 const linkedPaths = new Set();
+const pageHtml = new Map();
 for (const path of paths) {
   const html = await fetchText(path);
+  pageHtml.set(path, html);
   const h1Count = (html.match(/<h1\b/g) || []).length;
   const canonicals = [...html.matchAll(/<link rel="canonical" href="([^"]+)"/g)].map((m) => m[1]);
   const expectedCanonical = path === "/" ? "https://pshottreatment.com" : `https://pshottreatment.com${path}`;
@@ -115,6 +117,62 @@ for (const path of paths) {
 }
 
 for (const path of linkedPaths) await fetchText(path);
+
+// Internal linking: every content page needs at least 3 inbound links from the main content of other pages
+// (header and footer are excluded, because they link to everything and would hide orphans).
+const inbound = new Map(paths.map((p) => [p, new Set()]));
+for (const [from, html] of pageHtml) {
+  const main = html.match(/<main[\s\S]*<\/main>/)?.[0] ?? "";
+  for (const m of main.matchAll(/href="(\/[^"#?]*)/g)) {
+    const to = m[1].replace(/\/$/, "") || "/";
+    if (to !== from && inbound.has(to)) inbound.get(to).add(from);
+  }
+}
+for (const [to, sources] of inbound) {
+  if (["/", "/privacy", "/editorial-policy", "/evidence-methodology"].includes(to)) continue;
+  if (sources.size < 3) fail(`${to} has only ${sources.size} inbound internal links from page content (want 3 or more)`);
+}
+
+// Keyword map: the exact phrases from the brief must appear where searchers and answer engines look.
+const keywordMap = [
+  ["/erectile-dysfunction-treatment-turkey", "erectile dysfunction treatment turkey", "title"],
+  ["/erectile-dysfunction-treatment-turkey", "ed specialist in turkey", "text"],
+  ["/erectile-dysfunction-treatment-turkey", "male sexual health clinic", "text"],
+  ["/erectile-dysfunction-treatment", "erectile dysfunction specialist", "text"],
+  ["/dr-niyazi-umut-ozdemir", "erectile dysfunction urologist", "text"],
+  ["/about", "male sexual health clinic", "heading"],
+  ["/venous-leak", "venous leak treatment", "heading"],
+  ["/diabetes-erectile-dysfunction", "diabetic erectile dysfunction", "heading"],
+  ["/stem-cell-therapy-erectile-dysfunction", "regenerative erectile dysfunction treatment", "heading"],
+  ["/stem-cell-therapy-erectile-dysfunction", "penile stem cell therapy", "text"],
+  ["/exosome-therapy-erectile-dysfunction", "exosome ed treatment", "heading"],
+  ["/exosome-therapy-turkey", "exosome therapy for ed in turkey", "title"],
+  ["/prp-for-erectile-dysfunction", "prp penis injection", "text"],
+  ["/p-shot-turkey", "p-shot turkey", "title"],
+  ["/p-shot-antalya", "p-shot antalya", "title"],
+  ["/shockwave-therapy-ed", "shockwave therapy", "h1"],
+  ["/shockwave-therapy-erectile-dysfunction-turkey", "shockwave therapy for ed in turkey", "title"],
+  ["/edswt", "li-eswt", "h1"],
+  ["/edswt", "ed1000", "text"],
+];
+for (const [path, phrase, where] of keywordMap) {
+  const html = pageHtml.get(path) ?? "";
+  const pick = {
+    title: () => decode(html.match(/<title>([^<]*)<\/title>/)?.[1] ?? ""),
+    h1: () => textOf(html.match(/<h1[\s\S]*?<\/h1>/)?.[0] ?? ""),
+    heading: () => [...html.matchAll(/<h[1-3][^>]*>([\s\S]*?)<\/h[1-3]>/g)].map((m) => textOf(m[1])).join(" | "),
+    text: () => textOf(html),
+  }[where]();
+  if (!pick.toLowerCase().includes(phrase)) fail(`${path} does not contain "${phrase}" in its ${where}`);
+}
+
+// Breadcrumb labels must be short enough to survive in search results.
+for (const [path, html] of pageHtml) {
+  const ld = decode(html.match(/<script type="application\/ld\+json">([^<]+)<\/script>/)?.[1] ?? "{}");
+  const crumbs = JSON.parse(ld)["@graph"]?.find((n) => n["@type"] === "BreadcrumbList")?.itemListElement ?? [];
+  const last = crumbs[crumbs.length - 1]?.name ?? "";
+  if (path !== "/" && last.length > 32) fail(`${path} breadcrumb label is ${last.length} characters: ${last}`);
+}
 
 const robots = await fetchText("/robots.txt");
 if (!robots.includes("Sitemap: https://pshottreatment.com/sitemap.xml")) fail("robots.txt sitemap missing");
