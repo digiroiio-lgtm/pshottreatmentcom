@@ -1,6 +1,13 @@
 export const SITE_URL = "https://pshottreatment.com";
 export const SITE_NAME = "PShotTreatment.com";
 export const WHATSAPP_NUMBER = "905353998999";
+export const SITE_LOCALE = "en-GB";
+export const SITE_DESCRIPTION =
+  "Evidence-led information about P-Shot/PRP for erectile dysfunction, including limitations, risks, alternatives, price and assessment questions.";
+
+// Add verified external profiles (e.g. Google Business Profile, LinkedIn) here only when they exist.
+// Entries flow into Organization.sameAs automatically; an empty list omits the property.
+export const SAME_AS: string[] = [];
 
 export const whatsappUrl = (message = "Hi, I would like to ask about a P-Shot assessment") =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -17,7 +24,9 @@ export type RouteRecord = {
 
 // These dates are maintained manually. A deployment must never change them.
 // Every route below was substantively audited or created on 2026-09-22.
-const AUDIT_DATE = "2026-09-22";
+export const AUDIT_DATE = "2026-09-22";
+// Content was created or substantively rebuilt on the audit date; used for datePublished until per-route dates exist.
+export const PUBLISHED_DATE = AUDIT_DATE;
 
 export const routes: RouteRecord[] = [
   {
@@ -287,3 +296,12 @@ export const routeByPath = (path: string) => routes.find((route) => route.path =
 
 export const absoluteUrl = (path: string) =>
   path === "/" ? SITE_URL : `${SITE_URL}${path}`;
+
+export const ogImageUrl = (path: string) => `${SITE_URL}/og.png?path=${encodeURIComponent(path)}`;
+
+// The root layout title template appends the brand; skip it when the result would exceed ~60 characters.
+export const TITLE_MAX_LENGTH = 60;
+export const brandedTitle = (title: string) => {
+  const branded = `${title} | ${SITE_NAME}`;
+  return branded.length <= TITLE_MAX_LENGTH ? branded : title;
+};

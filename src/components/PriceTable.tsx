@@ -1,12 +1,8 @@
 "use client";
 
 import { useCurrency } from "@/context/CurrencyContext";
+import { advertisedFees as fees } from "@/lib/page-data";
 
-const fees = [
-  { currency: "GBP", symbol: "£", amount: "300", label: "British pound" },
-  { currency: "EUR", symbol: "€", amount: "300", label: "Euro" },
-  { currency: "USD", symbol: "$", amount: "300", label: "US dollar" },
-];
 
 export default function PriceTable() {
   const { currency } = useCurrency();

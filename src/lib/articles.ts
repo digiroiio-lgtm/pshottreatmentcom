@@ -38,6 +38,21 @@ export const articles: Record<string, Article> = {
         ],
       },
       {
+        heading: "Treatment options and evidence position at a glance",
+        table: {
+          caption: "Evidence position for common ED approaches, as summarised on this page and in the cited guidelines.",
+          headers: ["Approach", "Evidence position"],
+          rows: [
+            ["Lifestyle and cardiovascular risk management", "Should begin before or alongside ED treatment."],
+            ["PDE5 inhibitors (e.g. sildenafil)", "Guideline-supported first-line therapy for many men, unless contraindicated."],
+            ["Vacuum devices, alprostadil, counselling, penile implants", "Established roles depending on cause, preference and severity."],
+            ["Low-intensity shockwave therapy", "Possible mild benefit in selected men with vasculogenic ED; weak EAU recommendation."],
+            ["PRP (P-Shot)", "Experimental; the 2026 EAU guideline says clinical-trial setting only."],
+            ["Stem-cell approaches", "Investigational; not an established cure."],
+          ],
+        },
+      },
+      {
         heading: "Questions to take to a clinician",
         bullets: [
           "Could my ED indicate cardiovascular disease or diabetes?",

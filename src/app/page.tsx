@@ -9,14 +9,17 @@ import JsonLd from "@/components/JsonLd";
 import SourceList from "@/components/SourceList";
 import MedicalReviewStatus from "@/components/MedicalReviewStatus";
 import { getSources } from "@/lib/evidence";
+import Faq from "@/components/Faq";
+import { getGeoContent } from "@/lib/geo-content";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata("/");
+const sources = getSources(["eau2026", "aua2018", "masterson2023", "panunzio2024"]);
 
 export default function HomePage() {
   return (
     <>
-      <JsonLd path="/" breadcrumbs={[{ name: "Home", path: "/" }]} />
+      <JsonLd path="/" breadcrumbs={[{ name: "Home", path: "/" }]} sources={sources} />
       <HeroSection />
       <TrustBadges />
       <section className="max-w-4xl mx-auto px-4 py-10 space-y-7">
@@ -38,13 +41,17 @@ export default function HomePage() {
             ["/ed-knowledge-hub", "Understand the condition", "Causes, assessment and established options"],
             ["/prp-fix-erectile-dysfunction-naturally", "Review the evidence", "Trials, limitations and guideline position"],
             ["/best-p-shot-clinic-turkey", "Verify the provider", "Clinician, facility, protocol and aftercare checks"],
+            ["/side-effects", "Understand the risks", "Common effects, uncommon risks and urgent warning signs"],
+            ["/p-shot-vs-viagra", "Compare with established care", "Why PDE5 inhibitors remain first-line for many men"],
+            ["/price", "Check the cost", "Advertised fee, inclusions and questions to ask before paying"],
           ].map(([href, title, text]) => (
             <Link key={href} href={href} className="border border-gray-200 rounded-2xl p-5 hover:border-blue-400">
               <h3 className="font-bold text-blue-900 mb-2">{title}</h3><p className="text-sm text-gray-600">{text}</p>
             </Link>
           ))}
         </div>
-        <SourceList sources={getSources(["eau2026", "aua2018", "masterson2023", "panunzio2024"])} />
+        <Faq items={getGeoContent("/")?.faqs ?? []} />
+        <SourceList sources={sources} />
       </section>
       <PriceTable />
       <HowItWorks />

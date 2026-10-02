@@ -19,6 +19,10 @@ const paths = [...sitemap.matchAll(/<loc>https:\/\/pshottreatment\.com([^<]*)<\/
 if (!paths.length) fail("sitemap contains no canonical URLs");
 if (new Set(paths).size !== paths.length) fail("sitemap contains duplicate URLs");
 
+const decode = (value) =>
+  value.replaceAll("&quot;", '"').replaceAll("&amp;", "&").replaceAll("&#x27;", "'").replaceAll("&lt;", "<").replaceAll("&gt;", ">");
+const textOf = (html) => decode(html.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
+
 const linkedPaths = new Set();
 for (const path of paths) {
   const html = await fetchText(path);
@@ -27,6 +31,22 @@ for (const path of paths) {
   const expectedCanonical = path === "/" ? "https://pshottreatment.com" : `https://pshottreatment.com${path}`;
 
   if (h1Count !== 1) fail(`${path} has ${h1Count} H1 elements`);
+
+  const mainCount = (html.match(/<main\b/g) || []).length;
+  if (mainCount !== 1) fail(`${path} has ${mainCount} <main> elements`);
+
+  const title = decode(html.match(/<title>([^<]*)<\/title>/)?.[1] ?? "");
+  if (!title) fail(`${path} has no <title>`);
+  else if (title.length > 60) fail(`${path} title is ${title.length} characters (max 60): ${title}`);
+
+  const description = decode(html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? "");
+  if (description.length < 70 || description.length > 175) fail(`${path} meta description is ${description.length} characters (want 70-175)`);
+
+  for (const property of ["og:image", "og:title", "og:description", "og:url"]) {
+    if (!html.includes(`property="${property}"`)) fail(`${path} is missing ${property}`);
+  }
+  if (!html.includes('name="twitter:image"')) fail(`${path} is missing twitter:image`);
+  if (!html.includes('name="twitter:card" content="summary_large_image"')) fail(`${path} twitter:card is not summary_large_image`);
   if (canonicals.length !== 1 || canonicals[0] !== expectedCanonical) {
     fail(`${path} canonical mismatch: ${canonicals.join(", ")}`);
   }
@@ -34,10 +54,30 @@ for (const path of paths) {
   const jsonLdBlocks = [...html.matchAll(/<script type="application\/ld\+json">([^<]+)<\/script>/g)];
   if (!jsonLdBlocks.length) fail(`${path} has no JSON-LD`);
   for (const [, json] of jsonLdBlocks) {
+    let data;
     try {
-      JSON.parse(json.replaceAll("&quot;", '"').replaceAll("&amp;", "&"));
+      data = JSON.parse(decode(json));
     } catch (error) {
       fail(`${path} has invalid JSON-LD: ${error.message}`);
+      continue;
+    }
+
+    const nodes = data["@graph"] ?? [data];
+    const types = nodes.flatMap((node) => [node["@type"]].flat());
+    for (const banned of ["AggregateRating", "Review", "Rating"]) {
+      if (types.includes(banned) || json.includes(`"${banned}"`)) fail(`${path} JSON-LD contains unsupported ${banned} markup`);
+    }
+
+    const faq = nodes.find((node) => node["@type"] === "FAQPage");
+    const visibleFaq = html.includes("data-faq");
+    if (faq && !visibleFaq) fail(`${path} has FAQPage JSON-LD but no visible FAQ`);
+    if (!faq && visibleFaq) fail(`${path} shows a FAQ but has no FAQPage JSON-LD`);
+    if (faq) {
+      const pageText = textOf(html);
+      for (const question of faq.mainEntity) {
+        if (!pageText.includes(question.name)) fail(`${path} FAQ question not visible: ${question.name}`);
+        if (!pageText.includes(question.acceptedAnswer.text)) fail(`${path} FAQ answer not visible: ${question.name}`);
+      }
     }
   }
 
@@ -55,10 +95,27 @@ for (const path of linkedPaths) await fetchText(path);
 
 const robots = await fetchText("/robots.txt");
 if (!robots.includes("Sitemap: https://pshottreatment.com/sitemap.xml")) fail("robots.txt sitemap missing");
+for (const bot of ["OAI-SearchBot", "GPTBot", "ClaudeBot", "Claude-SearchBot", "PerplexityBot", "Google-Extended"]) {
+  if (!robots.includes(`User-Agent: ${bot}`)) fail(`robots.txt has no explicit rule for ${bot}`);
+}
 
 const llms = await fetchText("/llms.txt");
 if (!llms.includes("PRP for erectile dysfunction is experimental")) fail("llms.txt evidence position missing");
+for (const path of paths) {
+  const url = path === "/" ? "https://pshottreatment.com" : `https://pshottreatment.com${path}`;
+  if (path !== "/" && !llms.includes(`(${url})`)) fail(`llms.txt does not list ${path}`);
+}
+
+const llmsFull = await fetchText("/llms-full.txt");
+if (!llmsFull.includes("Frequently asked questions")) fail("llms-full.txt has no FAQ content");
+
+for (const asset of ["/manifest.webmanifest", "/apple-icon", "/icon", "/og.png"]) {
+  const response = await fetch(`${base}${asset}`);
+  if (response.status !== 200) fail(`${asset} returned ${response.status}`);
+}
+const notFound = await fetch(`${base}/this-page-does-not-exist`);
+if (notFound.status !== 404) fail(`unknown URL returned ${notFound.status}, expected 404`);
 
 if (!process.exitCode) {
-  console.log(`PASS ${paths.length} sitemap routes, ${linkedPaths.size} internal links, canonical/H1/JSON-LD/robots/llms checks`);
+  console.log(`PASS ${paths.length} sitemap routes, ${linkedPaths.size} internal links, canonical/H1/main/title/meta/OG/JSON-LD/FAQ/robots/llms checks`);
 }
