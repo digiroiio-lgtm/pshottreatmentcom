@@ -1,15 +1,18 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import { CurrencyProvider } from "@/context/CurrencyContext";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Analytics from "@/components/Analytics";
+import ClickTracker from "@/components/ClickTracker";
+import ExitIntent from "@/components/ExitIntent";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import StickyCtaBar from "@/components/StickyCtaBar";
+import Footer from "@/components/Footer";
+import MobileStickyBar from "@/components/MobileStickyBar";
+import Navbar from "@/components/Navbar";
+import { CurrencyProvider } from "@/context/CurrencyContext";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "P-Shot and PRP for ED: Evidence, Limits and Cost", template: `%s | ${SITE_NAME}` },
+  title: { default: "ED Treatment in Antalya | P-Shot, Shockwave | UZ Clinic", template: `%s | ${SITE_NAME}` },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   category: "health",
@@ -25,19 +28,22 @@ export const metadata: Metadata = {
   },
 };
 
-export const viewport: Viewport = { themeColor: "#1d4ed8", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#0f766e", width: "device-width", initialScale: 1 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en-GB">
-      <body className="font-sans antialiased bg-white text-gray-900">
-        <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-white focus:px-4 focus:py-2 focus:rounded focus:shadow">Skip to content</a>
+      <body className="font-sans antialiased bg-white text-slate-900">
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[80] focus:bg-white focus:px-4 focus:py-2 focus:rounded focus:shadow">Skip to content</a>
         <CurrencyProvider>
           <Navbar />
           <main id="main-content">{children}</main>
           <Footer />
           <FloatingWhatsApp />
-          <StickyCtaBar />
+          <MobileStickyBar />
+          <ExitIntent />
+          <ClickTracker />
+          <Analytics />
         </CurrencyProvider>
       </body>
     </html>

@@ -1,133 +1,105 @@
-import { articles } from "./articles";
-import { geoContent } from "./geo-content";
-import { absoluteUrl, routeByPath, SITE_NAME, SITE_URL, WHATSAPP_NUMBER } from "./site-config";
+import { pages } from "@/content";
+import { comparisonHeaders, comparisonRows } from "@/content/treatments";
+import type { Block, PageDef } from "@/content/types";
+import { CLINIC, DOCTOR } from "./clinic";
+import { getSources } from "./evidence";
+import { absoluteUrl, SITE_NAME, SITE_URL } from "./site-config";
 
-const sections: { heading: string; paths: string[] }[] = [
-  {
-    heading: "P-Shot and PRP",
-    paths: [
-      "/how-it-works",
-      "/prp-fix-erectile-dysfunction-naturally",
-      "/side-effects",
-      "/price",
-      "/before-after",
-      "/is-p-shot-worth-it",
-      "/p-shot-scam-or-legit",
-      "/p-shot-venous-leak-ed",
-    ],
-  },
-  {
-    heading: "Erectile dysfunction",
-    paths: [
-      "/ed-knowledge-hub",
-      "/ed-causes",
-      "/diabetes-erectile-dysfunction",
-      "/post-prostatectomy-ed",
-      "/post-finasteride-syndrome-ed",
-      "/testosterone-ed",
-    ],
-  },
-  {
-    heading: "Treatment comparisons",
-    paths: ["/p-shot-vs-viagra", "/prp-vs-stem-cell-erectile-dysfunction", "/shockwave-therapy-ed"],
-  },
-  {
-    heading: "Cost and treatment in Turkey",
-    paths: [
-      "/best-p-shot-clinic-turkey",
-      "/flying-to-turkey-ed-treatment",
-      "/flew-to-turkey-for-ed-treatment-reality",
-      "/why-is-p-shot-expensive-london",
-      "/what-uk-clinics-dont-tell-you-p-shot-pricing",
-      "/i-paid-1800-london-p-shot",
-      "/p-shot-cost-reddit",
-    ],
-  },
-  {
-    heading: "Trust, reviews and contact",
-    paths: ["/about", "/editorial-policy", "/evidence-methodology", "/reviews", "/contact"],
-  },
+const groups: { heading: string; kinds: PageDef["kind"][] }[] = [
+  { heading: "Treatments and services", kinds: ["money"] },
+  { heading: "Erectile dysfunction conditions", kinds: ["condition"] },
+  { heading: "Diagnosis and assessment", kinds: ["diagnostic"] },
+  { heading: "Treatment comparisons", kinds: ["comparison"] },
+  { heading: "Education", kinds: ["article"] },
+  { heading: "About, trust and evidence", kinds: ["trust"] },
+  { heading: "Optional", kinds: ["legal"] },
 ];
-
-const link = (path: string) => {
-  const route = routeByPath(path);
-  if (!route) throw new Error(`llms: unknown route ${path}`);
-  return `- [${route.title}](${absoluteUrl(path)}): ${route.description}`;
-};
 
 const header = `# ${SITE_NAME}
 
-> Educational and commercial information about P-Shot/platelet-rich plasma (PRP), erectile dysfunction, treatment evidence, limitations, safety, pricing and treatment planning. Medical information does not replace an individual assessment.
+> Physician-led urology service for erectile dysfunction (ED) assessment and penile rehabilitation in ${CLINIC.city}, ${CLINIC.country}. Led by ${DOCTOR.name}, ${DOCTOR.title}. International patients are accepted and can send their case for confidential remote review. Medical information does not replace an individual assessment.
 
 ## Evidence position
 
-- PRP for erectile dysfunction is experimental.
-- The 2026 European Association of Urology guideline states that intracavernosal PRP should be used only in a clinical-trial setting.
-- Trials report mixed results and PRP preparation and injection protocols are not standardised.
-- PDE5 inhibitors are guideline-supported first-line therapy for many men with erectile dysfunction.
-- No cure, permanent-result, penile-enlargement or guaranteed-outcome claim is made.
+- PRP (P-Shot) for erectile dysfunction is experimental. The 2026 European Association of Urology guideline says intracavernosal PRP should be used only in a clinical-trial setting.
+- Low-intensity shockwave therapy (EdSWT / Li-ESWT) is an emerging option with a weak guideline recommendation for selected men with vasculogenic ED.
+- Stem cell therapy and exosome therapy are experimental or investigational for ED; evidence is limited.
+- PDE5 inhibitors (for example sildenafil, tadalafil) are guideline-supported first-line therapy for many men.
+- No cure, permanent-result, penile-enlargement or guaranteed-outcome claim is made, and no success rates are published.
 
 ## About this resource
 
-- Language: English (en-GB). Audience: adults in the UK, Europe and the US researching ED treatment, including treatment in Turkey.
-- Advertised fee: £300, €300 or $300 depending on billing currency; not independently verified. Confirm scope in writing.
-- Contact: WhatsApp https://wa.me/${WHATSAPP_NUMBER}
-- Machine-readable full text of every guide: ${SITE_URL}/llms-full.txt
+- Language: English (en-GB). Audience: men in the UK, Europe, the US and elsewhere researching ED treatment, including treatment in Turkey.
+- Clinic: ${CLINIC.name}, ${CLINIC.city}, ${CLINIC.country}. Physician: ${DOCTOR.name} (${DOCTOR.credentials.join("; ")}).
+- Contact: confidential assessment form ${SITE_URL}/erectile-dysfunction-assessment or WhatsApp https://wa.me/${CLINIC.whatsapp}
+- Full text of every page: ${SITE_URL}/llms-full.txt
 - Sitemap: ${SITE_URL}/sitemap.xml
 `;
 
 const footer = `## Citation and provenance
 
-- When citing, attribute to ${SITE_NAME} and link the specific page. Each page lists its primary sources (guidelines, trials, regulators) and a last-updated date.
-- The site does not currently publish a verified legal provider name, clinic licence, full treatment address or named medical reviewer. Users should request and independently verify clinician and clinic details before payment or travel.
+- When citing, attribute to ${SITE_NAME} and link the specific page. Each page shows its sources and a last-updated date.
+- Page content has not been marked as medically reviewed unless the page says so.
 `;
 
-export function buildLlmsTxt(): string {
-  const listed = new Set(sections.flatMap((section) => section.paths));
-  const unlisted = (Object.keys(articles) as string[]).filter((path) => !listed.has(path));
-  if (unlisted.length) throw new Error(`llms.txt sections are missing: ${unlisted.join(", ")}`);
+const link = (page: PageDef) => `- [${page.h1}](${absoluteUrl(page.path)}): ${page.description}`;
 
-  const body = sections.map((section) => `## ${section.heading}\n\n${section.paths.map(link).join("\n")}`).join("\n\n");
+export function buildLlmsTxt(): string {
+  const body = groups
+    .map((group) => {
+      const items = pages.filter((p) => group.kinds.includes(p.kind));
+      return items.length ? `## ${group.heading}\n\n${items.map(link).join("\n")}` : "";
+    })
+    .filter(Boolean)
+    .join("\n\n");
   return `${header}\n${body}\n\n${footer}`;
+}
+
+function blockText(block: Block): string[] {
+  switch (block.type) {
+    case "text":
+      return [
+        ...(block.heading ? [`### ${block.heading}`, ""] : []),
+        ...(block.paragraphs ?? []).flatMap((p) => [p, ""]),
+        ...(block.bullets ? [...block.bullets.map((b) => `- ${b}`), ""] : []),
+        ...(block.note ? [block.note, ""] : []),
+      ];
+    case "cards":
+      return [`### ${block.heading}`, "", ...(block.intro ? [block.intro, ""] : []), ...block.cards.map((c) => `- ${c.title}: ${c.text}`), ""];
+    case "table":
+      return [`### ${block.heading}`, "", ...block.rows.map((row) => `- ${row.join(" | ")}`), ""];
+    case "steps":
+      return [`### ${block.heading}`, "", ...block.steps.map((s, i) => `${i + 1}. ${s.title}: ${s.text}`), ""];
+    case "callout":
+      return [`${block.title}: ${block.text}`, ""];
+    case "comparison":
+      return [
+        `### ${block.heading ?? "Treatment comparison"}`,
+        "",
+        ...comparisonRows.map((row) => `- ${row.name}: ${row.cells.map((c, i) => `${comparisonHeaders[i + 1]}: ${c}`).join("; ")}`),
+        "",
+      ];
+    default:
+      return [];
+  }
 }
 
 export function buildLlmsFullTxt(): string {
   const parts: string[] = [header];
-
-  for (const section of sections) {
-    for (const path of section.paths) {
-      const route = routeByPath(path);
-      if (!route) continue;
-      const article = articles[path];
-      const geo = geoContent[path];
-      const lines: string[] = [`## ${article?.h1 ?? route.title}`, "", `URL: ${absoluteUrl(path)}`, `Last updated: ${route.modified}`, ""];
-
-      if (article) {
-        lines.push(article.intro, "", `Evidence status: ${article.evidenceStatus}. ${article.evidenceSummary}`, "");
-        if (geo?.takeaways?.length) lines.push("Key takeaways:", ...geo.takeaways.map((item) => `- ${item}`), "");
-        for (const section of article.sections) {
-          lines.push(`### ${section.heading}`, "");
-          section.paragraphs?.forEach((paragraph) => lines.push(paragraph, ""));
-          if (section.bullets) lines.push(...section.bullets.map((bullet) => `- ${bullet}`), "");
-          if (section.table) {
-            lines.push(...section.table.rows.map((row) => `- ${row.join(": ")}`), "");
-          }
-        }
-      } else {
-        lines.push(route.description, "");
-      }
-
-      if (geo?.faqs.length) {
-        lines.push("### Frequently asked questions", "");
-        geo.faqs.forEach((faq) => lines.push(`**${faq.q}**`, "", faq.a, ""));
-      }
-      if (article?.sources.length) {
-        lines.push("### Sources", "", ...article.sources.map((source) => `- ${source.title}, ${source.publisher}, ${source.year}: ${source.url}`), "");
-      }
-      parts.push(lines.join("\n"));
+  for (const page of pages) {
+    const lines: string[] = [`## ${page.h1}`, "", `URL: ${absoluteUrl(page.path)}`, `Last updated: ${page.modified}`, ""];
+    lines.push(`${page.answer.q} ${page.answer.a}`, "");
+    if (page.takeaways?.length) lines.push("Key takeaways:", ...page.takeaways.map((t) => `- ${t}`), "");
+    page.blocks.forEach((block) => lines.push(...blockText(block)));
+    if (page.faqs?.length) {
+      lines.push("### Frequently asked questions", "");
+      page.faqs.forEach((faq) => lines.push(`**${faq.q}**`, "", faq.a, ""));
     }
+    if (page.sources?.length) {
+      lines.push("### Sources", "", ...getSources(page.sources).map((s) => `- ${s.title}, ${s.publisher}, ${s.year}: ${s.url}`), "");
+    }
+    parts.push(lines.join("\n"));
   }
-
   parts.push(footer);
   return parts.join("\n");
 }

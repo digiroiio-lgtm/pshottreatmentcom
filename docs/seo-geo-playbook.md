@@ -1,3 +1,5 @@
+> **Superseded (2026-10-02).** Written for the earlier page structure. The current architecture, schema and operations notes are in `uz-clinic-funnel-playbook.md`. The robots.txt AI-crawler rules and llms.txt / llms-full.txt described here still apply.
+
 # SEO, GEO and AI-search playbook
 
 Last reviewed: 2026-10-02. Companion to `medical-seo-audit-2026-09-22.md`.

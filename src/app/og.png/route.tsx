@@ -1,12 +1,13 @@
 import { ImageResponse } from "next/og";
-import { routeByPath, SITE_NAME } from "@/lib/site-config";
+import { getPage } from "@/content";
+import { SITE_NAME } from "@/lib/site-config";
 
-const DEFAULT_TITLE = "P-Shot and PRP for ED: Evidence, Limits and Cost";
+const DEFAULT_TITLE = "Erectile Dysfunction & Penile Rehabilitation in Antalya";
 
 // Social preview image. Only titles from the route registry are rendered, so arbitrary text cannot be injected via the query string.
 export function GET(request: Request) {
   const path = new URL(request.url).searchParams.get("path") ?? "/";
-  const title = routeByPath(path)?.title ?? DEFAULT_TITLE;
+  const title = getPage(path)?.h1 ?? DEFAULT_TITLE;
 
   return new ImageResponse(
     (
@@ -17,15 +18,15 @@ export function GET(request: Request) {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%)",
+          background: "linear-gradient(135deg, #0f172a 0%, #0f766e 100%)",
           color: "#ffffff",
           padding: "72px",
         }}
       >
-        <div style={{ display: "flex", fontSize: 32, fontWeight: 700, color: "#93c5fd" }}>{SITE_NAME}</div>
-        <div style={{ display: "flex", fontSize: title.length > 55 ? 60 : 72, fontWeight: 800, lineHeight: 1.1 }}>{title}</div>
+        <div style={{ display: "flex", fontSize: 32, fontWeight: 700, color: "#99f6e4" }}>{SITE_NAME}</div>
+        <div style={{ display: "flex", fontSize: title.length > 50 ? 56 : 68, fontWeight: 800, lineHeight: 1.1 }}>{title}</div>
         <div style={{ display: "flex", fontSize: 28, color: "#cbd5e1" }}>
-          Evidence-led information. PRP for ED is experimental.
+          Urologist-led assessment. Confidential enquiry.
         </div>
       </div>
     ),

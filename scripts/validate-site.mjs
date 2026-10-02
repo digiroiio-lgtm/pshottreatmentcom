@@ -1,3 +1,5 @@
+import { redirects } from "../src/content/redirects.mjs";
+
 const base = process.env.SITE_BASE_URL || "http://127.0.0.1:3000";
 
 const fail = (message) => {
@@ -86,8 +88,29 @@ for (const path of paths) {
     if (linked && !linked.startsWith("/_next")) linkedPaths.add(linked);
   }
 
-  for (const phrase of ["Only 3 slots", "Board-Certified Doctors", "1000+ Patients", "Verified patient results"]) {
-    if (html.includes(phrase)) fail(`${path} renders prohibited unsupported claim: ${phrase}`);
+  // Claims the project brief forbids. The site must never state or imply them, even in negated form.
+  const text = textOf(html).toLowerCase();
+  for (const phrase of ["will restore", "guaranteed stronger", "guaranteed erection", "100% success", "permanent improvement", "only 3 slots", "board-certified doctors", "1000+ patients", "verified patient results"]) {
+    if (text.includes(phrase)) fail(`${path} contains prohibited claim: ${phrase}`);
+  }
+
+  const kind = html.match(/data-page-kind="([^"]+)"/)?.[1];
+  const ctaCount = (html.match(/data-cta="/g) || []).length;
+  if (kind === "money" || kind === "home") {
+    if (ctaCount < 5) fail(`${path} has only ${ctaCount} assessment/WhatsApp CTAs (want 5 or more on money pages)`);
+    if (!html.includes("data-doctor")) fail(`${path} has no physician section`);
+    if (!/href="https:\/\/wa\.me\/\d+\?text=/.test(html)) fail(`${path} has no pre-filled WhatsApp link`);
+  }
+  if (!jsonLdBlocks.some(([, j]) => decode(j).includes('"MedicalClinic"') && decode(j).includes('"Physician"'))) {
+    fail(`${path} JSON-LD is missing MedicalClinic/Physician`);
+  }
+
+  // WhatsApp pre-filled message follows the treatment of the page.
+  const expectedTreatment = path.includes("-vs-") ? null : path.match(/p-shot|prp/) ? "P-Shot" : path.match(/shockwave|edswt/) ? "Shockwave" : path.match(/stem-cell/) ? "Stem Cell" : path.match(/exosome/) ? "Exosome" : null;
+  if (expectedTreatment) {
+    const wa = decode(html).match(/https:\/\/wa\.me\/\d+\?text=([^"&]+)/)?.[1];
+    const message = wa ? decodeURIComponent(wa) : "";
+    if (!message.includes(`interested in ${expectedTreatment}.`)) fail(`${path} WhatsApp message does not name ${expectedTreatment}: ${message}`);
   }
 }
 
@@ -100,7 +123,7 @@ for (const bot of ["OAI-SearchBot", "GPTBot", "ClaudeBot", "Claude-SearchBot", "
 }
 
 const llms = await fetchText("/llms.txt");
-if (!llms.includes("PRP for erectile dysfunction is experimental")) fail("llms.txt evidence position missing");
+if (!llms.includes("PRP (P-Shot) for erectile dysfunction is experimental")) fail("llms.txt evidence position missing");
 for (const path of paths) {
   const url = path === "/" ? "https://pshottreatment.com" : `https://pshottreatment.com${path}`;
   if (path !== "/" && !llms.includes(`(${url})`)) fail(`llms.txt does not list ${path}`);
@@ -116,6 +139,20 @@ for (const asset of ["/manifest.webmanifest", "/apple-icon", "/icon", "/og.png"]
 const notFound = await fetch(`${base}/this-page-does-not-exist`);
 if (notFound.status !== 404) fail(`unknown URL returned ${notFound.status}, expected 404`);
 
+for (const [from, to] of Object.entries(redirects)) {
+  const response = await fetch(`${base}${from}`, { redirect: "manual" });
+  if (response.status !== 301) fail(`${from} returned ${response.status}, expected a 301`);
+  else if (new URL(response.headers.get("location"), base).pathname !== to) fail(`${from} redirects to ${response.headers.get("location")}, expected ${to}`);
+  if (!paths.includes(to)) fail(`${from} redirects to ${to}, which is not in the sitemap`);
+  if (paths.includes(from)) fail(`${from} is redirected but still listed in the sitemap`);
+}
+
+// Assessment API: rejects invalid input and never reports success for a missing consent.
+const post = (body) => fetch(`${base}/api/assessment`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+if ((await post({})).status !== 400) fail("/api/assessment accepted an empty payload");
+const honeypot = await post({ website: "bot", age: 40, problem: "cannot-get", duration: "lt3m", country: "UK", name: "Test", whatsapp: "+44 7000 000000", consent: true });
+if (honeypot.status !== 200) fail(`/api/assessment honeypot returned ${honeypot.status}`);
+
 if (!process.exitCode) {
-  console.log(`PASS ${paths.length} sitemap routes, ${linkedPaths.size} internal links, canonical/H1/main/title/meta/OG/JSON-LD/FAQ/robots/llms checks`);
+  console.log(`PASS ${paths.length} sitemap routes, ${linkedPaths.size} internal links, canonical/H1/main/title/meta/OG/JSON-LD/FAQ/CTA/WhatsApp/redirect/API/robots/llms checks`);
 }
