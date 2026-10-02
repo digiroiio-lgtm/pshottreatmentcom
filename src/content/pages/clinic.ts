@@ -143,6 +143,11 @@ export const clinicPages: PageDef[] = [
       },
       { type: "cta", title: "Ask the Urologist", text: "Send your case. The clinic will tell you which options may be relevant.", label: "Ask the Urologist", whatsapp: true },
     ],
+    faqs: [
+      { q: "What does Dr. Niyazi Umut Özdemir specialise in?", a: "He is a urological surgeon whose clinical focus is male sexual health and penile rehabilitation, including erectile dysfunction assessment and treatment planning." },
+      { q: "Can I consult Dr. Özdemir before travelling to Antalya?", a: "You can send your case for a confidential remote review first. A patient coordinator contacts you, and the doctor assesses suitability. An in-person assessment is needed before treatment." },
+      { q: "Where does Dr. Özdemir practise?", a: "At UZ Clinic Antalya, Kanyon Plaza, Fener Mah., Bülent Ecevit Blv., 07160 Muratpaşa / Antalya, Turkey." },
+    ],
     related: ["/about", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/international-patients"],
   },
   {
@@ -186,6 +191,11 @@ export const clinicPages: PageDef[] = [
       { type: "location" },
       { type: "international" },
       { type: "cta", title: "Speak to the Clinic", text: "Start with a confidential message or form.", label: "Speak to the Clinic", whatsapp: true },
+    ],
+    faqs: [
+      { q: "Is UZ Clinic Antalya a medical-tourism agency?", a: "No. It is a physician-led urology and penile rehabilitation service led by Dr. Niyazi Umut Özdemir, a urological surgeon. Patients are assessed by a doctor before any treatment is discussed." },
+      { q: "Where is the clinic?", a: "UZ Clinic Antalya is at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey." },
+      { q: "Can I contact the clinic without calling?", a: "Yes. You can send your case through the confidential assessment form or message the clinic on WhatsApp." },
     ],
     related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment"],
   },
@@ -251,7 +261,7 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/patient-experiences",
-    metaTitle: "Patient Experiences | UZ Clinic Antalya",
+    metaTitle: "Patient Experiences and Google Rating | UZ Clinic Antalya",
     description:
       "How UZ Clinic Antalya shares genuine patient experiences with consent, why individual results vary and how to ask about cases similar to yours.",
     h1: "Patient Experiences",
@@ -288,11 +298,16 @@ export const clinicPages: PageDef[] = [
       },
       { type: "cta", title: "Ask About Experiences Similar to Yours", text: "Ask the clinic what to expect for your type of ED, and what the evidence says.", label: "Ask About Cases Like Yours", whatsapp: true },
     ],
+    faqs: [
+      { q: "Are the patient experiences on this site genuine?", a: "Yes. Experiences are published only when they come from real patients who have given consent, and they are never edited to make a result sound stronger." },
+      { q: "Will my result be the same as another patient's?", a: "Not necessarily. One person's result cannot predict yours. Suitability and expected benefit vary between patients and depend on the underlying cause of ED." },
+      { q: "Where can I see the clinic's Google rating?", a: "The Google rating badge on this page links to the clinic's Google listing, where independent reviewers post their own reviews." },
+    ],
     related: ["/p-shot", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/dr-niyazi-umut-ozdemir"],
   },
   {
     path: "/price",
-    metaTitle: "P-Shot Price in Turkey | UZ Clinic Antalya",
+    metaTitle: "P-Shot Price in Turkey: Fee and What to Ask | UZ Clinic",
     description:
       "The advertised P-Shot fee at UZ Clinic Antalya, what the treatment plan confirms in writing and what to ask when comparing any quotation.",
     h1: "P-Shot Price in Turkey",
@@ -415,6 +430,14 @@ export const clinicPages: PageDef[] = [
     priority: 0.8,
     blocks: [
       {
+        type: "text",
+        heading: "How to use this hub",
+        id: "how-to-use",
+        paragraphs: [
+          "Erectile dysfunction has several possible causes, and the right treatment depends on the cause. Use the condition guides to understand what may be behind your symptoms, then the treatment guides to see which options exist, how strong the evidence is and who they may suit.",
+        ],
+      },
+      {
         type: "cards",
         heading: "Understand your ED",
         id: "conditions",
@@ -450,11 +473,16 @@ export const clinicPages: PageDef[] = [
       },
       { type: "cta", title: "Not Sure Where to Start?", text: "Send your case and the clinic can advise which guides and options are relevant.", label: "Check Treatment Options", whatsapp: true },
     ],
+    faqs: [
+      { q: "Where should I start if I have erectile dysfunction?", a: "Start with the erectile dysfunction guide to understand the main causes, then choose the condition or treatment guide that matches your situation. A confidential assessment can show which type of ED you may have." },
+      { q: "Are all treatments in these guides proven?", a: "No. PDE5 tablets, injections, vacuum devices and implants are established. Shockwave therapy is emerging, and PRP, stem cells and exosomes are experimental or investigational for ED." },
+      { q: "Do the guides replace a medical assessment?", a: "No. They give general information. Suitability and expected benefit vary between patients and are decided after medical assessment." },
+    ],
     related: ["/ed-treatment-options", "/erectile-dysfunction-assessment"],
   },
   {
     path: "/editorial-policy",
-    metaTitle: "Editorial Policy | UZ Clinic Antalya",
+    metaTitle: "Editorial Policy: How We Write Medical Content | UZ Clinic",
     description:
       "How medical content on this site is selected, sourced, written, reviewed and corrected, and how it is separated from commercial calls to action.",
     h1: "Editorial Policy",
@@ -483,11 +511,15 @@ export const clinicPages: PageDef[] = [
         ],
       },
     ],
+    faqs: [
+      { q: "Who writes the medical content on this site?", a: "The content is prepared for UZ Clinic Antalya and shows the date of its latest update. Pages are described as medically reviewed only when Dr. Niyazi Umut Özdemir has reviewed them." },
+      { q: "How are experimental treatments described?", a: "Treatments are labelled as established, emerging or experimental, with their evidence status and limits stated next to the treatment, not hidden below it." },
+    ],
     related: ["/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir"],
   },
   {
     path: "/evidence-methodology",
-    metaTitle: "Evidence Methodology | UZ Clinic Antalya",
+    metaTitle: "Evidence Methodology: How We Rank Sources | UZ Clinic",
     description:
       "How guidelines, systematic reviews, trials and clinic observations are ranked and how uncertainty is communicated about ED treatments.",
     h1: "Evidence Methodology",
@@ -523,11 +555,15 @@ export const clinicPages: PageDef[] = [
         paragraphs: ["We report the disagreement and prioritise the current guideline position. For PRP and ED, positive trials exist alongside a negative placebo-controlled trial, and protocols vary, so we describe PRP as experimental rather than proven."],
       },
     ],
+    faqs: [
+      { q: "Which sources carry the most weight?", a: "Clinical guidelines and regulators come first, followed by systematic reviews and randomised controlled trials. Clinic observations and patient anecdotes cannot establish safety or effectiveness." },
+      { q: "What happens when sources disagree?", a: "We report the disagreement and prioritise the current guideline position. For PRP and ED, positive trials exist alongside a negative placebo-controlled trial, so PRP is described as experimental." },
+    ],
     related: ["/editorial-policy", "/about"],
   },
   {
     path: "/privacy",
-    metaTitle: "Privacy Notice | UZ Clinic Antalya",
+    metaTitle: "Privacy Notice and Data Protection | UZ Clinic Antalya",
     description:
       "How UZ Clinic Antalya handles information from the assessment form, WhatsApp, email and website analytics, and your rights under KVKK and GDPR.",
     h1: "Privacy Notice",

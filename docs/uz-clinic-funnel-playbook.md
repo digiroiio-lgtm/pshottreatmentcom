@@ -83,6 +83,8 @@ See `medical-claims-review.md`. In short: the doctor's photo, publications and m
 - Keyword map and the validator checks that enforce it: `keyword-map.md`.
 - Answer-engine discovery, IndexNow (`npm run indexnow`), off-page signals and the monthly prompt test: `ai-visibility-playbook.md`.
 - Lab performance and accessibility results: `performance.md`.
+- Site-wide audit (`npm run seo:audit`, needs the site running; set `SITE_BASE_URL`): per-page metadata, schema checks, 0-100 score, link inventory with status, redirection checks, duplicate/orphan/robots/llms/404/header checks. It writes `docs/seo-audit-<date>.md` and `.json`. Add `--strict` to exit non-zero on errors, `--skip-external` to skip external links. External hosts that the network denies are listed as "unchecked", not failed.
+- Competitor comparison: `node scripts/seo-audit.mjs --competitor https://competitor-one.com https://competitor-two.com` writes `docs/seo-competitors-<date>.md` (title/description lengths, headings, words, schema types, FAQ schema, robots AI rules, llms.txt). It uses plain HTTP, so hosts blocked by the network are reported as unreachable and nothing is estimated.
 - Internal linking rule: at least 3 inbound links from page content to every content page (validator-enforced).
 
 ## Launch checklist
