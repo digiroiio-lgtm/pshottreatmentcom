@@ -166,9 +166,11 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
       return <InternationalPatientCTA treatment={treatment} />;
     case "assessment-form":
       return (
-        <Suspense fallback={<div className="rounded-2xl border border-slate-200 p-8 text-slate-600">Loading the assessment…</div>}>
-          <AssessmentForm />
-        </Suspense>
+        <div id="assessment-start" className="scroll-mt-24">
+          <Suspense fallback={<div className="rounded-2xl border border-slate-200 p-8 text-slate-600">Loading the assessment…</div>}>
+            <AssessmentForm />
+          </Suspense>
+        </div>
       );
     case "treatment-nav":
       return <TreatmentNavigation heading={block.heading} exclude={block.exclude} />;
@@ -209,7 +211,7 @@ export default function ContentPage({ page }: { page: PageDef }) {
         {page.lead && <p className="text-slate-700 text-lg mb-5">{page.lead}</p>}
         <div className="flex flex-col sm:flex-row gap-3">
           {isAssessment ? (
-            <a href="#assessment-form" data-cta={page.ctaLabel} data-placement="hero" className="inline-flex items-center justify-center rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-6 py-3">{page.ctaLabel}</a>
+            <a href="#assessment-start" data-cta={page.ctaLabel} data-placement="hero" className="inline-flex items-center justify-center rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-6 py-3">{page.ctaLabel}</a>
           ) : (
             <AssessmentButton label={page.ctaLabel} treatment={treatment} placement="hero" />
           )}
