@@ -579,7 +579,7 @@ export const clinicPages: PageDef[] = [
         heading: "Who receives your information",
         id: "recipients",
         paragraphs: [
-          "Your enquiry is seen by the clinic team that handles patient enquiries. It is also processed by service providers that run our systems, such as website hosting, email delivery and messaging (WhatsApp is operated by Meta). We may disclose information to public authorities where the law requires it.",
+          "Your enquiry is seen by the clinic team that handles patient enquiries. It is also processed by service providers that run our systems, such as website hosting, form processing and email delivery (Formspree, based in the United States) and messaging (WhatsApp is operated by Meta). We may disclose information to public authorities where the law requires it.",
           "We do not sell your information. Health information is never sent to advertising or analytics platforms.",
         ],
       },

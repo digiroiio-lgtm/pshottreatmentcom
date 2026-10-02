@@ -17,6 +17,8 @@ import { scoreLead } from "@/lib/lead-score";
 export const runtime = "nodejs";
 
 const MAX_BODY = 12_000;
+// Formspree form created by the clinic. Not a secret: it only accepts submissions.
+const FORMSPREE_DEFAULT = "https://formspree.io/f/xeaobzzg";
 const hits = new Map<string, number[]>();
 
 function rateLimited(ip: string) {
@@ -116,26 +118,63 @@ async function deliver(data: AssessmentPayload): Promise<boolean> {
   const { subject, text, score, tier } = composeEmail(data);
   const results: boolean[] = [];
 
+  // Each channel is attempted independently, so one outage never blocks the others.
+  const attempt = async (name: string, send: () => Promise<Response>) => {
+    try {
+      const response = await send();
+      if (!response.ok) console.error(`[assessment] ${name} responded ${response.status}`);
+      results.push(response.ok);
+    } catch (error) {
+      console.error(`[assessment] ${name} failed`, error instanceof Error ? error.message : error);
+      results.push(false);
+    }
+  };
+
+  // Formspree: server-to-server JSON submission. Set FORMSPREE_ENDPOINT=off to disable.
+  const formspree = process.env.FORMSPREE_ENDPOINT ?? FORMSPREE_DEFAULT;
+  if (formspree && formspree !== "off") {
+    await attempt("formspree", () =>
+      fetch(formspree, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          _subject: subject,
+          // Formspree uses "email" as the reply-to address, so it is only sent when the patient gave one.
+          ...(data.email ? { email: data.email } : {}),
+          name: data.name,
+          whatsapp: data.whatsapp,
+          country: data.country,
+          treatment_interest: labelOf(interestOptions, data.interest),
+          lead_score: score,
+          lead_tier: tier,
+          full_enquiry: text,
+        }),
+      }),
+    );
+  }
+
   const key = process.env.RESEND_API_KEY;
   const to = process.env.LEAD_NOTIFY_EMAIL;
   const from = process.env.LEAD_FROM_EMAIL;
   if (key && to && from) {
-    const response = await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ from, to: to.split(",").map((s) => s.trim()), subject, text, reply_to: data.email || undefined }),
-    });
-    results.push(response.ok);
+    await attempt("resend", () =>
+      fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ from, to: to.split(",").map((s) => s.trim()), subject, text, reply_to: data.email || undefined }),
+      }),
+    );
   }
 
   const hook = process.env.LEAD_WEBHOOK_URL;
   if (hook) {
-    const response = await fetch(hook, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...data, website: undefined, score, tier, submittedAt: new Date().toISOString() }),
-    });
-    results.push(response.ok);
+    await attempt("webhook", () =>
+      fetch(hook, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...data, website: undefined, score, tier, submittedAt: new Date().toISOString() }),
+      }),
+    );
   }
 
   if (!results.length) {
@@ -143,7 +182,7 @@ async function deliver(data: AssessmentPayload): Promise<boolean> {
       console.info("[assessment] No delivery channel configured; lead (dev only):\n" + text);
       return true;
     }
-    console.error("[assessment] No delivery channel configured (RESEND_API_KEY/LEAD_NOTIFY_EMAIL/LEAD_FROM_EMAIL or LEAD_WEBHOOK_URL).");
+    console.error("[assessment] No delivery channel configured (FORMSPREE_ENDPOINT, RESEND_API_KEY/LEAD_NOTIFY_EMAIL/LEAD_FROM_EMAIL or LEAD_WEBHOOK_URL).");
     return false;
   }
   return results.some(Boolean);
