@@ -37,6 +37,8 @@ export default function Footer() {
           <Link href="/editorial-policy" className="hover:text-white inline-block py-2">Editorial policy</Link>
           <Link href="/evidence-methodology" className="hover:text-white inline-block py-2">Evidence methodology</Link>
           <Link href="/privacy" className="hover:text-white inline-block py-2">Privacy</Link>
+          <a href="https://pshotturkey.com" className="hover:text-white inline-block py-2">P-Shot treatment in Turkey: travel guide</a>
+          <a href="https://pshotnearme.com" className="hover:text-white inline-block py-2">Find P-Shot clinics by city</a>
         </p>
       </div>
     </footer>
