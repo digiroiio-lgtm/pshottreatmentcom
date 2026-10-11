@@ -1,4 +1,4 @@
-import { DATE, EAU_PRP, NO_GUARANTEE } from "../shared";
+import { DATE, EAU_PRP } from "../shared";
 import type { PageDef } from "../types";
 
 const HUB = { name: "ED knowledge hub", path: "/ed-knowledge-hub" };
