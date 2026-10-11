@@ -49,6 +49,13 @@ export const articles: Record<string, Article> = {
         ],
       },
       {
+        heading: "ED on TRT: what to check if erections have not improved",
+        paragraphs: [
+          "Testosterone therapy can improve desire and, in men with confirmed deficiency, sometimes erections. It does not repair damaged blood vessels or nerves, so ED can continue on TRT for other reasons.",
+          "A urologist will usually confirm that testosterone is in the intended range, then look at blood flow, nerves, other medicines, blood sugar, sleep and psychological factors. Where appropriate, a PDE5 inhibitor may be used alongside testosterone therapy. Do not change or stop prescribed TRT because of a website; speak to the prescriber.",
+        ],
+      },
+      {
         heading: "PRP plus TRT claims",
         paragraphs: [
           "There is no high-quality evidence establishing that combining testosterone with PRP produces a superior ED outcome. Such a combination should not be marketed as synergistic without a clearly cited clinical trial relevant to the patient group and protocol.",

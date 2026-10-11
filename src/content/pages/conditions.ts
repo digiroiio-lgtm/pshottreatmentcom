@@ -142,7 +142,7 @@ export const conditionPages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Venous leak treatment: options a urologist may discuss",
+        heading: "Venous leak treatment: options a urologist may discuss in 2026",
         id: "options",
         cols: 2,
         cards: [
@@ -162,6 +162,7 @@ export const conditionPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "What are the venous leak treatment options for ED?", a: "A urologist may discuss risk-factor control, optimised PDE5 tablets, vacuum devices, penile injections and, for severe ED, an implant. Shockwave and regenerative therapies have limited evidence in confirmed venous leak and are discussed only when appropriate." },
       { q: "Can venous leak be cured?", a: "No treatment is established as a cure. Management focuses on options that help you achieve a usable erection. The urologist explains what is realistic." },
       { q: "Can P-Shot treat venous leak?", a: "No evidence establishes PRP as a treatment for confirmed venous leak. It remains experimental." },
       { q: "How is venous leak confirmed?", a: "Usually through penile Doppler ultrasound and clinical assessment by a urologist." },

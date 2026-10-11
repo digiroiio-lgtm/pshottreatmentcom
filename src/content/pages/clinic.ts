@@ -307,17 +307,17 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/price",
-    metaTitle: "P-Shot Price in Turkey: Fee and What to Ask | UZ Clinic",
+    metaTitle: "P-Shot Price: UK vs Turkey | UZ Clinic Antalya",
     description:
-      "The advertised P-Shot fee at UZ Clinic Antalya, what the treatment plan confirms in writing and what to ask when comparing any quotation.",
-    h1: "P-Shot Price in Turkey",
+      "P-Shot price in the UK compared with Turkey: our advertised fee, why quotes vary and the questions to ask before comparing any quotation.",
+    h1: "P-Shot Price: UK vs Turkey",
     eyebrow: "Cost",
     kind: "money",
     treatment: "p-shot",
     medical: false,
     answer: {
-      q: "How much does a P-Shot cost in Turkey?",
-      a: "The advertised P-Shot treatment fee is £300, €300 or $300 depending on the billing currency. These are stated billing options, not live exchange-rate conversions. Your written treatment plan confirms what is included after assessment. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable.",
+      q: "How much does a P-Shot cost in the UK and in Turkey?",
+      a: "P-Shot prices in the UK vary widely between clinics, because they depend on the protocol, the clinician and what is included, so compare itemised quotations rather than headline prices. At UZ Clinic Antalya in Turkey, the advertised P-Shot treatment fee is £300, €300 or $300 depending on the billing currency. These are stated billing options, not live exchange-rate conversions. Your written treatment plan confirms what is included after assessment. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable.",
     },
     ctaLabel: "Request an Itemised Quote",
     modified: DATE,
@@ -325,6 +325,22 @@ export const clinicPages: PageDef[] = [
     schema: { therapy: "P-Shot (platelet-rich plasma injection)" },
     blocks: [
       { type: "price" },
+      {
+        type: "text",
+        heading: "P Shot UK price: why quotes vary",
+        id: "uk-price",
+        paragraphs: [
+          "Searching for a P-Shot price in the UK usually returns a wide range of figures. This site does not publish other clinics' prices, because quotes change and are rarely like for like. What makes them differ is more useful to know.",
+        ],
+        bullets: [
+          "One session or a course: some quotes are per injection session, others cover several sessions.",
+          "Who treats you: a consultant urologist, another doctor or a non-medical practitioner.",
+          "The PRP system and protocol: the equipment, the volume of blood and how the plasma is prepared.",
+          "What is included: assessment, tests, anaesthetic, follow-up and complication care.",
+          "Location and overheads: premises, regulation and local operating costs.",
+        ],
+        note: "A lower fee does not prove equivalent care and a higher fee does not prove better outcomes. PRP for ED is experimental.",
+      },
       {
         type: "text",
         heading: "Questions to ask when comparing quotations",
@@ -347,6 +363,9 @@ export const clinicPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "How much is a P-Shot in the UK?", a: "It varies by clinic and by what the quote includes, so there is no single UK price. Ask each clinic for an itemised written quote that states the number of sessions, who treats you and what follow-up is included. UZ Clinic Antalya's advertised fee is shown above." },
+      { q: "Why can a P-Shot cost less in Turkey than in the UK?", a: "Fees depend on clinician time, premises, regulation, consumables and local costs, so they differ between countries. A lower quote does not prove the protocol or provider is equivalent, and a higher one does not prove better outcomes. Compare qualifications, consent and follow-up as well as price." },
+      { q: "Is the P-Shot price per session or per course?", a: "Ask for this in writing from any provider. Your written treatment plan at UZ Clinic Antalya confirms what the fee covers after assessment." },
       { q: "Does the fee cover flights and hotel?", a: "Travel and accommodation are arranged separately. Your written plan confirms what the treatment fee includes." },
       { q: "Can I get a quote before travelling?", a: "Yes. Send your case and the coordinator explains the plan once the doctor has reviewed your information." },
     ],

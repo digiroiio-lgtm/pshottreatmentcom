@@ -154,6 +154,13 @@ const keywordMap = [
   ["/shockwave-therapy-erectile-dysfunction-turkey", "shockwave therapy for ed in turkey", "title"],
   ["/edswt", "li-eswt", "h1"],
   ["/edswt", "ed1000", "text"],
+  ["/price", "p-shot price", "h1"],
+  ["/price", "p shot uk price", "heading"],
+  ["/price", "how much is a p-shot in the uk", "text"],
+  ["/p-shot", "priapus shot", "text"],
+  ["/testosterone-ed", "ed on trt", "heading"],
+  ["/testosterone-ed", "does trt help erectile dysfunction", "text"],
+  ["/venous-leak", "venous leak treatment options", "text"],
 ];
 for (const [path, phrase, where] of keywordMap) {
   const html = pageHtml.get(path) ?? "";

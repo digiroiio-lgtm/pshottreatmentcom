@@ -6,8 +6,8 @@ import type { Block, PageDef } from "../types";
 
 const meta: Record<string, { metaTitle: string; description: string; ctaLabel: string; treatment?: PageDef["treatment"] }> = {
   "/testosterone-ed": {
-    metaTitle: "Low Testosterone and Erectile Dysfunction: When TRT Helps",
-    description: "How testosterone deficiency is diagnosed, when testosterone therapy may help ED and why it is not a universal ED treatment.",
+    metaTitle: "Testosterone Therapy and ED: Does TRT Help? | UZ Clinic",
+    description: "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
     ctaLabel: "Ask About Hormonal ED",
   },
   "/post-finasteride-syndrome-ed": {
