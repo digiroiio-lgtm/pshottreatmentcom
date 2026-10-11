@@ -87,6 +87,7 @@ function physician(): Node {
     },
     knowsAbout: DOCTOR.focus,
     ...(DOCTOR.sameAs.length ? { sameAs: DOCTOR.sameAs } : {}),
+    ...(DOCTOR.photo ? { image: { "@type": "ImageObject", url: absoluteUrl(DOCTOR.photo), caption: `${DOCTOR.name}, ${DOCTOR.title}` } } : {}),
     workLocation: { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: CLINIC.district, addressRegion: CLINIC.region, addressCountry: CLINIC.countryCode } },
   };
 }

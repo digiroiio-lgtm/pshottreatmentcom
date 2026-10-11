@@ -197,7 +197,7 @@ export const clinicPages: PageDef[] = [
       { q: "Where is the clinic?", a: "UZ Clinic Antalya is at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey." },
       { q: "Can I contact the clinic without calling?", a: "Yes. You can send your case through the confidential assessment form or message the clinic on WhatsApp." },
     ],
-    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment"],
+    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment", "/ed-questions"],
   },
   {
     path: "/international-patients",
@@ -307,17 +307,17 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/price",
-    metaTitle: "P-Shot Price in Turkey: Fee and What to Ask | UZ Clinic",
+    metaTitle: "P-Shot Price: UK vs Turkey | UZ Clinic Antalya",
     description:
-      "The advertised P-Shot fee at UZ Clinic Antalya, what the treatment plan confirms in writing and what to ask when comparing any quotation.",
-    h1: "P-Shot Price in Turkey",
+      "P-Shot price in the UK compared with Turkey: our advertised fee, why quotes vary and the questions to ask before comparing any quotation.",
+    h1: "P-Shot Price: UK vs Turkey",
     eyebrow: "Cost",
     kind: "money",
     treatment: "p-shot",
     medical: false,
     answer: {
-      q: "How much does a P-Shot cost in Turkey?",
-      a: "The advertised P-Shot treatment fee is £300, €300 or $300 depending on the billing currency. These are stated billing options, not live exchange-rate conversions. Your written treatment plan confirms what is included after assessment. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable.",
+      q: "How much does a P-Shot cost in the UK and in Turkey?",
+      a: "P-Shot prices in the UK vary widely between clinics, because they depend on the protocol, the clinician and what is included, so compare itemised quotations rather than headline prices. At UZ Clinic Antalya in Turkey, the advertised P-Shot treatment fee is £300, €300 or $300 depending on the billing currency. These are stated billing options, not live exchange-rate conversions. Your written treatment plan confirms what is included after assessment. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable.",
     },
     ctaLabel: "Request an Itemised Quote",
     modified: DATE,
@@ -325,6 +325,22 @@ export const clinicPages: PageDef[] = [
     schema: { therapy: "P-Shot (platelet-rich plasma injection)" },
     blocks: [
       { type: "price" },
+      {
+        type: "text",
+        heading: "P Shot UK price: why quotes vary",
+        id: "uk-price",
+        paragraphs: [
+          "Searching for a P-Shot price in the UK usually returns a wide range of figures. This site does not publish other clinics' prices, because quotes change and are rarely like for like. What makes them differ is more useful to know.",
+        ],
+        bullets: [
+          "One session or a course: some quotes are per injection session, others cover several sessions.",
+          "Who treats you: a consultant urologist, another doctor or a non-medical practitioner.",
+          "The PRP system and protocol: the equipment, the volume of blood and how the plasma is prepared.",
+          "What is included: assessment, tests, anaesthetic, follow-up and complication care.",
+          "Location and overheads: premises, regulation and local operating costs.",
+        ],
+        note: "A lower fee does not prove equivalent care and a higher fee does not prove better outcomes. PRP for ED is experimental.",
+      },
       {
         type: "text",
         heading: "Questions to ask when comparing quotations",
@@ -347,6 +363,9 @@ export const clinicPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "How much is a P-Shot in the UK?", a: "It varies by clinic and by what the quote includes, so there is no single UK price. Ask each clinic for an itemised written quote that states the number of sessions, who treats you and what follow-up is included. UZ Clinic Antalya's advertised fee is shown above." },
+      { q: "Why can a P-Shot cost less in Turkey than in the UK?", a: "Fees depend on clinician time, premises, regulation, consumables and local costs, so they differ between countries. A lower quote does not prove the protocol or provider is equivalent, and a higher one does not prove better outcomes. Compare qualifications, consent and follow-up as well as price." },
+      { q: "Is the P-Shot price per session or per course?", a: "Ask for this in writing from any provider. Your written treatment plan at UZ Clinic Antalya confirms what the fee covers after assessment." },
       { q: "Does the fee cover flights and hotel?", a: "Travel and accommodation are arranged separately. Your written plan confirms what the treatment fee includes." },
       { q: "Can I get a quote before travelling?", a: "Yes. Send your case and the coordinator explains the plan once the doctor has reviewed your information." },
     ],
@@ -452,6 +471,10 @@ export const clinicPages: PageDef[] = [
           { title: "Finasteride and sexual symptoms", text: "What regulators say.", href: "/post-finasteride-syndrome-ed" },
           { title: "ED over 50", text: "Early assessment.", href: "/erectile-dysfunction-over-50" },
           { title: "ED over 60", text: "Safe, realistic options.", href: "/erectile-dysfunction-over-60" },
+          { title: "Tablets not working", text: "Viagra or Cialis not working: what to check.", href: "/ed-tablets-not-working" },
+          { title: "ED under 40", text: "Causes in younger men.", href: "/ed-under-40" },
+          { title: "Losing an erection during sex", text: "Why an erection fades.", href: "/losing-erection-during-sex" },
+          { title: "ED and heart disease", text: "Why the two are linked.", href: "/ed-and-heart-disease" },
         ],
       },
       {
@@ -469,6 +492,10 @@ export const clinicPages: PageDef[] = [
           { title: "ED treatment options compared", text: "All options side by side.", href: "/ed-treatment-options" },
           { title: "Penile rehabilitation", text: "Structured recovery plans.", href: "/penile-rehabilitation" },
           { title: "Penile implant", text: "A surgical option.", href: "/penile-implant" },
+          { title: "P-Shot vs penile injections", text: "PRP compared with alprostadil and trimix.", href: "/p-shot-vs-penile-injections" },
+          { title: "Evidence tracker", text: "Dated guideline positions.", href: "/ed-evidence-tracker" },
+          { title: "ED glossary", text: "Terms explained simply.", href: "/ed-glossary" },
+          { title: "Questions answered", text: "Short answers to common questions.", href: "/ed-questions" },
         ],
       },
       { type: "cta", title: "Not Sure Where to Start?", text: "Send your case and the clinic can advise which guides and options are relevant.", label: "Check Treatment Options", whatsapp: true },
@@ -515,7 +542,7 @@ export const clinicPages: PageDef[] = [
       { q: "Who writes the medical content on this site?", a: "The content is prepared for UZ Clinic Antalya and shows the date of its latest update. Pages are described as medically reviewed only when Dr. Niyazi Umut Özdemir has reviewed them." },
       { q: "How are experimental treatments described?", a: "Treatments are labelled as established, emerging or experimental, with their evidence status and limits stated next to the treatment, not hidden below it." },
     ],
-    related: ["/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir"],
+    related: ["/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir", "/ed-evidence-tracker"],
   },
   {
     path: "/evidence-methodology",
@@ -559,7 +586,7 @@ export const clinicPages: PageDef[] = [
       { q: "Which sources carry the most weight?", a: "Clinical guidelines and regulators come first, followed by systematic reviews and randomised controlled trials. Clinic observations and patient anecdotes cannot establish safety or effectiveness." },
       { q: "What happens when sources disagree?", a: "We report the disagreement and prioritise the current guideline position. For PRP and ED, positive trials exist alongside a negative placebo-controlled trial, so PRP is described as experimental." },
     ],
-    related: ["/editorial-policy", "/about"],
+    related: ["/editorial-policy", "/about", "/ed-evidence-tracker"],
   },
   {
     path: "/privacy",

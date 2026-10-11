@@ -6,8 +6,8 @@ import type { Block, PageDef } from "../types";
 
 const meta: Record<string, { metaTitle: string; description: string; ctaLabel: string; treatment?: PageDef["treatment"] }> = {
   "/testosterone-ed": {
-    metaTitle: "Low Testosterone and Erectile Dysfunction: When TRT Helps",
-    description: "How testosterone deficiency is diagnosed, when testosterone therapy may help ED and why it is not a universal ED treatment.",
+    metaTitle: "Testosterone Therapy and ED: Does TRT Help? | UZ Clinic",
+    description: "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
     ctaLabel: "Ask About Hormonal ED",
   },
   "/post-finasteride-syndrome-ed": {
@@ -27,8 +27,8 @@ const remap = (path: string) => redirects[path] ?? path;
 
 // Extra links so the retained guides connect to the new funnel pages.
 const extraRelated: Record<string, string[]> = {
-  "/p-shot-vs-viagra": ["/side-effects", "/p-shot", "/ed-treatment-options"],
-  "/testosterone-ed": ["/erectile-dysfunction", "/ed-treatment-options", "/post-finasteride-syndrome-ed"],
+  "/p-shot-vs-viagra": ["/side-effects", "/p-shot", "/ed-treatment-options", "/ed-tablets-not-working"],
+  "/testosterone-ed": ["/erectile-dysfunction", "/ed-treatment-options", "/post-finasteride-syndrome-ed", "/ed-tablets-not-working"],
   "/post-finasteride-syndrome-ed": ["/erectile-dysfunction", "/erectile-dysfunction-assessment", "/testosterone-ed"],
 };
 

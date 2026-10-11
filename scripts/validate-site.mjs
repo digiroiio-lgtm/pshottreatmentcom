@@ -154,6 +154,22 @@ const keywordMap = [
   ["/shockwave-therapy-erectile-dysfunction-turkey", "shockwave therapy for ed in turkey", "title"],
   ["/edswt", "li-eswt", "h1"],
   ["/edswt", "ed1000", "text"],
+  ["/price", "p-shot price", "h1"],
+  ["/price", "p shot uk price", "heading"],
+  ["/price", "how much is a p-shot in the uk", "text"],
+  ["/p-shot", "priapus shot", "text"],
+  ["/testosterone-ed", "ed on trt", "heading"],
+  ["/testosterone-ed", "does trt help erectile dysfunction", "text"],
+  ["/venous-leak", "venous leak treatment options", "text"],
+  ["/ed-tablets-not-working", "viagra or cialis not working", "text"],
+  ["/ed-tablets-not-working", "ed tablets", "title"],
+  ["/p-shot-vs-penile-injections", "trimix", "title"],
+  ["/ed-glossary", "vasculogenic", "text"],
+  ["/ed-under-40", "erectile dysfunction under 40", "h1"],
+  ["/losing-erection-during-sex", "losing an erection during sex", "h1"],
+  ["/ed-and-heart-disease", "erectile dysfunction and heart disease", "h1"],
+  ["/exosome-therapy-turkey", "is exosome therapy for erectile dysfunction available in turkey", "text"],
+  ["/stem-cell-treatment-ed-turkey", "stem cell treatment for ed in turkey", "text"],
 ];
 for (const [path, phrase, where] of keywordMap) {
   const html = pageHtml.get(path) ?? "";
@@ -164,6 +180,12 @@ for (const [path, phrase, where] of keywordMap) {
     text: () => textOf(html),
   }[where]();
   if (!pick.toLowerCase().includes(phrase)) fail(`${path} does not contain "${phrase}" in its ${where}`);
+}
+
+// Key facts: the pages that carry one must show a sourced, dated fact line.
+for (const path of ["/p-shot", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/testosterone-ed", "/ed-tablets-not-working"]) {
+  const html = pageHtml.get(path) ?? "";
+  if (!html.includes("data-fact") || !textOf(html).includes("Key fact:")) fail(`${path} has no key-fact line`);
 }
 
 // Breadcrumb labels must be short enough to survive in search results.

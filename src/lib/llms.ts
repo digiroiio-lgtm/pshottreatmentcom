@@ -1,6 +1,7 @@
 import { pages } from "@/content";
 import { comparisonHeaders, comparisonRows } from "@/content/treatments";
 import type { Block, PageDef } from "@/content/types";
+import { facts } from "@/content/facts";
 import { CLINIC, DOCTOR } from "./clinic";
 import { DATE } from "@/content/shared";
 import { getSources } from "./evidence";
@@ -100,6 +101,8 @@ export function buildLlmsFullTxt(): string {
   for (const page of pages) {
     const lines: string[] = [`## ${page.h1}`, "", `URL: ${absoluteUrl(page.path)}`, `Last updated: ${page.modified}`, ""];
     lines.push(`${page.answer.q} ${page.answer.a}`, "");
+    const fact = facts[page.path];
+    if (fact) lines.push(`Key fact: ${fact.text} (${getSources([fact.source])[0].publisher}, ${getSources([fact.source])[0].year})`, "");
     if (page.takeaways?.length) lines.push("Key takeaways:", ...page.takeaways.map((t) => `- ${t}`), "");
     page.blocks.forEach((block) => lines.push(...blockText(block)));
     if (page.faqs?.length) {

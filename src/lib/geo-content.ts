@@ -19,11 +19,15 @@ export const geoContent: Record<string, GeoContent> = {
   },
   "/testosterone-ed": {
     takeaways: [
+      "If ED continues on TRT, a urologist checks testosterone levels and then other causes such as blood flow, nerves, medicines and blood sugar.",
       "Low testosterone can reduce desire and contribute to ED, but ED alone is not proof of testosterone deficiency.",
       "Testosterone therapy is supported for appropriately diagnosed hypogonadism, not as a universal ED treatment.",
       "There is no high-quality evidence that combining PRP with testosterone gives a superior ED outcome.",
     ],
     faqs: [
+      { q: "Does TRT help erectile dysfunction?", a: "It can help sexual symptoms in men with confirmed testosterone deficiency, but it is not a general ED treatment and does not repair established vascular or nerve damage." },
+      { q: "Why do I still have ED on TRT?", a: "ED often has more than one cause. Blood flow, nerves, other medicines, diabetes, sleep and psychological factors can keep causing ED even when testosterone is in range. A urologist can look for them." },
+      { q: "What should I do if ED starts or worsens while I take testosterone therapy?", a: "Tell the prescriber, who may check your levels and look for other causes. Do not change or stop the dose yourself." },
       { q: "Does low testosterone cause erectile dysfunction?", a: "It can contribute, but ED is not proof of deficiency. Diagnosis requires compatible symptoms and appropriately timed biochemical testing, usually confirmed on more than one occasion." },
       { q: "Will testosterone therapy cure my ED?", a: "Not necessarily. It can improve sexual symptoms in men with confirmed hypogonadism but does not repair established vascular or nerve damage." },
       { q: "Is PRP combined with testosterone more effective?", a: "There is no high-quality evidence establishing that combination as superior, so it should not be marketed as synergistic without a relevant, cited clinical trial." },

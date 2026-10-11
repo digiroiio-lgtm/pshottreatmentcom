@@ -17,7 +17,7 @@ export const pshotPages: PageDef[] = [
     evidence: "Experimental",
     answer: {
       q: "What is P-Shot?",
-      a: "P-Shot is a penile PRP procedure in which platelet-rich plasma prepared from the patient's own blood is injected into penile tissue. It is used by some clinics as a regenerative approach for selected men with erectile dysfunction. It is considered experimental, and suitability and expected benefit vary between patients.",
+      a: "P-Shot is a penile PRP procedure in which platelet-rich plasma prepared from the patient's own blood is injected into penile tissue. It is used by some clinics as a regenerative approach for selected men with erectile dysfunction. It is sometimes marketed as the Priapus Shot, penile PRP or the plasma shot. It is considered experimental, and suitability and expected benefit vary between patients.",
     },
     lead: "This guide explains the procedure in plain language, who it may or may not suit, and what research does and does not show.",
     takeaways: [
@@ -128,6 +128,7 @@ export const pshotPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "What is the Priapus Shot?", a: "\"Priapus Shot\" is a brand name sometimes used for penile PRP injection, the same type of procedure described on this page. The medical term is intracavernosal platelet-rich plasma injection. It is experimental for erectile dysfunction." },
       { q: "Is the P-Shot proven to treat erectile dysfunction?", a: "No. Some trials report improvement, while others found no difference from placebo. " + EAU_PRP },
       { q: "Does the P-Shot hurt?", a: "Numbing is used before the injection. Many men describe mild discomfort, but experiences differ." },
       { q: "Is the P-Shot permanent?", a: "No permanent effect can be promised. If there is a benefit, how long it lasts is uncertain and varies between patients." },
@@ -137,7 +138,7 @@ export const pshotPages: PageDef[] = [
       { q: "What is the difference between P-Shot and PRP for ED?", a: "P-Shot is a brand-style name for penile PRP injection. The medical term is intracavernosal platelet-rich plasma injection." },
     ],
     sources: prpSources,
-    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences"],
+    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences", "/p-shot-vs-penile-injections", "/ed-questions"],
   },
   {
     path: "/p-shot-turkey",
@@ -334,6 +335,6 @@ export const pshotPages: PageDef[] = [
       { q: "Who might still consider PRP?", a: "Some well-informed men with organic ED, after discussing established options, may choose to explore it. The doctor decides after assessment." },
     ],
     sources: prpSources,
-    related: ["/p-shot", "/p-shot-vs-viagra", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-antalya"],
+    related: ["/p-shot", "/p-shot-vs-viagra", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-antalya", "/ed-evidence-tracker"],
   },
 ];

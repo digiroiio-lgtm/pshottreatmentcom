@@ -107,7 +107,7 @@ export const shockwavePages: PageDef[] = [
       { q: "Can I use shockwave with my tablets?", a: "Some men continue tablets during treatment. The doctor advises on your medicines and does not expect you to change them yourself." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/edswt", "/shockwave-therapy-erectile-dysfunction-turkey", "/penile-doppler-ultrasound", "/vasculogenic-erectile-dysfunction", "/p-shot-vs-shockwave", "/shockwave-vs-stem-cell", "/erectile-dysfunction-assessment", "/patient-experiences", "/ed-treatment-options"],
+    related: ["/edswt", "/shockwave-therapy-erectile-dysfunction-turkey", "/penile-doppler-ultrasound", "/vasculogenic-erectile-dysfunction", "/p-shot-vs-shockwave", "/shockwave-vs-stem-cell", "/erectile-dysfunction-assessment", "/patient-experiences", "/ed-treatment-options", "/ed-evidence-tracker"],
   },
   {
     path: "/edswt",

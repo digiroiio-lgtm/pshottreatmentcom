@@ -84,7 +84,7 @@ export const conditionPages: PageDef[] = [
       { q: "Is shockwave therapy for vasculogenic ED?", a: "Yes, it is intended primarily for vasculogenic ED, with careful patient selection. The EAU recommendation is weak and for selected men." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/venous-leak", "/penile-doppler-ultrasound", "/shockwave-therapy-ed", "/diabetes-erectile-dysfunction", "/erectile-dysfunction-assessment", "/edswt"],
+    related: ["/venous-leak", "/penile-doppler-ultrasound", "/shockwave-therapy-ed", "/diabetes-erectile-dysfunction", "/erectile-dysfunction-assessment", "/edswt", "/ed-tablets-not-working", "/ed-glossary"],
   },
   {
     path: "/venous-leak",
@@ -142,7 +142,7 @@ export const conditionPages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Venous leak treatment: options a urologist may discuss",
+        heading: "Venous leak treatment: options a urologist may discuss in 2026",
         id: "options",
         cols: 2,
         cards: [
@@ -162,12 +162,13 @@ export const conditionPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "What are the venous leak treatment options for ED?", a: "A urologist may discuss risk-factor control, optimised PDE5 tablets, vacuum devices, penile injections and, for severe ED, an implant. Shockwave and regenerative therapies have limited evidence in confirmed venous leak and are discussed only when appropriate." },
       { q: "Can venous leak be cured?", a: "No treatment is established as a cure. Management focuses on options that help you achieve a usable erection. The urologist explains what is realistic." },
       { q: "Can P-Shot treat venous leak?", a: "No evidence establishes PRP as a treatment for confirmed venous leak. It remains experimental." },
       { q: "How is venous leak confirmed?", a: "Usually through penile Doppler ultrasound and clinical assessment by a urologist." },
     ],
     sources: ["eau2026", "aua2018", "masterson2023"],
-    related: ["/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/ed-glossary", "/losing-erection-during-sex"],
   },
   {
     path: "/erectile-dysfunction-after-prostate-surgery",
@@ -287,7 +288,7 @@ export const conditionPages: PageDef[] = [
       { q: "Are tablets safe with diabetes?", a: "Often yes, but the doctor checks your heart health and other medicines first." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/vasculogenic-erectile-dysfunction", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/testosterone-ed"],
+    related: ["/vasculogenic-erectile-dysfunction", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/testosterone-ed", "/ed-and-heart-disease"],
   },
   {
     path: "/erectile-dysfunction-over-50",
@@ -339,7 +340,7 @@ export const conditionPages: PageDef[] = [
       { q: "Do I need a Doppler scan?", a: "Not for everyone. The doctor decides after history and examination." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-over-60", "/erectile-dysfunction", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/vasculogenic-erectile-dysfunction", "/testosterone-ed", "/post-finasteride-syndrome-ed"],
+    related: ["/erectile-dysfunction-over-60", "/erectile-dysfunction", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/vasculogenic-erectile-dysfunction", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/ed-and-heart-disease"],
   },
   {
     path: "/erectile-dysfunction-over-60",
@@ -389,6 +390,6 @@ export const conditionPages: PageDef[] = [
       { q: "Are regenerative treatments suitable?", a: "They are experimental. A doctor decides after assessment, and established options are discussed first." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-over-50", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/penile-doppler-ultrasound", "/testosterone-ed"],
+    related: ["/erectile-dysfunction-over-50", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/penile-doppler-ultrasound", "/testosterone-ed", "/ed-and-heart-disease"],
   },
 ];
