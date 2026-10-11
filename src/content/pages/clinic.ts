@@ -472,6 +472,9 @@ export const clinicPages: PageDef[] = [
           { title: "ED over 50", text: "Early assessment.", href: "/erectile-dysfunction-over-50" },
           { title: "ED over 60", text: "Safe, realistic options.", href: "/erectile-dysfunction-over-60" },
           { title: "Tablets not working", text: "Viagra or Cialis not working: what to check.", href: "/ed-tablets-not-working" },
+          { title: "ED under 40", text: "Causes in younger men.", href: "/ed-under-40" },
+          { title: "Losing an erection during sex", text: "Why an erection fades.", href: "/losing-erection-during-sex" },
+          { title: "ED and heart disease", text: "Why the two are linked.", href: "/ed-and-heart-disease" },
         ],
       },
       {

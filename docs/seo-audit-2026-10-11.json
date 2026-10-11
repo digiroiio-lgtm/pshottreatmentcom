@@ -249,7 +249,10 @@
     "/p-shot-vs-penile-injections",
     "/ed-evidence-tracker",
     "/ed-glossary",
-    "/ed-questions"
+    "/ed-questions",
+    "/ed-under-40",
+    "/losing-erection-during-sex",
+    "/ed-and-heart-disease"
    ]
   },
   {
@@ -299,7 +302,10 @@
     "/p-shot-vs-viagra",
     "/ed-tablets-not-working",
     "/p-shot-vs-penile-injections",
-    "/ed-evidence-tracker"
+    "/ed-evidence-tracker",
+    "/ed-under-40",
+    "/losing-erection-during-sex",
+    "/ed-and-heart-disease"
    ]
   },
   {
@@ -344,7 +350,10 @@
     "/p-shot-vs-penile-injections",
     "/ed-evidence-tracker",
     "/ed-glossary",
-    "/ed-questions"
+    "/ed-questions",
+    "/ed-under-40",
+    "/losing-erection-during-sex",
+    "/ed-and-heart-disease"
    ]
   },
   {
@@ -378,7 +387,10 @@
     "/ed-tablets-not-working",
     "/p-shot-vs-penile-injections",
     "/ed-evidence-tracker",
-    "/ed-questions"
+    "/ed-questions",
+    "/ed-under-40",
+    "/losing-erection-during-sex",
+    "/ed-and-heart-disease"
    ]
   },
   {
@@ -835,7 +847,7 @@
     "h1": [
      "Erectile Dysfunction: Causes, Types and Specialist Assessment"
     ],
-    "words": 1740
+    "words": 1757
    },
    "schema": [
     {
@@ -7729,7 +7741,7 @@
     "h1": [
      "Venous Leak and Erectile Dysfunction"
     ],
-    "words": 1287
+    "words": 1293
    },
    "schema": [
     {
@@ -8479,7 +8491,7 @@
     "h1": [
      "Diabetes and Erectile Dysfunction"
     ],
-    "words": 735
+    "words": 741
    },
    "schema": [
     {
@@ -8830,7 +8842,7 @@
     "h1": [
      "Erectile Dysfunction Over 50"
     ],
-    "words": 972
+    "words": 978
    },
    "schema": [
     {
@@ -9181,7 +9193,7 @@
     "h1": [
      "Erectile Dysfunction Over 60"
     ],
-    "words": 959
+    "words": 965
    },
    "schema": [
     {
@@ -14042,7 +14054,7 @@
     "h1": [
      "Erectile Dysfunction Knowledge Hub"
     ],
-    "words": 656
+    "words": 690
    },
    "schema": [
     {
@@ -16359,7 +16371,7 @@
     "h1": [
      "When ED Tablets (Viagra, Cialis) Stop Working"
     ],
-    "words": 1473
+    "words": 1484
    },
    "schema": [
     {
@@ -17905,7 +17917,7 @@
     "h1": [
      "Erectile Dysfunction: Your Questions Answered"
     ],
-    "words": 1038
+    "words": 1055
    },
    "schema": [
     {
@@ -18421,6 +18433,1091 @@
        "acceptedAnswer": {
         "@type": "Answer",
         "text": "For chest pain, an erection lasting more than four hours, new neurological symptoms or penile injury."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-under-40",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Erectile Dysfunction Under 40: Causes and What to Do",
+    "description": "ED in young men is more common than many expect. Typical causes, why a check-up matters and which options a urologist may discuss for ED under 40.",
+    "canonical": "https://pshottreatment.com/ed-under-40",
+    "robots": "index, follow",
+    "h1": [
+     "Erectile Dysfunction Under 40"
+    ],
+    "words": 1370
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-under-40#webpage",
+     "url": "https://pshottreatment.com/ed-under-40",
+     "name": "Erectile Dysfunction Under 40: Causes and What to Do",
+     "description": "ED in young men is more common than many expect. Typical causes, why a check-up matters and which options a urologist may discuss for ED under 40.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-under-40",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-under-40#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-under-40#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-under-40#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "ED under 40",
+       "item": "https://pshottreatment.com/ed-under-40"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-under-40#article",
+     "headline": "Erectile Dysfunction Under 40",
+     "description": "ED in young men is more common than many expect. Typical causes, why a check-up matters and which options a urologist may discuss for ED under 40.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-under-40#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-under-40",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/ed-under-40#faq",
+     "url": "https://pshottreatment.com/ed-under-40",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/ed-under-40#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is ED at 30 normal?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is not rare, but it should not be ignored. Stress, anxiety, lifestyle, medicines and low testosterone are common causes, and a health check can also find conditions such as diabetes."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can anxiety alone cause erectile dysfunction?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Performance anxiety and stress can cause ED, and anxiety can also develop as a result of ED. A physical cause can coexist, so assessment is worthwhile."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can ED in a young man be reversed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often the contributing causes can be treated, and many men improve. The outcome depends on the cause, and no result can be promised."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Should I take Viagra or Cialis at my age?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only after a health check and with a prescription. Do not buy tablets from unregulated sellers, and never combine them with nitrates."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need a Doppler scan?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not usually. It is used in selected men, for example when a blood-flow problem is suspected."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/losing-erection-during-sex",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Losing an Erection During Sex: Causes and Treatment",
+    "description": "An erection that fades during sex can have physical or psychological causes, such as venous leak, anxiety, medicines and alcohol. What to check and what helps.",
+    "canonical": "https://pshottreatment.com/losing-erection-during-sex",
+    "robots": "index, follow",
+    "h1": [
+     "Losing an Erection During Sex"
+    ],
+    "words": 1277
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/losing-erection-during-sex#webpage",
+     "url": "https://pshottreatment.com/losing-erection-during-sex",
+     "name": "Losing an Erection During Sex: Causes and Treatment",
+     "description": "An erection that fades during sex can have physical or psychological causes, such as venous leak, anxiety, medicines and alcohol. What to check and what helps.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Flosing-erection-during-sex",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/losing-erection-during-sex#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/losing-erection-during-sex#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/losing-erection-during-sex#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Losing an erection",
+       "item": "https://pshottreatment.com/losing-erection-during-sex"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/losing-erection-during-sex#article",
+     "headline": "Losing an Erection During Sex",
+     "description": "An erection that fades during sex can have physical or psychological causes, such as venous leak, anxiety, medicines and alcohol. What to check and what helps.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/losing-erection-during-sex#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Flosing-erection-during-sex",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/losing-erection-during-sex#faq",
+     "url": "https://pshottreatment.com/losing-erection-during-sex",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/losing-erection-during-sex#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is losing an erection during sex a sign of venous leak?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can be, but it is not specific. Anxiety, alcohol, medicines, hormonal problems and blood-flow problems can look similar, so a urologist needs to assess it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can anxiety make me lose my erection?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Performance anxiety and distraction can interrupt an erection, and a physical cause can coexist. Assessment helps separate them."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How is it diagnosed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Through history and examination, blood tests when useful and, in selected men, penile Doppler ultrasound."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can it be treated?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Often something helps, but the treatment depends on the cause and no outcome can be promised. A urologist can explain which options are realistic."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-and-heart-disease",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Erectile Dysfunction and Heart Disease: The Link",
+    "description": "ED and heart disease share risk factors, and ED can be an early warning sign. What to check, ED tablet safety with heart medicines and when to get urgent help.",
+    "canonical": "https://pshottreatment.com/ed-and-heart-disease",
+    "robots": "index, follow",
+    "h1": [
+     "Erectile Dysfunction and Heart Disease"
+    ],
+    "words": 1110
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-and-heart-disease#webpage",
+     "url": "https://pshottreatment.com/ed-and-heart-disease",
+     "name": "Erectile Dysfunction and Heart Disease: The Link",
+     "description": "ED and heart disease share risk factors, and ED can be an early warning sign. What to check, ED tablet safety with heart medicines and when to get urgent help.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-and-heart-disease",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-and-heart-disease#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-and-heart-disease#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-and-heart-disease#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "ED and heart disease",
+       "item": "https://pshottreatment.com/ed-and-heart-disease"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-and-heart-disease#article",
+     "headline": "Erectile Dysfunction and Heart Disease",
+     "description": "ED and heart disease share risk factors, and ED can be an early warning sign. What to check, ED tablet safety with heart medicines and when to get urgent help.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-and-heart-disease#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-and-heart-disease",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/ed-and-heart-disease#faq",
+     "url": "https://pshottreatment.com/ed-and-heart-disease",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/ed-and-heart-disease#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can ED be a warning sign of heart disease?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. ED and cardiovascular disease share risk factors, and ED can appear before other symptoms, so a health review is sensible, especially if ED is new or worsening."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is it safe to take Viagra or Cialis with heart disease?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the condition and your medicines. PDE5 tablets must never be taken with nitrates. Ask a doctor who knows your heart history before using them."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do heart medicines cause ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some can, including certain blood-pressure medicines. Do not stop them yourself; the prescriber may be able to adjust the treatment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does treating my heart risk factors help ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Improving blood pressure, cholesterol, blood sugar, smoking and exercise can help blood vessel health and may improve erections in some men, but no outcome can be promised."
        }
       }
      ]

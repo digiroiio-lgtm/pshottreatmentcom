@@ -99,7 +99,7 @@ export const corePages: PageDef[] = [
       { q: "Do I need to know which treatment I want before contacting the clinic?", a: "No. Send your case and the clinic can advise which options may be relevant to you." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-treatment", "/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/diabetes-erectile-dysfunction", "/ed-questions", "/ed-glossary", "/ed-tablets-not-working"],
+    related: ["/erectile-dysfunction-treatment", "/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/diabetes-erectile-dysfunction", "/ed-questions", "/ed-glossary", "/ed-tablets-not-working", "/ed-under-40", "/losing-erection-during-sex", "/ed-and-heart-disease"],
   },
   {
     path: "/erectile-dysfunction-treatment",

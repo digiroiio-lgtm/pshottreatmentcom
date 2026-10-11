@@ -40,6 +40,9 @@ New pages from the growth plan (2026-10-11):
 | EAU/AUA guideline positions on PRP, shockwave, stem cells | /ed-evidence-tracker |
 | ED terms (vasculogenic, venous leak, priapism, EdSWT) | /ed-glossary |
 | Short answers to common ED questions (FAQ hub) | /ed-questions |
+| ED at 30, ED in young men | /ed-under-40 |
+| losing erection during sex, erection fades, can't keep an erection | /losing-erection-during-sex |
+| ED and heart disease, ED warning sign | /ed-and-heart-disease |
 
 Volumes are tiny (the site is new), so these are positions to defend and expand, not proof of demand. Re-pull Search Console monthly and move queries at positions 8-30 to the top of the rewrite queue.
 

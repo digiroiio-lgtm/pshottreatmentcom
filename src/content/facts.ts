@@ -38,5 +38,8 @@ export const facts: Record<string, Fact> = {
   "/testosterone-ed": { text: "Testosterone therapy is supported for appropriately diagnosed hypogonadism, not as a universal ED treatment.", source: "eau2026" },
   "/post-finasteride-syndrome-ed": { text: "UK safety information warns that sexual dysfunction may persist after finasteride treatment is stopped.", source: "mhraFinasteride" },
   "/ed-tablets-not-working": pde5,
+  "/ed-under-40": prp,
+  "/losing-erection-during-sex": doppler,
+  "/ed-and-heart-disease": { text: "Major guidelines support cardiovascular risk assessment as part of the ED work-up, because ED shares risk factors with heart disease and diabetes.", source: "eau2026" },
   "/ed-evidence-tracker": prp,
 };

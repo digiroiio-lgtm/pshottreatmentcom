@@ -165,6 +165,9 @@ const keywordMap = [
   ["/ed-tablets-not-working", "ed tablets", "title"],
   ["/p-shot-vs-penile-injections", "trimix", "title"],
   ["/ed-glossary", "vasculogenic", "text"],
+  ["/ed-under-40", "erectile dysfunction under 40", "h1"],
+  ["/losing-erection-during-sex", "losing an erection during sex", "h1"],
+  ["/ed-and-heart-disease", "erectile dysfunction and heart disease", "h1"],
   ["/exosome-therapy-turkey", "is exosome therapy for erectile dysfunction available in turkey", "text"],
   ["/stem-cell-treatment-ed-turkey", "stem cell treatment for ed in turkey", "text"],
 ];

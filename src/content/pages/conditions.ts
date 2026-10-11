@@ -168,7 +168,7 @@ export const conditionPages: PageDef[] = [
       { q: "How is venous leak confirmed?", a: "Usually through penile Doppler ultrasound and clinical assessment by a urologist." },
     ],
     sources: ["eau2026", "aua2018", "masterson2023"],
-    related: ["/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/ed-glossary"],
+    related: ["/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/ed-glossary", "/losing-erection-during-sex"],
   },
   {
     path: "/erectile-dysfunction-after-prostate-surgery",
@@ -288,7 +288,7 @@ export const conditionPages: PageDef[] = [
       { q: "Are tablets safe with diabetes?", a: "Often yes, but the doctor checks your heart health and other medicines first." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/vasculogenic-erectile-dysfunction", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/testosterone-ed"],
+    related: ["/vasculogenic-erectile-dysfunction", "/shockwave-therapy-ed", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/testosterone-ed", "/ed-and-heart-disease"],
   },
   {
     path: "/erectile-dysfunction-over-50",
@@ -340,7 +340,7 @@ export const conditionPages: PageDef[] = [
       { q: "Do I need a Doppler scan?", a: "Not for everyone. The doctor decides after history and examination." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-over-60", "/erectile-dysfunction", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/vasculogenic-erectile-dysfunction", "/testosterone-ed", "/post-finasteride-syndrome-ed"],
+    related: ["/erectile-dysfunction-over-60", "/erectile-dysfunction", "/penile-doppler-ultrasound", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/vasculogenic-erectile-dysfunction", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/ed-and-heart-disease"],
   },
   {
     path: "/erectile-dysfunction-over-60",
@@ -390,6 +390,6 @@ export const conditionPages: PageDef[] = [
       { q: "Are regenerative treatments suitable?", a: "They are experimental. A doctor decides after assessment, and established options are discussed first." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-over-50", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/penile-doppler-ultrasound", "/testosterone-ed"],
+    related: ["/erectile-dysfunction-over-50", "/penile-implant", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/diabetes-erectile-dysfunction", "/penile-doppler-ultrasound", "/testosterone-ed", "/ed-and-heart-disease"],
   },
 ];
