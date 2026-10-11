@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { getPage } from "@/content";
 import { breadcrumbLabels } from "@/content/breadcrumbs";
+import { facts } from "@/content/facts";
 import type { Block, PageDef } from "@/content/types";
 import { getSources } from "@/lib/evidence";
 import { ASSESSMENT_PATH } from "@/lib/site-config";
@@ -193,6 +194,8 @@ export default function ContentPage({ page }: { page: PageDef }) {
   const crumbs = breadcrumbsFor(page);
   const related = (page.related ?? []).map((path) => getPage(path)).filter((p): p is PageDef => Boolean(p));
   const isAssessment = page.path === ASSESSMENT_PATH;
+  const rawFact = facts[page.path];
+  const fact = rawFact ? { text: rawFact.text, source: getSources([rawFact.source])[0] } : undefined;
 
   return (
     <div data-page-kind={page.kind} className="pb-20">
@@ -208,6 +211,12 @@ export default function ContentPage({ page }: { page: PageDef }) {
           <p className="text-sm font-bold text-teal-800 mb-1">{page.answer.q}</p>
           <p className="text-lg text-slate-800 leading-relaxed">{page.answer.a}</p>
         </div>
+        {fact && (
+          <p data-fact className="text-sm text-slate-700 mb-5">
+            <strong className="text-slate-950">Key fact:</strong> {fact.text}{" "}
+            <span className="text-slate-500">({fact.source.publisher}, {fact.source.year}; page updated <time dateTime={page.modified}>{page.modified}</time>)</span>
+          </p>
+        )}
         {page.lead && <p className="text-slate-700 text-lg mb-5">{page.lead}</p>}
         <div className="flex flex-col sm:flex-row gap-3">
           {isAssessment ? (

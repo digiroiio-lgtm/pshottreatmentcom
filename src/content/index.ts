@@ -3,6 +3,7 @@ import { comparisonPages } from "./pages/comparisons";
 import { conditionPages } from "./pages/conditions";
 import { corePages } from "./pages/core";
 import { diagnosticPages } from "./pages/diagnostics";
+import { growthPages } from "./pages/growth";
 import { homePage } from "./pages/home";
 import { legacyPages } from "./pages/legacy";
 import { pshotPages } from "./pages/pshot";
@@ -21,6 +22,7 @@ export const pages: PageDef[] = [
   ...comparisonPages,
   ...clinicPages,
   ...legacyPages,
+  ...growthPages,
 ];
 
 const byPath = new Map(pages.map((page) => [page.path, page]));

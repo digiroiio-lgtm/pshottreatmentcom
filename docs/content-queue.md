@@ -5,15 +5,15 @@ Pace: 1-2 pieces per week. Every piece: one intent, answer-first block, key take
 | Week | Piece | Type | Target queries |
 | --- | --- | --- | --- |
 | 1-4 | /price rewrite, /p-shot alias, /testosterone-ed and /venous-leak refresh | existing pages | p shot uk price, priapus shot, ed on trt, venous leak treatment options |
-| 5 | When ED tablets stop working | article | tadalafil not working, sildenafil not working, ED treatment when pills fail |
-| 6 | P-Shot vs penile injections (alprostadil) | comparison | p shot vs trimix, injections vs PRP |
+| 5 | When ED tablets stop working (published 2026-10-11) | article | tadalafil not working, sildenafil not working, ED treatment when pills fail |
+| 6 | P-Shot vs penile injections (alprostadil) (published 2026-10-11) | comparison | p shot vs trimix, injections vs PRP |
 | 7 | ED under 40 | article | ED at 30, ED in young men |
 | 8 | Losing an erection during sex | article | can't keep an erection, erection fades |
 | 9 | ED and heart disease | article | ED heart disease, ED warning sign |
 | 10 | ED and blood-pressure medicines | article | blood pressure tablets ED |
-| 11-12 | Evidence tracker (EAU/AUA positions, dated) | reference | EAU guideline PRP ED, shockwave guideline |
-| 13 | ED glossary (EdSWT, PRP, vasculogenic, venous leak, Doppler) | reference | DefinedTerm coverage |
-| 14-16 | Questions hub (40 most asked questions) | FAQ hub | question queries, AI answers |
+| 11-12 | Evidence tracker (EAU/AUA positions, dated) (published 2026-10-11) | reference | EAU guideline PRP ED, shockwave guideline |
+| 13 | ED glossary (published 2026-10-11) | reference | DefinedTerm coverage |
+| 14-16 | Questions hub (25 questions published 2026-10-11; grow to 40 from Search Console) | FAQ hub | question queries, AI answers |
 | 17 | Antidepressants and ED | article | SSRI erectile dysfunction |
 | 18 | Anxiety and ED | article | performance anxiety ED |
 | 19 | Sleep apnoea, alcohol, smoking and ED | article | lifestyle causes |

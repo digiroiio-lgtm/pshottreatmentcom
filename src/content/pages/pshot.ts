@@ -138,7 +138,7 @@ export const pshotPages: PageDef[] = [
       { q: "What is the difference between P-Shot and PRP for ED?", a: "P-Shot is a brand-style name for penile PRP injection. The medical term is intracavernosal platelet-rich plasma injection." },
     ],
     sources: prpSources,
-    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences"],
+    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences", "/p-shot-vs-penile-injections", "/ed-questions"],
   },
   {
     path: "/p-shot-turkey",
@@ -335,6 +335,6 @@ export const pshotPages: PageDef[] = [
       { q: "Who might still consider PRP?", a: "Some well-informed men with organic ED, after discussing established options, may choose to explore it. The doctor decides after assessment." },
     ],
     sources: prpSources,
-    related: ["/p-shot", "/p-shot-vs-viagra", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-antalya"],
+    related: ["/p-shot", "/p-shot-vs-viagra", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-antalya", "/ed-evidence-tracker"],
   },
 ];

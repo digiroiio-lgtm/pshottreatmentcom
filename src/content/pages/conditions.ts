@@ -84,7 +84,7 @@ export const conditionPages: PageDef[] = [
       { q: "Is shockwave therapy for vasculogenic ED?", a: "Yes, it is intended primarily for vasculogenic ED, with careful patient selection. The EAU recommendation is weak and for selected men." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/venous-leak", "/penile-doppler-ultrasound", "/shockwave-therapy-ed", "/diabetes-erectile-dysfunction", "/erectile-dysfunction-assessment", "/edswt"],
+    related: ["/venous-leak", "/penile-doppler-ultrasound", "/shockwave-therapy-ed", "/diabetes-erectile-dysfunction", "/erectile-dysfunction-assessment", "/edswt", "/ed-tablets-not-working", "/ed-glossary"],
   },
   {
     path: "/venous-leak",
@@ -168,7 +168,7 @@ export const conditionPages: PageDef[] = [
       { q: "How is venous leak confirmed?", a: "Usually through penile Doppler ultrasound and clinical assessment by a urologist." },
     ],
     sources: ["eau2026", "aua2018", "masterson2023"],
-    related: ["/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+    related: ["/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/ed-glossary"],
   },
   {
     path: "/erectile-dysfunction-after-prostate-surgery",

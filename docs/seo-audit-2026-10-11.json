@@ -244,7 +244,12 @@
     "/privacy",
     "/testosterone-ed",
     "/post-finasteride-syndrome-ed",
-    "/p-shot-vs-viagra"
+    "/p-shot-vs-viagra",
+    "/ed-tablets-not-working",
+    "/p-shot-vs-penile-injections",
+    "/ed-evidence-tracker",
+    "/ed-glossary",
+    "/ed-questions"
    ]
   },
   {
@@ -291,7 +296,10 @@
     "/side-effects",
     "/testosterone-ed",
     "/post-finasteride-syndrome-ed",
-    "/p-shot-vs-viagra"
+    "/p-shot-vs-viagra",
+    "/ed-tablets-not-working",
+    "/p-shot-vs-penile-injections",
+    "/ed-evidence-tracker"
    ]
   },
   {
@@ -331,7 +339,12 @@
     "/side-effects",
     "/testosterone-ed",
     "/post-finasteride-syndrome-ed",
-    "/p-shot-vs-viagra"
+    "/p-shot-vs-viagra",
+    "/ed-tablets-not-working",
+    "/p-shot-vs-penile-injections",
+    "/ed-evidence-tracker",
+    "/ed-glossary",
+    "/ed-questions"
    ]
   },
   {
@@ -361,7 +374,11 @@
     "/penile-rehabilitation",
     "/penile-implant",
     "/testosterone-ed",
-    "/p-shot-vs-viagra"
+    "/p-shot-vs-viagra",
+    "/ed-tablets-not-working",
+    "/p-shot-vs-penile-injections",
+    "/ed-evidence-tracker",
+    "/ed-questions"
    ]
   },
   {
@@ -378,7 +395,8 @@
     "/p-shot-vs-stem-cell",
     "/price",
     "/side-effects",
-    "/p-shot-vs-viagra"
+    "/p-shot-vs-viagra",
+    "/p-shot-vs-penile-injections"
    ]
   },
   {
@@ -392,7 +410,8 @@
     "/p-shot-antalya",
     "/prp-for-erectile-dysfunction",
     "/p-shot-vs-shockwave",
-    "/side-effects"
+    "/side-effects",
+    "/ed-evidence-tracker"
    ]
   },
   {
@@ -408,7 +427,9 @@
     "/venous-leak",
     "/p-shot-vs-shockwave",
     "/side-effects",
-    "/p-shot-vs-viagra"
+    "/p-shot-vs-viagra",
+    "/p-shot-vs-penile-injections",
+    "/ed-evidence-tracker"
    ]
   },
   {
@@ -420,7 +441,8 @@
     "/p-shot",
     "/p-shot-turkey",
     "/p-shot-antalya",
-    "/prp-for-erectile-dysfunction"
+    "/prp-for-erectile-dysfunction",
+    "/ed-evidence-tracker"
    ]
   },
   {
@@ -485,7 +507,8 @@
    "state": "unchecked",
    "detail": "ENOTFOUND",
    "sources": [
-    "/post-finasteride-syndrome-ed"
+    "/post-finasteride-syndrome-ed",
+    "/ed-evidence-tracker"
    ]
   }
  ],
@@ -812,7 +835,7 @@
     "h1": [
      "Erectile Dysfunction: Causes, Types and Specialist Assessment"
     ],
-    "words": 1688
+    "words": 1740
    },
    "schema": [
     {
@@ -1213,7 +1236,7 @@
     "h1": [
      "Erectile Dysfunction Treatment: A Cause-Based Plan"
     ],
-    "words": 1543
+    "words": 1571
    },
    "schema": [
     {
@@ -1618,7 +1641,7 @@
     "h1": [
      "ED Treatment Options Compared"
     ],
-    "words": 1260
+    "words": 1318
    },
    "schema": [
     {
@@ -2002,7 +2025,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1115
+    "words": 1147
    },
    "schema": [
     {
@@ -2333,7 +2356,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Antalya"
     ],
-    "words": 1049
+    "words": 1077
    },
    "schema": [
     {
@@ -2696,7 +2719,7 @@
     "h1": [
      "P-Shot PRP Treatment for Erectile Dysfunction"
     ],
-    "words": 2021
+    "words": 2067
    },
    "schema": [
     {
@@ -3218,7 +3241,7 @@
     "h1": [
      "P-Shot in Turkey: Information for International Patients"
     ],
-    "words": 1175
+    "words": 1207
    },
    "schema": [
     {
@@ -3656,7 +3679,7 @@
     "h1": [
      "P-Shot at UZ Clinic Antalya"
     ],
-    "words": 1047
+    "words": 1079
    },
    "schema": [
     {
@@ -4138,7 +4161,7 @@
     "h1": [
      "PRP for Erectile Dysfunction: What the Evidence Shows"
     ],
-    "words": 1059
+    "words": 1096
    },
    "schema": [
     {
@@ -4584,7 +4607,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction (EdSWT)"
     ],
-    "words": 1527
+    "words": 1570
    },
    "schema": [
     {
@@ -5015,7 +5038,7 @@
     "h1": [
      "EdSWT and Li-ESWT: Protocol, Device and Sessions"
     ],
-    "words": 808
+    "words": 846
    },
    "schema": [
     {
@@ -5373,7 +5396,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction in Turkey"
     ],
-    "words": 873
+    "words": 911
    },
    "schema": [
     {
@@ -5723,7 +5746,7 @@
     "h1": [
      "Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 1593
+    "words": 1629
    },
    "schema": [
     {
@@ -6187,7 +6210,7 @@
     "h1": [
      "Stem Cell Treatment for ED in Turkey: What to Know Before You Travel"
     ],
-    "words": 904
+    "words": 1021
    },
    "schema": [
     {
@@ -6507,6 +6530,22 @@
      },
      "inLanguage": "en-GB",
      "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is stem cell therapy for ED legal and available in Turkey?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Questions about regulation and availability should be answered in writing by any provider for the specific product offered. At UZ Clinic Antalya, a urologist reviews your case first and explains whether any regenerative option is appropriate."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much does stem cell treatment for ED cost in Turkey?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prices differ by provider, source and protocol, and a higher price does not mean stronger evidence. Ask for an itemised written quote that names the product and procedure."
+       }
+      },
       {
        "@type": "Question",
        "name": "Can I be assessed before travelling?",
@@ -6953,7 +6992,7 @@
     "h1": [
      "Exosome Therapy for ED in Turkey"
     ],
-    "words": 787
+    "words": 860
    },
    "schema": [
     {
@@ -7255,6 +7294,22 @@
      "mainEntity": [
       {
        "@type": "Question",
+       "name": "Is exosome therapy for erectile dysfunction available in Turkey?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some providers advertise it. Because human evidence is very limited and no protocol is established, the sensible step is a specialist assessment first. At UZ Clinic Antalya, availability is considered only after clinical evaluation."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does the clinic publish success rates for exosome therapy?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The clinic does not publish doses, success rates or outcome claims for exosome therapy, because none are established for ED."
+       }
+      },
+      {
+       "@type": "Question",
        "name": "Can the clinic confirm exosome availability before I travel?",
        "acceptedAnswer": {
         "@type": "Answer",
@@ -7303,7 +7358,7 @@
     "h1": [
      "Vasculogenic Erectile Dysfunction (Blood-Flow Related ED)"
     ],
-    "words": 1220
+    "words": 1265
    },
    "schema": [
     {
@@ -7674,7 +7729,7 @@
     "h1": [
      "Venous Leak and Erectile Dysfunction"
     ],
-    "words": 1250
+    "words": 1287
    },
    "schema": [
     {
@@ -8073,7 +8128,7 @@
     "h1": [
      "Erectile Dysfunction After Prostate Surgery"
     ],
-    "words": 756
+    "words": 787
    },
    "schema": [
     {
@@ -8424,7 +8479,7 @@
     "h1": [
      "Diabetes and Erectile Dysfunction"
     ],
-    "words": 705
+    "words": 735
    },
    "schema": [
     {
@@ -9830,7 +9885,7 @@
     "h1": [
      "Penile Doppler Ultrasound for Erectile Dysfunction"
     ],
-    "words": 1040
+    "words": 1077
    },
    "schema": [
     {
@@ -10225,7 +10280,7 @@
     "h1": [
      "P-Shot vs Shockwave Therapy for Erectile Dysfunction"
     ],
-    "words": 895
+    "words": 941
    },
    "schema": [
     {
@@ -10596,7 +10651,7 @@
     "h1": [
      "P-Shot vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 788
+    "words": 819
    },
    "schema": [
     {
@@ -10959,7 +11014,7 @@
     "h1": [
      "Shockwave Therapy vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 758
+    "words": 796
    },
    "schema": [
     {
@@ -12333,7 +12388,7 @@
     "h1": [
      "About UZ Clinic Antalya"
     ],
-    "words": 827
+    "words": 833
    },
    "schema": [
     {
@@ -13624,7 +13679,7 @@
     "h1": [
      "P-Shot Side Effects and Risks"
     ],
-    "words": 748
+    "words": 785
    },
    "schema": [
     {
@@ -13987,7 +14042,7 @@
     "h1": [
      "Erectile Dysfunction Knowledge Hub"
     ],
-    "words": 603
+    "words": 656
    },
    "schema": [
     {
@@ -14417,7 +14472,7 @@
     "h1": [
      "Editorial Policy"
     ],
-    "words": 407
+    "words": 412
    },
    "schema": [
     {
@@ -14688,7 +14743,7 @@
     "h1": [
      "Evidence Methodology"
     ],
-    "words": 422
+    "words": 427
    },
    "schema": [
     {
@@ -15199,7 +15254,7 @@
     "h1": [
      "Low Testosterone and Erectile Dysfunction"
     ],
-    "words": 1058
+    "words": 1094
    },
    "schema": [
     {
@@ -15574,7 +15629,7 @@
     "h1": [
      "Finasteride and Persistent Sexual Symptoms"
     ],
-    "words": 876
+    "words": 907
    },
    "schema": [
     {
@@ -15933,7 +15988,7 @@
     "h1": [
      "P-Shot vs Viagra for Erectile Dysfunction"
     ],
-    "words": 858
+    "words": 894
    },
    "schema": [
     {
@@ -16285,6 +16340,2087 @@
        "acceptedAnswer": {
         "@type": "Answer",
         "text": "No. Sildenafil must not be combined with nitrates or nitric-oxide donors because of dangerous blood-pressure effects."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-tablets-not-working",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "When ED Tablets Stop Working: Causes and Next Steps",
+    "description": "Viagra or Cialis not working? Check use, dose and interactions, look for the underlying cause and learn which options a urologist may discuss next.",
+    "canonical": "https://pshottreatment.com/ed-tablets-not-working",
+    "robots": "index, follow",
+    "h1": [
+     "When ED Tablets (Viagra, Cialis) Stop Working"
+    ],
+    "words": 1473
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-tablets-not-working#webpage",
+     "url": "https://pshottreatment.com/ed-tablets-not-working",
+     "name": "When ED Tablets Stop Working: Causes and Next Steps",
+     "description": "Viagra or Cialis not working? Check use, dose and interactions, look for the underlying cause and learn which options a urologist may discuss next.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-tablets-not-working",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-tablets-not-working#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-tablets-not-working#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-tablets-not-working#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "ED tablets not working",
+       "item": "https://pshottreatment.com/ed-tablets-not-working"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-tablets-not-working#article",
+     "headline": "When ED Tablets (Viagra, Cialis) Stop Working",
+     "description": "Viagra or Cialis not working? Check use, dose and interactions, look for the underlying cause and learn which options a urologist may discuss next.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-tablets-not-working#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-tablets-not-working",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/ed-tablets-not-working#faq",
+     "url": "https://pshottreatment.com/ed-tablets-not-working",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/ed-tablets-not-working#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Why is Viagra not working for me?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common reasons are incorrect timing, a heavy meal with sildenafil, too little stimulation, a counterfeit product, an interaction or an untreated cause such as low testosterone, diabetes or poor blood flow."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is Cialis better if Viagra does not work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some men respond to one PDE5 inhibitor better than another, and tadalafil acts over a longer window. A prescriber decides whether switching is appropriate for your health and medicines."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What can I try if ED tablets do not work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A urologist may discuss treating the cause, a different schedule, vacuum devices, penile injections, shockwave therapy for selected men, or an implant for severe ED. Regenerative treatments are experimental."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I take more tablets if the dose does not work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Do not exceed the prescribed dose. Speak to the prescriber, who can check for interactions and decide whether a change is safe."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do ED tablets work after prostate surgery or with diabetes?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They may help some men, but response can be lower when nerves or blood vessels are affected. A urologist can advise which options are realistic for your case."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "ItemList",
+     "@id": "https://pshottreatment.com/ed-tablets-not-working#steps",
+     "name": "Before deciding a tablet has failed",
+     "itemListOrder": "https://schema.org/ItemListOrderAscending",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Dose and timing",
+       "description": "Sildenafil is usually taken before sex, and a heavy meal can delay it. Tadalafil acts over a longer window. Ask the prescriber whether your dose and timing suit the medicine."
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Stimulation",
+       "description": "These tablets support the erection response to sexual stimulation. They do not create an erection on their own."
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "A genuine product",
+       "description": "Tablets bought from unregulated online sellers may be counterfeit or contain the wrong dose. Use a registered pharmacy."
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Interactions and safety",
+       "description": "Never combine PDE5 tablets with nitrates or nitric-oxide donors. Tell the prescriber about all medicines, heart conditions and low blood pressure."
+      },
+      {
+       "@type": "ListItem",
+       "position": 5,
+       "name": "Enough trials",
+       "description": "A prescriber can advise how many attempts to allow before changing dose or medicine. Do not increase a dose yourself."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/p-shot-vs-penile-injections",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "P-Shot vs Penile Injections (Alprostadil, Trimix)",
+    "description": "P-Shot (PRP) compared with intracavernosal injections such as alprostadil or trimix: how each works, evidence, risks including priapism, and who may suit which.",
+    "canonical": "https://pshottreatment.com/p-shot-vs-penile-injections",
+    "robots": "index, follow",
+    "h1": [
+     "P-Shot vs Penile Injections (Alprostadil and Trimix)"
+    ],
+    "words": 931
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#webpage",
+     "url": "https://pshottreatment.com/p-shot-vs-penile-injections",
+     "name": "P-Shot vs Penile Injections (Alprostadil, Trimix)",
+     "description": "P-Shot (PRP) compared with intracavernosal injections such as alprostadil or trimix: how each works, evidence, risks including priapism, and who may suit which.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fp-shot-vs-penile-injections",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED treatment options",
+       "item": "https://pshottreatment.com/ed-treatment-options"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "P-Shot vs injections",
+       "item": "https://pshottreatment.com/p-shot-vs-penile-injections"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#article",
+     "headline": "P-Shot vs Penile Injections (Alprostadil and Trimix)",
+     "description": "P-Shot (PRP) compared with intracavernosal injections such as alprostadil or trimix: how each works, evidence, risks including priapism, and who may suit which.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fp-shot-vs-penile-injections",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#faq",
+     "url": "https://pshottreatment.com/p-shot-vs-penile-injections",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/p-shot-vs-penile-injections#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is a P-Shot better than penile injections?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are not equivalent. Injections such as alprostadil are an established treatment that produces an erection when needed. The P-Shot is experimental and aims at longer-term tissue effects, with mixed evidence."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is trimix?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trimix usually means a mixture of three medicines (papaverine, phentolamine and alprostadil) injected into the penis to produce an erection. Preparation and regulation vary between countries."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I use injections and a P-Shot together?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A doctor may discuss combining approaches, but evidence for combinations is limited. Treatment is decided after assessment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What are the risks of penile injections?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pain, bruising, scarring with repeated use and prolonged erection (priapism). An erection lasting more than four hours needs urgent care."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-evidence-tracker",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "ED Treatment Evidence Tracker: EAU, AUA, MHRA Positions",
+    "description": "A dated summary of what guidelines and regulators say about PRP, shockwave, stem cells, PDE5 inhibitors and finasteride in erectile dysfunction, with sources.",
+    "canonical": "https://pshottreatment.com/ed-evidence-tracker",
+    "robots": "index, follow",
+    "h1": [
+     "ED Treatment Evidence Tracker"
+    ],
+    "words": 966
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-evidence-tracker#webpage",
+     "url": "https://pshottreatment.com/ed-evidence-tracker",
+     "name": "ED Treatment Evidence Tracker: EAU, AUA, MHRA Positions",
+     "description": "A dated summary of what guidelines and regulators say about PRP, shockwave, stem cells, PDE5 inhibitors and finasteride in erectile dysfunction, with sources.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-evidence-tracker",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-evidence-tracker#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-Rich Plasma Improves Erectile Function: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Sexual Medicine / PubMed"
+       },
+       "datePublished": "2021",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33906807/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "PRP Intracavernosal Injections for Primary Organic ED: Systematic Review and Meta-analysis",
+       "publisher": {
+        "@type": "Organization",
+        "name": "International Journal of Impotence Research / PubMed"
+       },
+       "datePublished": "2024",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37993601/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Finasteride and Dutasteride: Updated Safety Warnings",
+       "publisher": {
+        "@type": "Organization",
+        "name": "UK Medicines and Healthcare products Regulatory Agency"
+       },
+       "datePublished": "2026",
+       "url": "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-evidence-tracker#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-evidence-tracker#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Evidence tracker",
+       "item": "https://pshottreatment.com/ed-evidence-tracker"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-evidence-tracker#article",
+     "headline": "ED Treatment Evidence Tracker",
+     "description": "A dated summary of what guidelines and regulators say about PRP, shockwave, stem cells, PDE5 inhibitors and finasteride in erectile dysfunction, with sources.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-evidence-tracker#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-evidence-tracker",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-Rich Plasma Improves Erectile Function: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Sexual Medicine / PubMed"
+       },
+       "datePublished": "2021",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/33906807/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "PRP Intracavernosal Injections for Primary Organic ED: Systematic Review and Meta-analysis",
+       "publisher": {
+        "@type": "Organization",
+        "name": "International Journal of Impotence Research / PubMed"
+       },
+       "datePublished": "2024",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37993601/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Finasteride and Dutasteride: Updated Safety Warnings",
+       "publisher": {
+        "@type": "Organization",
+        "name": "UK Medicines and Healthcare products Regulatory Agency"
+       },
+       "datePublished": "2026",
+       "url": "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/ed-evidence-tracker#faq",
+     "url": "https://pshottreatment.com/ed-evidence-tracker",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/ed-evidence-tracker#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is PRP recommended for erectile dysfunction?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 2026 European Association of Urology (EAU) guideline says intracavernosal PRP for erectile dysfunction should be used only in a clinical-trial setting."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is shockwave therapy recommended?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The EAU gives a weak recommendation for low-intensity shockwave therapy in selected men with vasculogenic ED, reporting a mild average improvement."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are stem cells or exosomes proven for ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The EAU finds evidence for stem-cell therapy insufficient for routine use, and human evidence for exosomes is very limited."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-glossary",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Erectile Dysfunction Glossary: Terms Explained Simply",
+    "description": "Plain-English definitions of ED terms: vasculogenic ED, venous leak, penile Doppler, PRP, EdSWT, PDE5 inhibitors, priapism, hypogonadism and more.",
+    "canonical": "https://pshottreatment.com/ed-glossary",
+    "robots": "index, follow",
+    "h1": [
+     "Erectile Dysfunction Glossary"
+    ],
+    "words": 677
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-glossary#webpage",
+     "url": "https://pshottreatment.com/ed-glossary",
+     "name": "Erectile Dysfunction Glossary: Terms Explained Simply",
+     "description": "Plain-English definitions of ED terms: vasculogenic ED, venous leak, penile Doppler, PRP, EdSWT, PDE5 inhibitors, priapism, hypogonadism and more.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-glossary",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-glossary#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-glossary#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-glossary#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "ED glossary",
+       "item": "https://pshottreatment.com/ed-glossary"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-glossary#article",
+     "headline": "Erectile Dysfunction Glossary",
+     "description": "Plain-English definitions of ED terms: vasculogenic ED, venous leak, penile Doppler, PRP, EdSWT, PDE5 inhibitors, priapism, hypogonadism and more.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-glossary#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-glossary",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/ed-glossary#faq",
+     "url": "https://pshottreatment.com/ed-glossary",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/ed-glossary#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What does vasculogenic mean?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It means caused by problems with blood vessels and blood flow. Vasculogenic ED is one of the most common physical causes of erectile dysfunction."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the difference between EdSWT and Li-ESWT?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They describe the same treatment: low-intensity extracorporeal shockwave therapy used for erectile dysfunction."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is priapism?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A prolonged erection, usually defined as lasting more than four hours, which needs urgent medical care."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-questions",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Erectile Dysfunction Questions Answered by a Urology Clinic",
+    "description": "Short, sourced answers to the most common questions about ED causes, tests, tablets, P-Shot, shockwave, stem cells, exosomes, cost and travelling to Turkey.",
+    "canonical": "https://pshottreatment.com/ed-questions",
+    "robots": "index, follow",
+    "h1": [
+     "Erectile Dysfunction: Your Questions Answered"
+    ],
+    "words": 1038
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-questions#webpage",
+     "url": "https://pshottreatment.com/ed-questions",
+     "name": "Erectile Dysfunction Questions Answered by a Urology Clinic",
+     "description": "Short, sourced answers to the most common questions about ED causes, tests, tablets, P-Shot, shockwave, stem cells, exosomes, cost and travelling to Turkey.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-questions",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-questions#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-questions#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-questions#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "ED questions",
+       "item": "https://pshottreatment.com/ed-questions"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-questions#article",
+     "headline": "Erectile Dysfunction: Your Questions Answered",
+     "description": "Short, sourced answers to the most common questions about ED causes, tests, tablets, P-Shot, shockwave, stem cells, exosomes, cost and travelling to Turkey.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-questions#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-questions",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/ed-questions#faq",
+     "url": "https://pshottreatment.com/ed-questions",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/ed-questions#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What causes erectile dysfunction?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reduced blood flow, nerve damage, hormonal problems, medicines, psychological factors and pelvic surgery, often in combination."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can ED be an early sign of heart disease?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. ED shares risk factors with heart disease and diabetes, so a health review is sensible, especially if ED is new or worsening."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need tests for ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. The doctor decides after history and examination. Blood tests are common, and penile Doppler ultrasound is used in selected men."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is a penile Doppler ultrasound?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A scan that measures blood flow into and out of the penis, used in selected men to help find the cause of ED."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is vasculogenic ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ED caused by problems with blood flow into the penis or its ability to hold blood."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is a venous leak?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The penis cannot hold blood well enough to keep an erection. It is assessed by a urologist, often with Doppler ultrasound."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Why is Viagra not working?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common reasons are incorrect timing or dose, a heavy meal with sildenafil, too little stimulation, counterfeit tablets, interactions or an untreated cause."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I take Viagra or Cialis with nitrates?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. PDE5 inhibitors must not be combined with nitrates or nitric-oxide donors because of dangerous blood-pressure effects."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What are the first-line ED treatments?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lifestyle and cardiovascular risk management, and PDE5 inhibitors for many men unless contraindicated."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What if tablets do not work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A urologist may discuss treating the cause, vacuum devices, penile injections, shockwave therapy for selected men, regenerative options in selected cases or an implant for severe ED."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does TRT help ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It can help sexual symptoms in men with confirmed testosterone deficiency but is not a general ED treatment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does diabetes cause ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Diabetes can damage blood vessels and nerves and is a well-established risk factor for ED."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is ED common after prostate surgery?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Nerve recovery can take many months, and nerve-sparing surgery does not guarantee preserved erections."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is a P-Shot?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A penile PRP procedure in which platelet-rich plasma from your own blood is injected into penile tissue. It is experimental for ED."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is the P-Shot proven?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Trials are mixed, and the 2026 EAU guideline says intracavernosal PRP for ED should be used only in clinical trials."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is the P-Shot safe?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reported side effects in studies have mostly been minor, such as pain, bruising and swelling, but trials are small and long-term data are limited."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does the P-Shot enlarge the penis?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The clinic does not claim that it does."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much does a P-Shot cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "UK prices vary by clinic and by what the quote includes. UZ Clinic Antalya's advertised fee is £300, €300 or $300 depending on billing currency; the written plan confirms what it covers."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is shockwave therapy for ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low-intensity shockwaves applied to the penis, mainly for vasculogenic ED, with no injection. The EAU recommendation is weak and for selected men."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How many shockwave sessions are needed?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The clinic protocol is 12 sessions: 6, a 3-week interval, then 6 more, with 1,500 shocks per session."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is stem cell therapy proven for ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is experimental, and the EAU considers the evidence insufficient for routine use."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is exosome therapy for ED?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An investigational approach using cell-released vesicles. Human evidence is very limited and no protocol or approved indication for ED is established."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I be assessed before travelling to Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can send your case for a confidential remote review. An in-person assessment is needed before treatment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is my enquiry confidential?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Your information is used to review your enquiry and contact you, as described in the privacy notice."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need to know which treatment I want?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Send your case and the clinic can advise which options may be relevant."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "When should I seek urgent help?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For chest pain, an erection lasting more than four hours, new neurological symptoms or penile injury."
        }
       }
      ]

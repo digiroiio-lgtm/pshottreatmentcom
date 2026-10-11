@@ -106,7 +106,7 @@ export const regenerativePages: PageDef[] = [
       { q: "Can stem cell therapy enlarge the penis?", a: "No. The clinic does not claim that it does." },
     ],
     sources: ["eau2026", "aua2018", "clinicalTrial"],
-    related: ["/stem-cell-treatment-ed-turkey", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/exosome-therapy-erectile-dysfunction", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/patient-experiences", "/exosome-therapy-turkey"],
+    related: ["/stem-cell-treatment-ed-turkey", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/exosome-therapy-erectile-dysfunction", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/patient-experiences", "/exosome-therapy-turkey", "/ed-evidence-tracker"],
   },
   {
     path: "/stem-cell-treatment-ed-turkey",
@@ -152,6 +152,8 @@ export const regenerativePages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "Is stem cell therapy for ED legal and available in Turkey?", a: "Questions about regulation and availability should be answered in writing by any provider for the specific product offered. At UZ Clinic Antalya, a urologist reviews your case first and explains whether any regenerative option is appropriate." },
+      { q: "How much does stem cell treatment for ED cost in Turkey?", a: "Prices differ by provider, source and protocol, and a higher price does not mean stronger evidence. Ask for an itemised written quote that names the product and procedure." },
       { q: "Can I be assessed before travelling?", a: "Yes. Send your case first. An in-person assessment is still needed before any procedure." },
       { q: "Do you promise results?", a: "No. " + NO_GUARANTEE },
     ],
@@ -289,6 +291,8 @@ export const regenerativePages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "Is exosome therapy for erectile dysfunction available in Turkey?", a: "Some providers advertise it. Because human evidence is very limited and no protocol is established, the sensible step is a specialist assessment first. At UZ Clinic Antalya, availability is considered only after clinical evaluation." },
+      { q: "Does the clinic publish success rates for exosome therapy?", a: "No. The clinic does not publish doses, success rates or outcome claims for exosome therapy, because none are established for ED." },
       { q: "Can the clinic confirm exosome availability before I travel?", a: "Availability is confirmed after your case is reviewed and, where needed, after an in-person assessment." },
       { q: "What if exosome therapy is not suitable for me?", a: "The doctor explains which other options may be relevant to the likely cause of your ED." },
     ],

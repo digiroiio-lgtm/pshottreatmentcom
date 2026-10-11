@@ -31,6 +31,16 @@ Real queries seen in Search Console (12 Jul to 10 Oct 2026), now mapped:
 | exosome therapy turkey (pos 40) | /exosome-therapy-turkey | title |
 | priapus-shot behandeling (47, Dutch) | none yet | Dutch pages are a pending decision |
 
+New pages from the growth plan (2026-10-11):
+
+| Intent | Page |
+| --- | --- |
+| tadalafil/sildenafil not working, Viagra or Cialis not working, ED treatment when pills fail | /ed-tablets-not-working |
+| P-Shot vs trimix, alprostadil injection vs PRP | /p-shot-vs-penile-injections |
+| EAU/AUA guideline positions on PRP, shockwave, stem cells | /ed-evidence-tracker |
+| ED terms (vasculogenic, venous leak, priapism, EdSWT) | /ed-glossary |
+| Short answers to common ED questions (FAQ hub) | /ed-questions |
+
 Volumes are tiny (the site is new), so these are positions to defend and expand, not proof of demand. Re-pull Search Console monthly and move queries at positions 8-30 to the top of the rewrite queue.
 
 Requested URLs folded into a stronger page (301): /li-eswt to /edswt, /penile-exosome-therapy to the exosome page, /penile-stem-cell-therapy to the stem-cell page. Their terms ("Li-ESWT", "penile exosome", "penile stem cell therapy") are covered on the target pages.

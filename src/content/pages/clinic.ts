@@ -197,7 +197,7 @@ export const clinicPages: PageDef[] = [
       { q: "Where is the clinic?", a: "UZ Clinic Antalya is at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey." },
       { q: "Can I contact the clinic without calling?", a: "Yes. You can send your case through the confidential assessment form or message the clinic on WhatsApp." },
     ],
-    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment"],
+    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment", "/ed-questions"],
   },
   {
     path: "/international-patients",
@@ -471,6 +471,7 @@ export const clinicPages: PageDef[] = [
           { title: "Finasteride and sexual symptoms", text: "What regulators say.", href: "/post-finasteride-syndrome-ed" },
           { title: "ED over 50", text: "Early assessment.", href: "/erectile-dysfunction-over-50" },
           { title: "ED over 60", text: "Safe, realistic options.", href: "/erectile-dysfunction-over-60" },
+          { title: "Tablets not working", text: "Viagra or Cialis not working: what to check.", href: "/ed-tablets-not-working" },
         ],
       },
       {
@@ -488,6 +489,10 @@ export const clinicPages: PageDef[] = [
           { title: "ED treatment options compared", text: "All options side by side.", href: "/ed-treatment-options" },
           { title: "Penile rehabilitation", text: "Structured recovery plans.", href: "/penile-rehabilitation" },
           { title: "Penile implant", text: "A surgical option.", href: "/penile-implant" },
+          { title: "P-Shot vs penile injections", text: "PRP compared with alprostadil and trimix.", href: "/p-shot-vs-penile-injections" },
+          { title: "Evidence tracker", text: "Dated guideline positions.", href: "/ed-evidence-tracker" },
+          { title: "ED glossary", text: "Terms explained simply.", href: "/ed-glossary" },
+          { title: "Questions answered", text: "Short answers to common questions.", href: "/ed-questions" },
         ],
       },
       { type: "cta", title: "Not Sure Where to Start?", text: "Send your case and the clinic can advise which guides and options are relevant.", label: "Check Treatment Options", whatsapp: true },
@@ -534,7 +539,7 @@ export const clinicPages: PageDef[] = [
       { q: "Who writes the medical content on this site?", a: "The content is prepared for UZ Clinic Antalya and shows the date of its latest update. Pages are described as medically reviewed only when Dr. Niyazi Umut Özdemir has reviewed them." },
       { q: "How are experimental treatments described?", a: "Treatments are labelled as established, emerging or experimental, with their evidence status and limits stated next to the treatment, not hidden below it." },
     ],
-    related: ["/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir"],
+    related: ["/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir", "/ed-evidence-tracker"],
   },
   {
     path: "/evidence-methodology",
@@ -578,7 +583,7 @@ export const clinicPages: PageDef[] = [
       { q: "Which sources carry the most weight?", a: "Clinical guidelines and regulators come first, followed by systematic reviews and randomised controlled trials. Clinic observations and patient anecdotes cannot establish safety or effectiveness." },
       { q: "What happens when sources disagree?", a: "We report the disagreement and prioritise the current guideline position. For PRP and ED, positive trials exist alongside a negative placebo-controlled trial, so PRP is described as experimental." },
     ],
-    related: ["/editorial-policy", "/about"],
+    related: ["/editorial-policy", "/about", "/ed-evidence-tracker"],
   },
   {
     path: "/privacy",

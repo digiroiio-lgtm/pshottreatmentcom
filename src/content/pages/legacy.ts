@@ -27,8 +27,8 @@ const remap = (path: string) => redirects[path] ?? path;
 
 // Extra links so the retained guides connect to the new funnel pages.
 const extraRelated: Record<string, string[]> = {
-  "/p-shot-vs-viagra": ["/side-effects", "/p-shot", "/ed-treatment-options"],
-  "/testosterone-ed": ["/erectile-dysfunction", "/ed-treatment-options", "/post-finasteride-syndrome-ed"],
+  "/p-shot-vs-viagra": ["/side-effects", "/p-shot", "/ed-treatment-options", "/ed-tablets-not-working"],
+  "/testosterone-ed": ["/erectile-dysfunction", "/ed-treatment-options", "/post-finasteride-syndrome-ed", "/ed-tablets-not-working"],
   "/post-finasteride-syndrome-ed": ["/erectile-dysfunction", "/erectile-dysfunction-assessment", "/testosterone-ed"],
 };
 

@@ -99,7 +99,7 @@ export const corePages: PageDef[] = [
       { q: "Do I need to know which treatment I want before contacting the clinic?", a: "No. Send your case and the clinic can advise which options may be relevant to you." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-treatment", "/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/diabetes-erectile-dysfunction"],
+    related: ["/erectile-dysfunction-treatment", "/vasculogenic-erectile-dysfunction", "/penile-doppler-ultrasound", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/testosterone-ed", "/post-finasteride-syndrome-ed", "/diabetes-erectile-dysfunction", "/ed-questions", "/ed-glossary", "/ed-tablets-not-working"],
   },
   {
     path: "/erectile-dysfunction-treatment",
@@ -228,7 +228,7 @@ export const corePages: PageDef[] = [
       { q: "Can treatments be combined?", a: "Sometimes. A doctor may combine options, for example medication with another therapy, after assessment. Evidence for specific combinations is limited." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-treatment", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/erectile-dysfunction-assessment"],
+    related: ["/erectile-dysfunction-treatment", "/p-shot-vs-shockwave", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/erectile-dysfunction-assessment", "/ed-tablets-not-working", "/p-shot-vs-penile-injections", "/ed-evidence-tracker"],
   },
   {
     path: "/erectile-dysfunction-treatment-turkey",
