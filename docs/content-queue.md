@@ -10,14 +10,14 @@ Pace: 1-2 pieces per week. Every piece: one intent, answer-first block, key take
 | 7 | ED under 40 (published 2026-10-11) | article | ED at 30, ED in young men |
 | 8 | Losing an erection during sex (published 2026-10-11) | article | can't keep an erection, erection fades |
 | 9 | ED and heart disease (published 2026-10-11) | article | ED heart disease, ED warning sign |
-| 10 | ED and blood-pressure medicines | article | blood pressure tablets ED |
+| 10 | ED and blood-pressure medicines (published 2026-10-18) | article | blood pressure tablets ED |
 | 11-12 | Evidence tracker (EAU/AUA positions, dated) (published 2026-10-11) | reference | EAU guideline PRP ED, shockwave guideline |
 | 13 | ED glossary (published 2026-10-11) | reference | DefinedTerm coverage |
 | 14-16 | Questions hub (25 questions published 2026-10-11; grow to 40 from Search Console) | FAQ hub | question queries, AI answers |
-| 17 | Antidepressants and ED | article | SSRI erectile dysfunction |
-| 18 | Anxiety and ED | article | performance anxiety ED |
-| 19 | Sleep apnoea, alcohol, smoking and ED | article | lifestyle causes |
-| 20 | How to choose an ED clinic abroad (brand-neutral checklist) | article | ED treatment abroad |
+| 17 | Antidepressants and ED (published 2026-10-18) | article | SSRI erectile dysfunction |
+| 18 | Anxiety and ED (published 2026-10-18) | article | performance anxiety ED |
+| 19 | Sleep apnoea, alcohol, smoking and ED (published 2026-10-18 as /lifestyle-and-ed) | article | lifestyle causes |
+| 20 | How to choose an ED clinic abroad (published 2026-10-18) | article | ED treatment abroad |
 | 21-22 | Travel logistics for a 12-session shockwave course | article | how long to stay, Antalya airport to clinic |
 | 23-26 | Refresh the top 10 pages from Search Console, merge pages with no impressions | maintenance | positions 8-30 |
 

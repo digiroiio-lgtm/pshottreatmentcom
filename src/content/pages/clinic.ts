@@ -257,7 +257,7 @@ export const clinicPages: PageDef[] = [
       { q: "What languages are supported?", a: "Please ask the coordinator which languages are available when you make contact." },
       { q: "What if something goes wrong after I go home?", a: "You receive a contact and written warning signs. Seek urgent local care for emergencies, such as an erection lasting more than four hours." },
     ],
-    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment"],
+    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
   },
   {
     path: "/patient-experiences",
@@ -475,6 +475,11 @@ export const clinicPages: PageDef[] = [
           { title: "ED under 40", text: "Causes in younger men.", href: "/ed-under-40" },
           { title: "Losing an erection during sex", text: "Why an erection fades.", href: "/losing-erection-during-sex" },
           { title: "ED and heart disease", text: "Why the two are linked.", href: "/ed-and-heart-disease" },
+          { title: "Blood pressure medicines", text: "Can they affect erections?", href: "/ed-and-blood-pressure-medicines" },
+          { title: "Antidepressants and ED", text: "Medicine, illness or both.", href: "/antidepressants-and-ed" },
+          { title: "Anxiety and ED", text: "Performance worry or physical cause.", href: "/anxiety-and-ed" },
+          { title: "Lifestyle and ED", text: "Sleep, alcohol, smoking, weight.", href: "/lifestyle-and-ed" },
+          { title: "Choosing a clinic abroad", text: "A brand-neutral checklist.", href: "/choose-an-ed-clinic-abroad" },
         ],
       },
       {

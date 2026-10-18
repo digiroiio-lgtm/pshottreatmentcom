@@ -42,4 +42,9 @@ export const facts: Record<string, Fact> = {
   "/losing-erection-during-sex": doppler,
   "/ed-and-heart-disease": { text: "Major guidelines support cardiovascular risk assessment as part of the ED work-up, because ED shares risk factors with heart disease and diabetes.", source: "eau2026" },
   "/ed-evidence-tracker": prp,
+  "/ed-and-blood-pressure-medicines": { text: "PDE5 inhibitors must not be combined with nitrates, and men taking other blood pressure medicines need medical advice before using them.", source: "eau2026" },
+  "/antidepressants-and-ed": pde5,
+  "/anxiety-and-ed": pde5,
+  "/lifestyle-and-ed": { text: "Major guidelines support addressing lifestyle risk factors alongside established ED therapies.", source: "eau2026" },
+  "/choose-an-ed-clinic-abroad": prp,
 };
