@@ -43,6 +43,11 @@ New pages from the growth plan (2026-10-11):
 | ED at 30, ED in young men | /ed-under-40 |
 | losing erection during sex, erection fades, can't keep an erection | /losing-erection-during-sex |
 | ED and heart disease, ED warning sign | /ed-and-heart-disease |
+| blood pressure tablets ED | /ed-and-blood-pressure-medicines |
+| SSRI erectile dysfunction | /antidepressants-and-ed |
+| performance anxiety ED | /anxiety-and-ed |
+| sleep apnoea, alcohol, smoking and ED | /lifestyle-and-ed |
+| ED treatment abroad, choosing a clinic | /choose-an-ed-clinic-abroad |
 
 Volumes are tiny (the site is new), so these are positions to defend and expand, not proof of demand. Re-pull Search Console monthly and move queries at positions 8-30 to the top of the rewrite queue.
 

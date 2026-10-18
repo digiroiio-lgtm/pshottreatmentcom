@@ -168,6 +168,11 @@ const keywordMap = [
   ["/ed-under-40", "erectile dysfunction under 40", "h1"],
   ["/losing-erection-during-sex", "losing an erection during sex", "h1"],
   ["/ed-and-heart-disease", "erectile dysfunction and heart disease", "h1"],
+  ["/ed-and-blood-pressure-medicines", "blood pressure medicines and erectile dysfunction", "h1"],
+  ["/antidepressants-and-ed", "antidepressants and erectile dysfunction", "h1"],
+  ["/anxiety-and-ed", "anxiety and erectile dysfunction", "h1"],
+  ["/lifestyle-and-ed", "lifestyle and erectile dysfunction", "h1"],
+  ["/choose-an-ed-clinic-abroad", "how to choose an ed clinic abroad", "h1"],
   ["/exosome-therapy-turkey", "is exosome therapy for erectile dysfunction available in turkey", "text"],
   ["/stem-cell-treatment-ed-turkey", "stem cell treatment for ed in turkey", "text"],
 ];
