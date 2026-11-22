@@ -11,8 +11,8 @@ export default function ConfidentialAssessment({
   placement?: string;
 }) {
   return (
-    <section aria-labelledby="assessment-cta-heading" className="rounded-3xl bg-black text-white p-8 md:p-10">
-      <h2 id="assessment-cta-heading" className="text-2xl md:text-3xl font-bold mb-3">Send your case for confidential review</h2>
+    <section aria-label="Send your case for confidential review" className="rounded-3xl bg-black text-white p-8 md:p-10">
+      <p className="text-2xl md:text-3xl font-bold mb-3 font-serif text-heading">Send your case for confidential review</p>
       <p className="text-neutral-200 max-w-2xl mb-6">
         You do not need to know which treatment you need. Share a few details and the clinic can advise which options may be relevant to your case.
       </p>

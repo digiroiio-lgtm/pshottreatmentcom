@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "base": "http://127.0.0.1:3000",
- "average": 99.5,
+ "average": 99.7,
  "findings": [
   {
    "severity": "info",
@@ -593,7 +593,7 @@
     "h1": [
      "ED Treatment in Antalya, Turkey: Urologist-Led P-Shot, Shockwave & Doppler"
     ],
-    "words": 1852
+    "words": 1860
    },
    "schema": [
     {
@@ -941,7 +941,7 @@
     "h1": [
      "Erectile Dysfunction: Causes, Types and Specialist Assessment"
     ],
-    "words": 1786
+    "words": 1795
    },
    "schema": [
     {
@@ -1381,7 +1381,7 @@
     "h1": [
      "Erectile Dysfunction Treatment: A Cause-Based Plan"
     ],
-    "words": 1572
+    "words": 1578
    },
    "schema": [
     {
@@ -1825,7 +1825,7 @@
     "h1": [
      "ED Treatment Options Compared"
     ],
-    "words": 1317
+    "words": 1324
    },
    "schema": [
     {
@@ -2248,7 +2248,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1243
+    "words": 1251
    },
    "schema": [
     {
@@ -2634,7 +2634,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Istanbul"
     ],
-    "words": 1263
+    "words": 1273
    },
    "schema": [
     {
@@ -3056,7 +3056,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Antalya"
     ],
-    "words": 1137
+    "words": 1145
    },
    "schema": [
     {
@@ -3448,19 +3448,17 @@
   {
    "path": "/p-shot",
    "status": 200,
-   "score": 96,
-   "issues": [
-    "Title and H1 share keywords"
-   ],
+   "score": 100,
+   "issues": [],
    "metadata": {
-    "title": "P-Shot for ED: How It Works, Risks, Evidence | UZ",
+    "title": "P-Shot (Priapus Shot) for ED: Procedure, Risks, Evidence",
     "description": "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
     "canonical": "https://pshottreatment.com/p-shot",
     "robots": "index, follow",
     "h1": [
-     "P-Shot PRP Treatment for Erectile Dysfunction"
+     "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction"
     ],
-    "words": 2116
+    "words": 2132
    },
    "schema": [
     {
@@ -3674,7 +3672,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/p-shot#webpage",
      "url": "https://pshottreatment.com/p-shot",
-     "name": "P-Shot for ED: How It Works, Risks, Evidence | UZ",
+     "name": "P-Shot (Priapus Shot) for ED: Procedure, Risks, Evidence",
      "description": "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -3800,7 +3798,7 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/p-shot#article",
-     "headline": "P-Shot PRP Treatment for Erectile Dysfunction",
+     "headline": "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction",
      "description": "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/p-shot#webpage"
@@ -3973,7 +3971,7 @@
     {
      "@type": "ItemList",
      "@id": "https://pshottreatment.com/p-shot#steps",
-     "name": "How is PRP prepared and the P-Shot performed?",
+     "name": "P-Shot procedure step by step: how is PRP prepared and injected?",
      "itemListOrder": "https://schema.org/ItemListOrderAscending",
      "itemListElement": [
       {
@@ -4029,7 +4027,7 @@
     "h1": [
      "P-Shot in Turkey: Information for International Patients"
     ],
-    "words": 1213
+    "words": 1222
    },
    "schema": [
     {
@@ -4506,7 +4504,7 @@
     "h1": [
      "P-Shot at UZ Clinic Antalya"
     ],
-    "words": 1124
+    "words": 1133
    },
    "schema": [
     {
@@ -5027,7 +5025,7 @@
     "h1": [
      "PRP for Erectile Dysfunction: What the Evidence Shows"
     ],
-    "words": 1098
+    "words": 1107
    },
    "schema": [
     {
@@ -5512,7 +5510,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction (EdSWT)"
     ],
-    "words": 1630
+    "words": 1636
    },
    "schema": [
     {
@@ -5990,7 +5988,7 @@
     "h1": [
      "EdSWT and Li-ESWT: Protocol, Device and Sessions"
     ],
-    "words": 845
+    "words": 851
    },
    "schema": [
     {
@@ -6387,7 +6385,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction in Turkey"
     ],
-    "words": 971
+    "words": 978
    },
    "schema": [
     {
@@ -6784,7 +6782,7 @@
     "h1": [
      "Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 1628
+    "words": 1635
    },
    "schema": [
     {
@@ -7287,7 +7285,7 @@
     "h1": [
      "Stem Cell Treatment for ED in Turkey: What to Know Before You Travel"
     ],
-    "words": 1020
+    "words": 1028
    },
    "schema": [
     {
@@ -7712,7 +7710,7 @@
     "h1": [
      "Exosome Therapy for Erectile Dysfunction"
     ],
-    "words": 1084
+    "words": 1092
    },
    "schema": [
     {
@@ -8147,7 +8145,7 @@
     "h1": [
      "Exosome Therapy for ED in Turkey"
     ],
-    "words": 859
+    "words": 866
    },
    "schema": [
     {
@@ -8552,7 +8550,7 @@
     "h1": [
      "Vasculogenic Erectile Dysfunction (Blood-Flow Related ED)"
     ],
-    "words": 1270
+    "words": 1279
    },
    "schema": [
     {
@@ -8955,14 +8953,14 @@
    "score": 100,
    "issues": [],
    "metadata": {
-    "title": "Venous Leak ED: Symptoms, Diagnosis and Options",
+    "title": "Venous Leak: Symptoms, Diagnosis and Treatment Options",
     "description": "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
     "canonical": "https://pshottreatment.com/venous-leak",
     "robots": "index, follow",
     "h1": [
-     "Venous Leak and Erectile Dysfunction"
+     "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment"
     ],
-    "words": 1295
+    "words": 1454
    },
    "schema": [
     {
@@ -9176,7 +9174,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/venous-leak#webpage",
      "url": "https://pshottreatment.com/venous-leak",
-     "name": "Venous Leak ED: Symptoms, Diagnosis and Options",
+     "name": "Venous Leak: Symptoms, Diagnosis and Treatment Options",
      "description": "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -9287,7 +9285,7 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/venous-leak#article",
-     "headline": "Venous Leak and Erectile Dysfunction",
+     "headline": "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment",
      "description": "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/venous-leak#webpage"
@@ -9356,10 +9354,10 @@
       },
       {
        "@type": "Question",
-       "name": "Can venous leak be cured?",
+       "name": "Can venous leak be cured naturally?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No treatment is established as a cure. Management focuses on options that help you achieve a usable erection. The urologist explains what is realistic."
+        "text": "No natural remedy or supplement has been shown to cure venous leak. Healthy habits and control of diabetes, blood pressure and smoking support erection health, and a urologist explains which treatments may help."
        }
       },
       {
@@ -9400,7 +9398,7 @@
     "h1": [
      "Erectile Dysfunction After Prostate Surgery"
     ],
-    "words": 786
+    "words": 794
    },
    "schema": [
     {
@@ -9790,7 +9788,7 @@
     "h1": [
      "Diabetes and Erectile Dysfunction"
     ],
-    "words": 740
+    "words": 750
    },
    "schema": [
     {
@@ -10180,7 +10178,7 @@
     "h1": [
      "Erectile Dysfunction Over 50"
     ],
-    "words": 977
+    "words": 987
    },
    "schema": [
     {
@@ -10570,7 +10568,7 @@
     "h1": [
      "Erectile Dysfunction Over 60"
     ],
-    "words": 964
+    "words": 974
    },
    "schema": [
     {
@@ -10960,7 +10958,7 @@
     "h1": [
      "Confidential Erectile Dysfunction Assessment"
     ],
-    "words": 714
+    "words": 720
    },
    "schema": [
     {
@@ -11352,7 +11350,7 @@
     "h1": [
      "Penile Doppler Ultrasound for Erectile Dysfunction"
     ],
-    "words": 1116
+    "words": 1125
    },
    "schema": [
     {
@@ -11794,7 +11792,7 @@
     "h1": [
      "Penile Doppler Ultrasound in Antalya"
     ],
-    "words": 1366
+    "words": 1376
    },
    "schema": [
     {
@@ -12232,7 +12230,7 @@
     "h1": [
      "P-Shot vs Shockwave Therapy for Erectile Dysfunction"
     ],
-    "words": 940
+    "words": 949
    },
    "schema": [
     {
@@ -12642,7 +12640,7 @@
     "h1": [
      "P-Shot vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 818
+    "words": 828
    },
    "schema": [
     {
@@ -13044,7 +13042,7 @@
     "h1": [
      "Shockwave Therapy vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 795
+    "words": 803
    },
    "schema": [
     {
@@ -13426,7 +13424,7 @@
     "h1": [
      "Penile Rehabilitation Programme"
     ],
-    "words": 993
+    "words": 999
    },
    "schema": [
     {
@@ -13874,7 +13872,7 @@
     "h1": [
      "Penile Implant for Erectile Dysfunction"
     ],
-    "words": 971
+    "words": 977
    },
    "schema": [
     {
@@ -14256,7 +14254,7 @@
     "h1": [
      "Op. Dr. Niyazi Umut Özdemir, Urologist in Antalya"
     ],
-    "words": 693
+    "words": 698
    },
    "schema": [
     {
@@ -14574,7 +14572,7 @@
     "h1": [
      "About UZ Clinic Antalya"
     ],
-    "words": 909
+    "words": 916
    },
    "schema": [
     {
@@ -14886,7 +14884,7 @@
     "h1": [
      "Travelling to Antalya for ED Treatment"
     ],
-    "words": 1202
+    "words": 1208
    },
    "schema": [
     {
@@ -15284,7 +15282,7 @@
     "h1": [
      "Patient Experiences"
     ],
-    "words": 543
+    "words": 548
    },
    "schema": [
     {
@@ -15602,7 +15600,7 @@
     "h1": [
      "P-Shot Price UK vs Turkey: Cost in GBP"
     ],
-    "words": 1351
+    "words": 1359
    },
    "schema": [
     {
@@ -16380,7 +16378,7 @@
     "h1": [
      "P-Shot Side Effects and Risks"
     ],
-    "words": 784
+    "words": 793
    },
    "schema": [
     {
@@ -16784,7 +16782,7 @@
     "h1": [
      "Erectile Dysfunction Knowledge Hub"
     ],
-    "words": 741
+    "words": 745
    },
    "schema": [
     {
@@ -17149,7 +17147,7 @@
       {
        "@type": "ListItem",
        "position": 6,
-       "name": "P-Shot PRP Treatment for Erectile Dysfunction",
+       "name": "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction",
        "url": "https://pshottreatment.com/p-shot"
       },
       {
@@ -17221,7 +17219,7 @@
       {
        "@type": "ListItem",
        "position": 18,
-       "name": "Venous Leak and Erectile Dysfunction",
+       "name": "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment",
        "url": "https://pshottreatment.com/venous-leak"
       },
       {
@@ -17253,7 +17251,7 @@
     "h1": [
      "Editorial Policy"
     ],
-    "words": 414
+    "words": 417
    },
    "schema": [
     {
@@ -17563,7 +17561,7 @@
     "h1": [
      "Evidence Methodology"
     ],
-    "words": 427
+    "words": 430
    },
    "schema": [
     {
@@ -18140,19 +18138,17 @@
   {
    "path": "/testosterone-ed",
    "status": 200,
-   "score": 96,
-   "issues": [
-    "Title and H1 share keywords"
-   ],
+   "score": 100,
+   "issues": [],
    "metadata": {
-    "title": "Testosterone Therapy and ED: Does TRT Help? | UZ Clinic",
+    "title": "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
     "description": "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
     "canonical": "https://pshottreatment.com/testosterone-ed",
     "robots": "index, follow",
     "h1": [
-     "Low Testosterone and Erectile Dysfunction"
+     "TRT and Erectile Dysfunction: Does Testosterone Help ED?"
     ],
-    "words": 1093
+    "words": 1105
    },
    "schema": [
     {
@@ -18366,7 +18362,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/testosterone-ed#webpage",
      "url": "https://pshottreatment.com/testosterone-ed",
-     "name": "Testosterone Therapy and ED: Does TRT Help? | UZ Clinic",
+     "name": "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
      "description": "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -18452,7 +18448,7 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/testosterone-ed#article",
-     "headline": "Low Testosterone and Erectile Dysfunction",
+     "headline": "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
      "description": "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/testosterone-ed#webpage"
@@ -18566,7 +18562,7 @@
     "h1": [
      "Finasteride and Persistent Sexual Symptoms"
     ],
-    "words": 906
+    "words": 916
    },
    "schema": [
     {
@@ -18964,7 +18960,7 @@
     "h1": [
      "P-Shot vs Viagra for Erectile Dysfunction"
     ],
-    "words": 893
+    "words": 902
    },
    "schema": [
     {
@@ -19374,7 +19370,7 @@
     "h1": [
      "When ED Tablets (Viagra, Cialis) Stop Working"
     ],
-    "words": 1483
+    "words": 1491
    },
    "schema": [
     {
@@ -19818,7 +19814,7 @@
     "h1": [
      "P-Shot vs Penile Injections (Alprostadil and Trimix)"
     ],
-    "words": 930
+    "words": 939
    },
    "schema": [
     {
@@ -20238,7 +20234,7 @@
     "h1": [
      "ED Treatment Evidence Tracker"
     ],
-    "words": 965
+    "words": 971
    },
    "schema": [
     {
@@ -20708,7 +20704,7 @@
     "h1": [
      "Erectile Dysfunction Glossary"
     ],
-    "words": 677
+    "words": 680
    },
    "schema": [
     {
@@ -21078,7 +21074,7 @@
     "h1": [
      "Erectile Dysfunction: Your Questions Answered"
     ],
-    "words": 1073
+    "words": 1076
    },
    "schema": [
     {
@@ -21654,7 +21650,7 @@
     "h1": [
      "Erectile Dysfunction Under 40"
     ],
-    "words": 1369
+    "words": 1379
    },
    "schema": [
     {
@@ -22060,7 +22056,7 @@
     "h1": [
      "Losing an Erection During Sex"
     ],
-    "words": 1276
+    "words": 1286
    },
    "schema": [
     {
@@ -22458,7 +22454,7 @@
     "h1": [
      "Erectile Dysfunction and Heart Disease"
     ],
-    "words": 1121
+    "words": 1129
    },
    "schema": [
     {
@@ -22856,7 +22852,7 @@
     "h1": [
      "Blood Pressure Medicines and Erectile Dysfunction"
     ],
-    "words": 1130
+    "words": 1137
    },
    "schema": [
     {
@@ -23254,7 +23250,7 @@
     "h1": [
      "Antidepressants and Erectile Dysfunction"
     ],
-    "words": 1029
+    "words": 1036
    },
    "schema": [
     {
@@ -23654,7 +23650,7 @@
     "h1": [
      "Anxiety and Erectile Dysfunction"
     ],
-    "words": 1004
+    "words": 1011
    },
    "schema": [
     {
@@ -24054,7 +24050,7 @@
     "h1": [
      "Lifestyle and Erectile Dysfunction"
     ],
-    "words": 967
+    "words": 974
    },
    "schema": [
     {
@@ -24452,7 +24448,7 @@
     "h1": [
      "How to Choose an ED Clinic Abroad"
     ],
-    "words": 1003
+    "words": 1011
    },
    "schema": [
     {
@@ -25200,7 +25196,7 @@
     "h1": [
      "Penil Doppler-ultralyd ved rejsningsproblemer"
     ],
-    "words": 759
+    "words": 762
    },
    "schema": [
     {

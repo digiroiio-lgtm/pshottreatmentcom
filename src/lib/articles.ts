@@ -26,7 +26,7 @@ export const articles: Record<string, Article> = {
   "/testosterone-ed": {
     path: "/testosterone-ed",
     eyebrow: "Hormonal ED",
-    h1: "Low Testosterone and Erectile Dysfunction",
+    h1: "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
     intro:
       "Low testosterone can reduce sexual desire and contribute to ED, but ED is not proof of testosterone deficiency. Diagnosis requires compatible symptoms plus appropriately timed biochemical testing, usually confirmed on more than one occasion.",
     evidenceStatus: "Established",
@@ -34,7 +34,7 @@ export const articles: Record<string, Article> = {
       "Testosterone therapy is supported for appropriately diagnosed hypogonadism, not as a universal ED treatment. Men with normal testosterone or predominantly vascular or neurological ED should not be led to expect that TRT will bring erections back.",
     sections: [
       {
-        heading: "How diagnosis is made",
+        heading: "How is low testosterone diagnosed?",
         bullets: [
           "Symptoms, medical history and examination matter alongside laboratory results.",
           "Morning total testosterone is commonly measured and an unexpectedly low result is usually confirmed.",
@@ -43,20 +43,20 @@ export const articles: Record<string, Article> = {
         ],
       },
       {
-        heading: "When testosterone may help",
+        heading: "Does TRT help with ED?",
         paragraphs: [
           "Testosterone therapy can improve sexual symptoms in men with confirmed hypogonadism and may improve response to PDE5 inhibitors in some men who have both testosterone deficiency and ED. It does not repair established vascular or nerve damage.",
         ],
       },
       {
-        heading: "ED on TRT: what to check if erections have not improved",
+        heading: "ED on TRT: why erections may not improve",
         paragraphs: [
           "Testosterone therapy can improve desire and, in men with confirmed deficiency, sometimes erections. It does not repair damaged blood vessels or nerves, so ED can continue on TRT for other reasons.",
           "A urologist will usually confirm that testosterone is in the intended range, then look at blood flow, nerves, other medicines, blood sugar, sleep and psychological factors. Where appropriate, a PDE5 inhibitor may be used alongside testosterone therapy. Do not change or stop prescribed TRT because of a website; speak to the prescriber.",
         ],
       },
       {
-        heading: "PRP plus TRT claims",
+        heading: "Does combining TRT with PRP work better?",
         paragraphs: [
           "There is no high-quality evidence establishing that combining testosterone with PRP produces a superior ED outcome. Such a combination should not be marketed as synergistic without a clearly cited clinical trial relevant to the patient group and protocol.",
         ],

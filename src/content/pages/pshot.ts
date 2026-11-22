@@ -7,10 +7,10 @@ const prpSources = ["eau2026", "aua2018", "panunzio2024", "masterson2023", "poul
 export const pshotPages: PageDef[] = [
   {
     path: "/p-shot",
-    metaTitle: "P-Shot for ED: How It Works, Risks, Evidence | UZ",
+    metaTitle: "P-Shot (Priapus Shot) for ED: Procedure, Risks, Evidence",
     description:
       "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
-    h1: "P-Shot PRP Treatment for Erectile Dysfunction",
+    h1: "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction",
     eyebrow: "Treatment guide",
     kind: "money",
     treatment: "p-shot",
@@ -33,7 +33,7 @@ export const pshotPages: PageDef[] = [
     blocks: [
       {
         type: "text",
-        heading: "What is P-Shot?",
+        heading: "What is the Priapus Shot (P-Shot)?",
         id: "what-is-p-shot",
         paragraphs: [
           "PRP stands for platelet-rich plasma. It is made from a sample of your own blood. Platelets release growth factors, which is why PRP is being studied in several areas of medicine.",
@@ -42,7 +42,7 @@ export const pshotPages: PageDef[] = [
       },
       {
         type: "steps",
-        heading: "How is PRP prepared and the P-Shot performed?",
+        heading: "P-Shot procedure step by step: how is PRP prepared and injected?",
         id: "procedure",
         intro: "The exact protocol is explained by the clinic at assessment. The usual stages are:",
         steps: [
@@ -119,7 +119,7 @@ export const pshotPages: PageDef[] = [
       },
       {
         type: "text",
-        heading: "When might I notice a change?",
+        heading: "When might I notice a change after a P-Shot?",
         id: "timeline",
         paragraphs: [
           "In published studies, outcomes were usually assessed over weeks to months, for example up to six months. No fixed timeline can be promised, and some men notice no change. The clinic explains how it measures progress and what follow-up it offers.",

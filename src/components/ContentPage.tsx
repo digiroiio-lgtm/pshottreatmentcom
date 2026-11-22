@@ -1,3 +1,4 @@
+import { DOCTOR } from "@/lib/clinic";
 import { languageLinks } from "@/content/localized";
 import PhotoGallery from "./PhotoGallery";
 import Image from "next/image";
@@ -56,6 +57,12 @@ export const breadcrumbsFor = (page: PageDef) => {
     ...(parent && parent.path !== page.path ? [parent] : []),
     { name: breadcrumbLabels[page.path] ?? page.h1, path: page.path },
   ];
+};
+
+/** Topic for the FAQ heading: the short breadcrumb label, lower-cased unless it starts with a name or abbreviation. */
+const faqTopic = (page: PageDef) => {
+  const label = breadcrumbLabels[page.path] ?? page.h1;
+  return /^(P-Shot|PRP|ED|EdSWT|Dr\.|UZ|Op\.)/.test(label) ? label : label.charAt(0).toLowerCase() + label.slice(1);
 };
 
 const Heading = ({ id, children }: { id?: string; children: React.ReactNode }) => (
@@ -159,7 +166,7 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
     case "doctor":
       return (
         <div className="space-y-4">
-          <DoctorCredentials />
+          <DoctorCredentials heading={page.path === "/dr-niyazi-umut-ozdemir" ? DOCTOR.name : undefined} />
           <DoctorReviewCTA treatment={treatment} placement="doctor" />
         </div>
       );
@@ -253,7 +260,7 @@ export default function ContentPage({ page }: { page: PageDef }) {
         <MedicalReviewStatus modified={page.modified} />
         {page.takeaways && <KeyTakeaways items={page.takeaways} />}
         {page.blocks.map((block, index) => <BlockView key={index} block={block} page={page} index={index} />)}
-        {page.faqs && <Faq items={page.faqs} />}
+        {page.faqs && <Faq items={page.faqs} heading={`Frequently asked questions about ${faqTopic(page)}`} />}
         {page.sources && <SourceList sources={getSources(page.sources)} />}
         {related.length > 0 && (
           <section aria-labelledby="related-heading">

@@ -35,7 +35,7 @@ export default function HomePage() {
           <InternationalPatientCTA placement="home-international" />
         </div>
         <PatientStories />
-        <Faq items={page.faqs ?? []} />
+        <Faq items={page.faqs ?? []} heading="Frequently asked questions about ED treatment in Antalya" />
         <CtaBand placement="home-bottom" />
         <MedicalDisclaimer />
       </div>
