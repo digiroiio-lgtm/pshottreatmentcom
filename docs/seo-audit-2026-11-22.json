@@ -3464,7 +3464,7 @@
     "h1": [
      "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction"
     ],
-    "words": 2132
+    "words": 2141
    },
    "schema": [
     {
@@ -5516,7 +5516,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction (EdSWT)"
     ],
-    "words": 1636
+    "words": 1645
    },
    "schema": [
     {
@@ -6788,7 +6788,7 @@
     "h1": [
      "Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 1635
+    "words": 1644
    },
    "schema": [
     {
@@ -13878,7 +13878,7 @@
     "h1": [
      "Penile Implant for Erectile Dysfunction"
     ],
-    "words": 977
+    "words": 986
    },
    "schema": [
     {
@@ -16384,7 +16384,7 @@
     "h1": [
      "P-Shot Side Effects and Risks"
     ],
-    "words": 793
+    "words": 802
    },
    "schema": [
     {
@@ -19376,7 +19376,7 @@
     "h1": [
      "When ED Tablets (Viagra, Cialis) Stop Working"
     ],
-    "words": 1491
+    "words": 1500
    },
    "schema": [
     {
@@ -21656,7 +21656,7 @@
     "h1": [
      "Erectile Dysfunction Under 40"
     ],
-    "words": 1379
+    "words": 1388
    },
    "schema": [
     {
@@ -24871,14 +24871,14 @@
     "FAQ section"
    ],
    "metadata": {
-    "title": "ED Treatment in Turkey: 10 Questions Answered (2026)",
-    "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+    "title": "ED Treatment in Turkey: 25 Questions Answered (2026)",
+    "description": "25 short answers on ED treatment in Turkey: P-Shot, shockwave, stem cells, prices UK vs Turkey, Antalya and Istanbul clinics, causes, tests and travel.",
     "canonical": "https://pshottreatment.com/ed-treatment-turkey-questions",
     "robots": "index, follow",
     "h1": [
-     "ED Treatment in Turkey: 10 Questions Patients Ask"
+     "ED Treatment in Turkey: 25 Questions Patients Ask"
     ],
-    "words": 1559
+    "words": 3172
    },
    "schema": [
     {
@@ -25092,8 +25092,8 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#webpage",
      "url": "https://pshottreatment.com/ed-treatment-turkey-questions",
-     "name": "ED Treatment in Turkey: 10 Questions Answered (2026)",
-     "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+     "name": "ED Treatment in Turkey: 25 Questions Answered (2026)",
+     "description": "25 short answers on ED treatment in Turkey: P-Shot, shockwave, stem cells, prices UK vs Turkey, Antalya and Istanbul clinics, causes, tests and travel.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
      },
@@ -25190,7 +25190,7 @@
       {
        "@type": "ListItem",
        "position": 3,
-       "name": "Turkey: 10 questions",
+       "name": "Turkey: 25 questions",
        "item": "https://pshottreatment.com/ed-treatment-turkey-questions"
       }
      ]
@@ -25198,8 +25198,8 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#article",
-     "headline": "ED Treatment in Turkey: 10 Questions Patients Ask",
-     "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+     "headline": "ED Treatment in Turkey: 25 Questions Patients Ask",
+     "description": "25 short answers on ED treatment in Turkey: P-Shot, shockwave, stem cells, prices UK vs Turkey, Antalya and Istanbul clinics, causes, tests and travel.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#webpage"
      },
@@ -25275,7 +25275,7 @@
     "h1": [
      "Priapus-shot (P-Shot) behandeling in Antalya, Turkije"
     ],
-    "words": 1021
+    "words": 1023
    },
    "schema": [
     {

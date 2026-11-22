@@ -140,7 +140,7 @@ export const pshotPages: PageDef[] = [
       { q: "What is the difference between P-Shot and PRP for ED?", a: "P-Shot is a brand-style name for penile PRP injection. The medical term is intracavernosal platelet-rich plasma injection." },
     ],
     sources: prpSources,
-    related: ["/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences", "/p-shot-vs-penile-injections", "/ed-questions"],
+    related: ["/ed-treatment-turkey-questions", "/prp-for-erectile-dysfunction", "/p-shot-turkey", "/p-shot-antalya", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/exosome-therapy-erectile-dysfunction", "/erectile-dysfunction-assessment", "/side-effects", "/price", "/p-shot-vs-shockwave", "/patient-experiences", "/p-shot-vs-penile-injections", "/ed-questions"],
   },
   {
     path: "/p-shot-turkey",

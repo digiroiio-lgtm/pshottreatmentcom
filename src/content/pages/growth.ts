@@ -85,7 +85,7 @@ export const growthPages: PageDef[] = [
       { q: "Do ED tablets work after prostate surgery or with diabetes?", a: "They may help some men, but response can be lower when nerves or blood vessels are affected. A urologist can advise which options are realistic for your case." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/ed-treatment-options", "/p-shot-vs-viagra", "/vasculogenic-erectile-dysfunction", "/p-shot-vs-penile-injections", "/erectile-dysfunction-assessment", "/ed-and-heart-disease", "/ed-under-40"],
+    related: ["/ed-treatment-turkey-questions", "/ed-treatment-options", "/p-shot-vs-viagra", "/vasculogenic-erectile-dysfunction", "/p-shot-vs-penile-injections", "/erectile-dysfunction-assessment", "/ed-and-heart-disease", "/ed-under-40"],
   },
   {
     path: "/p-shot-vs-penile-injections",
@@ -407,7 +407,7 @@ export const growthPages: PageDef[] = [
       { q: "Do I need a Doppler scan?", a: "Not usually. It is used in selected men, for example when a blood-flow problem is suspected." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction", "/ed-tablets-not-working", "/testosterone-ed", "/losing-erection-during-sex", "/erectile-dysfunction-assessment"],
+    related: ["/ed-treatment-turkey-questions", "/erectile-dysfunction", "/ed-tablets-not-working", "/testosterone-ed", "/losing-erection-during-sex", "/erectile-dysfunction-assessment"],
   },
   {
     path: "/losing-erection-during-sex",
@@ -886,10 +886,10 @@ export const growthPages: PageDef[] = [
   },
   {
     path: "/ed-treatment-turkey-questions",
-    metaTitle: "ED Treatment in Turkey: 10 Questions Answered (2026)",
+    metaTitle: "ED Treatment in Turkey: 25 Questions Answered (2026)",
     description:
-      "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
-    h1: "ED Treatment in Turkey: 10 Questions Patients Ask",
+      "25 short answers on ED treatment in Turkey: P-Shot, shockwave, stem cells, prices UK vs Turkey, Antalya and Istanbul clinics, causes, tests and travel.",
+    h1: "ED Treatment in Turkey: 25 Questions Patients Ask",
     eyebrow: "Quick answers",
     kind: "article",
     treatment: "not-sure",
@@ -903,12 +903,45 @@ export const growthPages: PageDef[] = [
     takeaways: [
       "Choose the doctor and the diagnosis-led plan first, then the city.",
       "Prices in Turkey are usually lower than in the UK, but price says nothing about outcome.",
-      "P-Shot is experimental and shockwave is emerging. No treatment can be guaranteed to work.",
+      "P-Shot, stem cells and exosomes are experimental; shockwave is emerging. No treatment can be guaranteed to work.",
     ],
     ctaLabel: "Send Your Case for Review",
     modified: DATE,
     priority: 0.8,
     blocks: [
+      {
+        type: "cards",
+        heading: "In this guide: 25 questions",
+        id: "contents",
+        cols: 2,
+        cards: [
+          { title: "1. Where can I get a P-Shot (Priapus Shot) in Turkey?", text: "Treatment in Turkey and choosing a clinic", href: "#p-shot-turkey" },
+          { title: "2. How do I choose a clinic for erectile dysfunction treatment in Antalya?", text: "Treatment in Turkey and choosing a clinic", href: "#clinic-antalya" },
+          { title: "3. Can I get ED treatment in Istanbul as an international patient?", text: "Treatment in Turkey and choosing a clinic", href: "#istanbul" },
+          { title: "4. Is exosome therapy for ED available and safe in Turkey?", text: "Treatment in Turkey and choosing a clinic", href: "#exosome-turkey" },
+          { title: "5. Is it safe to travel to Turkey for erectile dysfunction treatment?", text: "Treatment in Turkey and choosing a clinic", href: "#safety" },
+          { title: "6. How much does a P-Shot cost in the UK compared with Turkey?", text: "Prices", href: "#price-uk-turkey" },
+          { title: "7. Where can I get shockwave therapy for ED in Turkey, and what does it cost?", text: "Prices", href: "#shockwave" },
+          { title: "8. Is the P-Shot worth it for erectile dysfunction?", text: "Treatments and evidence", href: "#worth-it" },
+          { title: "9. How long do P-Shot results last?", text: "Treatments and evidence", href: "#p-shot-duration" },
+          { title: "10. What are the side effects of the P-Shot?", text: "Treatments and evidence", href: "#p-shot-side-effects" },
+          { title: "11. Does shockwave therapy really work for erectile dysfunction?", text: "Treatments and evidence", href: "#shockwave-evidence" },
+          { title: "12. P-Shot vs shockwave therapy: which is better for ED?", text: "Treatments and evidence", href: "#p-shot-vs-shockwave" },
+          { title: "13. Does stem cell therapy work for erectile dysfunction?", text: "Treatments and evidence", href: "#stem-cell" },
+          { title: "14. When is a penile implant the right option for ED?", text: "Treatments and evidence", href: "#penile-implant" },
+          { title: "15. What can I do if Viagra or Cialis doesn't work for my ED?", text: "Causes and conditions", href: "#tablets-not-working" },
+          { title: "16. Can erectile dysfunction be cured permanently?", text: "Causes and conditions", href: "#cure" },
+          { title: "17. Why do I have erectile dysfunction in my 30s?", text: "Causes and conditions", href: "#ed-30s" },
+          { title: "18. Can venous leak be cured?", text: "Causes and conditions", href: "#venous-leak" },
+          { title: "19. Does TRT help erectile dysfunction?", text: "Causes and conditions", href: "#trt" },
+          { title: "20. What helps erectile dysfunction after prostate surgery?", text: "Causes and conditions", href: "#prostate-surgery" },
+          { title: "21. Can diabetes-related erectile dysfunction be treated?", text: "Causes and conditions", href: "#diabetes" },
+          { title: "22. What tests do I need before ED treatment?", text: "Causes and conditions", href: "#tests" },
+          { title: "23. Where can I get a penile Doppler ultrasound in Antalya?", text: "Causes and conditions", href: "#doppler" },
+          { title: "24. How long do I need to stay in Antalya for ED treatment?", text: "Travel and your doctor", href: "#stay-length" },
+          { title: "25. Who is Dr. Niyazi Umut Özdemir?", text: "Travel and your doctor", href: "#doctor" },
+        ],
+      },
       {
         type: "text",
         heading: "1. Where can I get a P-Shot (Priapus Shot) in Turkey?",
@@ -927,55 +960,7 @@ export const growthPages: PageDef[] = [
       },
       {
         type: "text",
-        heading: "3. Is the P-Shot worth it for erectile dysfunction?",
-        id: "worth-it",
-        paragraphs: [
-          "It depends on the cause of your ED and on your expectations. Some trials report better erection scores after PRP, while a 2023 placebo-controlled trial found no difference. Established options such as PDE5 tablets, vacuum devices and injections should be discussed first. The P-Shot may be considered as an experimental option for selected men who understand that benefit is uncertain and not permanent.",
-        ],
-      },
-      {
-        type: "text",
-        heading: "4. How much does a P-Shot cost in the UK compared with Turkey?",
-        id: "price-uk-turkey",
-        paragraphs: [
-          `UK prices vary widely between clinics and depend on what the quote includes, so compare itemised quotes rather than headline prices. At UZ Clinic Antalya the Standard P-Shot is ${priceText("pshot")} and the G-Cell Power P-Shot is ${priceText("gcell")}. Packages are 5% less than the same items priced separately. Add travel and accommodation when you compare.`,
-        ],
-      },
-      {
-        type: "text",
-        heading: "5. Where can I get shockwave therapy for ED in Turkey, and what does it cost?",
-        id: "shockwave",
-        paragraphs: [
-          `UZ Clinic Antalya offers low-intensity shockwave therapy (Li-ESWT, EdSWT) after assessment, mainly for blood-flow related (vasculogenic) ED. A session is ${priceText("eswt")}; 6 sessions are ${packageText("eswt6")}. The 2026 EAU guideline reports a mild average improvement and gives a weak recommendation for selected men with vasculogenic ED, so patient selection matters.`,
-        ],
-      },
-      {
-        type: "text",
-        heading: "6. Can venous leak be cured?",
-        id: "venous-leak",
-        paragraphs: [
-          "No treatment is established as a cure for venous leak (venogenic ED). Treatment aims to give a reliable erection: optimised PDE5 tablets, vacuum devices, penile injections and, for severe ED, a penile implant. Venous surgery is not routinely recommended, and claims that PRP, supplements or a set number of shockwave sessions reverse venous leak are not supported by good evidence.",
-        ],
-      },
-      {
-        type: "text",
-        heading: "7. Where can I get a penile Doppler ultrasound in Antalya?",
-        id: "doppler",
-        paragraphs: [
-          `Penile Doppler ultrasound is performed at UZ Clinic Antalya (and at the affiliated clinic in Istanbul) when the urologist advises it. It is ${priceText("doppler")}, or ${packageText("bloodDoppler")} together with comprehensive blood tests. The scan measures blood flow into and out of the penis and helps separate arterial problems from venous leak. Earlier reports can be sent for review first.`,
-        ],
-      },
-      {
-        type: "text",
-        heading: "8. Does TRT help erectile dysfunction?",
-        id: "trt",
-        paragraphs: [
-          "Testosterone therapy (TRT) helps mainly when low testosterone is confirmed with symptoms and repeated morning blood tests. It can improve desire and sometimes the response to ED tablets, but it does not repair blood vessels or nerves, so many men still have ED on TRT. In that case a urologist looks for other causes, such as blood flow, medicines or diabetes.",
-        ],
-      },
-      {
-        type: "text",
-        heading: "9. Can I get ED treatment in Istanbul as an international patient?",
+        heading: "3. Can I get ED treatment in Istanbul as an international patient?",
         id: "istanbul",
         paragraphs: [
           "Yes. UZ Clinic Antalya works with an affiliated clinic in Istanbul that offers penile Doppler ultrasound, P-Shot, shockwave therapy and stem cell therapy after assessment, at the same published prices. The coordinator advises whether Istanbul or Antalya suits your plan. Ask who will treat you in Istanbul and for their qualifications before you decide.",
@@ -983,12 +968,180 @@ export const growthPages: PageDef[] = [
       },
       {
         type: "text",
-        heading: "10. Is it safe to travel to Turkey for erectile dysfunction treatment?",
+        heading: "4. Is exosome therapy for ED available and safe in Turkey?",
+        id: "exosome-turkey",
+        paragraphs: [
+          "Some clinics in Turkey advertise exosome therapy for erectile dysfunction, but it is investigational: the evidence is very limited, there is no established protocol, and products are not standardised. At UZ Clinic Antalya it is considered only after specialist assessment and detailed informed consent. Be cautious of any provider that presents exosomes as proven or promises results.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "5. Is it safe to travel to Turkey for erectile dysfunction treatment?",
         id: "safety",
         paragraphs: [
           "It can be, if you choose a qualified urologist, have a proper assessment and know what happens after you go home. Most ED treatments, such as P-Shot and shockwave sessions, are outpatient procedures. Before booking, check the doctor's credentials, get written consent and an itemised quote, plan the timing of multi-session courses and agree who you contact if a problem appears at home.",
         ],
         note: "Seek urgent medical care for an erection lasting more than four hours, heavy bleeding, fever or spreading redness after any penile procedure.",
+      },
+      {
+        type: "text",
+        heading: "6. How much does a P-Shot cost in the UK compared with Turkey?",
+        id: "price-uk-turkey",
+        paragraphs: [
+          `UK prices vary widely between clinics and depend on what the quote includes, so compare itemised quotes rather than headline prices. At UZ Clinic Antalya the Standard P-Shot is ${priceText("pshot")} and the G-Cell Power P-Shot is ${priceText("gcell")}. Packages are 5% less than the same items priced separately. Add travel and accommodation when you compare.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "7. Where can I get shockwave therapy for ED in Turkey, and what does it cost?",
+        id: "shockwave",
+        paragraphs: [
+          `UZ Clinic Antalya offers low-intensity shockwave therapy (Li-ESWT, EdSWT) after assessment, mainly for blood-flow related (vasculogenic) ED. A session is ${priceText("eswt")}; 6 sessions are ${packageText("eswt6")}. The 2026 EAU guideline reports a mild average improvement from low-intensity shockwave therapy and gives a weak recommendation for selected men with vasculogenic ED. Patient selection matters.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "8. Is the P-Shot worth it for erectile dysfunction?",
+        id: "worth-it",
+        paragraphs: [
+          "It depends on the cause of your ED and on your expectations. Some trials report better erection scores after PRP, while a 2023 placebo-controlled trial found no difference. Established options such as PDE5 tablets, vacuum devices and injections should be discussed first. The P-Shot may be considered as an experimental option for selected men who understand that benefit is uncertain and not permanent.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "9. How long do P-Shot results last?",
+        id: "p-shot-duration",
+        paragraphs: [
+          "No one can say, and no permanent effect can be promised. Studies followed men for weeks to months, often up to six months, and results varied: some men noticed improvement, others none. If there is a benefit, how long it lasts differs between patients. Be cautious of any clinic that quotes a fixed duration, such as one or two years.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "10. What are the side effects of the P-Shot?",
+        id: "p-shot-side-effects",
+        paragraphs: [
+          "Reported side effects have mostly been minor: temporary pain, tenderness, bruising, redness or swelling where the injection was given. Bleeding, a haematoma or infection are possible, and the risk of bleeding is higher with blood thinners. Studies are small, so rare or long-term effects are not well known. Using your own blood avoids rejection but does not make an injection risk-free.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "11. Does shockwave therapy really work for erectile dysfunction?",
+        id: "shockwave-evidence",
+        paragraphs: [
+          "It can help some men, mainly those with mild to moderate blood-flow related (vasculogenic) ED. The 2026 EAU guideline reports a mild average improvement from low-intensity shockwave therapy and gives a weak recommendation for selected men with vasculogenic ED. It is less likely to help ED caused by severe nerve damage, after prostate surgery or by advanced vascular disease. The clinic protocol is 12 sessions, and benefit is not guaranteed.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "12. P-Shot vs shockwave therapy: which is better for ED?",
+        id: "p-shot-vs-shockwave",
+        paragraphs: [
+          "Neither is better for everyone. Shockwave therapy is a non-invasive course of sessions with more evidence, aimed mainly at vasculogenic ED, and is classed as emerging. The P-Shot is a single injection of platelet-rich plasma and remains experimental. The right choice depends on the cause of your ED, which is why assessment, sometimes with penile Doppler ultrasound, comes first.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "13. Does stem cell therapy work for erectile dysfunction?",
+        id: "stem-cell",
+        paragraphs: [
+          "It is not an established treatment. Stem cells are being studied as a regenerative approach, but studies are small, methods vary and no success rate can be promised. The 2026 EAU guideline considers the evidence for stem-cell therapy in ED insufficient for routine clinical use. Any use should follow specialist assessment and detailed informed consent, ideally as part of a clinical study.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "14. When is a penile implant the right option for ED?",
+        id: "penile-implant",
+        paragraphs: [
+          "A penile implant is an established surgical treatment, usually considered for severe ED when tablets, injections or vacuum devices have not worked or are unsuitable. A device placed inside the penis allows an erection on demand. Satisfaction rates are generally high, but it is an operation with risks such as infection or device failure, and it permanently changes the erectile tissue.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "15. What can I do if Viagra or Cialis doesn't work for my ED?",
+        id: "tablets-not-working",
+        paragraphs: [
+          "First check how the tablet is taken: it needs sexual stimulation, the right dose and timing, and several attempts. Apparent failure is often due to incorrect use, a counterfeit product, a drug interaction or an untreated cause such as low testosterone, diabetes or poor blood flow. A urologist can check these, then discuss options such as penile injections, vacuum devices, shockwave therapy or, for severe ED, an implant.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "16. Can erectile dysfunction be cured permanently?",
+        id: "cure",
+        paragraphs: [
+          "Sometimes. ED caused by a reversible factor, such as a medicine, low testosterone, anxiety or lifestyle, can improve or resolve once that cause is treated. ED from long-standing blood-vessel or nerve damage is usually managed rather than cured, for example with tablets, injections or an implant. No regenerative treatment, including the P-Shot, is proven to cure ED permanently.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "17. Why do I have erectile dysfunction in my 30s?",
+        id: "ed-30s",
+        paragraphs: [
+          "ED in younger men is more common than many expect. Common reasons include performance anxiety, stress, depression and some antidepressants, alcohol, smoking, poor sleep, low testosterone and, less often, early blood-vessel disease or diabetes. Because ED can be an early warning sign of heart or metabolic problems, a check-up with a doctor is worthwhile even when anxiety seems the likely cause.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "18. Can venous leak be cured?",
+        id: "venous-leak",
+        paragraphs: [
+          "No treatment is established as a cure for venous leak (venogenic ED). Treatment aims to give a reliable erection: optimised PDE5 tablets, vacuum devices, penile injections and, for severe ED, a penile implant. Venous surgery is not routinely recommended, and claims that PRP, supplements or a set number of shockwave sessions reverse venous leak are not supported by good evidence.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "19. Does TRT help erectile dysfunction?",
+        id: "trt",
+        paragraphs: [
+          "Testosterone therapy (TRT) helps mainly when low testosterone is confirmed with symptoms and repeated morning blood tests. It can improve desire and sometimes the response to ED tablets, but it does not repair blood vessels or nerves, so many men still have ED on TRT. In that case a urologist looks for other causes, such as blood flow, medicines or diabetes.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "20. What helps erectile dysfunction after prostate surgery?",
+        id: "prostate-surgery",
+        paragraphs: [
+          "Recovery after prostatectomy varies and can take many months, even with nerve-sparing surgery. A rehabilitation plan from a urologist often combines PDE5 tablets, vacuum devices and, when needed, penile injections to keep the tissue healthy while nerves recover. If erections do not return, a penile implant is an established option. Shockwave and PRP have limited evidence in this group.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "21. Can diabetes-related erectile dysfunction be treated?",
+        id: "diabetes",
+        paragraphs: [
+          "Yes, although it can be harder to treat because diabetes affects both blood vessels and nerves. Good blood sugar, blood pressure and cholesterol control help. Options include PDE5 tablets, penile injections, vacuum devices and, for severe ED, an implant. Shockwave therapy may be considered in selected men with blood-flow related ED. Men with diabetes and ED should also have a heart check.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "22. What tests do I need before ED treatment?",
+        id: "tests",
+        paragraphs: [
+          `Most men need a medical history, an examination and blood tests such as glucose or HbA1c, cholesterol and morning testosterone. A penile Doppler ultrasound is used in selected men to measure blood flow, for example before shockwave therapy or when venous leak is suspected. At UZ Clinic Antalya, blood tests are ${priceText("bloodTests")}, or ${packageText("bloodDoppler")} together with a penile Doppler.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "23. Where can I get a penile Doppler ultrasound in Antalya?",
+        id: "doppler",
+        paragraphs: [
+          `Penile Doppler ultrasound is performed at UZ Clinic Antalya (and at the affiliated clinic in Istanbul) when the urologist advises it. It is ${priceText("doppler")}, or ${packageText("bloodDoppler")} together with comprehensive blood tests. The scan measures blood flow into and out of the penis and helps separate arterial problems from venous leak. Earlier reports can be sent for review first.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "24. How long do I need to stay in Antalya for ED treatment?",
+        id: "stay-length",
+        paragraphs: [
+          "It depends on the plan. An assessment with blood tests and a penile Doppler ultrasound, or a P-Shot, can usually be done within a short stay of a few days, including the consultation and a check afterwards. A full shockwave course is 12 sessions given 2 to 3 times a week in two blocks of 6 with a 3-week gap, so it is often split over two trips. The coordinator plans timing after reviewing your case.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "25. Who is Dr. Niyazi Umut Özdemir?",
+        id: "doctor",
+        paragraphs: [
+          "Op. Dr. Niyazi Umut Özdemir is a urologist and urological surgeon in Antalya, Turkey, and the founder of UZ Clinic Antalya. He studied medicine at Ege University, specialised in urology and holds Turkish Association of Urology board certification. His clinical focus is erectile dysfunction, penile rehabilitation and male sexual health. He is a member of the Turkish Urological Association and the European Association of Urology.",
+        ],
       },
       {
         type: "cards",
@@ -1001,10 +1154,19 @@ export const growthPages: PageDef[] = [
           { title: "ED treatment in Antalya", text: "The clinic, the visit and the location.", href: "/erectile-dysfunction-treatment-antalya" },
           { title: "ED treatment in Istanbul", text: "The affiliated clinic and what it offers.", href: "/erectile-dysfunction-treatment-istanbul" },
           { title: "Shockwave therapy for ED", text: "Who it may help and the clinic protocol.", href: "/shockwave-therapy-ed" },
+          { title: "P-Shot vs shockwave", text: "How the two compare.", href: "/p-shot-vs-shockwave" },
+          { title: "P-Shot side effects", text: "Risks and when to seek help.", href: "/side-effects" },
+          { title: "Stem cell therapy for ED", text: "What is known, and what is not.", href: "/stem-cell-therapy-erectile-dysfunction" },
+          { title: "When ED tablets stop working", text: "Causes and next steps.", href: "/ed-tablets-not-working" },
+          { title: "ED under 40", text: "Why it happens and what to check.", href: "/ed-under-40" },
           { title: "Venous leak", text: "Symptoms, diagnosis and treatment options.", href: "/venous-leak" },
-          { title: "Penile Doppler in Antalya", text: "When a scan helps and what it costs.", href: "/penile-doppler-antalya" },
           { title: "TRT and erectile dysfunction", text: "When testosterone helps, and when it does not.", href: "/testosterone-ed" },
-          { title: "How to choose an ED clinic abroad", text: "A checklist and the red flags.", href: "/choose-an-ed-clinic-abroad" },
+          { title: "ED after prostate surgery", text: "Recovery and rehabilitation.", href: "/erectile-dysfunction-after-prostate-surgery" },
+          { title: "Diabetes and ED", text: "Assessment and treatment options.", href: "/diabetes-erectile-dysfunction" },
+          { title: "Penile implant", text: "When it is considered.", href: "/penile-implant" },
+          { title: "Penile Doppler in Antalya", text: "When a scan helps and what it costs.", href: "/penile-doppler-antalya" },
+          { title: "International patients", text: "Planning your trip to Antalya.", href: "/international-patients" },
+          { title: "Op. Dr. Niyazi Umut Özdemir", text: "Qualifications and clinical focus.", href: "/dr-niyazi-umut-ozdemir" },
         ],
       },
       { type: "cta", title: "Send Your Case for Review", text: "Not sure which of these applies to you? The urologist reviews your history and tells you which options may be relevant.", label: "Send Your Case for Review", whatsapp: true },

@@ -106,7 +106,7 @@ export const regenerativePages: PageDef[] = [
       { q: "Can stem cell therapy enlarge the penis?", a: "No. The clinic does not claim that it does." },
     ],
     sources: ["eau2026", "aua2018", "clinicalTrial"],
-    related: ["/stem-cell-treatment-ed-turkey", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/exosome-therapy-erectile-dysfunction", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/patient-experiences", "/exosome-therapy-turkey", "/ed-evidence-tracker"],
+    related: ["/ed-treatment-turkey-questions", "/stem-cell-treatment-ed-turkey", "/p-shot-vs-stem-cell", "/shockwave-vs-stem-cell", "/exosome-therapy-erectile-dysfunction", "/ed-treatment-options", "/erectile-dysfunction-assessment", "/patient-experiences", "/exosome-therapy-turkey", "/ed-evidence-tracker"],
   },
   {
     path: "/stem-cell-treatment-ed-turkey",
