@@ -110,7 +110,7 @@ export const clinicPages: PageDef[] = [
       { q: "What are the risks?", a: "Surgical risks include infection, mechanical problems and the need for further surgery. The surgeon discusses them in detail." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/penile-rehabilitation", "/ed-treatment-options", "/erectile-dysfunction-after-prostate-surgery", "/erectile-dysfunction-assessment"],
+    related: ["/ed-treatment-turkey-questions", "/penile-rehabilitation", "/ed-treatment-options", "/erectile-dysfunction-after-prostate-surgery", "/erectile-dysfunction-assessment"],
   },
   {
     path: "/dr-niyazi-umut-ozdemir",
@@ -450,7 +450,7 @@ export const clinicPages: PageDef[] = [
       { q: "What if I take blood thinners?", a: "Tell the doctor. Blood thinners can raise the risk of bleeding and may mean the P-Shot is unsuitable." },
     ],
     sources: ["eau2026", "masterson2023", "panunzio2024"],
-    related: ["/p-shot", "/prp-for-erectile-dysfunction", "/erectile-dysfunction-assessment"],
+    related: ["/ed-treatment-turkey-questions", "/p-shot", "/prp-for-erectile-dysfunction", "/erectile-dysfunction-assessment"],
   },
   {
     path: "/ed-knowledge-hub",
