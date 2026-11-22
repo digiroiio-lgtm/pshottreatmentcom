@@ -1,5 +1,6 @@
 import { ASSESS_STEPS, DATE, EAU_PRP, NO_GUARANTEE } from "../shared";
 import type { PageDef } from "../types";
+import { priceText } from "../prices";
 
 export const corePages: PageDef[] = [
   {
@@ -373,7 +374,7 @@ export const corePages: PageDef[] = [
       { q: "Can I have a penile Doppler test in Istanbul?", a: "Yes. Doppler ultrasound is offered in Istanbul and Antalya. The doctor decides whether you need one, and earlier reports can be sent for review." },
       { q: "Is stem cell therapy available in Istanbul?", a: "It is offered after assessment, but stem cell therapy for ED is experimental or investigational. It is considered only after the cause of your ED has been evaluated." },
       { q: "Is Dr. Özdemir the doctor in Istanbul?", a: "Dr. Niyazi Umut Özdemir is based at the clinic in Antalya. Ask the coordinator who would treat you in Istanbul and for their qualifications before you decide." },
-      { q: "How much does treatment in Istanbul cost?", a: "Fees are given in an itemised written quote after your case is reviewed. The advertised P-Shot fee is on the price page." },
+      { q: "How much does treatment in Istanbul cost?", a: `The same published prices apply in Istanbul and Antalya, for example a Standard P-Shot at ${priceText("pshot")} and a penile Doppler ultrasound at ${priceText("doppler")}. The full list and packages are on the price page.` },
     ],
     sources: ["eau2026", "aua2018"],
     related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/international-patients", "/penile-doppler-antalya", "/p-shot", "/shockwave-therapy-ed", "/price", "/erectile-dysfunction-assessment"],

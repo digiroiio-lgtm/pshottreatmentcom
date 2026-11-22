@@ -1,5 +1,6 @@
 import { ASSESS_STEPS, DATE, EAU_PRP, NO_GUARANTEE } from "../shared";
 import type { PageDef } from "../types";
+import { listText, packageText, PRICE_NOTE, priceText } from "../prices";
 
 const TRUST = { name: "About", path: "/about" };
 
@@ -327,7 +328,7 @@ export const clinicPages: PageDef[] = [
     path: "/price",
     metaTitle: "P-Shot Price UK vs Turkey: From £300 | UZ Clinic",
     description:
-      "P-Shot cost UK vs Turkey: advertised £300 fee in Antalya (also €/$), why UK quotes vary and what to ask before comparing any itemised quote.",
+      "P-Shot cost UK vs Turkey: £300 in Antalya (about €360 / $395), G-Cell £350, 5% off packages, and what to ask before comparing any quote.",
     h1: "P-Shot Price UK vs Turkey: Cost in GBP",
     eyebrow: "Cost",
     kind: "money",
@@ -335,7 +336,7 @@ export const clinicPages: PageDef[] = [
     medical: false,
     answer: {
       q: "How much does a P-Shot cost in the UK and in Turkey?",
-      a: "P-Shot prices in the UK vary widely between clinics, because they depend on the protocol, the clinician and what is included, so compare itemised quotations rather than headline prices. At UZ Clinic Antalya in Turkey, the advertised P-Shot treatment fee is £300, €300 or $300 depending on the billing currency. These are stated billing options, not live exchange-rate conversions. Your written treatment plan confirms what is included after assessment. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable.",
+      a: `P-Shot prices in the UK vary widely between clinics, because they depend on the protocol, the clinician and what is included, so compare itemised quotations rather than headline prices. At UZ Clinic Antalya in Turkey, the Standard P-Shot is ${priceText("pshot")} and the G-Cell Power P-Shot is ${priceText("gcell")}. ${PRICE_NOTE} Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable.`,
     },
     ctaLabel: "Request an Itemised Quote",
     modified: DATE,
@@ -381,7 +382,9 @@ export const clinicPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
-      { q: "What is the P-Shot cost in the UK in pounds (£)?", a: "UK clinics set their own prices and there is no single figure, so ask each for an itemised written quote in pounds. For comparison, UZ Clinic Antalya's advertised P-Shot treatment fee is £300 when billed in GBP. Check sessions, clinician and follow-up before comparing." },
+      { q: "What is the P-Shot cost in the UK in pounds (£)?", a: `UK clinics set their own prices and there is no single figure, so ask each for an itemised written quote in pounds. For comparison, UZ Clinic Antalya's Standard P-Shot is ${priceText("pshot")}. Check sessions, clinician and follow-up before comparing.` },
+      { q: "What is the G-Cell Power P-Shot price?", a: `The G-Cell Power P-Shot is ${priceText("gcell")}, against a list price of ${listText("gcell")}. Whether it is suitable for you is decided by the doctor after assessment.` },
+      { q: "Are there package prices?", a: `Yes. Approved packages cost 5% less than the same items priced separately, for example blood tests + penile Doppler for ${packageText("bloodDoppler")}, or 6 shockwave sessions for ${packageText("eswt6")}. The full list is in the price table above.` },
       { q: "How much is a P-Shot in the UK?", a: "It varies by clinic and by what the quote includes, so there is no single UK price. Ask each clinic for an itemised written quote that states the number of sessions, who treats you and what follow-up is included. UZ Clinic Antalya's advertised fee is shown above." },
       { q: "Why can a P-Shot cost less in Turkey than in the UK?", a: "Fees depend on clinician time, premises, regulation, consumables and local costs, so they differ between countries. A lower quote does not prove the protocol or provider is equivalent, and a higher one does not prove better outcomes. Compare qualifications, consent and follow-up as well as price." },
       { q: "Is the P-Shot price per session or per course?", a: "Ask for this in writing from any provider. Your written treatment plan at UZ Clinic Antalya confirms what the fee covers after assessment." },

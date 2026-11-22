@@ -2,7 +2,7 @@ import { CLINIC_LOGO, clinicPhotos } from "@/content/images";
 import { pages } from "@/content";
 import { treatmentCards } from "@/content/treatments";
 import type { PageDef } from "@/content/types";
-import { advertisedFees } from "@/lib/page-data";
+import { CURRENCIES, PACKAGE_DISCOUNT, PACKAGES, REFERENCE_RATES_DATE, itemPrice, packagePrice, publishedItems, type Currency } from "@/lib/pricing";
 import { glossary } from "@/content/glossary";
 import { CLINIC, CONTENT_REVIEW, DOCTOR } from "@/lib/clinic";
 import { getSources } from "@/lib/evidence";
@@ -121,20 +121,25 @@ function extraNodes(page: PageDef, pageUrl: string): Node[] {
   }
 
   if (page.path === "/price") {
+    const offer = (name: string, price: number, currency: Currency, extra: Node = {}): Node => ({
+      "@type": "Offer",
+      name,
+      price: String(price),
+      priceCurrency: currency,
+      url: pageUrl,
+      seller: { "@id": ORG_ID },
+      ...extra,
+    });
     nodes.push({
-      "@type": "Service",
-      "@id": `${pageUrl}#service`,
-      name: "P-Shot (PRP) treatment fee",
+      "@type": "OfferCatalog",
+      "@id": `${pageUrl}#prices`,
+      name: "UZ Clinic Antalya treatment prices",
+      description: `Cash prices. Other currencies use fixed reference exchange rates from ${REFERENCE_RATES_DATE}. Packages are ${Math.round(PACKAGE_DISCOUNT * 100)}% less than the separate prices. The written treatment plan confirms the total.`,
+      itemListElement: [
+        ...publishedItems().flatMap((item) => CURRENCIES.map((c) => offer(item.unit ? `${item.name} (${item.unit})` : item.name, itemPrice(item.id, c), c))),
+        ...PACKAGES.flatMap((pkg) => CURRENCIES.map((c) => offer(pkg.name, packagePrice(pkg.id, c), c, { category: "Package" }))),
+      ],
       provider: { "@id": ORG_ID },
-      areaServed,
-      offers: advertisedFees.map((fee) => ({
-        "@type": "Offer",
-        price: fee.amount,
-        priceCurrency: fee.currency,
-        url: pageUrl,
-        seller: { "@id": ORG_ID },
-        description: "Advertised treatment fee. What it includes is confirmed in the written treatment plan after assessment.",
-      })),
     });
   }
 

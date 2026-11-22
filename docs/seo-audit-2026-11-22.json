@@ -2556,7 +2556,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Istanbul"
     ],
-    "words": 1244
+    "words": 1263
    },
    "schema": [
     {
@@ -2948,7 +2948,7 @@
        "name": "How much does treatment in Istanbul cost?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Fees are given in an itemised written quote after your case is reviewed. The advertised P-Shot fee is on the price page."
+        "text": "The same published prices apply in Istanbul and Antalya, for example a Standard P-Shot at £300 (about €360 / $395) and a penile Doppler ultrasound at €300 (about £255 / $330). The full list and packages are on the price page."
        }
       }
      ]
@@ -3362,7 +3362,7 @@
     "h1": [
      "P-Shot PRP Treatment for Erectile Dysfunction"
     ],
-    "words": 2069
+    "words": 2110
    },
    "schema": [
     {
@@ -3771,6 +3771,14 @@
      },
      "inLanguage": "en-GB",
      "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How much does the P-Shot cost at UZ Clinic Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Standard P-Shot is £300 (about €360 / $395) and the G-Cell Power P-Shot is £350 (about €420 / $460). See the price page for packages. Suitability is decided after assessment."
+       }
+      },
       {
        "@type": "Question",
        "name": "What is the Priapus Shot?",
@@ -5366,7 +5374,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction (EdSWT)"
     ],
-    "words": 1569
+    "words": 1630
    },
    "schema": [
     {
@@ -5720,6 +5728,14 @@
      },
      "inLanguage": "en-GB",
      "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How much does shockwave therapy cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shockwave therapy (ESWT) is £110 (about €135 / $145) per session. Packages cost 5% less: 3 sessions £315 (about €375 / $415), 6 sessions £630 (about €750 / $825). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
+       }
+      },
       {
        "@type": "Question",
        "name": "Is shockwave therapy painful?",
@@ -6213,7 +6229,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction in Turkey"
     ],
-    "words": 910
+    "words": 971
    },
    "schema": [
     {
@@ -6542,6 +6558,14 @@
      },
      "inLanguage": "en-GB",
      "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How much does shockwave therapy cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shockwave therapy (ESWT) is £110 (about €135 / $145) per session. Packages cost 5% less: 3 sessions £315 (about €375 / $415), 6 sessions £630 (about €750 / $825). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
+       }
+      },
       {
        "@type": "Question",
        "name": "Can I do all 12 sessions in one trip?",
@@ -11050,7 +11074,7 @@
     "h1": [
      "Penile Doppler Ultrasound for Erectile Dysfunction"
     ],
-    "words": 1082
+    "words": 1111
    },
    "schema": [
     {
@@ -11419,6 +11443,14 @@
       },
       {
        "@type": "Question",
+       "name": "How much does a penile Doppler test cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At UZ Clinic Antalya a penile Doppler ultrasound is €300 (about £255 / $330). The doctor decides whether you need one."
+       }
+      },
+      {
+       "@type": "Question",
        "name": "Can I send an old Doppler report?",
        "acceptedAnswer": {
         "@type": "Answer",
@@ -11474,7 +11506,7 @@
     "h1": [
      "Penile Doppler Ultrasound in Antalya"
     ],
-    "words": 1321
+    "words": 1361
    },
    "schema": [
     {
@@ -11842,7 +11874,7 @@
        "name": "How much does a penile Doppler scan cost in Antalya?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The fee is not published here. Ask the coordinator for it in your itemised written quote."
+        "text": "A penile Doppler ultrasound is €300 (about £255 / $330). With comprehensive blood tests the package is £345 (about €410 / $450). The same prices apply in Istanbul."
        }
       },
       {
@@ -15176,13 +15208,13 @@
    "issues": [],
    "metadata": {
     "title": "P-Shot Price UK vs Turkey: From £300 | UZ Clinic",
-    "description": "P-Shot cost UK vs Turkey: advertised £300 fee in Antalya (also €/$), why UK quotes vary and what to ask before comparing any itemised quote.",
+    "description": "P-Shot cost UK vs Turkey: £300 in Antalya (about €360 / $395), G-Cell £350, 5% off packages, and what to ask before comparing any quote.",
     "canonical": "https://pshottreatment.com/price",
     "robots": "index, follow",
     "h1": [
      "P-Shot Price UK vs Turkey: Cost in GBP"
     ],
-    "words": 1125
+    "words": 1344
    },
    "schema": [
     {
@@ -15387,7 +15419,7 @@
      "@id": "https://pshottreatment.com/price#webpage",
      "url": "https://pshottreatment.com/price",
      "name": "P-Shot Price UK vs Turkey: From £300 | UZ Clinic",
-     "description": "P-Shot cost UK vs Turkey: advertised £300 fee in Antalya (also €/$), why UK quotes vary and what to ask before comparing any itemised quote.",
+     "description": "P-Shot cost UK vs Turkey: £300 in Antalya (about €360 / $395), G-Cell £350, 5% off packages, and what to ask before comparing any quote.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
      },
@@ -15447,7 +15479,7 @@
      "@type": "Article",
      "@id": "https://pshottreatment.com/price#article",
      "headline": "P-Shot Price UK vs Turkey: Cost in GBP",
-     "description": "P-Shot cost UK vs Turkey: advertised £300 fee in Antalya (also €/$), why UK quotes vary and what to ask before comparing any itemised quote.",
+     "description": "P-Shot cost UK vs Turkey: £300 in Antalya (about €360 / $395), G-Cell £350, 5% off packages, and what to ask before comparing any quote.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/price#webpage"
      },
@@ -15478,7 +15510,23 @@
        "name": "What is the P-Shot cost in the UK in pounds (£)?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "UK clinics set their own prices and there is no single figure, so ask each for an itemised written quote in pounds. For comparison, UZ Clinic Antalya's advertised P-Shot treatment fee is £300 when billed in GBP. Check sessions, clinician and follow-up before comparing."
+        "text": "UK clinics set their own prices and there is no single figure, so ask each for an itemised written quote in pounds. For comparison, UZ Clinic Antalya's Standard P-Shot is £300 (about €360 / $395). Check sessions, clinician and follow-up before comparing."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is the G-Cell Power P-Shot price?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The G-Cell Power P-Shot is £350 (about €420 / $460), against a list price of £400. Whether it is suitable for you is decided by the doctor after assessment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are there package prices?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Approved packages cost 5% less than the same items priced separately, for example blood tests + penile Doppler for £345 (about €410 / $450), or 6 shockwave sessions for £630 (about €750 / $825). The full list is in the price table above."
        }
       },
       {
@@ -15528,70 +15576,396 @@
      "name": "P-Shot (platelet-rich plasma injection)",
      "relevantSpecialty": "https://schema.org/Urologic",
      "@id": "https://pshottreatment.com/price#therapy",
-     "description": "P-Shot prices in the UK vary widely between clinics, because they depend on the protocol, the clinician and what is included, so compare itemised quotations rather than headline prices. At UZ Clinic Antalya in Turkey, the advertised P-Shot treatment fee is £300, €300 or $300 depending on the billing currency. These are stated billing options, not live exchange-rate conversions. Your written treatment plan confirms what is included after assessment. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable."
+     "description": "P-Shot prices in the UK vary widely between clinics, because they depend on the protocol, the clinician and what is included, so compare itemised quotations rather than headline prices. At UZ Clinic Antalya in Turkey, the Standard P-Shot is £300 (about €360 / $395) and the G-Cell Power P-Shot is £350 (about €420 / $460). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book. Price is not evidence of outcome, and it never replaces assessment of whether treatment is suitable."
     },
     {
-     "@type": "Service",
-     "@id": "https://pshottreatment.com/price#service",
-     "name": "P-Shot (PRP) treatment fee",
-     "provider": {
-      "@id": "https://pshottreatment.com/#organization"
-     },
-     "areaServed": [
-      {
-       "@type": "Country",
-       "name": "Turkey",
-       "alternateName": "Türkiye"
-      },
-      {
-       "@type": "Country",
-       "name": "United Kingdom"
-      },
-      {
-       "@type": "Country",
-       "name": "Ireland"
-      },
-      {
-       "@type": "Country",
-       "name": "United States"
-      },
-      {
-       "@type": "AdministrativeArea",
-       "name": "European Union"
-      }
-     ],
-     "offers": [
+     "@type": "OfferCatalog",
+     "@id": "https://pshottreatment.com/price#prices",
+     "name": "UZ Clinic Antalya treatment prices",
+     "description": "Cash prices. Other currencies use fixed reference exchange rates from 2026-11-22. Packages are 5% less than the separate prices. The written treatment plan confirms the total.",
+     "itemListElement": [
       {
        "@type": "Offer",
-       "price": "300",
+       "name": "Penile Doppler ultrasound",
+       "price": "255",
        "priceCurrency": "GBP",
        "url": "https://pshottreatment.com/price",
        "seller": {
         "@id": "https://pshottreatment.com/#organization"
-       },
-       "description": "Advertised treatment fee. What it includes is confirmed in the written treatment plan after assessment."
+       }
       },
       {
        "@type": "Offer",
+       "name": "Penile Doppler ultrasound",
        "price": "300",
        "priceCurrency": "EUR",
        "url": "https://pshottreatment.com/price",
        "seller": {
         "@id": "https://pshottreatment.com/#organization"
-       },
-       "description": "Advertised treatment fee. What it includes is confirmed in the written treatment plan after assessment."
+       }
       },
       {
        "@type": "Offer",
+       "name": "Penile Doppler ultrasound",
+       "price": "330",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Standard P-Shot",
        "price": "300",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Standard P-Shot",
+       "price": "360",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Standard P-Shot",
+       "price": "395",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "G-Cell Power P-Shot",
+       "price": "350",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "G-Cell Power P-Shot",
+       "price": "420",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "G-Cell Power P-Shot",
+       "price": "460",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Comprehensive blood tests",
+       "price": "110",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Comprehensive blood tests",
+       "price": "135",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Comprehensive blood tests",
+       "price": "145",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Shockwave therapy (ESWT) (per session)",
+       "price": "110",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Shockwave therapy (ESWT) (per session)",
+       "price": "135",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Shockwave therapy (ESWT) (per session)",
+       "price": "145",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Pelvic floor therapy (per session)",
+       "price": "110",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Pelvic floor therapy (per session)",
+       "price": "135",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Pelvic floor therapy (per session)",
+       "price": "145",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       }
+      },
+      {
+       "@type": "Offer",
+       "name": "Blood tests + penile Doppler",
+       "price": "345",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Blood tests + penile Doppler",
+       "price": "410",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Blood tests + penile Doppler",
+       "price": "450",
        "priceCurrency": "USD",
        "url": "https://pshottreatment.com/price",
        "seller": {
         "@id": "https://pshottreatment.com/#organization"
        },
-       "description": "Advertised treatment fee. What it includes is confirmed in the written treatment plan after assessment."
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Blood tests + penile Doppler + G-Cell Power P-Shot",
+       "price": "680",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Blood tests + penile Doppler + G-Cell Power P-Shot",
+       "price": "810",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Blood tests + penile Doppler + G-Cell Power P-Shot",
+       "price": "890",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "3 shockwave (ESWT) sessions",
+       "price": "315",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "3 shockwave (ESWT) sessions",
+       "price": "375",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "3 shockwave (ESWT) sessions",
+       "price": "415",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "6 shockwave (ESWT) sessions",
+       "price": "630",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "6 shockwave (ESWT) sessions",
+       "price": "750",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "6 shockwave (ESWT) sessions",
+       "price": "825",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "3 pelvic floor therapy sessions",
+       "price": "315",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "3 pelvic floor therapy sessions",
+       "price": "375",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "3 pelvic floor therapy sessions",
+       "price": "415",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Comprehensive ED: 2 G-Cell Power P-Shots + 6 ESWT + 3 pelvic floor sessions",
+       "price": "1610",
+       "priceCurrency": "GBP",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Comprehensive ED: 2 G-Cell Power P-Shots + 6 ESWT + 3 pelvic floor sessions",
+       "price": "1920",
+       "priceCurrency": "EUR",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
+      },
+      {
+       "@type": "Offer",
+       "name": "Comprehensive ED: 2 G-Cell Power P-Shots + 6 ESWT + 3 pelvic floor sessions",
+       "price": "2105",
+       "priceCurrency": "USD",
+       "url": "https://pshottreatment.com/price",
+       "seller": {
+        "@id": "https://pshottreatment.com/#organization"
+       },
+       "category": "Package"
       }
-     ]
+     ],
+     "provider": {
+      "@id": "https://pshottreatment.com/#organization"
+     }
     }
    ]
   },
@@ -20186,7 +20560,7 @@
     "h1": [
      "Erectile Dysfunction: Your Questions Answered"
     ],
-    "words": 1055
+    "words": 1073
    },
    "schema": [
     {
@@ -20666,7 +21040,7 @@
        "name": "How much does a P-Shot cost?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "UK prices vary by clinic and by what the quote includes. UZ Clinic Antalya's advertised fee is £300, €300 or $300 depending on billing currency; the written plan confirms what it covers."
+        "text": "UK prices vary by clinic and by what the quote includes. At UZ Clinic Antalya the Standard P-Shot is £300 (about €360 / $395). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
        }
       },
       {
