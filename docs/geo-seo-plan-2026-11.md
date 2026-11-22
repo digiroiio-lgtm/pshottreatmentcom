@@ -51,7 +51,7 @@ Readiness score: 80 (structure). AI visibility score: not measurable from here.
 | ED treatment cost Turkey | Country | Price | /price | none | Do not create. Duplicates /price | n/a |
 | Shockwave ED Turkey | Country | Commercial | /shockwave-therapy-erectile-dysfunction-turkey | same | Keep | P1 |
 | Shockwave ED Antalya | Antalya | Commercial | /shockwave-therapy-ed (title has Antalya) | none | Do not create a page | n/a |
-| Penile Doppler Turkey / Antalya | Country / Antalya | Diagnostic | /penile-doppler-ultrasound (rank 60) | /penile-doppler-antalya (one page) | **Needs approval and clinic confirmation that Doppler is done in-house** | P1 |
+| Penile Doppler Turkey / Antalya | Country / Antalya | Diagnostic | /penile-doppler-ultrasound (rank 60) | /penile-doppler-antalya | Done (2026-11-22). Clinic confirmed Doppler is done in-house. Fee left unpublished | P1 |
 | Penile Doppler Istanbul | Istanbul | Diagnostic | none | none | Do not create | n/a |
 | Venous leak diagnosis Antalya | Antalya | Informational | /venous-leak | same | Add Antalya assessment paragraph after doctor confirms | P2 |
 | Stem cell, exosome Turkey | Country | Informational/commercial | /stem-cell-treatment-ed-turkey, /exosome-therapy-turkey | same | Keep, experimental wording stays | P2 |
@@ -76,7 +76,6 @@ Readiness score: 80 (structure). AI visibility score: not measurable from here.
 | P0 | Fix GA4 (attach the correct measurement ID, mark form submit and WhatsApp click as key events) | You |
 | P0 | Supply Google Business Profile share link, map coordinates, opening hours, any verified `sameAs` profiles. They are already wired in `src/lib/clinic.ts` and only need values | You |
 | P0 | Confirm in writing that no clinic or partner exists in Istanbul | You |
-| P1 | Approve or reject `/penile-doppler-antalya` (needs confirmation Doppler is performed in-house) | You |
 | P1 | Request indexing in GSC for `/price`, `/` and the Turkey and Antalya pages | You |
 | P1 | Run IndexNow from a machine with the key | You |
 | P2 | Doctor review of regenerative-therapy wording (`docs/medical-claims-review.md`) | Doctor |
@@ -98,5 +97,4 @@ Keep tracking free of medical details: send event names and page paths only, nev
 ## Decisions needed
 
 1. Istanbul presence: none assumed. Confirm.
-2. Approve `/penile-doppler-antalya` only if Doppler is done in-house.
-3. Provide Google profile link, coordinates and opening hours for Local SEO.
+2. Provide Google profile link, coordinates and opening hours for Local SEO.

@@ -24,6 +24,7 @@ export const breadcrumbLabels: Record<string, string> = {
   "/erectile-dysfunction-over-60": "ED over 60",
   "/erectile-dysfunction-assessment": "ED assessment",
   "/penile-doppler-ultrasound": "Penile Doppler",
+  "/penile-doppler-antalya": "Doppler in Antalya",
   "/p-shot-vs-shockwave": "P-Shot vs shockwave",
   "/p-shot-vs-stem-cell": "P-Shot vs stem cell",
   "/shockwave-vs-stem-cell": "Shockwave vs stem cell",

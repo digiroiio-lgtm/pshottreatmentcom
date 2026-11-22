@@ -58,3 +58,4 @@ Internal linking rule: every sitemap page (except home, privacy, editorial polic
 ## Geographic scope (2026-11-22)
 
 Türkiye and Turkey are the same country and share one set of pages (the term is used naturally, never as a duplicate page). Antalya is the only treatment location. Istanbul has no service: queries from Istanbul are answered by the "Travelling from Istanbul" section and FAQs on /international-patients. See docs/geo-seo-plan-2026-11.md for the full URL map and the pages that need approval.
+| penile Doppler Antalya, penile Doppler Turkey, Doppler ultrasound ED Antalya | /penile-doppler-antalya | /penile-doppler-ultrasound, /erectile-dysfunction-treatment-antalya, /international-patients | title "penile doppler ultrasound in antalya" |

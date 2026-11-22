@@ -353,6 +353,6 @@ export const corePages: PageDef[] = [
       { q: "Can I begin treatment on my first visit?", a: "Treatment is planned after assessment. Whether anything can be done on the same trip depends on your case and is explained by the clinic." },
     ],
     sources: ["eau2026"],
-    related: ["/erectile-dysfunction-treatment-turkey", "/international-patients", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-assessment", "/p-shot-antalya", "/shockwave-therapy-ed", "/price"],
+    related: ["/erectile-dysfunction-treatment-turkey", "/international-patients", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-assessment", "/penile-doppler-antalya", "/p-shot-antalya", "/shockwave-therapy-ed", "/price"],
   },
 ];

@@ -227,6 +227,7 @@
     "/erectile-dysfunction-over-60",
     "/erectile-dysfunction-assessment",
     "/penile-doppler-ultrasound",
+    "/penile-doppler-antalya",
     "/p-shot-vs-shockwave",
     "/p-shot-vs-stem-cell",
     "/shockwave-vs-stem-cell",
@@ -291,6 +292,7 @@
     "/erectile-dysfunction-over-60",
     "/erectile-dysfunction-assessment",
     "/penile-doppler-ultrasound",
+    "/penile-doppler-antalya",
     "/p-shot-vs-shockwave",
     "/p-shot-vs-stem-cell",
     "/shockwave-vs-stem-cell",
@@ -347,6 +349,7 @@
     "/erectile-dysfunction-over-50",
     "/erectile-dysfunction-over-60",
     "/penile-doppler-ultrasound",
+    "/penile-doppler-antalya",
     "/p-shot-vs-shockwave",
     "/p-shot-vs-stem-cell",
     "/shockwave-vs-stem-cell",
@@ -393,6 +396,7 @@
     "/erectile-dysfunction-over-50",
     "/erectile-dysfunction-over-60",
     "/penile-doppler-ultrasound",
+    "/penile-doppler-antalya",
     "/p-shot-vs-stem-cell",
     "/shockwave-vs-stem-cell",
     "/penile-rehabilitation",
@@ -591,7 +595,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -900,7 +905,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -1301,7 +1307,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -1706,7 +1713,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -2050,13 +2058,13 @@
    "issues": [],
    "metadata": {
     "title": "Erectile Dysfunction Treatment Turkey | UZ Clinic Antalya",
-    "description": "Considering ED treatment in Turkey? How to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
+    "description": "ED treatment in Turkey (Türkiye): how to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
     "canonical": "https://pshottreatment.com/erectile-dysfunction-treatment-turkey",
     "robots": "index, follow",
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1147
+    "words": 1240
    },
    "schema": [
     {
@@ -2090,7 +2098,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -2232,7 +2241,7 @@
      "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-turkey#webpage",
      "url": "https://pshottreatment.com/erectile-dysfunction-treatment-turkey",
      "name": "Erectile Dysfunction Treatment Turkey | UZ Clinic Antalya",
-     "description": "Considering ED treatment in Turkey? How to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
+     "description": "ED treatment in Turkey (Türkiye): how to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
      },
@@ -2308,7 +2317,7 @@
      "@type": "Article",
      "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-turkey#article",
      "headline": "Erectile Dysfunction Treatment in Turkey",
-     "description": "Considering ED treatment in Turkey? How to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
+     "description": "ED treatment in Turkey (Türkiye): how to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-turkey#webpage"
      },
@@ -2346,6 +2355,22 @@
      },
      "inLanguage": "en-GB",
      "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is it Turkey or Türkiye, and does it change anything?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Türkiye is the country's official name and Turkey is the English name still widely used. Both refer to the same country. UZ Clinic Antalya is in Antalya, on Türkiye's Mediterranean coast."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "I live in Istanbul. Can I be treated there?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Assessment and treatment take place at UZ Clinic Antalya. If you live in Istanbul you can start with a remote review and travel to Antalya only once the urologist has advised a plan. See the Istanbul-to-Antalya section on the international patients page."
+       }
+      },
       {
        "@type": "Question",
        "name": "Can I be assessed before I travel to Turkey?",
@@ -2387,7 +2412,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Antalya"
     ],
-    "words": 1080
+    "words": 1086
    },
    "schema": [
     {
@@ -2421,7 +2446,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -2786,7 +2812,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -3308,7 +3335,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -3746,7 +3774,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -4228,7 +4257,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -4674,7 +4704,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -5105,7 +5136,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -5463,7 +5495,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -5813,7 +5846,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -6277,7 +6311,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -6663,7 +6698,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -7059,7 +7095,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -7391,7 +7428,7 @@
     "h1": [
      "Vasculogenic Erectile Dysfunction (Blood-Flow Related ED)"
     ],
-    "words": 1265
+    "words": 1271
    },
    "schema": [
     {
@@ -7425,7 +7462,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -7796,7 +7834,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -8195,7 +8234,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -8546,7 +8586,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -8897,7 +8938,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -9248,7 +9290,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -9599,7 +9642,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -9918,7 +9962,7 @@
     "h1": [
      "Penile Doppler Ultrasound for Erectile Dysfunction"
     ],
-    "words": 1077
+    "words": 1083
    },
    "schema": [
     {
@@ -9952,7 +9996,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -10301,6 +10346,406 @@
    ]
   },
   {
+   "path": "/penile-doppler-antalya",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Penile Doppler Ultrasound in Antalya, Turkey | UZ Clinic",
+    "description": "Penile Doppler ultrasound at UZ Clinic Antalya, Turkey: who it suits, sending old reports first, what the visit involves and what the scan can show.",
+    "canonical": "https://pshottreatment.com/penile-doppler-antalya",
+    "robots": "index, follow",
+    "h1": [
+     "Penile Doppler Ultrasound in Antalya"
+    ],
+    "words": 1280
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/penile-doppler-antalya#webpage",
+     "url": "https://pshottreatment.com/penile-doppler-antalya",
+     "name": "Penile Doppler Ultrasound in Antalya, Turkey | UZ Clinic",
+     "description": "Penile Doppler ultrasound at UZ Clinic Antalya, Turkey: who it suits, sending old reports first, what the visit involves and what the scan can show.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fpenile-doppler-antalya",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/penile-doppler-antalya#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/penile-doppler-antalya#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/penile-doppler-antalya#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Penile Doppler",
+       "item": "https://pshottreatment.com/penile-doppler-ultrasound"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Doppler in Antalya",
+       "item": "https://pshottreatment.com/penile-doppler-antalya"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/penile-doppler-antalya#article",
+     "headline": "Penile Doppler Ultrasound in Antalya",
+     "description": "Penile Doppler ultrasound at UZ Clinic Antalya, Turkey: who it suits, sending old reports first, what the visit involves and what the scan can show.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/penile-doppler-antalya#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fpenile-doppler-antalya",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/penile-doppler-antalya#faq",
+     "url": "https://pshottreatment.com/penile-doppler-antalya",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/penile-doppler-antalya#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is penile Doppler ultrasound done in Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. It is performed at UZ Clinic Antalya when the urologist advises it as part of an ED assessment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do I need a Doppler scan before I travel?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You can start with a remote review and send any earlier reports. The doctor advises whether a scan is needed."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I use a Doppler report from another country?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Send it with your case. The urologist reviews it and advises whether it is enough or a new scan would add information."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much does a penile Doppler scan cost in Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fee is not published here. Ask the coordinator for it in your itemised written quote."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does the scan hurt?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The injection used to produce an erection can cause brief discomfort. The scan itself is painless. Experiences differ."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "ItemList",
+     "@id": "https://pshottreatment.com/penile-doppler-antalya#steps",
+     "name": "How it works at UZ Clinic Antalya",
+     "itemListOrder": "https://schema.org/ItemListOrderAscending",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Send your case",
+       "description": "Share your history, medicines and any earlier Doppler report. A patient coordinator contacts you."
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Doctor decides",
+       "description": "The urologist reviews what you sent and advises whether a scan is needed, or whether an earlier report is enough."
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Scan during the visit",
+       "description": "If advised, the scan takes place at the clinic in Antalya as part of your in-person assessment. The doctor explains the test and its risks before you consent."
+      },
+      {
+       "@type": "ListItem",
+       "position": 4,
+       "name": "Results explained",
+       "description": "The urologist interprets the findings with your history and examination and explains what they mean for your options."
+      }
+     ]
+    }
+   ]
+  },
+  {
    "path": "/p-shot-vs-shockwave",
    "status": 200,
    "score": 100,
@@ -10347,7 +10792,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -10718,7 +11164,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -11081,7 +11528,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -11424,7 +11872,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -11833,7 +12282,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -12176,7 +12626,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -12455,7 +12906,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -12694,7 +13146,7 @@
     "h1": [
      "Travelling to Antalya for ED Treatment"
     ],
-    "words": 990
+    "words": 1138
    },
    "schema": [
     {
@@ -12728,7 +13180,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -12970,6 +13423,14 @@
       },
       {
        "@type": "Question",
+       "name": "I live in Istanbul. Do I need to travel to Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Assessment and treatment take place at the clinic in Antalya. You can start with a remote review from Istanbul and travel only once a plan makes medical sense."
+       }
+      },
+      {
+       "@type": "Question",
        "name": "What languages are supported?",
        "acceptedAnswer": {
         "@type": "Answer",
@@ -13079,7 +13540,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -13358,7 +13820,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -13653,7 +14116,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -13754,7 +14218,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -14119,7 +14584,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -14549,7 +15015,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -14820,7 +15287,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -15091,7 +15559,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -15331,7 +15800,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -15706,7 +16176,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -16065,7 +16536,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -16436,7 +16908,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -16841,7 +17314,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -17222,7 +17696,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -17653,7 +18128,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -17984,7 +18460,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -18521,7 +18998,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -18888,7 +19366,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -19247,7 +19726,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -19606,7 +20086,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -19965,7 +20446,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -20326,7 +20808,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -20687,7 +21170,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",
@@ -21046,7 +21530,8 @@
      "areaServed": [
       {
        "@type": "Country",
-       "name": "Turkey"
+       "name": "Turkey",
+       "alternateName": "Türkiye"
       },
       {
        "@type": "Country",

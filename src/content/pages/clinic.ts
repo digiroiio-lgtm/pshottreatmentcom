@@ -271,7 +271,7 @@ export const clinicPages: PageDef[] = [
       { q: "What languages are supported?", a: "Please ask the coordinator which languages are available when you make contact." },
       { q: "What if something goes wrong after I go home?", a: "You receive a contact and written warning signs. Seek urgent local care for emergencies, such as an erection lasting more than four hours." },
     ],
-    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
+    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/penile-doppler-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
   },
   {
     path: "/patient-experiences",
