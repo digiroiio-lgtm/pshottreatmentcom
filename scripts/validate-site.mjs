@@ -217,7 +217,7 @@ for (const path of paths) {
 const llmsFull = await fetchText("/llms-full.txt");
 if (!llmsFull.includes("Frequently asked questions")) fail("llms-full.txt has no FAQ content");
 
-for (const asset of ["/manifest.webmanifest", "/apple-icon", "/icon", "/og.png"]) {
+for (const asset of ["/manifest.webmanifest", "/apple-icon.png", "/icon.png", "/favicon.ico", "/icons/icon-192.png", "/icons/icon-512.png", "/og.png"]) {
   const response = await fetch(`${base}${asset}`);
   if (response.status !== 200) fail(`${asset} returned ${response.status}`);
 }
