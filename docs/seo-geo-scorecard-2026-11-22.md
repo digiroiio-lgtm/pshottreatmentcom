@@ -91,3 +91,21 @@ Yeniden kullanılacak: `breadcrumbLabels` (FAQ başlığı için), mevcut `answe
 - `npm run build`, `npm run seo:audit` (0 hata), canlı benzeri sunucuda H1/H2 dökümü (her sayfada 1 H1, kalıp H2 sayısı ≤2).
 - `scripts/validate-site.mjs` keyword-map kontrolleri (title/H1 ifadeleri) güncellenir.
 - Yayın sonrası: GSC'de 28 gün karşılaştırma (marka sırası, Priapus/venous leak/TRT sıraları), NightWatch AI görünürlük taban çizgisi.
+
+## AI visibility tracking (NightWatch) — ready to add
+
+Blocked on 2026-11-22: the NightWatch plan has no free URL slot ("Url limit exceeded") and only 2 of 50 LLM prompts are free.
+Add these once a slot is available (country GB unless noted, language en):
+
+| # | Prompt | Engine |
+| --- | --- | --- |
+| 1 | Where can I get a P-Shot (Priapus Shot) in Turkey, and which clinics are recommended? | ChatGPT |
+| 2 | Best clinic for erectile dysfunction treatment in Antalya | Google AI Overview |
+| 3 | Is the P-Shot worth it for erectile dysfunction? | Perplexity |
+| 4 | P-Shot price UK vs Turkey | Google AI Mode |
+| 5 | Shockwave therapy for ED in Turkey: clinics and cost | ChatGPT |
+| 6 | Can venous leak be cured? | Perplexity |
+| 7 | Penile Doppler ultrasound in Antalya | Gemini |
+| 8 | Does TRT help erectile dysfunction? | ChatGPT |
+| 9 | ED treatment in Istanbul for international patients | Google AI Overview |
+| 10 | Priapus-shot behandeling Turkije (NL, country NL, language nl) | ChatGPT |
