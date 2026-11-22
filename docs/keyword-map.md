@@ -54,3 +54,7 @@ Volumes are tiny (the site is new), so these are positions to defend and expand,
 Requested URLs folded into a stronger page (301): /li-eswt to /edswt, /penile-exosome-therapy to the exosome page, /penile-stem-cell-therapy to the stem-cell page. Their terms ("Li-ESWT", "penile exosome", "penile stem cell therapy") are covered on the target pages.
 
 Internal linking rule: every sitemap page (except home, privacy, editorial policy and evidence methodology) must have at least 3 inbound links from the main content of other pages. The header and footer do not count. The validator enforces it.
+
+## Geographic scope (2026-11-22)
+
+Türkiye and Turkey are the same country and share one set of pages (the term is used naturally, never as a duplicate page). Antalya is the only treatment location. Istanbul has no service: queries from Istanbul are answered by the "Travelling from Istanbul" section and FAQs on /international-patients. See docs/geo-seo-plan-2026-11.md for the full URL map and the pages that need approval.
