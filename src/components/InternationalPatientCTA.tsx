@@ -15,9 +15,9 @@ const points = [
 
 export default function InternationalPatientCTA({ treatment = "not-sure", placement = "international" }: { treatment?: TreatmentId; placement?: string }) {
   return (
-    <section aria-labelledby="intl-heading" className="rounded-2xl border border-slate-200 bg-surface p-6 md:p-8">
+    <section aria-label="International patients" className="rounded-2xl border border-slate-200 bg-surface p-6 md:p-8">
       <p className="text-sm font-semibold uppercase tracking-wide text-teal-800 mb-1">International patients</p>
-      <h2 id="intl-heading" className="text-2xl font-bold text-heading mb-2">Travelling to Antalya for ED Treatment</h2>
+      <p className="text-2xl font-bold font-serif text-heading mb-2">Travelling to Antalya for ED Treatment</p>
       <p className="text-slate-700 mb-5">The medical question comes first. You can be assessed remotely before deciding whether to travel.</p>
       <dl className="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-sm mb-6">
         {points.map(([term, text]) => (

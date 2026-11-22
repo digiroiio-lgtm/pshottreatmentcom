@@ -50,6 +50,7 @@ export const breadcrumbLabels: Record<string, string> = {
   "/anxiety-and-ed": "Anxiety and ED",
   "/lifestyle-and-ed": "Lifestyle and ED",
   "/choose-an-ed-clinic-abroad": "Choosing a clinic abroad",
+  "/ed-treatment-turkey-questions": "Turkey: 10 questions",
   "/ed-questions": "ED questions",
   "/editorial-policy": "Editorial policy",
   "/evidence-methodology": "Evidence methodology",

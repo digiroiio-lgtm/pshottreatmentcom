@@ -32,7 +32,7 @@ export function Hero({ answer }: { answer: { q: string; a: string } }) {
         <div className="max-w-6xl mx-auto px-4 pt-14 pb-12 md:pt-24 md:pb-24">
           <div className="max-w-2xl">
             <p className="text-xs md:text-sm font-bold uppercase tracking-[0.18em] text-teal-800 mb-4">{CLINIC.name} · Physician-led urology</p>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-heading leading-[1.08] mb-5 text-balance">Erectile Dysfunction &amp; Penile Rehabilitation in Antalya</h1>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-heading leading-[1.08] mb-5 text-balance">ED Treatment in Antalya, Turkey: Urologist-Led P-Shot, Shockwave &amp; Doppler</h1>
             <p className="text-lg md:text-xl text-slate-800 leading-relaxed mb-6">
               Specialist urological assessment and personalised treatment options for men experiencing erectile dysfunction, reduced erection quality and penile vascular problems.
             </p>

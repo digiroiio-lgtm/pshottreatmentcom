@@ -1,12 +1,12 @@
 {
  "date": "2026-11-22",
  "base": "http://127.0.0.1:3000",
- "average": 99.5,
+ "average": 99.6,
  "findings": [
   {
    "severity": "info",
    "area": "links",
-   "message": "14 external link(s) could not be reached from this network and are unchecked",
+   "message": "16 external link(s) could not be reached from this network and are unchecked",
    "urls": [
     "https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20a%20confidential%20assessment%20for%20erectile%20dysfunction.%20I%20am%20interested%20in%20Not%20Sure.",
     "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
@@ -21,7 +21,9 @@
     "https://clinicaltrials.gov/study/NCT04350125",
     "https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20a%20confidential%20assessment%20for%20erectile%20dysfunction.%20I%20am%20interested%20in%20Exosome.",
     "https://wa.me/905353998999?text=Hello%2C%20I%20would%20like%20a%20confidential%20assessment%20for%20erectile%20dysfunction.%20I%20am%20interested%20in%20Penile%20Rehabilitation.",
-    "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction"
+    "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction",
+    "https://wa.me/905353998999?text=Hello%2C%20I%20found%20you%20via%20the%20Dutch%20page%20and%20I%20am%20interested%20in%20P-Shot.%20I%20would%20like%20a%20confidential%20assessment.",
+    "https://wa.me/905353998999?text=Hello%2C%20I%20found%20you%20via%20the%20Danish%20page%20and%20I%20am%20interested%20in%20a%20penile%20Doppler%20ultrasound.%20I%20would%20like%20a%20confidential%20assessment."
    ]
   }
  ],
@@ -259,7 +261,10 @@
     "/antidepressants-and-ed",
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
-    "/choose-an-ed-clinic-abroad"
+    "/choose-an-ed-clinic-abroad",
+    "/ed-treatment-turkey-questions",
+    "/nl/priapus-shot",
+    "/da/penil-doppler-ultralyd"
    ]
   },
   {
@@ -319,7 +324,8 @@
     "/antidepressants-and-ed",
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
-    "/choose-an-ed-clinic-abroad"
+    "/choose-an-ed-clinic-abroad",
+    "/ed-treatment-turkey-questions"
    ]
   },
   {
@@ -374,7 +380,10 @@
     "/antidepressants-and-ed",
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
-    "/choose-an-ed-clinic-abroad"
+    "/choose-an-ed-clinic-abroad",
+    "/ed-treatment-turkey-questions",
+    "/nl/priapus-shot",
+    "/da/penil-doppler-ultralyd"
    ]
   },
   {
@@ -417,7 +426,10 @@
     "/ed-and-blood-pressure-medicines",
     "/antidepressants-and-ed",
     "/anxiety-and-ed",
-    "/lifestyle-and-ed"
+    "/lifestyle-and-ed",
+    "/ed-treatment-turkey-questions",
+    "/nl/priapus-shot",
+    "/da/penil-doppler-ultralyd"
    ]
   },
   {
@@ -450,7 +462,9 @@
     "/prp-for-erectile-dysfunction",
     "/p-shot-vs-shockwave",
     "/side-effects",
-    "/ed-evidence-tracker"
+    "/ed-evidence-tracker",
+    "/ed-treatment-turkey-questions",
+    "/nl/priapus-shot"
    ]
   },
   {
@@ -468,7 +482,9 @@
     "/side-effects",
     "/p-shot-vs-viagra",
     "/p-shot-vs-penile-injections",
-    "/ed-evidence-tracker"
+    "/ed-evidence-tracker",
+    "/ed-treatment-turkey-questions",
+    "/nl/priapus-shot"
    ]
   },
   {
@@ -549,6 +565,24 @@
     "/post-finasteride-syndrome-ed",
     "/ed-evidence-tracker"
    ]
+  },
+  {
+   "href": "https://wa.me/905353998999?text=Hello%2C%20I%20found%20you%20via%20the%20Dutch%20page%20and%20I%20am%20interested%20in%20P-Shot.%20I%20would%20like%20a%20confidential%20assessment.",
+   "status": 0,
+   "state": "unchecked",
+   "detail": "ENOTFOUND",
+   "sources": [
+    "/nl/priapus-shot"
+   ]
+  },
+  {
+   "href": "https://wa.me/905353998999?text=Hello%2C%20I%20found%20you%20via%20the%20Danish%20page%20and%20I%20am%20interested%20in%20a%20penile%20Doppler%20ultrasound.%20I%20would%20like%20a%20confidential%20assessment.",
+   "status": 0,
+   "state": "unchecked",
+   "detail": "ENOTFOUND",
+   "sources": [
+    "/da/penil-doppler-ultralyd"
+   ]
   }
  ],
  "pages": [
@@ -558,14 +592,14 @@
    "score": 100,
    "issues": [],
    "metadata": {
-    "title": "ED Treatment Turkey: P-Shot & Shockwave | UZ Clinic",
+    "title": "UZ Clinic Antalya | ED Treatment Turkey: P-Shot, Shockwave",
     "description": "Urologist-led ED treatment in Antalya, Turkey: P-Shot from £300, shockwave and penile rehabilitation. Confidential remote case review.",
     "canonical": "https://pshottreatment.com",
     "robots": "index, follow",
     "h1": [
-     "Erectile Dysfunction & Penile Rehabilitation in Antalya"
+     "ED Treatment in Antalya, Turkey: Urologist-Led P-Shot, Shockwave & Doppler"
     ],
-    "words": 1849
+    "words": 1860
    },
    "schema": [
     {
@@ -575,6 +609,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -687,6 +726,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -769,7 +813,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com#webpage",
      "url": "https://pshottreatment.com",
-     "name": "ED Treatment Turkey: P-Shot & Shockwave | UZ Clinic",
+     "name": "UZ Clinic Antalya | ED Treatment Turkey: P-Shot, Shockwave",
      "description": "Urologist-led ED treatment in Antalya, Turkey: P-Shot from £300, shockwave and penile rehabilitation. Confidential remote case review.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -903,7 +947,7 @@
     "h1": [
      "Erectile Dysfunction: Causes, Types and Specialist Assessment"
     ],
-    "words": 1786
+    "words": 1795
    },
    "schema": [
     {
@@ -913,6 +957,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -1025,6 +1074,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -1333,7 +1387,7 @@
     "h1": [
      "Erectile Dysfunction Treatment: A Cause-Based Plan"
     ],
-    "words": 1570
+    "words": 1578
    },
    "schema": [
     {
@@ -1343,6 +1397,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -1455,6 +1514,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -1767,7 +1831,7 @@
     "h1": [
      "ED Treatment Options Compared"
     ],
-    "words": 1317
+    "words": 1324
    },
    "schema": [
     {
@@ -1777,6 +1841,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -1889,6 +1958,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -2180,7 +2254,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1241
+    "words": 1260
    },
    "schema": [
     {
@@ -2190,6 +2264,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -2302,6 +2381,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -2556,7 +2640,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Istanbul"
     ],
-    "words": 1263
+    "words": 1282
    },
    "schema": [
     {
@@ -2566,6 +2650,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -2678,6 +2767,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -2968,7 +3062,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Antalya"
     ],
-    "words": 1135
+    "words": 1145
    },
    "schema": [
     {
@@ -2978,6 +3072,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -3090,6 +3189,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -3350,19 +3454,17 @@
   {
    "path": "/p-shot",
    "status": 200,
-   "score": 96,
-   "issues": [
-    "Title and H1 share keywords"
-   ],
+   "score": 100,
+   "issues": [],
    "metadata": {
-    "title": "P-Shot for ED: How It Works, Risks, Evidence | UZ",
+    "title": "P-Shot (Priapus Shot) for ED: Procedure, Risks, Evidence",
     "description": "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
     "canonical": "https://pshottreatment.com/p-shot",
     "robots": "index, follow",
     "h1": [
-     "P-Shot PRP Treatment for Erectile Dysfunction"
+     "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction"
     ],
-    "words": 2110
+    "words": 2132
    },
    "schema": [
     {
@@ -3372,6 +3474,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -3484,6 +3591,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -3566,7 +3678,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/p-shot#webpage",
      "url": "https://pshottreatment.com/p-shot",
-     "name": "P-Shot for ED: How It Works, Risks, Evidence | UZ",
+     "name": "P-Shot (Priapus Shot) for ED: Procedure, Risks, Evidence",
      "description": "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -3692,7 +3804,7 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/p-shot#article",
-     "headline": "P-Shot PRP Treatment for Erectile Dysfunction",
+     "headline": "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction",
      "description": "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/p-shot#webpage"
@@ -3865,7 +3977,7 @@
     {
      "@type": "ItemList",
      "@id": "https://pshottreatment.com/p-shot#steps",
-     "name": "How is PRP prepared and the P-Shot performed?",
+     "name": "P-Shot procedure step by step: how is PRP prepared and injected?",
      "itemListOrder": "https://schema.org/ItemListOrderAscending",
      "itemListElement": [
       {
@@ -3921,7 +4033,7 @@
     "h1": [
      "P-Shot in Turkey: Information for International Patients"
     ],
-    "words": 1209
+    "words": 1222
    },
    "schema": [
     {
@@ -3931,6 +4043,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -4043,6 +4160,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -4388,7 +4510,7 @@
     "h1": [
      "P-Shot at UZ Clinic Antalya"
     ],
-    "words": 1118
+    "words": 1133
    },
    "schema": [
     {
@@ -4398,6 +4520,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -4510,6 +4637,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -4899,7 +5031,7 @@
     "h1": [
      "PRP for Erectile Dysfunction: What the Evidence Shows"
     ],
-    "words": 1098
+    "words": 1107
    },
    "schema": [
     {
@@ -4909,6 +5041,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -5021,6 +5158,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -5374,7 +5516,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction (EdSWT)"
     ],
-    "words": 1630
+    "words": 1636
    },
    "schema": [
     {
@@ -5384,6 +5526,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -5496,6 +5643,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -5842,7 +5994,7 @@
     "h1": [
      "EdSWT and Li-ESWT: Protocol, Device and Sessions"
     ],
-    "words": 845
+    "words": 851
    },
    "schema": [
     {
@@ -5852,6 +6004,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -5964,6 +6121,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -6229,7 +6391,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction in Turkey"
     ],
-    "words": 971
+    "words": 978
    },
    "schema": [
     {
@@ -6239,6 +6401,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -6351,6 +6518,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -6616,7 +6788,7 @@
     "h1": [
      "Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 1628
+    "words": 1635
    },
    "schema": [
     {
@@ -6626,6 +6798,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -6738,6 +6915,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -7109,7 +7291,7 @@
     "h1": [
      "Stem Cell Treatment for ED in Turkey: What to Know Before You Travel"
     ],
-    "words": 1020
+    "words": 1028
    },
    "schema": [
     {
@@ -7119,6 +7301,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -7231,6 +7418,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -7524,7 +7716,7 @@
     "h1": [
      "Exosome Therapy for Erectile Dysfunction"
     ],
-    "words": 1084
+    "words": 1092
    },
    "schema": [
     {
@@ -7534,6 +7726,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -7646,6 +7843,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -7949,7 +8151,7 @@
     "h1": [
      "Exosome Therapy for ED in Turkey"
     ],
-    "words": 859
+    "words": 866
    },
    "schema": [
     {
@@ -7959,6 +8161,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -8071,6 +8278,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -8344,7 +8556,7 @@
     "h1": [
      "Vasculogenic Erectile Dysfunction (Blood-Flow Related ED)"
     ],
-    "words": 1270
+    "words": 1279
    },
    "schema": [
     {
@@ -8354,6 +8566,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -8466,6 +8683,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -8737,14 +8959,14 @@
    "score": 100,
    "issues": [],
    "metadata": {
-    "title": "Venous Leak ED: Symptoms, Diagnosis and Options",
+    "title": "Venous Leak: Symptoms, Diagnosis and Treatment Options",
     "description": "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
     "canonical": "https://pshottreatment.com/venous-leak",
     "robots": "index, follow",
     "h1": [
-     "Venous Leak and Erectile Dysfunction"
+     "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment"
     ],
-    "words": 1292
+    "words": 1454
    },
    "schema": [
     {
@@ -8754,6 +8976,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -8866,6 +9093,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -8948,7 +9180,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/venous-leak#webpage",
      "url": "https://pshottreatment.com/venous-leak",
-     "name": "Venous Leak ED: Symptoms, Diagnosis and Options",
+     "name": "Venous Leak: Symptoms, Diagnosis and Treatment Options",
      "description": "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -9059,7 +9291,7 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/venous-leak#article",
-     "headline": "Venous Leak and Erectile Dysfunction",
+     "headline": "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment",
      "description": "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/venous-leak#webpage"
@@ -9128,10 +9360,10 @@
       },
       {
        "@type": "Question",
-       "name": "Can venous leak be cured?",
+       "name": "Can venous leak be cured naturally?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No treatment is established as a cure. Management focuses on options that help you achieve a usable erection. The urologist explains what is realistic."
+        "text": "No natural remedy or supplement has been shown to cure venous leak. Healthy habits and control of diabetes, blood pressure and smoking support erection health, and a urologist explains which treatments may help."
        }
       },
       {
@@ -9172,7 +9404,7 @@
     "h1": [
      "Erectile Dysfunction After Prostate Surgery"
     ],
-    "words": 786
+    "words": 794
    },
    "schema": [
     {
@@ -9182,6 +9414,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -9294,6 +9531,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -9552,7 +9794,7 @@
     "h1": [
      "Diabetes and Erectile Dysfunction"
     ],
-    "words": 740
+    "words": 750
    },
    "schema": [
     {
@@ -9562,6 +9804,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -9674,6 +9921,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -9932,7 +10184,7 @@
     "h1": [
      "Erectile Dysfunction Over 50"
     ],
-    "words": 977
+    "words": 987
    },
    "schema": [
     {
@@ -9942,6 +10194,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -10054,6 +10311,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -10312,7 +10574,7 @@
     "h1": [
      "Erectile Dysfunction Over 60"
     ],
-    "words": 964
+    "words": 974
    },
    "schema": [
     {
@@ -10322,6 +10584,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -10434,6 +10701,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -10692,7 +10964,7 @@
     "h1": [
      "Confidential Erectile Dysfunction Assessment"
     ],
-    "words": 714
+    "words": 720
    },
    "schema": [
     {
@@ -10702,6 +10974,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -10814,6 +11091,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -11074,7 +11356,7 @@
     "h1": [
      "Penile Doppler Ultrasound for Erectile Dysfunction"
     ],
-    "words": 1111
+    "words": 1125
    },
    "schema": [
     {
@@ -11084,6 +11366,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -11196,6 +11483,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -11506,7 +11798,7 @@
     "h1": [
      "Penile Doppler Ultrasound in Antalya"
     ],
-    "words": 1361
+    "words": 1376
    },
    "schema": [
     {
@@ -11516,6 +11808,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -11628,6 +11925,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -11934,7 +12236,7 @@
     "h1": [
      "P-Shot vs Shockwave Therapy for Erectile Dysfunction"
     ],
-    "words": 940
+    "words": 949
    },
    "schema": [
     {
@@ -11944,6 +12246,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -12056,6 +12363,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -12334,7 +12646,7 @@
     "h1": [
      "P-Shot vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 818
+    "words": 828
    },
    "schema": [
     {
@@ -12344,6 +12656,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -12456,6 +12773,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -12726,7 +13048,7 @@
     "h1": [
      "Shockwave Therapy vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 795
+    "words": 803
    },
    "schema": [
     {
@@ -12736,6 +13058,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -12848,6 +13175,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -13098,7 +13430,7 @@
     "h1": [
      "Penile Rehabilitation Programme"
     ],
-    "words": 993
+    "words": 999
    },
    "schema": [
     {
@@ -13108,6 +13440,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -13220,6 +13557,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -13536,7 +13878,7 @@
     "h1": [
      "Penile Implant for Erectile Dysfunction"
     ],
-    "words": 971
+    "words": 977
    },
    "schema": [
     {
@@ -13546,6 +13888,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -13658,6 +14005,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -13901,14 +14253,14 @@
    "score": 100,
    "issues": [],
    "metadata": {
-    "title": "Dr. Niyazi Umut Özdemir | Urological Surgeon, Antalya",
-    "description": "Dr. Niyazi Umut Özdemir is a urological surgeon in Antalya focused on male sexual health and penile rehabilitation. Qualifications and clinical focus.",
+    "title": "Op. Dr. Niyazi Umut Özdemir | Urologist in Antalya",
+    "description": "Op. Dr. Niyazi Umut Özdemir is a urologist and urological surgeon in Antalya, founder of UZ Clinic, focused on erectile dysfunction and male sexual health.",
     "canonical": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
     "robots": "index, follow",
     "h1": [
-     "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     "Op. Dr. Niyazi Umut Özdemir, Urologist in Antalya"
     ],
-    "words": 691
+    "words": 698
    },
    "schema": [
     {
@@ -13918,6 +14270,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -14030,6 +14387,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -14112,8 +14474,8 @@
      "@type": "ProfilePage",
      "@id": "https://pshottreatment.com/dr-niyazi-umut-ozdemir#webpage",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
-     "name": "Dr. Niyazi Umut Özdemir | Urological Surgeon, Antalya",
-     "description": "Dr. Niyazi Umut Özdemir is a urological surgeon in Antalya focused on male sexual health and penile rehabilitation. Qualifications and clinical focus.",
+     "name": "Op. Dr. Niyazi Umut Özdemir | Urologist in Antalya",
+     "description": "Op. Dr. Niyazi Umut Özdemir is a urologist and urological surgeon in Antalya, founder of UZ Clinic, focused on erectile dysfunction and male sexual health.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
      },
@@ -14216,7 +14578,7 @@
     "h1": [
      "About UZ Clinic Antalya"
     ],
-    "words": 907
+    "words": 916
    },
    "schema": [
     {
@@ -14226,6 +14588,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -14338,6 +14705,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -14518,7 +14890,7 @@
     "h1": [
      "Travelling to Antalya for ED Treatment"
     ],
-    "words": 1202
+    "words": 1217
    },
    "schema": [
     {
@@ -14528,6 +14900,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -14640,6 +15017,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -14906,7 +15288,7 @@
     "h1": [
      "Patient Experiences"
     ],
-    "words": 541
+    "words": 548
    },
    "schema": [
     {
@@ -14916,6 +15298,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -15028,6 +15415,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -15214,7 +15606,7 @@
     "h1": [
      "P-Shot Price UK vs Turkey: Cost in GBP"
     ],
-    "words": 1344
+    "words": 1359
    },
    "schema": [
     {
@@ -15224,6 +15616,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -15336,6 +15733,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -15982,7 +16384,7 @@
     "h1": [
      "P-Shot Side Effects and Risks"
     ],
-    "words": 784
+    "words": 793
    },
    "schema": [
     {
@@ -15992,6 +16394,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -16104,6 +16511,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -16376,7 +16788,7 @@
     "h1": [
      "Erectile Dysfunction Knowledge Hub"
     ],
-    "words": 741
+    "words": 745
    },
    "schema": [
     {
@@ -16386,6 +16798,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -16498,6 +16915,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -16731,7 +17153,7 @@
       {
        "@type": "ListItem",
        "position": 6,
-       "name": "P-Shot PRP Treatment for Erectile Dysfunction",
+       "name": "P-Shot (Priapus Shot): PRP Treatment for Erectile Dysfunction",
        "url": "https://pshottreatment.com/p-shot"
       },
       {
@@ -16803,7 +17225,7 @@
       {
        "@type": "ListItem",
        "position": 18,
-       "name": "Venous Leak and Erectile Dysfunction",
+       "name": "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment",
        "url": "https://pshottreatment.com/venous-leak"
       },
       {
@@ -16835,7 +17257,7 @@
     "h1": [
      "Editorial Policy"
     ],
-    "words": 412
+    "words": 417
    },
    "schema": [
     {
@@ -16845,6 +17267,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -16957,6 +17384,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -17135,7 +17567,7 @@
     "h1": [
      "Evidence Methodology"
     ],
-    "words": 427
+    "words": 430
    },
    "schema": [
     {
@@ -17145,6 +17577,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -17257,6 +17694,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -17445,6 +17887,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -17557,6 +18004,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -17692,19 +18144,17 @@
   {
    "path": "/testosterone-ed",
    "status": 200,
-   "score": 96,
-   "issues": [
-    "Title and H1 share keywords"
-   ],
+   "score": 100,
+   "issues": [],
    "metadata": {
-    "title": "Testosterone Therapy and ED: Does TRT Help? | UZ Clinic",
+    "title": "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
     "description": "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
     "canonical": "https://pshottreatment.com/testosterone-ed",
     "robots": "index, follow",
     "h1": [
-     "Low Testosterone and Erectile Dysfunction"
+     "TRT and Erectile Dysfunction: Does Testosterone Help ED?"
     ],
-    "words": 1093
+    "words": 1105
    },
    "schema": [
     {
@@ -17714,6 +18164,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -17826,6 +18281,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -17908,7 +18368,7 @@
      "@type": "MedicalWebPage",
      "@id": "https://pshottreatment.com/testosterone-ed#webpage",
      "url": "https://pshottreatment.com/testosterone-ed",
-     "name": "Testosterone Therapy and ED: Does TRT Help? | UZ Clinic",
+     "name": "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
      "description": "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
      "isPartOf": {
       "@id": "https://pshottreatment.com/#website"
@@ -17994,7 +18454,7 @@
     {
      "@type": "Article",
      "@id": "https://pshottreatment.com/testosterone-ed#article",
-     "headline": "Low Testosterone and Erectile Dysfunction",
+     "headline": "TRT and Erectile Dysfunction: Does Testosterone Help ED?",
      "description": "Does TRT help erectile dysfunction? How low testosterone is diagnosed, what to check if you still have ED on TRT and when to see a urologist.",
      "mainEntityOfPage": {
       "@id": "https://pshottreatment.com/testosterone-ed#webpage"
@@ -18108,7 +18568,7 @@
     "h1": [
      "Finasteride and Persistent Sexual Symptoms"
     ],
-    "words": 906
+    "words": 916
    },
    "schema": [
     {
@@ -18118,6 +18578,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -18230,6 +18695,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -18496,7 +18966,7 @@
     "h1": [
      "P-Shot vs Viagra for Erectile Dysfunction"
     ],
-    "words": 893
+    "words": 902
    },
    "schema": [
     {
@@ -18506,6 +18976,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -18618,6 +19093,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -18896,7 +19376,7 @@
     "h1": [
      "When ED Tablets (Viagra, Cialis) Stop Working"
     ],
-    "words": 1483
+    "words": 1491
    },
    "schema": [
     {
@@ -18906,6 +19386,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -19018,6 +19503,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -19330,7 +19820,7 @@
     "h1": [
      "P-Shot vs Penile Injections (Alprostadil and Trimix)"
     ],
-    "words": 930
+    "words": 939
    },
    "schema": [
     {
@@ -19340,6 +19830,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -19452,6 +19947,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -19740,7 +20240,7 @@
     "h1": [
      "ED Treatment Evidence Tracker"
     ],
-    "words": 965
+    "words": 971
    },
    "schema": [
     {
@@ -19750,6 +20250,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -19862,6 +20367,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -20200,7 +20710,7 @@
     "h1": [
      "Erectile Dysfunction Glossary"
     ],
-    "words": 677
+    "words": 680
    },
    "schema": [
     {
@@ -20210,6 +20720,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -20322,6 +20837,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -20560,7 +21080,7 @@
     "h1": [
      "Erectile Dysfunction: Your Questions Answered"
     ],
-    "words": 1073
+    "words": 1085
    },
    "schema": [
     {
@@ -20570,6 +21090,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -20682,6 +21207,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -21126,7 +21656,7 @@
     "h1": [
      "Erectile Dysfunction Under 40"
     ],
-    "words": 1369
+    "words": 1379
    },
    "schema": [
     {
@@ -21136,6 +21666,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -21248,6 +21783,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -21522,7 +22062,7 @@
     "h1": [
      "Losing an Erection During Sex"
     ],
-    "words": 1276
+    "words": 1286
    },
    "schema": [
     {
@@ -21532,6 +22072,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -21644,6 +22189,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -21910,7 +22460,7 @@
     "h1": [
      "Erectile Dysfunction and Heart Disease"
     ],
-    "words": 1121
+    "words": 1129
    },
    "schema": [
     {
@@ -21920,6 +22470,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -22032,6 +22587,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -22298,7 +22858,7 @@
     "h1": [
      "Blood Pressure Medicines and Erectile Dysfunction"
     ],
-    "words": 1130
+    "words": 1137
    },
    "schema": [
     {
@@ -22308,6 +22868,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -22420,6 +22985,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -22686,7 +23256,7 @@
     "h1": [
      "Antidepressants and Erectile Dysfunction"
     ],
-    "words": 1029
+    "words": 1036
    },
    "schema": [
     {
@@ -22696,6 +23266,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -22808,6 +23383,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -23076,7 +23656,7 @@
     "h1": [
      "Anxiety and Erectile Dysfunction"
     ],
-    "words": 1004
+    "words": 1011
    },
    "schema": [
     {
@@ -23086,6 +23666,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -23198,6 +23783,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -23466,7 +24056,7 @@
     "h1": [
      "Lifestyle and Erectile Dysfunction"
     ],
-    "words": 967
+    "words": 974
    },
    "schema": [
     {
@@ -23476,6 +24066,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -23588,6 +24183,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -23854,7 +24454,7 @@
     "h1": [
      "How to Choose an ED Clinic Abroad"
     ],
-    "words": 1001
+    "words": 1020
    },
    "schema": [
     {
@@ -23864,6 +24464,11 @@
      ],
      "@id": "https://pshottreatment.com/#organization",
      "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
      "url": "https://pshottreatment.com/",
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
@@ -23976,6 +24581,11 @@
      "@type": "Physician",
      "@id": "https://pshottreatment.com/#physician",
      "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
      "jobTitle": "Urological Surgeon",
      "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
      "medicalSpecialty": "https://schema.org/Urologic",
@@ -24248,6 +24858,1043 @@
        "position": 6,
        "name": "Aftercare",
        "description": "How to contact the clinic after you leave and what your own doctor should know."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-treatment-turkey-questions",
+   "status": 200,
+   "score": 94,
+   "issues": [
+    "FAQ section"
+   ],
+   "metadata": {
+    "title": "ED Treatment in Turkey: 10 Questions Answered (2026)",
+    "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+    "canonical": "https://pshottreatment.com/ed-treatment-turkey-questions",
+    "robots": "index, follow",
+    "h1": [
+     "ED Treatment in Turkey: 10 Questions Patients Ask"
+    ],
+    "words": 1559
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
+      "width": 180,
+      "height": 180
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#webpage",
+     "url": "https://pshottreatment.com/ed-treatment-turkey-questions",
+     "name": "ED Treatment in Turkey: 10 Questions Answered (2026)",
+     "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-treatment-turkey-questions",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "PRP Intracavernosal Injections for Primary Organic ED: Systematic Review and Meta-analysis",
+       "publisher": {
+        "@type": "Organization",
+        "name": "International Journal of Impotence Research / PubMed"
+       },
+       "datePublished": "2024",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37993601/"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Turkey: 10 questions",
+       "item": "https://pshottreatment.com/ed-treatment-turkey-questions"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#article",
+     "headline": "ED Treatment in Turkey: 10 Questions Patients Ask",
+     "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-treatment-turkey-questions",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "PRP Intracavernosal Injections for Primary Organic ED: Systematic Review and Meta-analysis",
+       "publisher": {
+        "@type": "Organization",
+        "name": "International Journal of Impotence Research / PubMed"
+       },
+       "datePublished": "2024",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37993601/"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    }
+   ]
+  },
+  {
+   "path": "/nl/priapus-shot",
+   "status": 200,
+   "score": 100,
+   "issues": [
+    "unresolved @id reference https://pshottreatment.com/p-shot#webpage"
+   ],
+   "metadata": {
+    "title": "Priapus-shot behandeling in Antalya, Turkije | UZ Clinic",
+    "description": "Priapus-shot (P-Shot, PRP) bij erectiestoornissen: werkwijze, risico's, wat het onderzoek zegt en de prijs in Antalya (€360). Door een uroloog beoordeeld.",
+    "canonical": "https://pshottreatment.com/nl/priapus-shot",
+    "robots": "index, follow",
+    "h1": [
+     "Priapus-shot (P-Shot) behandeling in Antalya, Turkije"
+    ],
+    "words": 1021
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
+      "width": 180,
+      "height": 180
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/nl/priapus-shot#webpage",
+     "url": "https://pshottreatment.com/nl/priapus-shot",
+     "name": "Priapus-shot behandeling in Antalya, Turkije | UZ Clinic",
+     "description": "Priapus-shot (P-Shot, PRP) bij erectiestoornissen: werkwijze, risico's, wat het onderzoek zegt en de prijs in Antalya (€360). Door een uroloog beoordeeld.",
+     "inLanguage": "nl",
+     "dateModified": "2026-10-02",
+     "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://pshottreatment.com/#website",
+      "name": "UZ Clinic Antalya",
+      "url": "https://pshottreatment.com/"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/nl/priapus-shot#breadcrumb"
+     },
+     "translationOfWork": {
+      "@id": "https://pshottreatment.com/p-shot#webpage"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/nl/priapus-shot#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Priapus-shot",
+       "item": "https://pshottreatment.com/nl/priapus-shot"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/nl/priapus-shot#faq",
+     "url": "https://pshottreatment.com/nl/priapus-shot",
+     "inLanguage": "nl",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is de priapus-shot bewezen effectief bij erectiestoornissen?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nee. Sommige studies melden verbetering, andere vonden geen verschil met placebo. De EAU-richtlijn van 2026 adviseert PRP bij erectiestoornissen alleen binnen klinisch onderzoek te gebruiken."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Wat is het verschil tussen de priapus-shot, de P-Shot en PRP?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Het gaat om dezelfde soort behandeling. Priapus-shot en P-Shot zijn merkachtige namen; de medische term is een injectie met plaatjesrijk plasma (PRP) in de penis."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Doet een priapus-shot pijn?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Er wordt vooraf plaatselijk verdoofd. Veel mannen voelen een licht ongemak, maar ervaringen verschillen."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Vergroot de priapus-shot de penis?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nee. Het is geen behandeling om de penis te vergroten en de kliniek beweert dat ook niet."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Hoeveel kost een priapus-shot in Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De standaard P-Shot kost £300 (ca. €360). Het behandelplan bevestigt het totaal vóór de boeking."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Spreekt de kliniek Nederlands?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Communicatie gaat in het Engels of Turks. U kunt uw vragen in het Engels via WhatsApp of het formulier sturen."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": "/da/penil-doppler-ultralyd",
+   "status": 200,
+   "score": 100,
+   "issues": [
+    "unresolved @id reference https://pshottreatment.com/penile-doppler-ultrasound#webpage"
+   ],
+   "metadata": {
+    "title": "Penil Doppler-ultralyd ved rejsningsproblemer | Antalya",
+    "description": "Penil Doppler-ultralyd måler blodgennemstrømningen i penis ved rejsningsproblemer. Hvad scanningen viser, risici og pris i Antalya (€300).",
+    "canonical": "https://pshottreatment.com/da/penil-doppler-ultralyd",
+    "robots": "index, follow",
+    "h1": [
+     "Penil Doppler-ultralyd ved rejsningsproblemer"
+    ],
+    "words": 762
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
+      "width": 180,
+      "height": 180
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/da/penil-doppler-ultralyd#webpage",
+     "url": "https://pshottreatment.com/da/penil-doppler-ultralyd",
+     "name": "Penil Doppler-ultralyd ved rejsningsproblemer | Antalya",
+     "description": "Penil Doppler-ultralyd måler blodgennemstrømningen i penis ved rejsningsproblemer. Hvad scanningen viser, risici og pris i Antalya (€300).",
+     "inLanguage": "da",
+     "dateModified": "2026-10-02",
+     "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://pshottreatment.com/#website",
+      "name": "UZ Clinic Antalya",
+      "url": "https://pshottreatment.com/"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/da/penil-doppler-ultralyd#breadcrumb"
+     },
+     "translationOfWork": {
+      "@id": "https://pshottreatment.com/penile-doppler-ultrasound#webpage"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/da/penil-doppler-ultralyd#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Forside",
+       "item": "https://pshottreatment.com/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Penil Doppler-ultralyd",
+       "item": "https://pshottreatment.com/da/penil-doppler-ultralyd"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/da/penil-doppler-ultralyd#faq",
+     "url": "https://pshottreatment.com/da/penil-doppler-ultralyd",
+     "inLanguage": "da",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Gør en penil Doppler-scanning ondt?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Injektionen kan give et kort ubehag. Selve scanningen gør ikke ondt. Oplevelsen varierer."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Hvad koster en penil Doppler-ultralyd i Antalya?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En penil Doppler-ultralyd koster €300 hos UZ Clinic Antalya. Med en omfattende blodprøve koster pakken €410."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Har jeg brug for en Doppler-scanning før behandling?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ikke altid. Scanningen er mest nyttig, når der mistænkes et problem med blodgennemstrømningen eller før visse behandlinger. Urologen afgør det."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Kan jeg sende en gammel Doppler-rapport?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja. Send den med din sag, så vurderer urologen, om den er tilstrækkelig, eller om en ny scanning vil give mere information."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Taler klinikken dansk?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kommunikation foregår på engelsk eller tyrkisk. Du kan sende dine spørgsmål på engelsk via WhatsApp eller formularen."
+       }
       }
      ]
     }

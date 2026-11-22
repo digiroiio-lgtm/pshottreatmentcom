@@ -114,10 +114,10 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/dr-niyazi-umut-ozdemir",
-    metaTitle: "Dr. Niyazi Umut Özdemir | Urological Surgeon, Antalya",
+    metaTitle: "Op. Dr. Niyazi Umut Özdemir | Urologist in Antalya",
     description:
-      "Dr. Niyazi Umut Özdemir is a urological surgeon in Antalya focused on male sexual health and penile rehabilitation. Qualifications and clinical focus.",
-    h1: "Dr. Niyazi Umut Özdemir, Urological Surgeon",
+      "Op. Dr. Niyazi Umut Özdemir is a urologist and urological surgeon in Antalya, founder of UZ Clinic, focused on erectile dysfunction and male sexual health.",
+    h1: "Op. Dr. Niyazi Umut Özdemir, Urologist in Antalya",
     eyebrow: "Your physician",
     kind: "trust",
     medical: false,
@@ -275,7 +275,7 @@ export const clinicPages: PageDef[] = [
       { q: "What languages are supported?", a: "Please ask the coordinator which languages are available when you make contact." },
       { q: "What if something goes wrong after I go home?", a: "You receive a contact and written warning signs. Seek urgent local care for emergencies, such as an erection lasting more than four hours." },
     ],
-    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-treatment-istanbul", "/penile-doppler-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
+    related: ["/ed-treatment-turkey-questions", "/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-treatment-istanbul", "/penile-doppler-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
   },
   {
     path: "/patient-experiences",
@@ -346,7 +346,7 @@ export const clinicPages: PageDef[] = [
       { type: "price" },
       {
         type: "text",
-        heading: "P-Shot cost UK (£): why quotes vary",
+        heading: "P Shot UK price vs Turkey: why quotes vary",
         id: "uk-price",
         paragraphs: [
           "Searching for a P-Shot price in the UK usually returns a wide range of figures. This site does not publish other clinics' prices, because quotes change and are rarely like for like. What makes them differ is more useful to know.",

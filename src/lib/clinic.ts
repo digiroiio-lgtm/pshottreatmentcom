@@ -3,6 +3,8 @@
 
 export const CLINIC = {
   name: "UZ Clinic Antalya",
+  // Names people search for. Feeds Organization.alternateName.
+  alternateNames: ["UZ Clinic", "UZ Klinik Antalya", "UZ Clinic Antalya Urology"],
   shortName: "UZ Clinic",
   specialty: "Male sexual health and penile rehabilitation",
   city: "Antalya",
@@ -36,6 +38,8 @@ export const CLINIC = {
 
 export const DOCTOR = {
   name: "Dr. Niyazi Umut Özdemir",
+  // Turkish form ("Op. Dr." = operator doctor, i.e. surgeon) and common spellings. Feeds Physician.alternateName.
+  alternateNames: ["Op. Dr. Niyazi Umut Özdemir", "Niyazi Umut Özdemir", "Dr. Niyazi Umut Ozdemir"],
   shortName: "Dr. Özdemir",
   title: "Urological Surgeon",
   path: "/dr-niyazi-umut-ozdemir",

@@ -14,7 +14,7 @@ const serif = Playfair_Display({ subsets: ["latin"], variable: "--font-serif", d
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "ED Treatment in Antalya | P-Shot, Shockwave | UZ Clinic", template: `%s | ${SITE_NAME}` },
+  title: { default: "UZ Clinic Antalya | ED Treatment Turkey: P-Shot, Shockwave", template: `%s | ${SITE_NAME}` },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
   category: "health",

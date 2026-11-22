@@ -88,10 +88,10 @@ export const conditionPages: PageDef[] = [
   },
   {
     path: "/venous-leak",
-    metaTitle: "Venous Leak ED: Symptoms, Diagnosis and Options",
+    metaTitle: "Venous Leak: Symptoms, Diagnosis and Treatment Options",
     description:
       "Venous leak (cavernosal insufficiency) can make an erection fade. Symptoms, how penile Doppler diagnoses it and which options may be discussed.",
-    h1: "Venous Leak and Erectile Dysfunction",
+    h1: "Venous Leak (Venogenic ED): Symptoms, Diagnosis and Treatment",
     eyebrow: "Condition guide",
     kind: "condition",
     treatment: "not-sure",
@@ -114,15 +114,16 @@ export const conditionPages: PageDef[] = [
     blocks: [
       {
         type: "text",
-        heading: "How an erection stays firm",
+        heading: "What is venous leak?",
         id: "how",
         paragraphs: [
-          "An erection needs blood to flow in and the veins that drain the penis to be compressed, so blood stays in. In venous leak, this sealing mechanism does not work well.",
+          "Venous leak, also called venogenic erectile dysfunction, cavernosal insufficiency or veno-occlusive dysfunction, means the penis cannot hold blood well enough to keep an erection firm.",
+          "An erection needs blood to flow in and the veins that drain the penis to be compressed, so blood stays in. In venous leak, this sealing mechanism does not work well, so the erection may start and then fade.",
         ],
       },
       {
         type: "text",
-        heading: "Symptoms that may suggest it",
+        heading: "What are the symptoms of venous leak?",
         id: "symptoms",
         bullets: [
           "An erection that starts but cannot be maintained.",
@@ -134,7 +135,7 @@ export const conditionPages: PageDef[] = [
       { type: "cta", title: "Get Your Symptoms Reviewed by a Urologist", text: "Send your history and any Doppler results. The clinic can tell you what to do next.", label: "Check Treatment Options for Venous Leak" },
       {
         type: "text",
-        heading: "How it is diagnosed",
+        heading: "How is venous leak diagnosed?",
         id: "diagnosis",
         paragraphs: [
           "Penile Doppler (duplex) ultrasound, usually after an injection that induces an erection, measures blood flow in and out of the penis. Some centres also use more specialised tests in selected men.",
@@ -142,7 +143,7 @@ export const conditionPages: PageDef[] = [
       },
       {
         type: "cards",
-        heading: "Venous leak treatment: options a urologist may discuss in 2026",
+        heading: "Venous leak treatment options in 2026",
         id: "options",
         cols: 2,
         cards: [
@@ -153,17 +154,29 @@ export const conditionPages: PageDef[] = [
         ],
       },
       {
-        type: "callout",
-        tone: "caution",
-        title: "Be cautious about claims",
-        text: "No regenerative treatment is established as a cure for venous leak, and venous surgery is not a routine solution for most men. Ask any provider for the evidence behind their recommendation.",
+        type: "text",
+        heading: "Can venous leak be cured?",
+        id: "cure",
+        paragraphs: [
+          "No treatment is established as a cure for venous leak. Management aims to give you a reliable, usable erection and to treat contributing factors such as diabetes, high blood pressure, smoking or low testosterone.",
+          "Claims that a natural remedy, supplement, PRP or a fixed number of shockwave sessions will reverse venous leak are not supported by good evidence. Ask any provider for the evidence behind their recommendation.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Is venous leak surgery an option?",
+        id: "surgery",
+        paragraphs: [
+          "Venous ligation or embolisation surgery aims to block the veins that drain blood from the penis. It is not a routine treatment: urology guidelines do not recommend it for most men, because long-term results are often disappointing.",
+          "For severe ED that does not respond to other options, a penile implant is the established surgical treatment. A urologist explains whether any procedure is realistic in your case.",
+        ],
       },
       { type: "comparison", highlight: ["pde5", "injections", "implant"] },
       { type: "doctor" },
     ],
     faqs: [
       { q: "What are the venous leak treatment options for ED?", a: "A urologist may discuss risk-factor control, optimised PDE5 tablets, vacuum devices, penile injections and, for severe ED, an implant. Shockwave and regenerative therapies have limited evidence in confirmed venous leak and are discussed only when appropriate." },
-      { q: "Can venous leak be cured?", a: "No treatment is established as a cure. Management focuses on options that help you achieve a usable erection. The urologist explains what is realistic." },
+      { q: "Can venous leak be cured naturally?", a: "No natural remedy or supplement has been shown to cure venous leak. Healthy habits and control of diabetes, blood pressure and smoking support erection health, and a urologist explains which treatments may help." },
       { q: "Can P-Shot treat venous leak?", a: "No evidence establishes PRP as a treatment for confirmed venous leak. It remains experimental." },
       { q: "How is venous leak confirmed?", a: "Usually through penile Doppler ultrasound and clinical assessment by a urologist." },
     ],

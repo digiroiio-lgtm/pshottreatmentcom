@@ -112,7 +112,7 @@ export function CtaBlock({
 }) {
   return (
     <aside className="rounded-2xl bg-neutral-900 text-white p-7 md:p-9">
-      <h2 className="text-2xl font-bold mb-2">{title}</h2>
+      <p className="text-2xl font-bold font-serif text-heading mb-2">{title}</p>
       <p className="text-neutral-200 mb-5 max-w-2xl">{text}</p>
       <div className="flex flex-col sm:flex-row gap-3">
         <AssessmentButton label={label} treatment={treatment} placement={placement} variant="onDark" />

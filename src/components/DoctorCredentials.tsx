@@ -8,7 +8,7 @@ import type { TreatmentId } from "@/content/types";
 
 const initials = DOCTOR.name.replace("Dr. ", "").split(" ").map((p) => p[0]).slice(0, 2).join("");
 
-export function DoctorCredentials({ compact = false }: { compact?: boolean }) {
+export function DoctorCredentials({ compact = false, heading }: { compact?: boolean; heading?: string }) {
   return (
     <TrackView event="doctor_profile_view">
       <section aria-labelledby="doctor-heading" data-doctor className="rounded-2xl border border-slate-200 bg-surface p-6 md:p-8">
@@ -20,7 +20,7 @@ export function DoctorCredentials({ compact = false }: { compact?: boolean }) {
           )}
           <div>
             <p className="text-sm font-semibold uppercase tracking-wide text-teal-800 mb-1">Your physician</p>
-            <h2 id="doctor-heading" className="text-2xl font-bold text-heading">{DOCTOR.name}</h2>
+            <h2 id="doctor-heading" className="text-2xl font-bold text-heading">{heading ?? `Who assesses you: ${DOCTOR.name}`}</h2>
             <p className="text-slate-700 mb-3">{DOCTOR.title}, {CLINIC.name}</p>
             <p className="text-slate-700 text-sm leading-relaxed mb-3">
               Responsible for assessment and treatment planning at the clinic, with a clinical focus on male sexual health and penile rehabilitation.

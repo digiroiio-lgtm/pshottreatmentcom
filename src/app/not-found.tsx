@@ -21,10 +21,10 @@ export default function NotFound() {
       <p className="text-lg text-gray-700 mb-8">The page you requested does not exist or has moved. These pages may help:</p>
       <ul className="space-y-3">
         {suggestions.map(([href, label]) => (
-          <li key={href}><Link href={href} className="font-semibold text-blue-800 underline underline-offset-2">{label}</Link></li>
+          <li key={href}><Link href={href} className="font-semibold text-teal-800 underline underline-offset-2">{label}</Link></li>
         ))}
       </ul>
-      <p className="mt-8"><Link href="/" className="text-blue-800 font-semibold">← Back to the home page</Link></p>
+      <p className="mt-8"><Link href="/" className="text-teal-800 font-semibold">← Back to the home page</Link></p>
     </div>
   );
 }
