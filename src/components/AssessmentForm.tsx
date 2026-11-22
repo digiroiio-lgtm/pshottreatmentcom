@@ -292,7 +292,7 @@ export default function AssessmentForm() {
         </>
       )}
 
-      <p aria-live="polite" className={`min-h-6 text-sm mb-3 ${error ? "text-red-700" : ""}`}>{error}</p>
+      <p aria-live="polite" className={`min-h-6 text-sm mb-3 ${error ? "text-red-400" : ""}`}>{error}</p>
 
       <div className="flex items-center justify-between gap-3">
         <button type="button" onClick={() => setStep((n) => Math.max(0, n - 1))} disabled={step === 0} className="rounded-full border border-slate-300 px-5 py-3 font-semibold disabled:opacity-40">Back</button>

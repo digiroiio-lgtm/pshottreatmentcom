@@ -1,3 +1,4 @@
+import { languageLinks } from "@/content/localized";
 import PhotoGallery from "./PhotoGallery";
 import Image from "next/image";
 import { isSvg, pageImage } from "@/content/images";
@@ -233,6 +234,13 @@ export default function ContentPage({ page }: { page: PageDef }) {
           <WhatsAppCTA treatment={treatment} placement="hero" variant="outline" />
         </div>
         <ConfidentialNote className="text-slate-600 mt-4" />
+        {languageLinks[page.path] && (
+          <p className="mt-3 text-sm text-slate-600">
+            {languageLinks[page.path].map((l) => (
+              <Link key={l.path} href={l.path} hrefLang={l.lang} lang={l.lang} className="mr-4 font-semibold text-teal-800 underline underline-offset-2">{l.label}</Link>
+            ))}
+          </p>
+        )}
         {banner && (
           <figure className="relative mt-8 aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl border border-teal-700/40 glow-gold">
             <Image src={banner.src} alt={banner.alt} fill priority sizes="(min-width: 896px) 56rem, 100vw" unoptimized={isSvg(banner)} className="object-cover" />

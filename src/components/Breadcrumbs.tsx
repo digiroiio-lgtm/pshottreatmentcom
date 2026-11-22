@@ -12,7 +12,7 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
             {index === items.length - 1 ? (
               <span aria-current="page" className="text-gray-700">{item.name}</span>
             ) : (
-              <Link href={item.path} className="hover:text-blue-700">{item.name}</Link>
+              <Link href={item.path} className="hover:text-teal-800">{item.name}</Link>
             )}
           </li>
         ))}

@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getPage } from "@/content";
 import { SITE_NAME } from "@/lib/site-config";
 
-const DEFAULT_TITLE = "Erectile Dysfunction & Penile Rehabilitation in Antalya";
+const DEFAULT_TITLE = "ED Treatment in Antalya, Turkey: Urologist-Led P-Shot, Shockwave & Doppler";
 
 // Social preview image. Only titles from the route registry are rendered, so arbitrary text cannot be injected via the query string.
 export function GET(request: Request) {

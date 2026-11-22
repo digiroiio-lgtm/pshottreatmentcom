@@ -114,10 +114,10 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/dr-niyazi-umut-ozdemir",
-    metaTitle: "Dr. Niyazi Umut Özdemir | Urological Surgeon, Antalya",
+    metaTitle: "Op. Dr. Niyazi Umut Özdemir | Urologist in Antalya",
     description:
-      "Dr. Niyazi Umut Özdemir is a urological surgeon in Antalya focused on male sexual health and penile rehabilitation. Qualifications and clinical focus.",
-    h1: "Dr. Niyazi Umut Özdemir, Urological Surgeon",
+      "Op. Dr. Niyazi Umut Özdemir is a urologist and urological surgeon in Antalya, founder of UZ Clinic, focused on erectile dysfunction and male sexual health.",
+    h1: "Op. Dr. Niyazi Umut Özdemir, Urologist in Antalya",
     eyebrow: "Your physician",
     kind: "trust",
     medical: false,
@@ -346,7 +346,7 @@ export const clinicPages: PageDef[] = [
       { type: "price" },
       {
         type: "text",
-        heading: "P-Shot cost UK (£): why quotes vary",
+        heading: "P Shot UK price vs Turkey: why quotes vary",
         id: "uk-price",
         paragraphs: [
           "Searching for a P-Shot price in the UK usually returns a wide range of figures. This site does not publish other clinics' prices, because quotes change and are rarely like for like. What makes them differ is more useful to know.",

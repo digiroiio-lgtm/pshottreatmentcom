@@ -60,3 +60,12 @@ Internal linking rule: every sitemap page (except home, privacy, editorial polic
 Türkiye and Turkey are the same country and share one set of pages (the term is used naturally, never as a duplicate page). Antalya is the main clinic. Istanbul is served through an affiliated clinic (owner-confirmed), covered by one page, /erectile-dysfunction-treatment-istanbul, for all Istanbul queries (ED, P-Shot, Doppler, shockwave). See docs/geo-seo-plan-2026-11.md for the full URL map and the pages that need approval.
 | penile Doppler Antalya, penile Doppler Turkey, Doppler ultrasound ED Antalya | /penile-doppler-antalya | /penile-doppler-ultrasound, /erectile-dysfunction-treatment-antalya, /international-patients | title "penile doppler ultrasound in antalya" |
 | erectile dysfunction treatment Istanbul, P-Shot Istanbul, ED clinic Istanbul | /erectile-dysfunction-treatment-istanbul | /erectile-dysfunction-treatment-turkey, /international-patients | title "ed treatment in istanbul" |
+
+## Brand, doctor and language pages (2026-11-22)
+
+| Query (GSC, 90 days) | Page | Change |
+| --- | --- | --- |
+| uz clinic antalya (67, pos 30), uz clinic (65, pos 33) | / | Title starts with "UZ Clinic Antalya"; Organization.alternateName |
+| niyazi umut özdemir (15, pos 36) | /dr-niyazi-umut-ozdemir | H1/title "Op. Dr. Niyazi Umut Özdemir, Urologist in Antalya"; Physician.alternateName |
+| priapus-shot behandeling (49, Dutch) | /nl/priapus-shot | Dutch adaptation of /p-shot, hreflang en-GB ↔ nl |
+| doppler ultralyd penis, doppler scanning rejsningsproblemer (Danish, ~20) | /da/penil-doppler-ultralyd | Danish adaptation of /penile-doppler-ultrasound, hreflang en-GB ↔ da |

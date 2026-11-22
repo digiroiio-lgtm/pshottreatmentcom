@@ -31,11 +31,12 @@ const therapy = (name: string): Node => ({
 // Treatments the clinic has stated it offers. Exosome therapy is left out until the clinic confirms availability.
 const offered = ["P-Shot (platelet-rich plasma injection)", "Low-intensity shockwave therapy (EdSWT / Li-ESWT)", "Stem cell therapy for erectile dysfunction", "Penile rehabilitation"];
 
-function organization(): Node {
+export function organization(): Node {
   return {
     "@type": ["Organization", "MedicalClinic"],
     "@id": ORG_ID,
     name: SITE_NAME,
+    alternateName: CLINIC.alternateNames,
     url: `${SITE_URL}/`,
     description:
       "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
@@ -71,11 +72,12 @@ function organization(): Node {
   };
 }
 
-function physician(): Node {
+export function physician(): Node {
   return {
     "@type": "Physician",
     "@id": DOCTOR_ID,
     name: DOCTOR.name,
+    alternateName: DOCTOR.alternateNames,
     jobTitle: DOCTOR.title,
     url: absoluteUrl(DOCTOR.path),
     medicalSpecialty: "https://schema.org/Urologic",

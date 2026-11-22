@@ -1,4 +1,5 @@
 import { pages } from "@/content";
+import { localizedPages } from "@/content/localized";
 import { comparisonHeaders, comparisonRows } from "@/content/treatments";
 import type { Block, PageDef } from "@/content/types";
 import { facts } from "@/content/facts";
@@ -64,7 +65,8 @@ export function buildLlmsTxt(): string {
     })
     .filter(Boolean)
     .join("\n\n");
-  return `${header}\n${body}\n\n${footer}`;
+  const translated = `## Other languages\n\n${localizedPages.map((p) => `- [${p.h1}](${absoluteUrl(p.path)}) (${p.lang}): ${p.description}`).join("\n")}`;
+  return `${header}\n${body}\n\n${translated}\n\n${footer}`;
 }
 
 function blockText(block: Block): string[] {
@@ -112,6 +114,15 @@ export function buildLlmsFullTxt(): string {
     if (page.sources?.length) {
       lines.push("### Sources", "", ...getSources(page.sources).map((s) => `- ${s.title}, ${s.publisher}, ${s.year}: ${s.url}`), "");
     }
+    parts.push(lines.join("\n"));
+  }
+  for (const page of localizedPages) {
+    const lines: string[] = [`## ${page.h1}`, "", `URL: ${absoluteUrl(page.path)}`, `Language: ${page.lang}`, `English version: ${absoluteUrl(page.enPath)}`, `Last updated: ${page.modified}`, ""];
+    lines.push(`${page.answer.q} ${page.answer.a}`, "", ...page.takeaways.map((t) => `- ${t}`), "");
+    for (const s of page.sections) {
+      lines.push(`### ${s.heading}`, "", ...(s.paragraphs ?? []).flatMap((p) => [p, ""]), ...(s.bullets ?? []).map((b) => `- ${b}`), ...(s.steps ?? []).map((st, i) => `${i + 1}. ${st.title}: ${st.text}`), "");
+    }
+    page.faqs.forEach((faq) => lines.push(`**${faq.q}**`, "", faq.a, ""));
     parts.push(lines.join("\n"));
   }
   parts.push(footer);

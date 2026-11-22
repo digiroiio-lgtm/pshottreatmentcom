@@ -3,10 +3,10 @@ import type { PageDef } from "../types";
 
 export const homePage: PageDef = {
   path: "/",
-  metaTitle: "ED Treatment Turkey: P-Shot & Shockwave | UZ Clinic",
+  metaTitle: "UZ Clinic Antalya | ED Treatment Turkey: P-Shot, Shockwave",
   description:
     "Urologist-led ED treatment in Antalya, Turkey: P-Shot from £300, shockwave and penile rehabilitation. Confidential remote case review.",
-  h1: "Erectile Dysfunction & Penile Rehabilitation in Antalya",
+  h1: "ED Treatment in Antalya, Turkey: Urologist-Led P-Shot, Shockwave & Doppler",
   eyebrow: "UZ Clinic Antalya",
   kind: "money",
   treatment: "not-sure",
