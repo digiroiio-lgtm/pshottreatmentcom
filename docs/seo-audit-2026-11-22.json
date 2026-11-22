@@ -5733,7 +5733,7 @@
        "name": "How much does shockwave therapy cost?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shockwave therapy (ESWT) is £110 (about €135 / $145) per session. Packages cost 5% less: 3 sessions £315 (about €375 / $415), 6 sessions £630 (about €750 / $825). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
+        "text": "Shockwave therapy (ESWT) is £110 (about €135 / $145) per session. Packages cost 5% less: 3 sessions £315 (about €375 / $410), 6 sessions £630 (about €750 / $820). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
        }
       },
       {
@@ -6563,7 +6563,7 @@
        "name": "How much does shockwave therapy cost?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Shockwave therapy (ESWT) is £110 (about €135 / $145) per session. Packages cost 5% less: 3 sessions £315 (about €375 / $415), 6 sessions £630 (about €750 / $825). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
+        "text": "Shockwave therapy (ESWT) is £110 (about €135 / $145) per session. Packages cost 5% less: 3 sessions £315 (about €375 / $410), 6 sessions £630 (about €750 / $820). Euro and dollar amounts use fixed reference exchange rates from 22 November 2026, not live rates. Your written treatment plan confirms the total before you book."
        }
       },
       {
@@ -15526,7 +15526,7 @@
        "name": "Are there package prices?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Approved packages cost 5% less than the same items priced separately, for example blood tests + penile Doppler for £345 (about €410 / $450), or 6 shockwave sessions for £630 (about €750 / $825). The full list is in the price table above."
+        "text": "Yes. Approved packages cost 5% less than the same items priced separately, for example blood tests + penile Doppler for £345 (about €410 / $450), or 6 shockwave sessions for £630 (about €750 / $820). The full list is in the price table above."
        }
       },
       {
@@ -15811,7 +15811,7 @@
       {
        "@type": "Offer",
        "name": "Blood tests + penile Doppler + G-Cell Power P-Shot",
-       "price": "810",
+       "price": "805",
        "priceCurrency": "EUR",
        "url": "https://pshottreatment.com/price",
        "seller": {
@@ -15855,7 +15855,7 @@
       {
        "@type": "Offer",
        "name": "3 shockwave (ESWT) sessions",
-       "price": "415",
+       "price": "410",
        "priceCurrency": "USD",
        "url": "https://pshottreatment.com/price",
        "seller": {
@@ -15888,7 +15888,7 @@
       {
        "@type": "Offer",
        "name": "6 shockwave (ESWT) sessions",
-       "price": "825",
+       "price": "820",
        "priceCurrency": "USD",
        "url": "https://pshottreatment.com/price",
        "seller": {
@@ -15921,7 +15921,7 @@
       {
        "@type": "Offer",
        "name": "3 pelvic floor therapy sessions",
-       "price": "415",
+       "price": "410",
        "priceCurrency": "USD",
        "url": "https://pshottreatment.com/price",
        "seller": {
@@ -15932,7 +15932,7 @@
       {
        "@type": "Offer",
        "name": "Comprehensive ED: 2 G-Cell Power P-Shots + 6 ESWT + 3 pelvic floor sessions",
-       "price": "1610",
+       "price": "1605",
        "priceCurrency": "GBP",
        "url": "https://pshottreatment.com/price",
        "seller": {

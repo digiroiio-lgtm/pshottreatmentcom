@@ -7,7 +7,7 @@ Source of truth: `src/lib/pricing.ts`. Every page, table, FAQ and the structured
 - Standalone prices keep their approved source currency and amount exactly.
 - Other currencies: source amount × source/TRY rate ÷ target/TRY rate, rounded **up** to the nearest 5.
 - Reference rates (TRY per unit, fixed 22 Nov 2026, not live): USD 50.5697, EUR 55.5123, GBP 66.2223.
-- Packages: sum of the individual cash prices in TRY, minus 5% (before rounding), converted, rounded **up** to the nearest 5.
+- Packages: published at the exact figures in the owner's approved package table (decision 2026-11-22). The table was derived from the separate prices in TRY minus 5%; its rounding is not one fixed rule, so the figures are stored as approved values.
 - Card price = published cash price × 1.25. Calculated, **not shown on the site** (`CARD_PRICES_PUBLISHED = false`).
 
 ## Standalone cash prices
@@ -26,26 +26,18 @@ Source of truth: `src/lib/pricing.ts`. Every page, table, FAQ and the structured
 
 ## Packages
 
-| Package | Separate total | After 5% | GBP | EUR | USD | Card (GBP, hidden) |
+| Package | Separate total | After 5% (exact) | GBP (approved) | EUR (approved) | USD (approved) | Card (GBP, hidden) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Blood tests + penile Doppler | 23,938.14 TRY | 22,741.24 TRY | £345 | €410 | $450 | £431.25 |
-| Blood tests + penile Doppler + G-Cell | 47,115.95 TRY | 44,760.15 TRY | £680 | €810 | $890 | £850.00 |
-| 3 ESWT | 21,853.36 TRY | 20,760.69 TRY | £315 | €375 | $415 | £393.75 |
-| 6 ESWT | 43,706.72 TRY | 41,521.38 TRY | £630 | €750 | $825 | £787.50 |
-| 3 pelvic floor | 21,853.36 TRY | 20,760.69 TRY | £315 | €375 | $415 | £393.75 |
-| Comprehensive ED: 2 G-Cell + 6 ESWT + 3 pelvic floor | 111,915.69 TRY | 106,319.90 TRY | £1,610 | €1,920 | $2,105 | £2,012.50 |
+| Blood tests + penile Doppler + G-Cell | 47,115.95 TRY | 44,760.15 TRY | £680 | €805 | $890 | £850.00 |
+| 3 ESWT | 21,853.36 TRY | 20,760.69 TRY | £315 | €375 | $410 | £393.75 |
+| 6 ESWT | 43,706.72 TRY | 41,521.38 TRY | £630 | €750 | $820 | £787.50 |
+| 3 pelvic floor | 21,853.36 TRY | 20,760.69 TRY | £315 | €375 | $410 | £393.75 |
+| Comprehensive ED: 2 G-Cell + 6 ESWT + 3 pelvic floor | 111,915.69 TRY | 106,319.90 TRY | £1,605 | €1,920 | $2,105 | £2,006.25 |
 
-## Conflicts with the earlier package table (screenshot)
+## Package figures
 
-The written rule says "round upward to the nearest 5". The earlier table rounded to the nearest 5 in these cells, so the site shows 5 units more:
-
-| Package | Currency | Exact after discount | Earlier table | Site (rule applied) |
-| --- | --- | --- | --- | --- |
-| Blood tests + penile Doppler + G-Cell | EUR | 806.31 | 805 | 810 |
-| 3 ESWT | USD | 410.54 | 410 | 415 |
-| 6 ESWT | USD | 821.07 | 820 | 825 |
-| 3 pelvic floor | USD | 410.54 | 410 | 415 |
-| Comprehensive ED: 2 G-Cell + 6 ESWT + 3 pelvic floor | GBP | 1,605.50 | 1,605 | 1,610 |
+Resolved 2026-11-22: the site uses the approved table exactly (USD/EUR/GBP): blood tests + Doppler 450/410/345; + G-Cell 890/805/680; 3 ESWT 410/375/315; 6 ESWT 820/750/630; 3 pelvic floor 410/375/315; comprehensive 2,105/1,920/1,605.
 
 ## Open items for the owner
 
@@ -54,4 +46,3 @@ The written rule says "round upward to the nearest 5". The earlier table rounded
 3. **Expired penile Doppler promotion.** No promotion was found in the repository or on the live pages, so nothing was removed. If it appears elsewhere (Google Business Profile, ads, social posts), remove it there.
 4. **G-Cell Power P-Shot.** Shown by name and price only. No description or claims were added; send an approved description if one is wanted.
 5. **Istanbul.** The same prices are stated for Istanbul and Antalya. Confirm the affiliated clinic uses the same price list.
-6. **Package rounding.** If the earlier (nearest-5) figures are the intended prices, change the rounding rule in `pricing.ts`; every page updates automatically.
