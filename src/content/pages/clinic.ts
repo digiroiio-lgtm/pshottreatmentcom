@@ -150,7 +150,74 @@ export const clinicPages: PageDef[] = [
       { q: "Can I consult Dr. Özdemir before travelling to Antalya?", a: "You can send your case for a confidential remote review first. A patient coordinator contacts you, and the doctor assesses suitability. An in-person assessment is needed before treatment." },
       { q: "Where does Dr. Özdemir practise?", a: "At UZ Clinic Antalya, Kanyon Plaza, Fener Mah., Bülent Ecevit Blv., 07160 Muratpaşa / Antalya, Turkey." },
     ],
-    related: ["/about", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/international-patients"],
+    related: ["/press", "/about", "/erectile-dysfunction-assessment", "/ed-treatment-options", "/international-patients"],
+  },
+  {
+    path: "/press",
+    metaTitle: "Press and Media: UZ Clinic Antalya Urology Expert",
+    description:
+      "Press kit for journalists: Op. Dr. Niyazi Umut Özdemir, urologist in Antalya, available for expert comment on ED, P-Shot, shockwave therapy and medical travel.",
+    h1: "Press and Media Enquiries",
+    eyebrow: "For journalists",
+    kind: "trust",
+    medical: false,
+    parent: TRUST,
+    answer: {
+      q: "Who can comment on erectile dysfunction treatment in Turkey?",
+      a: "Op. Dr. Niyazi Umut Özdemir, a urologist and urological surgeon in Antalya and founder of UZ Clinic Antalya, is available for expert comment on erectile dysfunction, P-Shot (PRP), shockwave therapy, penile Doppler ultrasound and medical travel to Turkey. Comments are evidence-based and state clearly which treatments are established, emerging or experimental. Contact the clinic by email or WhatsApp.",
+    },
+    takeaways: [
+      "Expert comment in English from a practising urologist in Antalya, Turkey.",
+      "Evidence-led: established, emerging and experimental treatments are labelled honestly.",
+      "Photos below may be used with the credit \"UZ Clinic Antalya\".",
+    ],
+    ctaLabel: "Contact the Clinic",
+    modified: DATE,
+    priority: 0.5,
+    blocks: [
+      {
+        type: "text",
+        heading: "About Op. Dr. Niyazi Umut Özdemir",
+        id: "bio",
+        paragraphs: [
+          "Short bio: Op. Dr. Niyazi Umut Özdemir is a urologist and urological surgeon in Antalya, Turkey, and the founder of UZ Clinic Antalya, a male sexual health clinic.",
+          "Long bio: Dr. Özdemir studied medicine at Ege University and specialised in urology, and holds Turkish Association of Urology board certification. His clinical focus is erectile dysfunction, penile rehabilitation and blood-flow related (vasculogenic) ED, including shockwave therapy and regenerative approaches, which he discusses with clear evidence labels. He is a member of the Turkish Urological Association and the European Association of Urology, has spoken at the National Sexual Health Congress (CİSED) and has been featured in InCity magazine.",
+        ],
+      },
+      {
+        type: "cards",
+        heading: "Topics for expert comment",
+        id: "topics",
+        cols: 2,
+        cards: [
+          { title: "Is the P-Shot worth it?", text: "What the trials show, why the EAU limits PRP to clinical trials and what patients should ask.", href: "/p-shot" },
+          { title: "Shockwave therapy for ED", text: "Who may benefit, the evidence and realistic expectations.", href: "/shockwave-therapy-ed" },
+          { title: "Medical travel to Turkey for ED", text: "How to choose a clinic abroad, red flags and aftercare at home.", href: "/choose-an-ed-clinic-abroad" },
+          { title: "UK vs Turkey treatment prices", text: "Published prices, packages and what quotes should include.", href: "/price" },
+          { title: "ED as an early warning sign", text: "Why erection problems can point to heart disease or diabetes.", href: "/ed-and-heart-disease" },
+          { title: "What guidelines say", text: "A dated summary of EAU and AUA positions on ED treatments.", href: "/ed-evidence-tracker" },
+        ],
+      },
+      { type: "gallery", heading: "Photos for media use", id: "photos", intro: "Free to use in coverage of UZ Clinic Antalya or Dr. Özdemir, with the credit \"UZ Clinic Antalya\". Contact the clinic for higher-resolution files.", photos: ["doctorPortrait", "doctorScrubs", "congress", "reception", "building", "team"] },
+      {
+        type: "text",
+        heading: "Facts about the clinic",
+        id: "facts",
+        bullets: [
+          "Name: UZ Clinic Antalya (urology, male sexual health and penile rehabilitation).",
+          "Location: Kanyon Plaza, Bülent Ecevit Boulevard, Muratpaşa, Antalya, Turkey. An affiliated clinic serves patients in Istanbul.",
+          "Physician: Op. Dr. Niyazi Umut Özdemir, urologist and urological surgeon.",
+          "Services: ED assessment, penile Doppler ultrasound, shockwave therapy, P-Shot (PRP), regenerative options after assessment, penile rehabilitation.",
+          "Google rating: 4.5 from 47 reviews (October 2026).",
+        ],
+      },
+      { type: "location" },
+    ],
+    faqs: [
+      { q: "How quickly can Dr. Özdemir respond to a media request?", a: "Send your deadline with your request. The clinic replies by email or WhatsApp and arranges a written comment or an interview in English." },
+      { q: "Can I use the photos on this page?", a: "Yes, in coverage of UZ Clinic Antalya or Dr. Özdemir, with the credit \"UZ Clinic Antalya\". Please do not edit them in a way that changes their meaning." },
+    ],
+    related: ["/dr-niyazi-umut-ozdemir", "/about", "/ed-evidence-tracker", "/price", "/editorial-policy"],
   },
   {
     path: "/about",
@@ -200,7 +267,7 @@ export const clinicPages: PageDef[] = [
       { q: "Where is the clinic?", a: "UZ Clinic Antalya is at Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7, 07160 Muratpaşa / Antalya, Turkey." },
       { q: "Can I contact the clinic without calling?", a: "Yes. You can send your case through the confidential assessment form or message the clinic on WhatsApp." },
     ],
-    related: ["/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment", "/ed-questions"],
+    related: ["/press", "/dr-niyazi-umut-ozdemir", "/editorial-policy", "/evidence-methodology", "/international-patients", "/patient-experiences", "/price", "/erectile-dysfunction-treatment", "/ed-questions"],
   },
   {
     path: "/international-patients",
@@ -379,6 +446,7 @@ export const clinicPages: PageDef[] = [
         title: "A higher price does not mean better outcomes",
         text: "A lower price does not prove that two protocols or providers are equivalent either. Compare itemised quotations, qualifications, consent and follow-up. PRP for ED remains experimental. " + EAU_PRP,
       },
+      { type: "cite", title: "P-Shot Price UK vs Turkey", note: "You are welcome to quote these prices in articles and comparisons. Please credit and link to this page, because prices and reference exchange rates are updated here first." },
       { type: "doctor" },
     ],
     faqs: [
@@ -569,7 +637,7 @@ export const clinicPages: PageDef[] = [
       { q: "Who writes the medical content on this site?", a: "The content is prepared for UZ Clinic Antalya and shows the date of its latest update. Pages are described as medically reviewed only when Dr. Niyazi Umut Özdemir has reviewed them." },
       { q: "How are experimental treatments described?", a: "Treatments are labelled as established, emerging or experimental, with their evidence status and limits stated next to the treatment, not hidden below it." },
     ],
-    related: ["/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir", "/ed-evidence-tracker"],
+    related: ["/press", "/evidence-methodology", "/about", "/dr-niyazi-umut-ozdemir", "/ed-evidence-tracker"],
   },
   {
     path: "/evidence-methodology",

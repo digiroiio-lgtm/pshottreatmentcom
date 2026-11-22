@@ -195,6 +195,7 @@ export const growthPages: PageDef[] = [
         paragraphs: ["Each row cites its source. When a guideline is updated, the row and the date at the top of the page change. If you notice a statement that no longer matches a source, tell the clinic."],
       },
       { type: "cta", title: "Questions About the Evidence for Your Case?", text: "Send your history. The urologist can explain how the evidence applies to you.", label: "Ask the Urologist", whatsapp: true },
+      { type: "cite", title: "ED Treatment Evidence Tracker", note: "Writers, journalists and researchers are welcome to quote this summary of guideline positions. Please credit and link to the source, and check the update date above." },
       { type: "doctor" },
     ],
     faqs: [
@@ -203,7 +204,7 @@ export const growthPages: PageDef[] = [
       { q: "Are stem cells or exosomes proven for ED?", a: "No. The EAU finds evidence for stem-cell therapy insufficient for routine use, and human evidence for exosomes is very limited." },
     ],
     sources: ["eau2026", "aua2018", "masterson2023", "poulios2021", "panunzio2024", "mhraFinasteride"],
-    related: ["/prp-for-erectile-dysfunction", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/ed-treatment-options", "/editorial-policy"],
+    related: ["/press", "/prp-for-erectile-dysfunction", "/shockwave-therapy-ed", "/stem-cell-therapy-erectile-dysfunction", "/ed-treatment-options", "/editorial-policy"],
   },
   {
     path: "/ed-glossary",

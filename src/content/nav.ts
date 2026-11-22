@@ -34,6 +34,7 @@ export const navGroups = [
       ["/about", "Clinic"],
       ["/patient-experiences", "Patient Experiences"],
       ["/international-patients", "International Patients"],
+      ["/press", "Press"],
     ],
   },
 ] as const;

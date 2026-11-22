@@ -33,6 +33,7 @@ export const breadcrumbLabels: Record<string, string> = {
   "/penile-implant": "Penile implant",
   "/dr-niyazi-umut-ozdemir": "Dr. Niyazi Umut Özdemir",
   "/about": "About the clinic",
+  "/press": "Press and media",
   "/international-patients": "International patients",
   "/patient-experiences": "Patient experiences",
   "/price": "P-Shot price",
