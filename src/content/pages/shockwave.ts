@@ -1,5 +1,6 @@
 import { DATE, NO_GUARANTEE } from "../shared";
 import type { PageDef } from "../types";
+import { packageText, PRICE_NOTE, priceText } from "../prices";
 
 const EAU_SW =
   "The 2026 EAU guideline reports a mild average improvement from low-intensity shockwave therapy and gives a weak recommendation for selected men with vasculogenic ED.";
@@ -100,6 +101,7 @@ export const shockwavePages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "How much does shockwave therapy cost?", a: `Shockwave therapy (ESWT) is ${priceText("eswt")} per session. Packages cost 5% less: 3 sessions ${packageText("eswt3")}, 6 sessions ${packageText("eswt6")}. ${PRICE_NOTE}` },
       { q: "Is shockwave therapy painful?", a: "It is generally described as well tolerated, and no injection is involved. Experiences differ, and the clinic explains what to expect." },
       { q: "How many sessions are needed?", a: "The clinic protocol is 12 sessions: 6, a 3-week interval, then 6 more, with 1,500 shocks per session." },
       { q: "Is the result permanent?", a: "No permanent result can be promised. Benefit, when it occurs, varies between patients, and long-term evidence is limited." },
@@ -223,6 +225,7 @@ export const shockwavePages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "How much does shockwave therapy cost?", a: `Shockwave therapy (ESWT) is ${priceText("eswt")} per session. Packages cost 5% less: 3 sessions ${packageText("eswt3")}, 6 sessions ${packageText("eswt6")}. ${PRICE_NOTE}` },
       { q: "Can I do all 12 sessions in one trip?", a: "The schedule includes a 3-week interval in the standard protocol. Ask the coordinator how it can be arranged for your case." },
       { q: "Do I need a Doppler scan before travelling?", a: "Not always. Send it if you have one. The doctor decides whether to arrange one." },
     ],

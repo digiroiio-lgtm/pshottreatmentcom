@@ -1,5 +1,6 @@
 import { ASSESS_STEPS, DATE, EAU_PRP, NO_GUARANTEE } from "../shared";
 import type { PageDef } from "../types";
+import { packageText, PRICE_NOTE, priceText } from "../prices";
 
 export const diagnosticPages: PageDef[] = [
   {
@@ -120,6 +121,7 @@ export const diagnosticPages: PageDef[] = [
     faqs: [
       { q: "Does a Doppler scan hurt?", a: "The injection can cause brief discomfort. The scan itself is painless. Experiences differ." },
       { q: "Do I need a Doppler scan before shockwave therapy?", a: "Not always, but it can help with patient selection. The doctor decides." },
+      { q: "How much does a penile Doppler test cost?", a: `At UZ Clinic Antalya a penile Doppler ultrasound is ${priceText("doppler")}. The doctor decides whether you need one.` },
       { q: "Can I send an old Doppler report?", a: "Yes. Send it with your case, and the doctor will review it." },
     ],
     sources: ["eau2026", "aua2018"],
@@ -182,7 +184,7 @@ export const diagnosticPages: PageDef[] = [
         heading: "Planning around a scan if you travel",
         id: "travel",
         paragraphs: [
-          "The Doppler scan can be arranged within the in-person assessment, so it does not need a separate trip. The coordinator advises on timing once the doctor has reviewed your case. The fee for a scan is not published on this site: ask for it in your itemised written quote.",
+          `The Doppler scan can be arranged within the in-person assessment, so it does not need a separate trip. The coordinator advises on timing once the doctor has reviewed your case. A penile Doppler ultrasound is ${priceText("doppler")}, or ${packageText("bloodDoppler")} together with comprehensive blood tests. ${PRICE_NOTE}`,
         ],
         bullets: [
           "Bring or send previous Doppler reports, blood tests and a list of medicines.",
@@ -205,7 +207,7 @@ export const diagnosticPages: PageDef[] = [
       { q: "Is penile Doppler ultrasound done in Antalya?", a: "Yes. It is performed at UZ Clinic Antalya when the urologist advises it as part of an ED assessment." },
       { q: "Do I need a Doppler scan before I travel?", a: "No. You can start with a remote review and send any earlier reports. The doctor advises whether a scan is needed." },
       { q: "Can I use a Doppler report from another country?", a: "Send it with your case. The urologist reviews it and advises whether it is enough or a new scan would add information." },
-      { q: "How much does a penile Doppler scan cost in Antalya?", a: "The fee is not published here. Ask the coordinator for it in your itemised written quote." },
+      { q: "How much does a penile Doppler scan cost in Antalya?", a: `A penile Doppler ultrasound is ${priceText("doppler")}. With comprehensive blood tests the package is ${packageText("bloodDoppler")}. The same prices apply in Istanbul.` },
       { q: "Does the scan hurt?", a: "The injection used to produce an erection can cause brief discomfort. The scan itself is painless. Experiences differ." },
     ],
     sources: ["eau2026", "aua2018"],

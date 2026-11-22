@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 
-type Currency = "GBP" | "EUR" | "USD";
+import { formatPrice, itemPrice, SYMBOL, type Currency } from "@/lib/pricing";
 
 interface CurrencyContextType {
   currency: Currency;
@@ -15,21 +15,23 @@ const CurrencyContext = createContext<CurrencyContextType>({
   currency: "GBP",
   setCurrency: () => {},
   symbol: "£",
-  price: "300",
-  formatted: "£300",
+  price: String(itemPrice("pshot", "GBP")),
+  formatted: formatPrice(itemPrice("pshot", "GBP"), "GBP"),
 });
 
+// Standard P-Shot price per currency, from the central pricing configuration.
 const MAP: Record<Currency, { symbol: string; price: string }> = {
-  GBP: { symbol: "£", price: "300" },
-  EUR: { symbol: "€", price: "300" },
-  USD: { symbol: "$", price: "300" },
+  GBP: { symbol: SYMBOL.GBP, price: String(itemPrice("pshot", "GBP")) },
+  EUR: { symbol: SYMBOL.EUR, price: String(itemPrice("pshot", "EUR")) },
+  USD: { symbol: SYMBOL.USD, price: String(itemPrice("pshot", "USD")) },
 };
 
 export function CurrencyProvider({ children }: { children: ReactNode }) {
   const [currency, setCurrencyState] = useState<Currency>("GBP");
 
   useEffect(() => {
-    const stored = localStorage.getItem("currency") as Currency | null;
+    let stored: Currency | null = null;
+    try { stored = localStorage.getItem("currency") as Currency | null; } catch {}
     if (stored && MAP[stored]) {
       setCurrencyState(stored);
       return;
@@ -46,7 +48,7 @@ export function CurrencyProvider({ children }: { children: ReactNode }) {
 
   const setCurrency = (c: Currency) => {
     setCurrencyState(c);
-    localStorage.setItem("currency", c);
+    try { localStorage.setItem("currency", c); } catch {}
   };
 
   const { symbol, price } = MAP[currency];

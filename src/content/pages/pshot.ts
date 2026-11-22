@@ -1,5 +1,6 @@
 import { DATE, EAU_PRP, NO_GUARANTEE } from "../shared";
 import type { PageDef } from "../types";
+import { priceText } from "../prices";
 
 const prpSources = ["eau2026", "aua2018", "panunzio2024", "masterson2023", "poulios2021"];
 
@@ -128,6 +129,7 @@ export const pshotPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "How much does the P-Shot cost at UZ Clinic Antalya?", a: `The Standard P-Shot is ${priceText("pshot")} and the G-Cell Power P-Shot is ${priceText("gcell")}. See the price page for packages. Suitability is decided after assessment.` },
       { q: "What is the Priapus Shot?", a: "\"Priapus Shot\" is a brand name sometimes used for penile PRP injection, the same type of procedure described on this page. The medical term is intracavernosal platelet-rich plasma injection. It is experimental for erectile dysfunction." },
       { q: "Is the P-Shot proven to treat erectile dysfunction?", a: "No. Some trials report improvement, while others found no difference from placebo. " + EAU_PRP },
       { q: "Does the P-Shot hurt?", a: "Numbing is used before the injection. Many men describe mild discomfort, but experiences differ." },

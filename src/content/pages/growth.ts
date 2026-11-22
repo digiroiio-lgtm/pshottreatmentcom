@@ -1,5 +1,6 @@
 import { DATE, EAU_PRP } from "../shared";
 import type { PageDef } from "../types";
+import { PRICE_NOTE, priceText } from "../prices";
 
 const HUB = { name: "ED knowledge hub", path: "/ed-knowledge-hub" };
 
@@ -319,7 +320,7 @@ export const growthPages: PageDef[] = [
       { q: "Is the P-Shot proven?", a: "No. Trials are mixed, and the 2026 EAU guideline says intracavernosal PRP for ED should be used only in clinical trials." },
       { q: "Is the P-Shot safe?", a: "Reported side effects in studies have mostly been minor, such as pain, bruising and swelling, but trials are small and long-term data are limited." },
       { q: "Does the P-Shot enlarge the penis?", a: "No. The clinic does not claim that it does." },
-      { q: "How much does a P-Shot cost?", a: "UK prices vary by clinic and by what the quote includes. UZ Clinic Antalya's advertised fee is £300, €300 or $300 depending on billing currency; the written plan confirms what it covers." },
+      { q: "How much does a P-Shot cost?", a: `UK prices vary by clinic and by what the quote includes. At UZ Clinic Antalya the Standard P-Shot is ${priceText("pshot")}. ${PRICE_NOTE}` },
       { q: "What is shockwave therapy for ED?", a: "Low-intensity shockwaves applied to the penis, mainly for vasculogenic ED, with no injection. The EAU recommendation is weak and for selected men." },
       { q: "How many shockwave sessions are needed?", a: "The clinic protocol is 12 sessions: 6, a 3-week interval, then 6 more, with 1,500 shocks per session." },
       { q: "Is stem cell therapy proven for ED?", a: "No. It is experimental, and the EAU considers the evidence insufficient for routine use." },
