@@ -142,9 +142,9 @@ export const growthPages: PageDef[] = [
   },
   {
     path: "/ed-evidence-tracker",
-    metaTitle: "ED Treatment Evidence Tracker: EAU, AUA, MHRA Positions",
+    metaTitle: "Is PRP or Shockwave Proven for ED? EAU/AUA Tracker",
     description:
-      "A dated summary of what guidelines and regulators say about PRP, shockwave, stem cells, PDE5 inhibitors and finasteride in erectile dysfunction, with sources.",
+      "Is P-Shot, shockwave or stem cell therapy proven for ED? Dated EAU, AUA and MHRA positions on each treatment, with sources and evidence labels.",
     h1: "ED Treatment Evidence Tracker",
     eyebrow: "Reference",
     kind: "article",
@@ -334,9 +334,9 @@ export const growthPages: PageDef[] = [
   },
   {
     path: "/ed-under-40",
-    metaTitle: "Erectile Dysfunction Under 40: Causes and What to Do",
+    metaTitle: "ED Under 40: Why It Happens and What to Do Next",
     description:
-      "ED in young men is more common than many expect. Typical causes, why a check-up matters and which options a urologist may discuss for ED under 40.",
+      "Erectile dysfunction in your 20s or 30s is more common than you think. Common causes, which tests help and what a urologist may suggest.",
     h1: "Erectile Dysfunction Under 40",
     eyebrow: "ED guide",
     kind: "article",
@@ -822,9 +822,9 @@ export const growthPages: PageDef[] = [
   },
   {
     path: "/choose-an-ed-clinic-abroad",
-    metaTitle: "How to Choose an ED Clinic Abroad: A Checklist",
+    metaTitle: "ED Treatment Abroad: 10-Point Clinic Checklist",
     description:
-      "Planning ED treatment abroad? A brand-neutral checklist: doctor credentials, itemised quotes, consent, evidence labels, aftercare and red flags to avoid.",
+      "Before booking ED treatment abroad, check this list: urologist credentials, itemised quotes, consent, aftercare and the red flags to walk away from.",
     h1: "How to Choose an ED Clinic Abroad",
     eyebrow: "Travel guide",
     kind: "article",

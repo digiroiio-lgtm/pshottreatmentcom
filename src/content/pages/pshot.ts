@@ -6,9 +6,9 @@ const prpSources = ["eau2026", "aua2018", "panunzio2024", "masterson2023", "poul
 export const pshotPages: PageDef[] = [
   {
     path: "/p-shot",
-    metaTitle: "P-Shot PRP for Erectile Dysfunction | UZ Clinic Antalya",
+    metaTitle: "P-Shot for ED: How It Works, Risks, Evidence | UZ",
     description:
-      "What the P-Shot is, how PRP is prepared and injected, who may be suitable, risks and what the evidence shows. Check suitability with a urologist.",
+      "How the P-Shot works step by step: PRP preparation, injection, who may be suitable, risks and what the evidence shows. Urologist-led, Antalya.",
     h1: "P-Shot PRP Treatment for Erectile Dysfunction",
     eyebrow: "Treatment guide",
     kind: "money",
