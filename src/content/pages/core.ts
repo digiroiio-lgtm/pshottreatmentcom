@@ -293,7 +293,7 @@ export const corePages: PageDef[] = [
       { q: "Is treatment in Turkey equivalent to treatment at home?", a: "Quality depends on the doctor, the facility and the plan, not on the country. Ask for the doctor's qualifications, the written treatment plan, the evidence and the follow-up arrangements." },
     ],
     sources: ["eau2026"],
-    related: ["/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-treatment-istanbul", "/international-patients", "/erectile-dysfunction-assessment", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-treatment"],
+    related: ["/ed-treatment-turkey-questions", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-treatment-istanbul", "/international-patients", "/erectile-dysfunction-assessment", "/p-shot-turkey", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-treatment"],
   },
   {
     path: "/erectile-dysfunction-treatment-istanbul",
@@ -377,7 +377,7 @@ export const corePages: PageDef[] = [
       { q: "How much does treatment in Istanbul cost?", a: `The same published prices apply in Istanbul and Antalya, for example a Standard P-Shot at ${priceText("pshot")} and a penile Doppler ultrasound at ${priceText("doppler")}. The full list and packages are on the price page.` },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/international-patients", "/penile-doppler-antalya", "/p-shot", "/shockwave-therapy-ed", "/price", "/erectile-dysfunction-assessment"],
+    related: ["/ed-treatment-turkey-questions", "/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/international-patients", "/penile-doppler-antalya", "/p-shot", "/shockwave-therapy-ed", "/price", "/erectile-dysfunction-assessment"],
   },
   {
     path: "/erectile-dysfunction-treatment-antalya",

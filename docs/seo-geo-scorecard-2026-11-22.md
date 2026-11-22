@@ -97,15 +97,17 @@ Yeniden kullanılacak: `breadcrumbLabels` (FAQ başlığı için), mevcut `answe
 Blocked on 2026-11-22: the NightWatch plan has no free URL slot ("Url limit exceeded") and only 2 of 50 LLM prompts are free.
 Add these once a slot is available (country GB unless noted, language en):
 
-| # | Prompt | Engine |
-| --- | --- | --- |
-| 1 | Where can I get a P-Shot (Priapus Shot) in Turkey, and which clinics are recommended? | ChatGPT |
-| 2 | Best clinic for erectile dysfunction treatment in Antalya | Google AI Overview |
-| 3 | Is the P-Shot worth it for erectile dysfunction? | Perplexity |
-| 4 | P-Shot price UK vs Turkey | Google AI Mode |
-| 5 | Shockwave therapy for ED in Turkey: clinics and cost | ChatGPT |
-| 6 | Can venous leak be cured? | Perplexity |
-| 7 | Penile Doppler ultrasound in Antalya | Gemini |
-| 8 | Does TRT help erectile dysfunction? | ChatGPT |
-| 9 | ED treatment in Istanbul for international patients | Google AI Overview |
-| 10 | Priapus-shot behandeling Turkije (NL, country NL, language nl) | ChatGPT |
+Each prompt is answered on /ed-treatment-turkey-questions (one H2 per prompt, answer first) and in depth on the linked guide.
+
+| # | Prompt (as a user would ask) | Engine | Answered on |
+| --- | --- | --- | --- |
+| 1 | Where can I get a P-Shot (Priapus Shot) in Turkey? | ChatGPT | /p-shot, /p-shot-turkey |
+| 2 | How do I choose a clinic for erectile dysfunction treatment in Antalya? | Google AI Overview | /erectile-dysfunction-treatment-antalya |
+| 3 | Is the P-Shot worth it for erectile dysfunction? | Perplexity | /p-shot |
+| 4 | How much does a P-Shot cost in the UK compared with Turkey? | Google AI Mode | /price |
+| 5 | Where can I get shockwave therapy for ED in Turkey, and what does it cost? | ChatGPT | /shockwave-therapy-erectile-dysfunction-turkey |
+| 6 | Can venous leak be cured? | Perplexity | /venous-leak |
+| 7 | Where can I get a penile Doppler ultrasound in Antalya? | Gemini | /penile-doppler-antalya |
+| 8 | Does TRT help erectile dysfunction? | ChatGPT | /testosterone-ed |
+| 9 | Can I get ED treatment in Istanbul as an international patient? | Google AI Overview | /erectile-dysfunction-treatment-istanbul |
+| 10 | Is it safe to travel to Turkey for erectile dysfunction treatment? | Claude | /choose-an-ed-clinic-abroad |

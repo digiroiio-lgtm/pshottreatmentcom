@@ -1,6 +1,6 @@
 import { DATE, EAU_PRP } from "../shared";
 import type { PageDef } from "../types";
-import { PRICE_NOTE, priceText } from "../prices";
+import { packageText, PRICE_NOTE, priceText } from "../prices";
 
 const HUB = { name: "ED knowledge hub", path: "/ed-knowledge-hub" };
 
@@ -331,7 +331,7 @@ export const growthPages: PageDef[] = [
       { q: "When should I seek urgent help?", a: "For chest pain, an erection lasting more than four hours, new neurological symptoms or penile injury." },
     ],
     sources: ["eau2026", "aua2018"],
-    related: ["/ed-glossary", "/ed-evidence-tracker", "/ed-knowledge-hub", "/erectile-dysfunction-assessment", "/ed-under-40", "/losing-erection-during-sex", "/ed-and-heart-disease"],
+    related: ["/ed-treatment-turkey-questions", "/ed-glossary", "/ed-evidence-tracker", "/ed-knowledge-hub", "/erectile-dysfunction-assessment", "/ed-under-40", "/losing-erection-during-sex", "/ed-and-heart-disease"],
   },
   {
     path: "/ed-under-40",
@@ -882,6 +882,135 @@ export const growthPages: PageDef[] = [
       { q: "What if I have a problem after returning home?", a: "Ask before booking how the clinic handles follow-up, and share the treatment record with your own doctor." },
     ],
     sources: ["eau2026"],
-    related: ["/international-patients", "/ed-treatment-options", "/price", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-assessment"],
+    related: ["/ed-treatment-turkey-questions", "/international-patients", "/ed-treatment-options", "/price", "/dr-niyazi-umut-ozdemir", "/erectile-dysfunction-assessment"],
+  },
+  {
+    path: "/ed-treatment-turkey-questions",
+    metaTitle: "ED Treatment in Turkey: 10 Questions Answered (2026)",
+    description:
+      "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+    h1: "ED Treatment in Turkey: 10 Questions Patients Ask",
+    eyebrow: "Quick answers",
+    kind: "article",
+    treatment: "not-sure",
+    medical: true,
+    evidence: "Mixed",
+    parent: HUB,
+    answer: {
+      q: "Can I get erectile dysfunction treatment in Turkey?",
+      a: `Yes. Urologist-led clinics in Turkey (Türkiye), including UZ Clinic Antalya and its affiliated clinic in Istanbul, offer ED assessment, penile Doppler ultrasound, shockwave therapy and P-Shot (PRP). Start with a remote review, choose the doctor before the destination, and expect honest evidence labels: shockwave is an emerging option and PRP is experimental. A Standard P-Shot at UZ Clinic Antalya is ${priceText("pshot")}.`,
+    },
+    takeaways: [
+      "Choose the doctor and the diagnosis-led plan first, then the city.",
+      "Prices in Turkey are usually lower than in the UK, but price says nothing about outcome.",
+      "P-Shot is experimental and shockwave is emerging. No treatment can be guaranteed to work.",
+    ],
+    ctaLabel: "Send Your Case for Review",
+    modified: DATE,
+    priority: 0.8,
+    blocks: [
+      {
+        type: "text",
+        heading: "1. Where can I get a P-Shot (Priapus Shot) in Turkey?",
+        id: "p-shot-turkey",
+        paragraphs: [
+          `UZ Clinic Antalya offers the P-Shot (penile PRP, sometimes called the Priapus Shot) after assessment by a urological surgeon, Dr. Niyazi Umut Özdemir, and through its affiliated clinic in Istanbul. The Standard P-Shot is ${priceText("pshot")}. ${EAU_PRP} Whichever clinic you choose, ask who performs the injection, how the PRP is prepared and what follow-up is included.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "2. How do I choose a clinic for erectile dysfunction treatment in Antalya?",
+        id: "clinic-antalya",
+        paragraphs: [
+          "Look for a named urologist, a plan based on the cause of your ED (often with blood tests and, when useful, penile Doppler ultrasound), honest evidence labels, an itemised written quote and a follow-up plan after you go home. UZ Clinic Antalya is a urologist-led male sexual health clinic at Kanyon Plaza, Muratpaşa, rated 4.5 on Google (47 reviews, October 2026). No clinic should promise a guaranteed result.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "3. Is the P-Shot worth it for erectile dysfunction?",
+        id: "worth-it",
+        paragraphs: [
+          "It depends on the cause of your ED and on your expectations. Some trials report better erection scores after PRP, while a 2023 placebo-controlled trial found no difference. Established options such as PDE5 tablets, vacuum devices and injections should be discussed first. The P-Shot may be considered as an experimental option for selected men who understand that benefit is uncertain and not permanent.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "4. How much does a P-Shot cost in the UK compared with Turkey?",
+        id: "price-uk-turkey",
+        paragraphs: [
+          `UK prices vary widely between clinics and depend on what the quote includes, so compare itemised quotes rather than headline prices. At UZ Clinic Antalya the Standard P-Shot is ${priceText("pshot")} and the G-Cell Power P-Shot is ${priceText("gcell")}. Packages are 5% less than the same items priced separately. Add travel and accommodation when you compare.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "5. Where can I get shockwave therapy for ED in Turkey, and what does it cost?",
+        id: "shockwave",
+        paragraphs: [
+          `UZ Clinic Antalya offers low-intensity shockwave therapy (Li-ESWT, EdSWT) after assessment, mainly for blood-flow related (vasculogenic) ED. A session is ${priceText("eswt")}; 6 sessions are ${packageText("eswt6")}. The 2026 EAU guideline reports a mild average improvement and gives a weak recommendation for selected men with vasculogenic ED, so patient selection matters.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "6. Can venous leak be cured?",
+        id: "venous-leak",
+        paragraphs: [
+          "No treatment is established as a cure for venous leak (venogenic ED). Treatment aims to give a reliable erection: optimised PDE5 tablets, vacuum devices, penile injections and, for severe ED, a penile implant. Venous surgery is not routinely recommended, and claims that PRP, supplements or a set number of shockwave sessions reverse venous leak are not supported by good evidence.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "7. Where can I get a penile Doppler ultrasound in Antalya?",
+        id: "doppler",
+        paragraphs: [
+          `Penile Doppler ultrasound is performed at UZ Clinic Antalya (and at the affiliated clinic in Istanbul) when the urologist advises it. It is ${priceText("doppler")}, or ${packageText("bloodDoppler")} together with comprehensive blood tests. The scan measures blood flow into and out of the penis and helps separate arterial problems from venous leak. Earlier reports can be sent for review first.`,
+        ],
+      },
+      {
+        type: "text",
+        heading: "8. Does TRT help erectile dysfunction?",
+        id: "trt",
+        paragraphs: [
+          "Testosterone therapy (TRT) helps mainly when low testosterone is confirmed with symptoms and repeated morning blood tests. It can improve desire and sometimes the response to ED tablets, but it does not repair blood vessels or nerves, so many men still have ED on TRT. In that case a urologist looks for other causes, such as blood flow, medicines or diabetes.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "9. Can I get ED treatment in Istanbul as an international patient?",
+        id: "istanbul",
+        paragraphs: [
+          "Yes. UZ Clinic Antalya works with an affiliated clinic in Istanbul that offers penile Doppler ultrasound, P-Shot, shockwave therapy and stem cell therapy after assessment, at the same published prices. The coordinator advises whether Istanbul or Antalya suits your plan. Ask who will treat you in Istanbul and for their qualifications before you decide.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "10. Is it safe to travel to Turkey for erectile dysfunction treatment?",
+        id: "safety",
+        paragraphs: [
+          "It can be, if you choose a qualified urologist, have a proper assessment and know what happens after you go home. Most ED treatments, such as P-Shot and shockwave sessions, are outpatient procedures. Before booking, check the doctor's credentials, get written consent and an itemised quote, plan the timing of multi-session courses and agree who you contact if a problem appears at home.",
+        ],
+        note: "Seek urgent medical care for an erection lasting more than four hours, heavy bleeding, fever or spreading redness after any penile procedure.",
+      },
+      {
+        type: "cards",
+        heading: "Read the full guides",
+        id: "guides",
+        cols: 2,
+        cards: [
+          { title: "P-Shot (Priapus Shot)", text: "Procedure, evidence, risks and suitability.", href: "/p-shot" },
+          { title: "P-Shot price UK vs Turkey", text: "All prices, packages and currencies.", href: "/price" },
+          { title: "ED treatment in Antalya", text: "The clinic, the visit and the location.", href: "/erectile-dysfunction-treatment-antalya" },
+          { title: "ED treatment in Istanbul", text: "The affiliated clinic and what it offers.", href: "/erectile-dysfunction-treatment-istanbul" },
+          { title: "Shockwave therapy for ED", text: "Who it may help and the clinic protocol.", href: "/shockwave-therapy-ed" },
+          { title: "Venous leak", text: "Symptoms, diagnosis and treatment options.", href: "/venous-leak" },
+          { title: "Penile Doppler in Antalya", text: "When a scan helps and what it costs.", href: "/penile-doppler-antalya" },
+          { title: "TRT and erectile dysfunction", text: "When testosterone helps, and when it does not.", href: "/testosterone-ed" },
+          { title: "How to choose an ED clinic abroad", text: "A checklist and the red flags.", href: "/choose-an-ed-clinic-abroad" },
+        ],
+      },
+      { type: "cta", title: "Send Your Case for Review", text: "Not sure which of these applies to you? The urologist reviews your history and tells you which options may be relevant.", label: "Send Your Case for Review", whatsapp: true },
+      { type: "doctor" },
+    ],
+    sources: ["eau2026", "aua2018", "masterson2023", "panunzio2024"],
+    related: ["/ed-questions", "/erectile-dysfunction-treatment-turkey", "/international-patients", "/price", "/choose-an-ed-clinic-abroad", "/p-shot-turkey"],
   },
 ];

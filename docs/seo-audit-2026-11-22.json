@@ -1,7 +1,7 @@
 {
  "date": "2026-11-22",
  "base": "http://127.0.0.1:3000",
- "average": 99.7,
+ "average": 99.6,
  "findings": [
   {
    "severity": "info",
@@ -262,6 +262,7 @@
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
     "/choose-an-ed-clinic-abroad",
+    "/ed-treatment-turkey-questions",
     "/nl/priapus-shot",
     "/da/penil-doppler-ultralyd"
    ]
@@ -323,7 +324,8 @@
     "/antidepressants-and-ed",
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
-    "/choose-an-ed-clinic-abroad"
+    "/choose-an-ed-clinic-abroad",
+    "/ed-treatment-turkey-questions"
    ]
   },
   {
@@ -379,6 +381,7 @@
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
     "/choose-an-ed-clinic-abroad",
+    "/ed-treatment-turkey-questions",
     "/nl/priapus-shot",
     "/da/penil-doppler-ultralyd"
    ]
@@ -424,6 +427,7 @@
     "/antidepressants-and-ed",
     "/anxiety-and-ed",
     "/lifestyle-and-ed",
+    "/ed-treatment-turkey-questions",
     "/nl/priapus-shot",
     "/da/penil-doppler-ultralyd"
    ]
@@ -459,6 +463,7 @@
     "/p-shot-vs-shockwave",
     "/side-effects",
     "/ed-evidence-tracker",
+    "/ed-treatment-turkey-questions",
     "/nl/priapus-shot"
    ]
   },
@@ -478,6 +483,7 @@
     "/p-shot-vs-viagra",
     "/p-shot-vs-penile-injections",
     "/ed-evidence-tracker",
+    "/ed-treatment-turkey-questions",
     "/nl/priapus-shot"
    ]
   },
@@ -2248,7 +2254,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1251
+    "words": 1260
    },
    "schema": [
     {
@@ -2634,7 +2640,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Istanbul"
     ],
-    "words": 1273
+    "words": 1282
    },
    "schema": [
     {
@@ -14884,7 +14890,7 @@
     "h1": [
      "Travelling to Antalya for ED Treatment"
     ],
-    "words": 1208
+    "words": 1217
    },
    "schema": [
     {
@@ -21074,7 +21080,7 @@
     "h1": [
      "Erectile Dysfunction: Your Questions Answered"
     ],
-    "words": 1076
+    "words": 1085
    },
    "schema": [
     {
@@ -24448,7 +24454,7 @@
     "h1": [
      "How to Choose an ED Clinic Abroad"
     ],
-    "words": 1011
+    "words": 1020
    },
    "schema": [
     {
@@ -24854,6 +24860,403 @@
        "description": "How to contact the clinic after you leave and what your own doctor should know."
       }
      ]
+    }
+   ]
+  },
+  {
+   "path": "/ed-treatment-turkey-questions",
+   "status": 200,
+   "score": 94,
+   "issues": [
+    "FAQ section"
+   ],
+   "metadata": {
+    "title": "ED Treatment in Turkey: 10 Questions Answered (2026)",
+    "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+    "canonical": "https://pshottreatment.com/ed-treatment-turkey-questions",
+    "robots": "index, follow",
+    "h1": [
+     "ED Treatment in Turkey: 10 Questions Patients Ask"
+    ],
+    "words": 1559
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
+      "width": 180,
+      "height": 180
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#webpage",
+     "url": "https://pshottreatment.com/ed-treatment-turkey-questions",
+     "name": "ED Treatment in Turkey: 10 Questions Answered (2026)",
+     "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fed-treatment-turkey-questions",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "PRP Intracavernosal Injections for Primary Organic ED: Systematic Review and Meta-analysis",
+       "publisher": {
+        "@type": "Organization",
+        "name": "International Journal of Impotence Research / PubMed"
+       },
+       "datePublished": "2024",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37993601/"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED knowledge hub",
+       "item": "https://pshottreatment.com/ed-knowledge-hub"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Turkey: 10 questions",
+       "item": "https://pshottreatment.com/ed-treatment-turkey-questions"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#article",
+     "headline": "ED Treatment in Turkey: 10 Questions Patients Ask",
+     "description": "P-Shot in Turkey, Antalya clinics, UK vs Turkey prices, shockwave, venous leak, Doppler, TRT, Istanbul and travel safety: short answers from a urology clinic.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/ed-treatment-turkey-questions#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Fed-treatment-turkey-questions",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Platelet-rich Plasma for the Treatment of Erectile Dysfunction: A Randomised Placebo-controlled Trial",
+       "publisher": {
+        "@type": "Organization",
+        "name": "The Journal of Urology / PubMed"
+       },
+       "datePublished": "2023",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37120727/"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "PRP Intracavernosal Injections for Primary Organic ED: Systematic Review and Meta-analysis",
+       "publisher": {
+        "@type": "Organization",
+        "name": "International Journal of Impotence Research / PubMed"
+       },
+       "datePublished": "2024",
+       "url": "https://pubmed.ncbi.nlm.nih.gov/37993601/"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
     }
    ]
   },
