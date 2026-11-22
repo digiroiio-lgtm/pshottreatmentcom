@@ -242,6 +242,19 @@ export const clinicPages: PageDef[] = [
         ],
       },
       { type: "cta", title: "Send Your Case Before You Travel", text: "Share your information confidentially and the clinic will tell you the best next step.", label: "Send Your Case Before You Travel" },
+      {
+        type: "text",
+        heading: "Travelling from Istanbul or elsewhere in Türkiye",
+        id: "from-istanbul",
+        paragraphs: [
+          "UZ Clinic Antalya is in Antalya. Assessment and treatment take place at the clinic, not in Istanbul or other cities. Patients based in Istanbul, Ankara or Izmir can start with a confidential remote review and travel to Antalya only after the urologist has advised a plan.",
+        ],
+        bullets: [
+          "Send your history, medicines and any reports first, from wherever you live.",
+          "Domestic flights connect Istanbul and Antalya. Ask the coordinator to help time the trip around your plan, for example a multi-session shockwave course.",
+          "Local follow-up questions can be handled remotely once you are home.",
+        ],
+      },
       { type: "location" },
       {
         type: "callout",
@@ -254,6 +267,7 @@ export const clinicPages: PageDef[] = [
     ],
     faqs: [
       { q: "Can I be assessed without travelling?", a: "You can start remotely. An in-person assessment is needed before treatment." },
+      { q: "I live in Istanbul. Do I need to travel to Antalya?", a: "Yes. Assessment and treatment take place at the clinic in Antalya. You can start with a remote review from Istanbul and travel only once a plan makes medical sense." },
       { q: "What languages are supported?", a: "Please ask the coordinator which languages are available when you make contact." },
       { q: "What if something goes wrong after I go home?", a: "You receive a contact and written warning signs. Seek urgent local care for emergencies, such as an erection lasting more than four hours." },
     ],

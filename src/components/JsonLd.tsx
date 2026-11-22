@@ -14,7 +14,7 @@ const WEBSITE_ID = `${SITE_URL}/#website`;
 const DOCTOR_ID = `${SITE_URL}/#physician`;
 
 const areaServed: Node[] = [
-  { "@type": "Country", name: "Turkey" },
+  { "@type": "Country", name: "Turkey", alternateName: "Türkiye" },
   { "@type": "Country", name: "United Kingdom" },
   { "@type": "Country", name: "Ireland" },
   { "@type": "Country", name: "United States" },

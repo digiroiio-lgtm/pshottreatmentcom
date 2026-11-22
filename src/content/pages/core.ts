@@ -234,7 +234,7 @@ export const corePages: PageDef[] = [
     path: "/erectile-dysfunction-treatment-turkey",
     metaTitle: "Erectile Dysfunction Treatment Turkey | UZ Clinic Antalya",
     description:
-      "Considering ED treatment in Turkey? How to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
+      "ED treatment in Turkey (Türkiye): how to assess a provider, what to send before travelling and how UZ Clinic Antalya handles international patients.",
     h1: "Erectile Dysfunction Treatment in Turkey",
     eyebrow: "International patients",
     kind: "money",
@@ -285,6 +285,8 @@ export const corePages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "Is it Turkey or Türkiye, and does it change anything?", a: "No. Türkiye is the country's official name and Turkey is the English name still widely used. Both refer to the same country. UZ Clinic Antalya is in Antalya, on Türkiye's Mediterranean coast." },
+      { q: "I live in Istanbul. Can I be treated there?", a: "Assessment and treatment take place at UZ Clinic Antalya. If you live in Istanbul you can start with a remote review and travel to Antalya only once the urologist has advised a plan. See the Istanbul-to-Antalya section on the international patients page." },
       { q: "Can I be assessed before I travel to Turkey?", a: "Yes. Send your history, medicines and any reports or Doppler results. The clinic can review them and advise on next steps. An in-person assessment is still required before treatment." },
       { q: "How long should I plan to stay?", a: "It depends on the plan. For example, the shockwave protocol is a course of sessions over weeks. The coordinator explains timing after reviewing your case." },
       { q: "Is treatment in Turkey equivalent to treatment at home?", a: "Quality depends on the doctor, the facility and the plan, not on the country. Ask for the doctor's qualifications, the written treatment plan, the evidence and the follow-up arrangements." },
