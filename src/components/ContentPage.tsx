@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { isSvg, pageImage } from "@/content/images";
 import Link from "next/link";
 import { Suspense } from "react";
 import { getPage } from "@/content";
@@ -194,6 +196,7 @@ export default function ContentPage({ page }: { page: PageDef }) {
   const crumbs = breadcrumbsFor(page);
   const related = (page.related ?? []).map((path) => getPage(path)).filter((p): p is PageDef => Boolean(p));
   const isAssessment = page.path === ASSESSMENT_PATH;
+  const banner = pageImage(page);
   const rawFact = facts[page.path];
   const fact = rawFact ? { text: rawFact.text, source: getSources([rawFact.source])[0] } : undefined;
 
@@ -227,6 +230,12 @@ export default function ContentPage({ page }: { page: PageDef }) {
           <WhatsAppCTA treatment={treatment} placement="hero" variant="outline" />
         </div>
         <ConfidentialNote className="text-slate-600 mt-4" />
+        {banner && (
+          <figure className="relative mt-8 aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl border border-teal-700/40 glow-gold">
+            <Image src={banner.src} alt={banner.alt} fill priority sizes="(min-width: 896px) 56rem, 100vw" unoptimized={isSvg(banner)} className="object-cover" />
+            <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          </figure>
+        )}
       </header>
 
       <div className="max-w-4xl mx-auto px-4 space-y-10">

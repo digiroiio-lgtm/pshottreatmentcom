@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import { images, treatmentImage } from "@/content/images";
 import { treatmentCards } from "@/content/treatments";
 import { CLINIC, DOCTOR } from "@/lib/clinic";
 import { AssessmentButton, ConfidentialNote, WhatsAppCTA } from "./cta";
@@ -16,28 +18,45 @@ const heroTreatments: [string, string][] = [
 export function Hero({ answer }: { answer: { q: string; a: string } }) {
   const initials = DOCTOR.name.replace("Dr. ", "").split(" ").map((p) => p[0]).slice(0, 2).join("");
   return (
-    <section className="bg-gradient-to-b from-teal-50 to-black border-b border-slate-200">
-      <div className="max-w-6xl mx-auto px-4 py-12 md:py-16 grid lg:grid-cols-[1.4fr_1fr] gap-10 items-center">
-        <div>
-          <p className="text-sm font-bold uppercase tracking-wider text-teal-800 mb-3">{CLINIC.name} · Physician-led urology</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-heading tracking-tight leading-tight mb-4">Erectile Dysfunction &amp; Penile Rehabilitation in Antalya</h1>
-          <p className="text-lg text-slate-700 leading-relaxed mb-6">
-            Specialist urological assessment and personalised treatment options for men experiencing erectile dysfunction, reduced erection quality and penile vascular problems.
-          </p>
-          <ul className="flex flex-wrap gap-2 mb-7" aria-label="Treatments">
-            {heroTreatments.map(([href, label]) => (
-              <li key={href}><Link href={href} className="inline-block rounded-full border border-teal-200 bg-surface px-4 py-1.5 text-sm font-semibold text-teal-900 hover:border-teal-600">{label}</Link></li>
-            ))}
-          </ul>
-          <div className="flex flex-col sm:flex-row gap-3 mb-4">
-            <AssessmentButton label="CHECK MY SUITABILITY" placement="hero" className="uppercase tracking-wide" />
-            <WhatsAppCTA label="WHATSAPP THE CLINIC" placement="hero" variant="outline" className="uppercase tracking-wide" />
+    <>
+      <section className="relative isolate overflow-hidden border-b border-teal-700/30">
+        <Image
+          src={images.hero.src}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="-z-20 object-cover object-[72%_center] opacity-70 md:opacity-100"
+        />
+        <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-t from-black via-black/85 to-black/50 md:bg-gradient-to-r md:from-black md:via-black/80 md:to-transparent" />
+        <div className="max-w-6xl mx-auto px-4 pt-14 pb-12 md:pt-24 md:pb-24">
+          <div className="max-w-2xl">
+            <p className="text-xs md:text-sm font-bold uppercase tracking-[0.18em] text-teal-800 mb-4">{CLINIC.name} · Physician-led urology</p>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-heading leading-[1.08] mb-5 text-balance">Erectile Dysfunction &amp; Penile Rehabilitation in Antalya</h1>
+            <p className="text-lg md:text-xl text-slate-800 leading-relaxed mb-6">
+              Specialist urological assessment and personalised treatment options for men experiencing erectile dysfunction, reduced erection quality and penile vascular problems.
+            </p>
+            <ul className="flex flex-wrap gap-2 mb-7" aria-label="Treatments">
+              {heroTreatments.map(([href, label]) => (
+                <li key={href}><Link href={href} className="inline-block rounded-full border border-teal-200 bg-black/60 backdrop-blur px-4 py-1.5 text-sm font-semibold text-teal-900 hover:border-teal-600">{label}</Link></li>
+              ))}
+            </ul>
+            <div className="flex flex-col sm:flex-row gap-3 mb-4">
+              <AssessmentButton label="CHECK MY SUITABILITY" placement="hero" className="uppercase tracking-wide" />
+              <WhatsAppCTA label="WHATSAPP THE CLINIC" placement="hero" variant="outline" className="uppercase tracking-wide bg-black/40" />
+            </div>
+            <ConfidentialNote className="text-slate-700" />
+            <p className="text-sm text-slate-700 mt-2 mb-3">International patients accepted.</p>
+            <GoogleRatingBadge />
           </div>
-          <ConfidentialNote className="text-slate-700" />
-          <p className="text-sm text-slate-700 mt-2 mb-3">International patients accepted.</p>
-          <GoogleRatingBadge />
         </div>
-        <aside aria-label="Your physician" className="rounded-2xl bg-surface border border-slate-200 shadow-sm p-6">
+      </section>
+      <div className="max-w-6xl mx-auto px-4 py-10 grid lg:grid-cols-[1.4fr_1fr] gap-6">
+        <div data-direct-answer className="rounded-2xl bg-surface border border-slate-200 p-5 md:p-6">
+          <p className="text-sm font-bold text-teal-800 mb-1">{answer.q}</p>
+          <p className="text-slate-800 leading-relaxed">{answer.a}</p>
+        </div>
+        <aside aria-label="Your physician" className="rounded-2xl bg-surface border border-teal-700/40 glow-gold p-6">
           <div className="flex items-center gap-4 mb-4">
             <div aria-hidden="true" className="w-16 h-16 rounded-2xl bg-black border border-teal-600 text-teal-400 flex items-center justify-center text-2xl font-bold">{initials}</div>
             <div>
@@ -54,10 +73,34 @@ export function Hero({ answer }: { answer: { q: string; a: string } }) {
           <Link href={DOCTOR.path} className="inline-block mt-4 text-sm font-semibold text-teal-800 underline underline-offset-2">Meet the doctor</Link>
         </aside>
       </div>
-      <div className="max-w-6xl mx-auto px-4 pb-10">
-        <div data-direct-answer className="rounded-2xl bg-surface border border-slate-200 p-5">
-          <p className="text-sm font-bold text-teal-800 mb-1">{answer.q}</p>
-          <p className="text-slate-800 leading-relaxed">{answer.a}</p>
+    </>
+  );
+}
+
+const assessmentPoints = [
+  "A private conversation with a urological surgeon about your symptoms, history and goals.",
+  "Tests when they help, such as blood tests or penile Doppler ultrasound.",
+  "Established, emerging and experimental options explained honestly, with risks and alternatives.",
+  "A written plan before you decide, and follow-up after you go home.",
+];
+
+export function AssessmentFirst() {
+  return (
+    <section aria-labelledby="assessment-first-heading" className="border-y border-teal-700/30">
+      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 items-center">
+        <div className="relative aspect-[16/10] lg:aspect-auto lg:h-full lg:min-h-[480px]">
+          <Image src={images.consultation.src} alt={images.consultation.alt} fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
+          <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-black" />
+        </div>
+        <div className="px-4 py-12 lg:px-12">
+          <h2 id="assessment-first-heading" className="text-3xl md:text-4xl font-bold text-heading mb-4 text-balance">Assessment First, Treatment Second</h2>
+          <p className="text-slate-700 leading-relaxed mb-6">Every plan at {CLINIC.name} starts with the cause of your ED, not with a package. What the assessment gives you:</p>
+          <ul className="space-y-3 mb-8">
+            {assessmentPoints.map((point) => (
+              <li key={point} className="flex gap-3 text-slate-800"><span aria-hidden="true" className="mt-2 h-2.5 w-2.5 shrink-0 rounded-full bg-teal-600" />{point}</li>
+            ))}
+          </ul>
+          <AssessmentButton label="Book a Confidential Assessment" placement="assessment-first" variant="outline" className="border-2" />
         </div>
       </div>
     </section>
@@ -125,7 +168,11 @@ export function TreatmentFinder() {
       <p className="text-slate-700 mb-8 max-w-3xl">Suitability depends on medical assessment. No treatment works for every patient, and the most appropriate treatment depends on the underlying cause of ED.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {treatmentCards.map((card) => (
-          <article key={card.id} className="rounded-2xl border border-slate-200 bg-surface p-6 flex flex-col">
+          <article key={card.id} className="rounded-2xl border border-slate-200 bg-surface flex flex-col overflow-hidden hover:border-teal-600 transition-colors">
+            <div className="relative aspect-[16/9]">
+              <Image src={treatmentImage[card.id].src} alt="" fill sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" unoptimized={treatmentImage[card.id].src.endsWith(".svg")} className="object-cover" />
+            </div>
+            <div className="p-6 flex flex-col flex-1">
             <div className="flex items-start justify-between gap-3 mb-3">
               <h3 className="text-lg font-bold text-heading"><Link href={card.path} className="hover:text-teal-800">{card.name}</Link></h3>
               <EvidenceChip label={card.evidence} small />
@@ -138,6 +185,7 @@ export function TreatmentFinder() {
             </dl>
             <p className="text-xs text-slate-600 mt-3">{card.evidenceNote}</p>
             <div className="mt-4"><AssessmentButton label={card.cta} treatment={card.id} placement={`finder-${card.id}`} className="w-full" /></div>
+            </div>
           </article>
         ))}
         <article className="rounded-2xl border border-dashed border-teal-400 bg-teal-50 p-6 flex flex-col justify-center">
