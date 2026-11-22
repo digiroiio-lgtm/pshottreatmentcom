@@ -235,6 +235,7 @@ export const pshotPages: PageDef[] = [
     priority: 0.8,
     schema: { therapy: "P-Shot (platelet-rich plasma injection)", condition: "Erectile dysfunction" },
     blocks: [
+      { type: "gallery", heading: "Where you are seen in Antalya", id: "photos", photos: ["reception", "consultationRoom", "doctorScrubs"] },
       {
         type: "steps",
         heading: "Your P-Shot appointment, step by step",

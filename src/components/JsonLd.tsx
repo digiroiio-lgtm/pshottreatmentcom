@@ -1,3 +1,4 @@
+import { CLINIC_LOGO, clinicPhotos } from "@/content/images";
 import { pages } from "@/content";
 import { treatmentCards } from "@/content/treatments";
 import type { PageDef } from "@/content/types";
@@ -38,7 +39,8 @@ function organization(): Node {
     url: `${SITE_URL}/`,
     description:
       "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
-    logo: { "@type": "ImageObject", url: `${SITE_URL}/apple-icon`, width: 180, height: 180 },
+    logo: { "@type": "ImageObject", url: `${SITE_URL}${CLINIC_LOGO.src}`, width: CLINIC_LOGO.width, height: CLINIC_LOGO.height },
+    image: [clinicPhotos.reception, clinicPhotos.building, clinicPhotos.team].map((photo) => ({ "@type": "ImageObject", url: `${SITE_URL}${photo.src}`, caption: photo.caption, width: photo.width, height: photo.height })),
     medicalSpecialty: "https://schema.org/Urologic",
     isAcceptingNewPatients: true,
     address: {

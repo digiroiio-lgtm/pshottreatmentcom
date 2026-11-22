@@ -1,3 +1,6 @@
+import PhotoGallery from "./PhotoGallery";
+import Image from "next/image";
+import { isSvg, pageImage } from "@/content/images";
 import Link from "next/link";
 import { Suspense } from "react";
 import { getPage } from "@/content";
@@ -55,7 +58,7 @@ export const breadcrumbsFor = (page: PageDef) => {
 };
 
 const Heading = ({ id, children }: { id?: string; children: React.ReactNode }) => (
-  <h2 id={id} className="text-2xl font-bold text-slate-950 mb-4 scroll-mt-24">{children}</h2>
+  <h2 id={id} className="text-2xl font-bold text-heading mb-4 scroll-mt-24">{children}</h2>
 );
 
 function BlockView({ block, page, index }: { block: Block; page: PageDef; index: number }) {
@@ -87,15 +90,15 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
             {block.cards.map((card) => {
               const body = (
                 <>
-                  <h3 className="font-bold text-slate-950 mb-1.5">{card.title}</h3>
+                  <h3 className="font-bold text-heading mb-1.5">{card.title}</h3>
                   <p className="text-sm text-slate-700 leading-relaxed">{card.text}</p>
                   {card.href && <span className="inline-block mt-3 text-sm font-semibold text-teal-800">Learn more →</span>}
                 </>
               );
               return card.href ? (
-                <Link key={card.title} id={card.id} href={card.href} className="rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-600 scroll-mt-24">{body}</Link>
+                <Link key={card.title} id={card.id} href={card.href} className="rounded-xl border border-slate-200 bg-surface p-5 hover:border-teal-600 scroll-mt-24">{body}</Link>
               ) : (
-                <div key={card.title} id={card.id} className="rounded-xl border border-slate-200 bg-white p-5 scroll-mt-24">{body}</div>
+                <div key={card.title} id={card.id} className="rounded-xl border border-slate-200 bg-surface p-5 scroll-mt-24">{body}</div>
               );
             })}
           </div>
@@ -114,8 +117,8 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
               </thead>
               <tbody className="divide-y divide-slate-100">
                 {block.rows.map((row) => (
-                  <tr key={row.join("|")} className="bg-white">
-                    {row.map((cell, i) => (i === 0 ? <th key={i} scope="row" className="px-4 py-3 font-semibold text-slate-950 align-top">{cell}</th> : <td key={i} className="px-4 py-3 text-slate-700 align-top">{cell}</td>))}
+                  <tr key={row.join("|")} className="bg-surface">
+                    {row.map((cell, i) => (i === 0 ? <th key={i} scope="row" className="px-4 py-3 font-semibold text-heading align-top">{cell}</th> : <td key={i} className="px-4 py-3 text-slate-700 align-top">{cell}</td>))}
                   </tr>
                 ))}
               </tbody>
@@ -131,9 +134,9 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
           {block.intro && <p className="text-slate-700 mb-4">{block.intro}</p>}
           <ol className="space-y-3">
             {block.steps.map((step, i) => (
-              <li key={step.title} className="flex gap-4 rounded-xl border border-slate-200 bg-white p-5">
-                <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-700 text-white font-bold">{i + 1}</span>
-                <div><h3 className="font-bold text-slate-950">{step.title}</h3><p className="text-sm text-slate-700 mt-1">{step.text}</p></div>
+              <li key={step.title} className="flex gap-4 rounded-xl border border-slate-200 bg-surface p-5">
+                <span aria-hidden="true" className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-teal-700 text-black font-bold">{i + 1}</span>
+                <div><h3 className="font-bold text-heading">{step.title}</h3><p className="text-sm text-slate-700 mt-1">{step.text}</p></div>
               </li>
             ))}
           </ol>
@@ -143,7 +146,7 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
       const tone = { info: "bg-sky-50 border-sky-200", caution: "bg-amber-50 border-amber-200", evidence: "bg-slate-50 border-slate-300" }[block.tone];
       return (
         <aside className={`rounded-2xl border p-5 ${tone}`}>
-          <p className="font-bold text-slate-950 mb-1">{block.title}</p>
+          <p className="font-bold text-heading mb-1">{block.title}</p>
           <p className="text-sm text-slate-800 leading-relaxed">{block.text}</p>
         </aside>
       );
@@ -179,6 +182,8 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
       return <PriceTable />;
     case "location":
       return <ClinicLocation />;
+    case "gallery":
+      return <PhotoGallery heading={block.heading} intro={block.intro} photos={block.photos} id={block.id} />;
     case "rating":
       return (
         <div className="flex flex-wrap items-center gap-3">
@@ -194,6 +199,7 @@ export default function ContentPage({ page }: { page: PageDef }) {
   const crumbs = breadcrumbsFor(page);
   const related = (page.related ?? []).map((path) => getPage(path)).filter((p): p is PageDef => Boolean(p));
   const isAssessment = page.path === ASSESSMENT_PATH;
+  const banner = pageImage(page);
   const rawFact = facts[page.path];
   const fact = rawFact ? { text: rawFact.text, source: getSources([rawFact.source])[0] } : undefined;
 
@@ -206,27 +212,33 @@ export default function ContentPage({ page }: { page: PageDef }) {
           <p className="text-sm font-bold uppercase tracking-wider text-teal-800">{page.eyebrow}</p>
           {page.evidence && <EvidenceChip label={page.evidence} prefix />}
         </div>
-        <h1 className="text-3xl md:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight mb-5">{page.h1}</h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-heading tracking-tight leading-tight mb-5">{page.h1}</h1>
         <div data-direct-answer className="rounded-2xl bg-slate-50 border border-slate-200 p-5 mb-5">
           <p className="text-sm font-bold text-teal-800 mb-1">{page.answer.q}</p>
           <p className="text-lg text-slate-800 leading-relaxed">{page.answer.a}</p>
         </div>
         {fact && (
           <p data-fact className="text-sm text-slate-700 mb-5">
-            <strong className="text-slate-950">Key fact:</strong> {fact.text}{" "}
+            <strong className="text-heading">Key fact:</strong> {fact.text}{" "}
             <span className="text-slate-500">({fact.source.publisher}, {fact.source.year}; page updated <time dateTime={page.modified}>{page.modified}</time>)</span>
           </p>
         )}
         {page.lead && <p className="text-slate-700 text-lg mb-5">{page.lead}</p>}
         <div className="flex flex-col sm:flex-row gap-3">
           {isAssessment ? (
-            <a href="#assessment-start" data-cta={page.ctaLabel} data-placement="hero" className="inline-flex items-center justify-center rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-6 py-3">{page.ctaLabel}</a>
+            <a href="#assessment-start" data-cta={page.ctaLabel} data-placement="hero" className="inline-flex items-center justify-center rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-6 py-3">{page.ctaLabel}</a>
           ) : (
             <AssessmentButton label={page.ctaLabel} treatment={treatment} placement="hero" />
           )}
           <WhatsAppCTA treatment={treatment} placement="hero" variant="outline" />
         </div>
         <ConfidentialNote className="text-slate-600 mt-4" />
+        {banner && (
+          <figure className="relative mt-8 aspect-[16/9] md:aspect-[21/9] overflow-hidden rounded-2xl border border-teal-700/40 glow-gold">
+            <Image src={banner.src} alt={banner.alt} fill priority sizes="(min-width: 896px) 56rem, 100vw" unoptimized={isSvg(banner)} className="object-cover" />
+            <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          </figure>
+        )}
       </header>
 
       <div className="max-w-4xl mx-auto px-4 space-y-10">
@@ -237,7 +249,7 @@ export default function ContentPage({ page }: { page: PageDef }) {
         {page.sources && <SourceList sources={getSources(page.sources)} />}
         {related.length > 0 && (
           <section aria-labelledby="related-heading">
-            <h2 id="related-heading" className="text-xl font-bold text-slate-950 mb-4">Related guides</h2>
+            <h2 id="related-heading" className="text-xl font-bold text-heading mb-4">Related guides</h2>
             <div className="grid sm:grid-cols-2 gap-3">
               {related.map((item) => (
                 <Link key={item.path} href={item.path} className="rounded-xl border border-slate-200 p-4 font-semibold text-teal-900 hover:border-teal-600">{item.h1} →</Link>

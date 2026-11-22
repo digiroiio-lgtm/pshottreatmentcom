@@ -5,7 +5,7 @@ export default function TreatmentComparison({ heading = "Compare ED treatments",
   return (
     <TrackView event="treatment_comparison_view">
       <section aria-labelledby="comparison-heading" data-comparison>
-        <h2 id="comparison-heading" className="text-2xl font-bold text-slate-950 mb-2">{heading}</h2>
+        <h2 id="comparison-heading" className="text-2xl font-bold text-heading mb-2">{heading}</h2>
         <p className="text-slate-700 mb-4">{intro ?? "The most appropriate treatment depends on the underlying cause of ED."}</p>
         <div className="overflow-x-auto rounded-xl border border-slate-200">
           <table className="w-full text-left text-sm min-w-[860px]">
@@ -15,8 +15,8 @@ export default function TreatmentComparison({ heading = "Compare ED treatments",
             </thead>
             <tbody className="divide-y divide-slate-100">
               {comparisonRows.map((row) => (
-                <tr key={row.id} className={highlight.includes(row.id) ? "bg-teal-50" : "bg-white"}>
-                  <th scope="row" className="px-4 py-3 font-semibold text-slate-950 align-top">{row.name}</th>
+                <tr key={row.id} className={highlight.includes(row.id) ? "bg-teal-50" : "bg-surface"}>
+                  <th scope="row" className="px-4 py-3 font-semibold text-heading align-top">{row.name}</th>
                   {row.cells.map((cell, index) => <td key={index} className="px-4 py-3 text-slate-700 align-top">{cell}</td>)}
                 </tr>
               ))}

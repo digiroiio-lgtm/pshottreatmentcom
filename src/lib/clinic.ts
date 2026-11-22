@@ -68,7 +68,7 @@ export const DOCTOR = {
   // From the same directory listing: Ege University Faculty of Medicine 2000, urology specialisation 2005.
   education: "Ege University Faculty of Medicine (2000); urology specialisation, Ege University (2005)",
   // Path under /public (for example "/dr-ozdemir.jpg"). Until set, a monogram is shown instead of a photo.
-  photo: undefined as string | undefined,
+  photo: "/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp" as string | undefined,
   // Public profiles of the physician (directory listing found during research).
   sameAs: ["https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"],
 };

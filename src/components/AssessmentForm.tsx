@@ -60,7 +60,7 @@ const inputClass = "w-full rounded-lg border border-slate-300 px-4 py-3 text-sla
 function RadioGroup({ legend, name, options, value, onChange }: { legend: string; name: string; options: Option[]; value: string; onChange: (v: string) => void }) {
   return (
     <fieldset className="mb-6">
-      <legend className="font-semibold text-slate-950 mb-3">{legend}</legend>
+      <legend className="font-semibold text-heading mb-3">{legend}</legend>
       <div className="grid sm:grid-cols-2 gap-3">
         {options.map((option) => (
           <label key={option.value} className={`flex items-center gap-3 rounded-xl border p-4 cursor-pointer ${value === option.value ? "border-teal-700 bg-teal-50" : "border-slate-300 hover:border-teal-500"}`}>
@@ -81,7 +81,7 @@ function CheckGroup({ legend, options, values, onChange, exclusive }: { legend: 
   };
   return (
     <fieldset className="mb-6">
-      <legend className="font-semibold text-slate-950 mb-3">{legend}</legend>
+      <legend className="font-semibold text-heading mb-3">{legend}</legend>
       <div className="grid sm:grid-cols-2 gap-3">
         {options.map((option) => (
           <label key={option.value} className={`flex items-center gap-3 rounded-xl border p-4 cursor-pointer ${values.includes(option.value) ? "border-teal-700 bg-teal-50" : "border-slate-300 hover:border-teal-500"}`}>
@@ -197,7 +197,7 @@ export default function AssessmentForm() {
   if (status === "done") {
     return (
       <div role="status" className="rounded-2xl border border-teal-200 bg-teal-50 p-8 text-center">
-        <h2 className="text-2xl font-bold text-slate-950 mb-3">Thank you</h2>
+        <h2 className="text-2xl font-bold text-heading mb-3">Thank you</h2>
         <p className="text-slate-800 mb-6">Thank you. Your information has been sent for confidential review. A patient coordinator will contact you.</p>
         <a href={whatsappLink(state.interest as TreatmentId)} target="_blank" rel="noopener noreferrer" data-wa data-treatment={state.interest} data-placement="assessment-thanks" className="inline-flex rounded-full bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3">
           Prefer to chat now? WhatsApp the clinic
@@ -208,7 +208,7 @@ export default function AssessmentForm() {
 
   const s = STEPS[step];
   return (
-    <form onSubmit={submit} noValidate id="assessment-form" className="rounded-2xl border border-slate-200 bg-white p-6 md:p-8 scroll-mt-24">
+    <form onSubmit={submit} noValidate id="assessment-form" className="rounded-2xl border border-slate-200 bg-surface p-6 md:p-8 scroll-mt-24">
       <div className="mb-6">
         <div className="flex justify-between text-sm text-slate-600 mb-2"><span>Step {step + 1} of {STEPS.length}</span><span>Private &amp; confidential</span></div>
         <div className="h-2 rounded-full bg-slate-100" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress} aria-label="Assessment progress">
@@ -216,13 +216,13 @@ export default function AssessmentForm() {
         </div>
       </div>
 
-      <h2 ref={headingRef} tabIndex={-1} className="text-2xl font-bold text-slate-950 mb-1 outline-none">{s.title}</h2>
+      <h2 ref={headingRef} tabIndex={-1} className="text-2xl font-bold text-heading mb-1 outline-none">{s.title}</h2>
       <p className="text-slate-600 mb-6">{s.hint}</p>
 
       {step === 0 && (
         <>
           <div className="mb-6">
-            <label htmlFor="age" className="block font-semibold text-slate-950 mb-2">Age</label>
+            <label htmlFor="age" className="block font-semibold text-heading mb-2">Age</label>
             <input id="age" type="number" inputMode="numeric" min={18} max={100} value={state.age} onChange={(e) => set("age", e.target.value)} className={`${inputClass} max-w-[10rem]`} />
           </div>
           <RadioGroup legend="What is the main problem?" name="problem" options={problemOptions} value={state.problem} onChange={(v) => set("problem", v)} />
@@ -240,7 +240,7 @@ export default function AssessmentForm() {
           <CheckGroup legend="Medical history" options={historyOptions} values={state.history} onChange={(v) => set("history", v)} exclusive="none" />
           {state.history.includes("other") && (
             <div className="mb-6">
-              <label htmlFor="history-other" className="block font-semibold text-slate-950 mb-2">Other (optional)</label>
+              <label htmlFor="history-other" className="block font-semibold text-heading mb-2">Other (optional)</label>
               <input id="history-other" maxLength={300} value={state.historyOther} onChange={(e) => set("historyOther", e.target.value)} className={inputClass} />
             </div>
           )}
@@ -250,7 +250,7 @@ export default function AssessmentForm() {
       {step === 4 && (
         <>
           <div className="mb-6">
-            <label htmlFor="country" className="block font-semibold text-slate-950 mb-2">Country</label>
+            <label htmlFor="country" className="block font-semibold text-heading mb-2">Country</label>
             <input id="country" autoComplete="country-name" value={state.country} onChange={(e) => set("country", e.target.value)} className={inputClass} />
           </div>
           <RadioGroup legend="When might you be able to travel?" name="travel" options={travelOptions} value={state.travel} onChange={(v) => set("travel", v)} />
@@ -262,15 +262,15 @@ export default function AssessmentForm() {
         <>
           <div className="space-y-5 mb-6">
             <div>
-              <label htmlFor="name" className="block font-semibold text-slate-950 mb-2">Name</label>
+              <label htmlFor="name" className="block font-semibold text-heading mb-2">Name</label>
               <input id="name" autoComplete="name" value={state.name} onChange={(e) => set("name", e.target.value)} className={inputClass} />
             </div>
             <div>
-              <label htmlFor="whatsapp" className="block font-semibold text-slate-950 mb-2">WhatsApp number (with country code)</label>
+              <label htmlFor="whatsapp" className="block font-semibold text-heading mb-2">WhatsApp number (with country code)</label>
               <input id="whatsapp" type="tel" autoComplete="tel" placeholder="+44 7000 000000" value={state.whatsapp} onChange={(e) => set("whatsapp", e.target.value)} className={inputClass} />
             </div>
             <div>
-              <label htmlFor="email" className="block font-semibold text-slate-950 mb-2">Email {state.contactPref === "email" ? "" : "(optional)"}</label>
+              <label htmlFor="email" className="block font-semibold text-heading mb-2">Email {state.contactPref === "email" ? "" : "(optional)"}</label>
               <input id="email" type="email" autoComplete="email" value={state.email} onChange={(e) => set("email", e.target.value)} className={inputClass} />
             </div>
             <div aria-hidden="true" className="hidden">
@@ -297,9 +297,9 @@ export default function AssessmentForm() {
       <div className="flex items-center justify-between gap-3">
         <button type="button" onClick={() => setStep((n) => Math.max(0, n - 1))} disabled={step === 0} className="rounded-full border border-slate-300 px-5 py-3 font-semibold disabled:opacity-40">Back</button>
         {step < STEPS.length - 1 ? (
-          <button type="button" onClick={next} className="rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-7 py-3">Continue</button>
+          <button type="button" onClick={next} className="rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-7 py-3">Continue</button>
         ) : (
-          <button type="submit" disabled={status === "sending"} className="rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-7 py-3 disabled:opacity-60">
+          <button type="submit" disabled={status === "sending"} className="rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-7 py-3 disabled:opacity-60">
             {status === "sending" ? "Sending…" : "Send My Case for Review"}
           </button>
         )}

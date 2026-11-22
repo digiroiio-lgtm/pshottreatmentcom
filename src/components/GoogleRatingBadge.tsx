@@ -11,7 +11,7 @@ export default function GoogleRatingBadge({ className = "" }: { className?: stri
       </span>
     </>
   );
-  const style = `inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm text-slate-800 ${className}`;
+  const style = `inline-flex items-center gap-2 rounded-full border border-slate-200 bg-surface px-4 py-1.5 text-sm text-slate-800 ${className}`;
   const href = CLINIC.googleProfileUrl ?? CLINIC.mapUrl;
   return href ? (
     <a href={href} target="_blank" rel="noopener noreferrer" data-google-rating className={`${style} hover:border-teal-600`}>{content}</a>

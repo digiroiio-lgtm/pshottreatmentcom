@@ -5,7 +5,7 @@ import { WhatsAppCTA } from "./cta";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-slate-300 pt-12 pb-28 md:pb-10">
+    <footer className="bg-black border-t border-teal-700/40 text-neutral-300 pt-12 pb-28 md:pb-10">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-5 gap-8">
         <div className="md:col-span-1">
           <p className="text-white font-bold text-lg mb-2">{CLINIC.name}</p>
@@ -24,7 +24,7 @@ export default function Footer() {
           </nav>
         ))}
       </div>
-      <div className="max-w-7xl mx-auto px-4 mt-10 pt-6 border-t border-slate-800 text-xs text-slate-400 space-y-3">
+      <div className="max-w-7xl mx-auto px-4 mt-10 pt-6 border-t border-neutral-800 text-xs text-neutral-400 space-y-3">
         <p>Medical information on this site does not replace an individual assessment. PRP, stem-cell and exosome therapies are experimental or investigational for erectile dysfunction, and no outcome is guaranteed.</p>
         <p className="flex flex-wrap gap-x-5 gap-y-0">
           <span>© {new Date().getFullYear()} {CLINIC.name}</span>

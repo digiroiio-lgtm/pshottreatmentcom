@@ -130,6 +130,7 @@ export const clinicPages: PageDef[] = [
     priority: 0.7,
     blocks: [
       { type: "doctor" },
+      { type: "gallery", heading: "Dr. Özdemir at the clinic and in the field", id: "photos", intro: "Photos supplied by the clinic: at work in Antalya, speaking at a national sexual health congress and featured in the press.", photos: ["doctorScrubs", "congress", "magazine", "doctorWithTeam", "consultationRoom", "team"] },
       {
         type: "text",
         heading: "How the clinic works",
@@ -167,6 +168,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.6,
     blocks: [
+      { type: "gallery", heading: "Inside UZ Clinic Antalya", id: "photos", intro: "The clinic is on the 4th floor of Kanyon Plaza, Bülent Ecevit Boulevard, in Muratpaşa, Antalya.", photos: ["building", "reception", "consultationRoom", "team", "doctorWithTeam", "doctorScrubs"] },
       {
         type: "cards",
         heading: "What we treat at our male sexual health clinic",
@@ -217,6 +219,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.8,
     blocks: [
+      { type: "gallery", heading: "Arriving at the clinic", id: "photos", intro: "What to look for when you arrive in Antalya.", photos: ["building", "reception", "team"] },
       {
         type: "steps",
         heading: "The international patient process",
@@ -244,14 +247,14 @@ export const clinicPages: PageDef[] = [
       { type: "cta", title: "Send Your Case Before You Travel", text: "Share your information confidentially and the clinic will tell you the best next step.", label: "Send Your Case Before You Travel" },
       {
         type: "text",
-        heading: "Travelling from Istanbul or elsewhere in Türkiye",
+        heading: "Istanbul, or travelling from elsewhere in Türkiye",
         id: "from-istanbul",
         paragraphs: [
-          "UZ Clinic Antalya is in Antalya. Assessment and treatment take place at the clinic, not in Istanbul or other cities. Patients based in Istanbul, Ankara or Izmir can start with a confidential remote review and travel to Antalya only after the urologist has advised a plan.",
+          "UZ Clinic Antalya is based in Antalya, and the service also works with an affiliated clinic in Istanbul. If you live in Istanbul you can ask about being seen there, or travel to Antalya to see Dr. Özdemir. Either way, start with a confidential remote review.",
         ],
         bullets: [
           "Send your history, medicines and any reports first, from wherever you live.",
-          "Domestic flights connect Istanbul and Antalya. Ask the coordinator to help time the trip around your plan, for example a multi-session shockwave course.",
+          "If you prefer to travel to Antalya, domestic flights connect Istanbul and Antalya. Ask the coordinator to help time the trip around your plan, for example a multi-session shockwave course.",
           "Local follow-up questions can be handled remotely once you are home.",
         ],
       },
@@ -267,11 +270,11 @@ export const clinicPages: PageDef[] = [
     ],
     faqs: [
       { q: "Can I be assessed without travelling?", a: "You can start remotely. An in-person assessment is needed before treatment." },
-      { q: "I live in Istanbul. Do I need to travel to Antalya?", a: "Yes. Assessment and treatment take place at the clinic in Antalya. You can start with a remote review from Istanbul and travel only once a plan makes medical sense." },
+      { q: "I live in Istanbul. Do I need to travel to Antalya?", a: "Not necessarily. The service works with an affiliated clinic in Istanbul as well as the clinic in Antalya. Send your case first and the coordinator explains which location suits you. See the Istanbul page for the treatments offered there." },
       { q: "What languages are supported?", a: "Please ask the coordinator which languages are available when you make contact." },
       { q: "What if something goes wrong after I go home?", a: "You receive a contact and written warning signs. Seek urgent local care for emergencies, such as an erection lasting more than four hours." },
     ],
-    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
+    related: ["/erectile-dysfunction-treatment-turkey", "/erectile-dysfunction-treatment-antalya", "/erectile-dysfunction-treatment-istanbul", "/penile-doppler-antalya", "/p-shot-turkey", "/erectile-dysfunction-assessment", "/price", "/exosome-therapy-turkey", "/stem-cell-treatment-ed-turkey", "/shockwave-therapy-erectile-dysfunction-turkey", "/erectile-dysfunction-treatment", "/choose-an-ed-clinic-abroad"],
   },
   {
     path: "/patient-experiences",
@@ -291,6 +294,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.6,
     blocks: [
+      { type: "gallery", heading: "The clinic team", id: "photos", photos: ["team", "reception", "doctorWithTeam"] },
       { type: "rating" },
       { type: "stories", heading: "What patients say" },
       {

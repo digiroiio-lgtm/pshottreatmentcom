@@ -13,7 +13,7 @@ export default function MobileStickyBar() {
   const treatment = treatmentFromPath(pathname);
   const onAssessment = pathname === ASSESSMENT_PATH;
   return (
-    <div className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-slate-950 text-white px-3 py-2.5 grid gap-2 grid-flow-col auto-cols-fr shadow-[0_-4px_16px_rgba(0,0,0,0.25)]" style={{ paddingBottom: "max(0.625rem, env(safe-area-inset-bottom))" }}>
+    <div className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-black text-white px-3 py-2.5 grid gap-2 grid-flow-col auto-cols-fr shadow-[0_-4px_16px_rgba(0,0,0,0.25)]" style={{ paddingBottom: "max(0.625rem, env(safe-area-inset-bottom))" }}>
       <a href={whatsappLink(treatment)} target="_blank" rel="noopener noreferrer" data-wa data-treatment={treatment} data-placement="mobile-bar" className="flex flex-col items-center justify-center rounded-xl bg-green-700 py-2 text-sm font-bold leading-tight">
         WhatsApp Clinic
         <span className="text-xs font-normal">Private chat</span>

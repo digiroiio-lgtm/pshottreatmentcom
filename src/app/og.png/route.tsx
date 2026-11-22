@@ -18,12 +18,12 @@ export function GET(request: Request) {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          background: "linear-gradient(135deg, #0f172a 0%, #0f766e 100%)",
+          background: "linear-gradient(135deg, #000000 0%, #2a2208 100%)",
           color: "#ffffff",
           padding: "72px",
         }}
       >
-        <div style={{ display: "flex", fontSize: 32, fontWeight: 700, color: "#99f6e4" }}>{SITE_NAME}</div>
+        <div style={{ display: "flex", fontSize: 32, fontWeight: 700, color: "#d9bd62" }}>{SITE_NAME}</div>
         <div style={{ display: "flex", fontSize: title.length > 50 ? 56 : 68, fontWeight: 800, lineHeight: 1.1 }}>{title}</div>
         <div style={{ display: "flex", fontSize: 28, color: "#cbd5e1" }}>
           Urologist-led assessment. Confidential enquiry.

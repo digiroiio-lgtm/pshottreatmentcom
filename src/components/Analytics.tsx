@@ -54,13 +54,13 @@ export default function Analytics() {
         gtag('config', '${GA_ID}', { allow_google_signals: false, allow_ad_personalization_signals: false });
       `}</Script>
       {choice === "unset" && (
-        <div role="region" aria-label="Cookie preferences" className="fixed bottom-20 md:bottom-4 left-4 right-4 md:right-auto md:max-w-md z-[55] rounded-xl bg-white border border-slate-300 shadow-xl p-4 text-sm text-slate-700">
+        <div role="region" aria-label="Cookie preferences" className="fixed bottom-20 md:bottom-4 left-4 right-4 md:right-auto md:max-w-md z-[55] rounded-xl bg-surface border border-slate-300 shadow-xl p-4 text-sm text-slate-700">
           <p className="mb-3">
             We use analytics cookies to understand how this site is used. Health information you enter in the assessment form is never sent to analytics. See the{" "}
             <Link href="/privacy" className="underline text-teal-800">privacy notice</Link>.
           </p>
           <div className="flex gap-2">
-            <button type="button" onClick={() => decide(true)} className="bg-teal-700 hover:bg-teal-800 text-white font-semibold rounded-full px-4 py-2">Accept analytics</button>
+            <button type="button" onClick={() => decide(true)} className="bg-teal-700 hover:bg-teal-800 text-black font-semibold rounded-full px-4 py-2">Accept analytics</button>
             <button type="button" onClick={() => decide(false)} className="border border-slate-300 hover:bg-slate-50 font-semibold rounded-full px-4 py-2">Decline</button>
           </div>
         </div>

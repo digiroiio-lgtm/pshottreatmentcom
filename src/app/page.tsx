@@ -1,7 +1,7 @@
 import CtaBand from "@/components/ConfidentialAssessment";
 import { DoctorCredentials, DoctorReviewCTA } from "@/components/DoctorCredentials";
 import Faq from "@/components/Faq";
-import { CauseMatters, Hero, HowItWorksFunnel, ProblemFinder, TreatmentFinder } from "@/components/HomeSections";
+import { AssessmentFirst, CauseMatters, Hero, HowItWorksFunnel, ProblemFinder, TreatmentFinder } from "@/components/HomeSections";
 import InternationalPatientCTA from "@/components/InternationalPatientCTA";
 import JsonLd from "@/components/JsonLd";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
@@ -20,6 +20,7 @@ export default function HomePage() {
       <Hero answer={page.answer} />
       <ProblemFinder />
       <CauseMatters />
+      <AssessmentFirst />
       <TreatmentFinder />
       <div className="max-w-6xl mx-auto px-4 pb-14 space-y-12">
         <TreatmentComparison heading="Compare ED treatments side by side" />
