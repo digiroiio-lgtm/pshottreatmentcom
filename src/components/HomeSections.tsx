@@ -16,17 +16,17 @@ const heroTreatments: [string, string][] = [
 export function Hero({ answer }: { answer: { q: string; a: string } }) {
   const initials = DOCTOR.name.replace("Dr. ", "").split(" ").map((p) => p[0]).slice(0, 2).join("");
   return (
-    <section className="bg-gradient-to-b from-teal-50 to-white border-b border-slate-200">
+    <section className="bg-gradient-to-b from-teal-50 to-black border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-4 py-12 md:py-16 grid lg:grid-cols-[1.4fr_1fr] gap-10 items-center">
         <div>
           <p className="text-sm font-bold uppercase tracking-wider text-teal-800 mb-3">{CLINIC.name} · Physician-led urology</p>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-950 tracking-tight leading-tight mb-4">Erectile Dysfunction &amp; Penile Rehabilitation in Antalya</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-heading tracking-tight leading-tight mb-4">Erectile Dysfunction &amp; Penile Rehabilitation in Antalya</h1>
           <p className="text-lg text-slate-700 leading-relaxed mb-6">
             Specialist urological assessment and personalised treatment options for men experiencing erectile dysfunction, reduced erection quality and penile vascular problems.
           </p>
           <ul className="flex flex-wrap gap-2 mb-7" aria-label="Treatments">
             {heroTreatments.map(([href, label]) => (
-              <li key={href}><Link href={href} className="inline-block rounded-full border border-teal-200 bg-white px-4 py-1.5 text-sm font-semibold text-teal-900 hover:border-teal-600">{label}</Link></li>
+              <li key={href}><Link href={href} className="inline-block rounded-full border border-teal-200 bg-surface px-4 py-1.5 text-sm font-semibold text-teal-900 hover:border-teal-600">{label}</Link></li>
             ))}
           </ul>
           <div className="flex flex-col sm:flex-row gap-3 mb-4">
@@ -37,11 +37,11 @@ export function Hero({ answer }: { answer: { q: string; a: string } }) {
           <p className="text-sm text-slate-700 mt-2 mb-3">International patients accepted.</p>
           <GoogleRatingBadge />
         </div>
-        <aside aria-label="Your physician" className="rounded-2xl bg-white border border-slate-200 shadow-sm p-6">
+        <aside aria-label="Your physician" className="rounded-2xl bg-surface border border-slate-200 shadow-sm p-6">
           <div className="flex items-center gap-4 mb-4">
-            <div aria-hidden="true" className="w-16 h-16 rounded-2xl bg-teal-900 text-white flex items-center justify-center text-2xl font-bold">{initials}</div>
+            <div aria-hidden="true" className="w-16 h-16 rounded-2xl bg-black border border-teal-600 text-teal-400 flex items-center justify-center text-2xl font-bold">{initials}</div>
             <div>
-              <p className="font-bold text-slate-950">{DOCTOR.name}</p>
+              <p className="font-bold text-heading">{DOCTOR.name}</p>
               <p className="text-sm text-slate-700">{DOCTOR.title}</p>
               <p className="text-sm text-slate-600">{CLINIC.city}, {CLINIC.country}</p>
             </div>
@@ -55,7 +55,7 @@ export function Hero({ answer }: { answer: { q: string; a: string } }) {
         </aside>
       </div>
       <div className="max-w-6xl mx-auto px-4 pb-10">
-        <div data-direct-answer className="rounded-2xl bg-white border border-slate-200 p-5">
+        <div data-direct-answer className="rounded-2xl bg-surface border border-slate-200 p-5">
           <p className="text-sm font-bold text-teal-800 mb-1">{answer.q}</p>
           <p className="text-slate-800 leading-relaxed">{answer.a}</p>
         </div>
@@ -80,12 +80,12 @@ const problems: [string, string, string][] = [
 export function ProblemFinder() {
   return (
     <section aria-labelledby="problem-heading" className="max-w-6xl mx-auto px-4 py-14">
-      <h2 id="problem-heading" className="text-3xl font-extrabold text-slate-950 mb-2">What type of erection problem are you experiencing?</h2>
+      <h2 id="problem-heading" className="text-3xl font-extrabold text-heading mb-2">What type of erection problem are you experiencing?</h2>
       <p className="text-slate-700 mb-7">Choose the one closest to your situation. You will see what may be behind it and what happens next.</p>
       <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
         {problems.map(([title, href, text]) => (
-          <Link key={title} href={href} className="rounded-xl border border-slate-200 bg-white p-4 hover:border-teal-600 hover:shadow-sm">
-            <h3 className="font-bold text-slate-950 text-sm mb-1">{title}</h3>
+          <Link key={title} href={href} className="rounded-xl border border-slate-200 bg-surface p-4 hover:border-teal-600 hover:shadow-sm">
+            <h3 className="font-bold text-heading text-sm mb-1">{title}</h3>
             <p className="text-xs text-slate-600">{text}</p>
           </Link>
         ))}
@@ -101,7 +101,7 @@ export function CauseMatters() {
     <section aria-labelledby="cause-heading" className="bg-slate-50 border-y border-slate-200">
       <div className="max-w-6xl mx-auto px-4 py-14 grid lg:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 id="cause-heading" className="text-3xl font-extrabold text-slate-950 mb-3">Not all erectile dysfunction has the same cause</h2>
+          <h2 id="cause-heading" className="text-3xl font-extrabold text-heading mb-3">Not all erectile dysfunction has the same cause</h2>
           <p className="text-slate-700 leading-relaxed mb-4">
             ED can come from blood flow, nerves, hormones, medicines, surgery or psychological factors, and many men have more than one. Distinguishing organic from psychogenic ED, and checking blood flow with a penile Doppler scan when it is useful, helps the doctor choose which options may be relevant.
           </p>
@@ -110,7 +110,7 @@ export function CauseMatters() {
         </div>
         <ul className="grid sm:grid-cols-2 gap-3">
           {causes.map((cause) => (
-            <li key={cause} className="rounded-xl bg-white border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-900">{cause}</li>
+            <li key={cause} className="rounded-xl bg-surface border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-900">{cause}</li>
           ))}
         </ul>
       </div>
@@ -121,27 +121,27 @@ export function CauseMatters() {
 export function TreatmentFinder() {
   return (
     <section aria-labelledby="finder-heading" className="max-w-6xl mx-auto px-4 py-14">
-      <h2 id="finder-heading" className="text-3xl font-extrabold text-slate-950 mb-2">Which ED Treatment May Be Suitable?</h2>
+      <h2 id="finder-heading" className="text-3xl font-extrabold text-heading mb-2">Which ED Treatment May Be Suitable?</h2>
       <p className="text-slate-700 mb-8 max-w-3xl">Suitability depends on medical assessment. No treatment works for every patient, and the most appropriate treatment depends on the underlying cause of ED.</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         {treatmentCards.map((card) => (
-          <article key={card.id} className="rounded-2xl border border-slate-200 bg-white p-6 flex flex-col">
+          <article key={card.id} className="rounded-2xl border border-slate-200 bg-surface p-6 flex flex-col">
             <div className="flex items-start justify-between gap-3 mb-3">
-              <h3 className="text-lg font-bold text-slate-950"><Link href={card.path} className="hover:text-teal-800">{card.name}</Link></h3>
+              <h3 className="text-lg font-bold text-heading"><Link href={card.path} className="hover:text-teal-800">{card.name}</Link></h3>
               <EvidenceChip label={card.evidence} small />
             </div>
             <dl className="space-y-3 text-sm flex-1">
-              <div><dt className="font-semibold text-slate-950">Best suited for</dt><dd className="text-slate-700">{card.bestFor}</dd></div>
-              <div><dt className="font-semibold text-slate-950">How it works</dt><dd className="text-slate-700">{card.howItWorks}</dd></div>
-              <div><dt className="font-semibold text-slate-950">Typical procedure format</dt><dd className="text-slate-700">{card.format}</dd></div>
-              <div><dt className="font-semibold text-slate-950">Assessment required?</dt><dd className="text-slate-700">{card.assessment}</dd></div>
+              <div><dt className="font-semibold text-heading">Best suited for</dt><dd className="text-slate-700">{card.bestFor}</dd></div>
+              <div><dt className="font-semibold text-heading">How it works</dt><dd className="text-slate-700">{card.howItWorks}</dd></div>
+              <div><dt className="font-semibold text-heading">Typical procedure format</dt><dd className="text-slate-700">{card.format}</dd></div>
+              <div><dt className="font-semibold text-heading">Assessment required?</dt><dd className="text-slate-700">{card.assessment}</dd></div>
             </dl>
             <p className="text-xs text-slate-600 mt-3">{card.evidenceNote}</p>
             <div className="mt-4"><AssessmentButton label={card.cta} treatment={card.id} placement={`finder-${card.id}`} className="w-full" /></div>
           </article>
         ))}
         <article className="rounded-2xl border border-dashed border-teal-400 bg-teal-50 p-6 flex flex-col justify-center">
-          <h3 className="text-lg font-bold text-slate-950 mb-2">Not sure which treatment?</h3>
+          <h3 className="text-lg font-bold text-heading mb-2">Not sure which treatment?</h3>
           <p className="text-sm text-slate-700 mb-4">You do not need to decide. Send your case and the clinic can advise which options may be relevant.</p>
           <Link href="/ed-treatment-options" className="text-sm font-semibold text-teal-800 underline underline-offset-2 mb-4">Compare all ED treatments</Link>
           <AssessmentButton label="Check Treatment Options" placement="finder-not-sure" />
@@ -162,7 +162,7 @@ const funnel = [
 
 export function HowItWorksFunnel() {
   return (
-    <section aria-labelledby="funnel-heading" className="bg-slate-950 text-white">
+    <section aria-labelledby="funnel-heading" className="bg-black text-white">
       <div className="max-w-6xl mx-auto px-4 py-14">
         <h2 id="funnel-heading" className="text-3xl font-extrabold mb-8">What happens when you send your case</h2>
         <ol className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
@@ -170,7 +170,7 @@ export function HowItWorksFunnel() {
             <li key={title} className="rounded-xl bg-white/10 p-5">
               <span className="text-teal-300 font-bold text-sm">Step {i + 1}</span>
               <h3 className="font-bold mb-1">{title}</h3>
-              <p className="text-sm text-slate-200">{text}</p>
+              <p className="text-sm text-neutral-200">{text}</p>
             </li>
           ))}
         </ol>

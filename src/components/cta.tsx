@@ -6,15 +6,15 @@ import { whatsappLink } from "@/lib/whatsapp";
 const base = "inline-flex items-center justify-center gap-2 rounded-full font-semibold text-center transition-colors px-6 py-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal-600";
 
 const styles = {
-  primary: "bg-teal-700 hover:bg-teal-800 text-white",
-  onDark: "bg-white hover:bg-teal-50 text-teal-900",
-  outline: "border border-slate-300 hover:bg-slate-50 text-slate-800",
+  primary: "bg-teal-700 hover:bg-teal-800 text-black",
+  onDark: "bg-teal-600 hover:bg-teal-500 text-black",
+  outline: "border border-teal-600 hover:bg-teal-50 text-teal-400",
 };
 
 const waStyles = {
   solid: "bg-green-700 hover:bg-green-800 text-white",
-  onDark: "bg-green-500 hover:bg-green-400 text-slate-950",
-  outline: "border border-green-700 text-green-800 hover:bg-green-50",
+  onDark: "bg-green-500 hover:bg-green-400 text-black",
+  outline: "border border-green-600 text-green-400 hover:bg-green-950",
 };
 
 export const assessmentHref = (treatment?: TreatmentId) =>
@@ -111,14 +111,14 @@ export function CtaBlock({
   placement: string;
 }) {
   return (
-    <aside className="rounded-2xl bg-slate-900 text-white p-7 md:p-9">
+    <aside className="rounded-2xl bg-neutral-900 text-white p-7 md:p-9">
       <h2 className="text-2xl font-bold mb-2">{title}</h2>
-      <p className="text-slate-200 mb-5 max-w-2xl">{text}</p>
+      <p className="text-neutral-200 mb-5 max-w-2xl">{text}</p>
       <div className="flex flex-col sm:flex-row gap-3">
         <AssessmentButton label={label} treatment={treatment} placement={placement} variant="onDark" />
         {whatsapp && <WhatsAppCTA treatment={treatment} placement={placement} variant="onDark" label="WhatsApp the Clinic" />}
       </div>
-      <ConfidentialNote className="text-slate-300 mt-4" />
+      <ConfidentialNote className="text-neutral-300 mt-4" />
     </aside>
   );
 }

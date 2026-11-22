@@ -3,10 +3,10 @@ import { CLINIC } from "@/lib/clinic";
 /** Clinic address, phone and email. Phone and email links are tracked by ClickTracker. */
 export default function ClinicLocation({ heading = "Clinic location and contact" }: { heading?: string }) {
   return (
-    <section aria-labelledby="location-heading" data-location className="rounded-2xl border border-slate-200 bg-white p-6">
-      <h2 id="location-heading" className="text-2xl font-bold text-slate-950 mb-4">{heading}</h2>
+    <section aria-labelledby="location-heading" data-location className="rounded-2xl border border-slate-200 bg-surface p-6">
+      <h2 id="location-heading" className="text-2xl font-bold text-heading mb-4">{heading}</h2>
       <address className="not-italic space-y-2 text-slate-700">
-        <p><strong className="text-slate-950">{CLINIC.name}</strong></p>
+        <p><strong className="text-heading">{CLINIC.name}</strong></p>
         <p>
           {CLINIC.streetAddress}
           <br />

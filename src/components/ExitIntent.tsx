@@ -41,11 +41,11 @@ export default function ExitIntent() {
   if (!open) return null;
   return (
     <div className="fixed inset-0 z-[70] hidden md:flex items-center justify-center bg-black/50 p-4" onClick={() => setOpen(false)}>
-      <div role="dialog" aria-modal="true" aria-labelledby="exit-title" className="relative max-w-lg w-full rounded-2xl bg-white p-8 shadow-2xl" onClick={(e) => e.stopPropagation()}>
+      <div role="dialog" aria-modal="true" aria-labelledby="exit-title" className="relative max-w-lg w-full rounded-2xl bg-surface p-8 shadow-2xl" onClick={(e) => e.stopPropagation()}>
         <button ref={closeRef} type="button" aria-label="Close" onClick={() => setOpen(false)} className="absolute top-3 right-4 text-2xl text-slate-500 hover:text-slate-900">×</button>
-        <h2 id="exit-title" className="text-2xl font-bold text-slate-950 mb-2">Not sure which ED treatment you need?</h2>
+        <h2 id="exit-title" className="text-2xl font-bold text-heading mb-2">Not sure which ED treatment you need?</h2>
         <p className="text-slate-700 mb-6">Answer 6 short steps and send your case for confidential review. You do not need to know which treatment you need.</p>
-        <Link href={ASSESSMENT_PATH} onClick={() => setOpen(false)} data-cta="Start ED Assessment" data-placement="exit-intent" className="inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-7 py-3">
+        <Link href={ASSESSMENT_PATH} onClick={() => setOpen(false)} data-cta="Start ED Assessment" data-placement="exit-intent" className="inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-7 py-3">
           Start ED Assessment
         </Link>
       </div>

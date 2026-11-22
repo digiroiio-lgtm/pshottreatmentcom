@@ -7,12 +7,12 @@ export default function TreatmentNavigation({ heading = "Explore treatments", ex
   const cards = treatmentCards.filter((card) => !exclude.includes(card.id));
   return (
     <section aria-labelledby="treatment-nav-heading">
-      <h2 id="treatment-nav-heading" className="text-2xl font-bold text-slate-950 mb-4">{heading}</h2>
+      <h2 id="treatment-nav-heading" className="text-2xl font-bold text-heading mb-4">{heading}</h2>
       <div className="grid sm:grid-cols-2 gap-4">
         {cards.map((card) => (
-          <Link key={card.id} href={card.path} className="rounded-xl border border-slate-200 bg-white p-5 hover:border-teal-600">
+          <Link key={card.id} href={card.path} className="rounded-xl border border-slate-200 bg-surface p-5 hover:border-teal-600">
             <div className="flex items-start justify-between gap-3 mb-2">
-              <h3 className="font-bold text-slate-950">{card.name}</h3>
+              <h3 className="font-bold text-heading">{card.name}</h3>
               <EvidenceChip label={card.evidence} small />
             </div>
             <p className="text-sm text-slate-700">{card.howItWorks}</p>

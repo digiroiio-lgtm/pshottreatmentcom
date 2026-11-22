@@ -17,7 +17,7 @@ const suggestions: [string, string][] = [
 export default function NotFound() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-20">
-      <h1 className="text-4xl font-extrabold text-gray-950 mb-4">Page not found</h1>
+      <h1 className="text-4xl font-extrabold text-heading mb-4">Page not found</h1>
       <p className="text-lg text-gray-700 mb-8">The page you requested does not exist or has moved. These pages may help:</p>
       <ul className="space-y-3">
         {suggestions.map(([href, label]) => (

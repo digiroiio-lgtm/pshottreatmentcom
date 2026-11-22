@@ -30,34 +30,34 @@ export default function CandidateChecker({ treatment = "not-sure", heading = "Wh
 
   return (
     <section aria-labelledby="checker-heading" data-checker className="rounded-2xl border border-teal-200 bg-teal-50 p-6 md:p-8">
-      <h2 id="checker-heading" className="text-2xl font-bold text-slate-950 mb-2">{heading}</h2>
+      <h2 id="checker-heading" className="text-2xl font-bold text-heading mb-2">{heading}</h2>
       <p className="text-slate-700 mb-5">Two quick questions to show what the doctor may discuss with you. This is not a diagnosis.</p>
 
       <fieldset className="mb-5">
-        <legend className="font-semibold text-slate-950 mb-2">What best describes your ED?</legend>
+        <legend className="font-semibold text-heading mb-2">What best describes your ED?</legend>
         <div className="flex flex-wrap gap-2">
           {patterns.map((p) => (
-            <button key={p.id} type="button" aria-pressed={pattern === p.id} onClick={() => setPattern(p.id)} className={`rounded-full border px-4 py-2 text-sm font-semibold ${pattern === p.id ? "bg-teal-700 text-white border-teal-700" : "bg-white border-slate-300 hover:border-teal-600"}`}>{p.label}</button>
+            <button key={p.id} type="button" aria-pressed={pattern === p.id} onClick={() => setPattern(p.id)} className={`rounded-full border px-4 py-2 text-sm font-semibold ${pattern === p.id ? "bg-teal-700 text-black border-teal-700" : "bg-surface border-slate-300 hover:border-teal-600"}`}>{p.label}</button>
           ))}
         </div>
       </fieldset>
       <fieldset className="mb-5">
-        <legend className="font-semibold text-slate-950 mb-2">What have you tried?</legend>
+        <legend className="font-semibold text-heading mb-2">What have you tried?</legend>
         <div className="flex flex-wrap gap-2">
           {tried.map((t) => (
-            <button key={t.id} type="button" aria-pressed={past === t.id} onClick={() => setPast(t.id)} className={`rounded-full border px-4 py-2 text-sm font-semibold ${past === t.id ? "bg-teal-700 text-white border-teal-700" : "bg-white border-slate-300 hover:border-teal-600"}`}>{t.label}</button>
+            <button key={t.id} type="button" aria-pressed={past === t.id} onClick={() => setPast(t.id)} className={`rounded-full border px-4 py-2 text-sm font-semibold ${past === t.id ? "bg-teal-700 text-black border-teal-700" : "bg-surface border-slate-300 hover:border-teal-600"}`}>{t.label}</button>
           ))}
         </div>
       </fieldset>
 
       {selected && (
-        <div role="status" className="rounded-xl bg-white border border-slate-200 p-5 mb-5">
-          <p className="font-semibold text-slate-950 mb-1">The doctor may discuss</p>
+        <div role="status" className="rounded-xl bg-surface border border-slate-200 p-5 mb-5">
+          <p className="font-semibold text-heading mb-1">The doctor may discuss</p>
           <p className="text-slate-700">{selected.text} {pastText}</p>
           <p className="text-xs text-slate-600 mt-2">Suitability and expected benefit vary between patients and are decided after medical assessment.</p>
         </div>
       )}
-      <Link href={href} data-cta="Check If You're Suitable" data-placement="checker" data-treatment={interest} className="inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-white font-semibold px-6 py-3">
+      <Link href={href} data-cta="Check If You're Suitable" data-placement="checker" data-treatment={interest} className="inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-6 py-3">
         Send my case with these answers
       </Link>
     </section>
