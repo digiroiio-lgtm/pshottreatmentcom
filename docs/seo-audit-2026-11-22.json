@@ -237,6 +237,7 @@
     "/penile-rehabilitation",
     "/penile-implant",
     "/dr-niyazi-umut-ozdemir",
+    "/press",
     "/about",
     "/international-patients",
     "/patient-experiences",
@@ -306,6 +307,7 @@
     "/penile-rehabilitation",
     "/penile-implant",
     "/dr-niyazi-umut-ozdemir",
+    "/press",
     "/about",
     "/international-patients",
     "/patient-experiences",
@@ -14260,7 +14262,7 @@
     "h1": [
      "Op. Dr. Niyazi Umut Özdemir, Urologist in Antalya"
     ],
-    "words": 698
+    "words": 703
    },
    "schema": [
     {
@@ -14566,6 +14568,316 @@
    ]
   },
   {
+   "path": "/press",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "Press and Media: UZ Clinic Antalya Urology Expert",
+    "description": "Press kit for journalists: Op. Dr. Niyazi Umut Özdemir, urologist in Antalya, available for expert comment on ED, P-Shot, shockwave therapy and medical travel.",
+    "canonical": "https://pshottreatment.com/press",
+    "robots": "index, follow",
+    "h1": [
+     "Press and Media Enquiries"
+    ],
+    "words": 809
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "alternateName": [
+      "UZ Clinic",
+      "UZ Klinik Antalya",
+      "UZ Clinic Antalya Urology"
+     ],
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
+      "width": 180,
+      "height": 180
+     },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "alternateName": [
+      "Op. Dr. Niyazi Umut Özdemir",
+      "Niyazi Umut Özdemir",
+      "Dr. Niyazi Umut Ozdemir"
+     ],
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "WebPage",
+     "@id": "https://pshottreatment.com/press#webpage",
+     "url": "https://pshottreatment.com/press",
+     "name": "Press and Media: UZ Clinic Antalya Urology Expert",
+     "description": "Press kit for journalists: Op. Dr. Niyazi Umut Özdemir, urologist in Antalya, available for expert comment on ED, P-Shot, shockwave therapy and medical travel.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-11-22",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Fpress",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/press#breadcrumb"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02"
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/press#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "About",
+       "item": "https://pshottreatment.com/about"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Press and media",
+       "item": "https://pshottreatment.com/press"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/press#faq",
+     "url": "https://pshottreatment.com/press",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/press#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How quickly can Dr. Özdemir respond to a media request?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Send your deadline with your request. The clinic replies by email or WhatsApp and arranges a written comment or an interview in English."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I use the photos on this page?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, in coverage of UZ Clinic Antalya or Dr. Özdemir, with the credit \"UZ Clinic Antalya\". Please do not edit them in a way that changes their meaning."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "path": "/about",
    "status": 200,
    "score": 100,
@@ -14578,7 +14890,7 @@
     "h1": [
      "About UZ Clinic Antalya"
     ],
-    "words": 916
+    "words": 921
    },
    "schema": [
     {
@@ -15606,7 +15918,7 @@
     "h1": [
      "P-Shot Price UK vs Turkey: Cost in GBP"
     ],
-    "words": 1359
+    "words": 1406
    },
    "schema": [
     {
@@ -17257,7 +17569,7 @@
     "h1": [
      "Editorial Policy"
     ],
-    "words": 417
+    "words": 422
    },
    "schema": [
     {
@@ -20240,7 +20552,7 @@
     "h1": [
      "ED Treatment Evidence Tracker"
     ],
-    "words": 971
+    "words": 1020
    },
    "schema": [
     {

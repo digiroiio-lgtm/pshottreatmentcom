@@ -23,6 +23,7 @@ export type Block =
   | { type: "price" }
   | { type: "location" }
   | { type: "rating" }
+  | { type: "cite"; title: string; note?: string }
   | { type: "gallery"; heading: string; id?: string; intro?: string; photos: ClinicPhotoKey[] };
 
 export type PageKind = "money" | "condition" | "comparison" | "diagnostic" | "trust" | "article" | "legal";

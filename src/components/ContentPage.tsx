@@ -1,3 +1,4 @@
+import CiteThis from "./CiteThis";
 import { DOCTOR } from "@/lib/clinic";
 import { languageLinks } from "@/content/localized";
 import PhotoGallery from "./PhotoGallery";
@@ -190,6 +191,8 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
       return <PriceTable />;
     case "location":
       return <ClinicLocation />;
+    case "cite":
+      return <CiteThis path={page.path} title={block.title} note={block.note} />;
     case "gallery":
       return <PhotoGallery heading={block.heading} intro={block.intro} photos={block.photos} id={block.id} />;
     case "rating":
