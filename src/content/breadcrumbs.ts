@@ -5,6 +5,7 @@ export const breadcrumbLabels: Record<string, string> = {
   "/ed-treatment-options": "ED treatment options",
   "/erectile-dysfunction-treatment-turkey": "ED treatment in Turkey",
   "/erectile-dysfunction-treatment-antalya": "ED treatment in Antalya",
+  "/erectile-dysfunction-treatment-istanbul": "ED treatment in Istanbul",
   "/p-shot": "P-Shot",
   "/p-shot-turkey": "P-Shot in Turkey",
   "/p-shot-antalya": "P-Shot in Antalya",

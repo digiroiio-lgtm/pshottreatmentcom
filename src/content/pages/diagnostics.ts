@@ -186,7 +186,7 @@ export const diagnosticPages: PageDef[] = [
         bullets: [
           "Bring or send previous Doppler reports, blood tests and a list of medicines.",
           "Tell the doctor about blood thinners, heart conditions and any history of prolonged erections before the scan.",
-          "Patients from Istanbul or elsewhere in Türkiye follow the same process: remote review first, then travel to Antalya.",
+          "Patients in Istanbul or elsewhere in Türkiye follow the same process: remote review first. The coordinator advises whether to be seen in Istanbul or Antalya.",
         ],
         note: "The scan is diagnostic only. It does not treat ED, and the result does not predict how well any treatment will work.",
       },

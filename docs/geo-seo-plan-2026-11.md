@@ -8,7 +8,7 @@ Scope: Turkey/Türkiye (country), Antalya (primary), Istanbul (secondary, travel
 | --- | --- |
 | Search Console, 23 Aug to 20 Nov 2026 | About 1,000+ impressions, 3 clicks. Most queries sit at position 50 to 90 |
 | Search Console, last 28 days | 323 impressions, 1 click, average position 47 (previous 28 days: 438 impressions, 1 click) |
-| Istanbul queries | None in the top 60 queries. There is no evidence of Istanbul search demand yet |
+| Istanbul queries | None in the top 60 Search Console queries. Google autocomplete (screenshot from the owner) suggests "p shot istanbul" and "p shot treatment in istanbul" |
 | Geo queries seen | "exosome therapy turkey" (pos 52), "p shot cyprus" (24), "p shot nigeria" (14), "penile doppler" variants (50 to 90) |
 | GA4 `Pshottreatmentcom` (532906670) | No sessions in 90 days (last data 14 Apr 2026, 4 sessions). Tracking is probably not attached to the live site |
 | GA4 `pshotturkey.com` (378714372) | About 20 sessions in 90 days |
@@ -19,7 +19,7 @@ Scope: Turkey/Türkiye (country), Antalya (primary), Istanbul (secondary, travel
 | --- | --- | --- |
 | Turkey/Türkiye targeting | 70 | Three country pages and consistent "Turkey" use. "Türkiye" was absent from the site (fixed in this change) |
 | Antalya targeting | 75 | Two Antalya pages, verified address, MedicalClinic schema, doctor page |
-| Istanbul targeting | 10 | No content before this change. Now one section and two FAQs, correctly framed as travel to Antalya |
+| Istanbul targeting | 60 | Dedicated page added after the owner confirmed an affiliated clinic in Istanbul. Name, address and treating doctor are still missing |
 | Keyword coverage | 70 | Wide coverage. Gaps: penile Doppler Turkey/Antalya, "ED treatment cost Turkey" |
 | Search intent | 75 | One primary page per intent (docs/keyword-map.md) |
 | Technical SEO | 90 | `seo:audit`: 56 pages, 0 errors, 0 warnings. Canonicals, sitemap and robots in place |
@@ -44,15 +44,15 @@ Readiness score: 80 (structure). AI visibility score: not measurable from here.
 | --- | --- | --- | --- | --- | --- | --- |
 | ED treatment Turkey / Türkiye | Country | Commercial | /erectile-dysfunction-treatment-turkey | same | Done: Türkiye in description and FAQ | P1 |
 | ED treatment Antalya, ED clinic Antalya | Antalya | Commercial | /erectile-dysfunction-treatment-antalya | same | Keep, build links and reviews | P1 |
-| ED treatment Istanbul | Istanbul | Travel | none | none (section on /international-patients) | Done. Separate page only if GSC shows Istanbul demand | P3 |
+| ED treatment Istanbul, P-Shot Istanbul, Doppler Istanbul | Istanbul | Commercial | none | /erectile-dysfunction-treatment-istanbul (one page for all) | Done. Owner confirmed an affiliated clinic offering Doppler, P-Shot, shockwave, stem cell | P1 |
 | P-Shot Turkey / Antalya | Country / Antalya | Commercial | /p-shot-turkey, /p-shot-antalya | same | Keep | P1 |
-| P-Shot Istanbul | Istanbul | Travel | none | none | Do not create (no Istanbul service) | n/a |
+| P-Shot Istanbul | Istanbul | Commercial | none | same Istanbul page | No separate page (same intent) | n/a |
 | P-Shot price / cost Turkey, UK | Country | Price | /price | same | Done in PR 7. Add Turkey cost wording later | P1 |
 | ED treatment cost Turkey | Country | Price | /price | none | Do not create. Duplicates /price | n/a |
 | Shockwave ED Turkey | Country | Commercial | /shockwave-therapy-erectile-dysfunction-turkey | same | Keep | P1 |
 | Shockwave ED Antalya | Antalya | Commercial | /shockwave-therapy-ed (title has Antalya) | none | Do not create a page | n/a |
 | Penile Doppler Turkey / Antalya | Country / Antalya | Diagnostic | /penile-doppler-ultrasound (rank 60) | /penile-doppler-antalya | Done (2026-11-22). Clinic confirmed Doppler is done in-house. Fee left unpublished | P1 |
-| Penile Doppler Istanbul | Istanbul | Diagnostic | none | none | Do not create | n/a |
+| Penile Doppler Istanbul | Istanbul | Diagnostic | none | same Istanbul page | No separate page | n/a |
 | Venous leak diagnosis Antalya | Antalya | Informational | /venous-leak | same | Add Antalya assessment paragraph after doctor confirms | P2 |
 | Stem cell, exosome Turkey | Country | Informational/commercial | /stem-cell-treatment-ed-turkey, /exosome-therapy-turkey | same | Keep, experimental wording stays | P2 |
 | ED treatment abroad | Country | Informational | /choose-an-ed-clinic-abroad | same | Title rewritten in PR 7 | P2 |
@@ -66,7 +66,7 @@ Readiness score: 80 (structure). AI visibility score: not measurable from here.
 | Metadata | `/erectile-dysfunction-treatment-turkey` description now includes Türkiye |
 | Structured data | Country `Turkey` now has `alternateName: Türkiye` in `areaServed` |
 | Internal content | New section "Travelling from Istanbul or elsewhere in Türkiye" on `/international-patients`. Three FAQs added (Türkiye vs Turkey, two Istanbul) |
-| Istanbul claims | None made. Text says assessment and treatment take place in Antalya |
+| Istanbul claims | Only what the owner confirmed: an affiliated clinic offering Doppler, P-Shot, shockwave and stem cell. No clinic name, address, doctor or schema location is published yet |
 | Validation | `npm run build` passed. `seo:audit` passed earlier on the same architecture (56 pages, 0 errors). Re-run before merge |
 
 ## Report E: 30-day action plan
@@ -75,7 +75,7 @@ Readiness score: 80 (structure). AI visibility score: not measurable from here.
 | --- | --- | --- |
 | P0 | Fix GA4 (attach the correct measurement ID, mark form submit and WhatsApp click as key events) | You |
 | P0 | Supply Google Business Profile share link, map coordinates, opening hours, any verified `sameAs` profiles. They are already wired in `src/lib/clinic.ts` and only need values | You |
-| P0 | Confirm in writing that no clinic or partner exists in Istanbul | You |
+| P0 | Send the Istanbul clinic name, address, treating doctor and whether it has its own Google profile. Until then no Istanbul address or location schema is published | You |
 | P1 | Request indexing in GSC for `/price`, `/` and the Turkey and Antalya pages | You |
 | P1 | Run IndexNow from a machine with the key | You |
 | P2 | Doctor review of regenerative-therapy wording (`docs/medical-claims-review.md`) | Doctor |
@@ -96,5 +96,5 @@ Keep tracking free of medical details: send event names and page paths only, nev
 
 ## Decisions needed
 
-1. Istanbul presence: none assumed. Confirm.
+1. Istanbul: affiliated clinic confirmed by the owner. Still needed: name, address, doctor, partner or own branch.
 2. Provide Google profile link, coordinates and opening hours for Local SEO.

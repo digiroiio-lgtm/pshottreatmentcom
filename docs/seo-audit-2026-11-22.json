@@ -207,6 +207,7 @@
     "/erectile-dysfunction-treatment",
     "/ed-treatment-options",
     "/erectile-dysfunction-treatment-turkey",
+    "/erectile-dysfunction-treatment-istanbul",
     "/erectile-dysfunction-treatment-antalya",
     "/p-shot",
     "/p-shot-turkey",
@@ -272,6 +273,7 @@
     "/erectile-dysfunction-treatment",
     "/ed-treatment-options",
     "/erectile-dysfunction-treatment-turkey",
+    "/erectile-dysfunction-treatment-istanbul",
     "/erectile-dysfunction-treatment-antalya",
     "/p-shot",
     "/p-shot-turkey",
@@ -330,6 +332,7 @@
     "/erectile-dysfunction-treatment",
     "/ed-treatment-options",
     "/erectile-dysfunction-treatment-turkey",
+    "/erectile-dysfunction-treatment-istanbul",
     "/erectile-dysfunction-treatment-antalya",
     "/p-shot",
     "/p-shot-turkey",
@@ -383,6 +386,7 @@
     "/erectile-dysfunction",
     "/erectile-dysfunction-treatment",
     "/ed-treatment-options",
+    "/erectile-dysfunction-treatment-istanbul",
     "/p-shot",
     "/p-shot-turkey",
     "/p-shot-antalya",
@@ -2064,7 +2068,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1240
+    "words": 1242
    },
    "schema": [
     {
@@ -2368,7 +2372,7 @@
        "name": "I live in Istanbul. Can I be treated there?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Assessment and treatment take place at UZ Clinic Antalya. If you live in Istanbul you can start with a remote review and travel to Antalya only once the urologist has advised a plan. See the Istanbul-to-Antalya section on the international patients page."
+        "text": "Yes. As well as the clinic in Antalya, the service works with an affiliated clinic in Istanbul. Send your case for a remote review and the coordinator explains which location suits you. Details are on the Istanbul page."
        }
       },
       {
@@ -2400,6 +2404,390 @@
    ]
   },
   {
+   "path": "/erectile-dysfunction-treatment-istanbul",
+   "status": 200,
+   "score": 100,
+   "issues": [],
+   "metadata": {
+    "title": "ED Treatment in Istanbul: P-Shot, Shockwave, Doppler",
+    "description": "ED assessment and treatment in Istanbul through UZ Clinic's affiliated clinic: P-Shot, shockwave, Doppler and stem cell options. Start with a remote review.",
+    "canonical": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul",
+    "robots": "index, follow",
+    "h1": [
+     "Erectile Dysfunction Treatment in Istanbul"
+    ],
+    "words": 1245
+   },
+   "schema": [
+    {
+     "@type": [
+      "Organization",
+      "MedicalClinic"
+     ],
+     "@id": "https://pshottreatment.com/#organization",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
+     "logo": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/apple-icon",
+      "width": 180,
+      "height": 180
+     },
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "isAcceptingNewPatients": true,
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Muratpaşa",
+      "addressRegion": "Antalya",
+      "addressCountry": "TR",
+      "streetAddress": "Fener Mah., Bülent Ecevit Blv., Kanyon Plaza No:23, Kat:4, Daire:7",
+      "postalCode": "07160"
+     },
+     "hasMap": "https://www.google.com/maps/search/?api=1&query=Op.+Dr.+Niyazi+Umut+%C3%96zdemir+Kanyon+Plaza+Muratpa%C5%9Fa+Antalya",
+     "telephone": "+905353998999",
+     "email": "penilerehab@gmail.com",
+     "areaServed": [
+      {
+       "@type": "Country",
+       "name": "Turkey",
+       "alternateName": "Türkiye"
+      },
+      {
+       "@type": "Country",
+       "name": "United Kingdom"
+      },
+      {
+       "@type": "Country",
+       "name": "Ireland"
+      },
+      {
+       "@type": "Country",
+       "name": "United States"
+      },
+      {
+       "@type": "AdministrativeArea",
+       "name": "European Union"
+      }
+     ],
+     "availableLanguage": "English",
+     "availableService": [
+      {
+       "@type": "MedicalTherapy",
+       "name": "P-Shot (platelet-rich plasma injection)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Low-intensity shockwave therapy (EdSWT / Li-ESWT)",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Stem cell therapy for erectile dysfunction",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      },
+      {
+       "@type": "MedicalTherapy",
+       "name": "Penile rehabilitation",
+       "relevantSpecialty": "https://schema.org/Urologic"
+      }
+     ],
+     "physician": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "knowsAbout": [
+      "Erectile dysfunction",
+      "Penile rehabilitation",
+      "Vasculogenic erectile dysfunction",
+      "Shockwave therapy for erectile dysfunction"
+     ],
+     "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "patient enquiries",
+      "url": "https://wa.me/905353998999",
+      "availableLanguage": [
+       "English"
+      ]
+     }
+    },
+    {
+     "@type": "Physician",
+     "@id": "https://pshottreatment.com/#physician",
+     "name": "Dr. Niyazi Umut Özdemir",
+     "jobTitle": "Urological Surgeon",
+     "url": "https://pshottreatment.com/dr-niyazi-umut-ozdemir",
+     "medicalSpecialty": "https://schema.org/Urologic",
+     "worksFor": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Ege University"
+     },
+     "memberOf": [
+      {
+       "@type": "Organization",
+       "name": "Turkish Urological Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Society of Urological Surgery (Ürolojik Cerrahi Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "European Association of Urology (EAU)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Turkish Andrology Association"
+      },
+      {
+       "@type": "Organization",
+       "name": "Aegean Urological Association (Ege Üroloji Derneği)"
+      },
+      {
+       "@type": "Organization",
+       "name": "Ankara Urologists Association"
+      }
+     ],
+     "hasCredential": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Board certification",
+      "recognizedBy": {
+       "@type": "Organization",
+       "name": "Turkish Association of Urology"
+      }
+     },
+     "knowsAbout": [
+      "Erectile dysfunction assessment and treatment planning",
+      "Penile rehabilitation",
+      "Vasculogenic (blood-flow related) erectile dysfunction",
+      "Shockwave therapy, PRP and regenerative approaches"
+     ],
+     "sameAs": [
+      "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
+     ],
+     "workLocation": {
+      "@type": "Place",
+      "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Muratpaşa",
+       "addressRegion": "Antalya",
+       "addressCountry": "TR"
+      }
+     }
+    },
+    {
+     "@type": "WebSite",
+     "@id": "https://pshottreatment.com/#website",
+     "name": "UZ Clinic Antalya",
+     "url": "https://pshottreatment.com/",
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "inLanguage": "en-GB"
+    },
+    {
+     "@type": "MedicalWebPage",
+     "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#webpage",
+     "url": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul",
+     "name": "ED Treatment in Istanbul: P-Shot, Shockwave, Doppler",
+     "description": "ED assessment and treatment in Istanbul through UZ Clinic's affiliated clinic: P-Shot, shockwave, Doppler and stem cell options. Start with a remote review.",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/#website"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "primaryImageOfPage": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/og.png?path=%2Ferectile-dysfunction-treatment-istanbul",
+      "width": 1200,
+      "height": 630
+     },
+     "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [
+       "[data-direct-answer]"
+      ]
+     },
+     "breadcrumb": {
+      "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#breadcrumb"
+     },
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "audience": {
+      "@type": "Patient",
+      "audienceType": "Adults seeking ED information"
+     },
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     },
+     "lastReviewed": "2026-10-02",
+     "mainEntity": {
+      "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#article"
+     }
+    },
+    {
+     "@type": "BreadcrumbList",
+     "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#breadcrumb",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://pshottreatment.com"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "ED treatment options",
+       "item": "https://pshottreatment.com/ed-treatment-options"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "ED treatment in Istanbul",
+       "item": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul"
+      }
+     ]
+    },
+    {
+     "@type": "Article",
+     "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#article",
+     "headline": "Erectile Dysfunction Treatment in Istanbul",
+     "description": "ED assessment and treatment in Istanbul through UZ Clinic's affiliated clinic: P-Shot, shockwave, Doppler and stem cell options. Start with a remote review.",
+     "mainEntityOfPage": {
+      "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#webpage"
+     },
+     "author": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "publisher": {
+      "@id": "https://pshottreatment.com/#organization"
+     },
+     "dateModified": "2026-10-02",
+     "inLanguage": "en-GB",
+     "image": "https://pshottreatment.com/og.png?path=%2Ferectile-dysfunction-treatment-istanbul",
+     "citation": [
+      {
+       "@type": "CreativeWork",
+       "name": "EAU Guidelines on Sexual and Reproductive Health: Management of Erectile Dysfunction",
+       "publisher": {
+        "@type": "Organization",
+        "name": "European Association of Urology"
+       },
+       "datePublished": "2026",
+       "url": "https://uroweb.org/guidelines/sexual-and-reproductivehealth/chapter/management-of-erectile-dysfunction"
+      },
+      {
+       "@type": "CreativeWork",
+       "name": "Erectile Dysfunction: AUA Guideline",
+       "publisher": {
+        "@type": "Organization",
+        "name": "American Urological Association"
+       },
+       "datePublished": "2018",
+       "url": "https://www.auanet.org/guidelines-and-quality/guidelines/erectile-dysfunction-(ed)-guideline"
+      }
+     ],
+     "reviewedBy": {
+      "@id": "https://pshottreatment.com/#physician"
+     }
+    },
+    {
+     "@type": "FAQPage",
+     "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#faq",
+     "url": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul",
+     "isPartOf": {
+      "@id": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul#webpage"
+     },
+     "inLanguage": "en-GB",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is there ED treatment in Istanbul?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. UZ Clinic Antalya works with an affiliated clinic in Istanbul. After a remote review, the coordinator advises whether Istanbul or Antalya suits you."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is P-Shot available in Istanbul?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, P-Shot (PRP) is offered after assessment, if the doctor considers it suitable. PRP for ED is experimental, so the evidence and limits are explained first."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is shockwave therapy available in Istanbul?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, after assessment. Shockwave therapy for ED is an emerging option, and benefit is not guaranteed."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can I have a penile Doppler test in Istanbul?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Doppler ultrasound is offered in Istanbul and Antalya. The doctor decides whether you need one, and earlier reports can be sent for review."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is stem cell therapy available in Istanbul?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is offered after assessment, but stem cell therapy for ED is experimental or investigational. It is considered only after the cause of your ED has been evaluated."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is Dr. Özdemir the doctor in Istanbul?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dr. Niyazi Umut Özdemir is based at the clinic in Antalya. Ask the coordinator who would treat you in Istanbul and for their qualifications before you decide."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How much does treatment in Istanbul cost?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees are given in an itemised written quote after your case is reviewed. The advertised P-Shot fee is on the price page."
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
    "path": "/erectile-dysfunction-treatment-antalya",
    "status": 200,
    "score": 100,
@@ -2412,7 +2800,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Antalya"
     ],
-    "words": 1086
+    "words": 1092
    },
    "schema": [
     {
@@ -10358,7 +10746,7 @@
     "h1": [
      "Penile Doppler Ultrasound in Antalya"
     ],
-    "words": 1280
+    "words": 1287
    },
    "schema": [
     {
@@ -13146,7 +13534,7 @@
     "h1": [
      "Travelling to Antalya for ED Treatment"
     ],
-    "words": 1138
+    "words": 1161
    },
    "schema": [
     {
@@ -13426,7 +13814,7 @@
        "name": "I live in Istanbul. Do I need to travel to Antalya?",
        "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Assessment and treatment take place at the clinic in Antalya. You can start with a remote review from Istanbul and travel only once a plan makes medical sense."
+        "text": "Not necessarily. The service works with an affiliated clinic in Istanbul as well as the clinic in Antalya. Send your case first and the coordinator explains which location suits you. See the Istanbul page for the treatments offered there."
        }
       },
       {
@@ -14865,104 +15253,104 @@
       {
        "@type": "ListItem",
        "position": 4,
+       "name": "Erectile Dysfunction Treatment in Istanbul",
+       "url": "https://pshottreatment.com/erectile-dysfunction-treatment-istanbul"
+      },
+      {
+       "@type": "ListItem",
+       "position": 5,
        "name": "Erectile Dysfunction Treatment in Antalya",
        "url": "https://pshottreatment.com/erectile-dysfunction-treatment-antalya"
       },
       {
        "@type": "ListItem",
-       "position": 5,
+       "position": 6,
        "name": "P-Shot PRP Treatment for Erectile Dysfunction",
        "url": "https://pshottreatment.com/p-shot"
       },
       {
        "@type": "ListItem",
-       "position": 6,
+       "position": 7,
        "name": "P-Shot in Turkey: Information for International Patients",
        "url": "https://pshottreatment.com/p-shot-turkey"
       },
       {
        "@type": "ListItem",
-       "position": 7,
+       "position": 8,
        "name": "P-Shot at UZ Clinic Antalya",
        "url": "https://pshottreatment.com/p-shot-antalya"
       },
       {
        "@type": "ListItem",
-       "position": 8,
+       "position": 9,
        "name": "PRP for Erectile Dysfunction: What the Evidence Shows",
        "url": "https://pshottreatment.com/prp-for-erectile-dysfunction"
       },
       {
        "@type": "ListItem",
-       "position": 9,
+       "position": 10,
        "name": "Shockwave Therapy for Erectile Dysfunction (EdSWT)",
        "url": "https://pshottreatment.com/shockwave-therapy-ed"
       },
       {
        "@type": "ListItem",
-       "position": 10,
+       "position": 11,
        "name": "EdSWT and Li-ESWT: Protocol, Device and Sessions",
        "url": "https://pshottreatment.com/edswt"
       },
       {
        "@type": "ListItem",
-       "position": 11,
+       "position": 12,
        "name": "Shockwave Therapy for Erectile Dysfunction in Turkey",
        "url": "https://pshottreatment.com/shockwave-therapy-erectile-dysfunction-turkey"
       },
       {
        "@type": "ListItem",
-       "position": 12,
+       "position": 13,
        "name": "Stem Cell Therapy for Erectile Dysfunction",
        "url": "https://pshottreatment.com/stem-cell-therapy-erectile-dysfunction"
       },
       {
        "@type": "ListItem",
-       "position": 13,
+       "position": 14,
        "name": "Stem Cell Treatment for ED in Turkey: What to Know Before You Travel",
        "url": "https://pshottreatment.com/stem-cell-treatment-ed-turkey"
       },
       {
        "@type": "ListItem",
-       "position": 14,
+       "position": 15,
        "name": "Exosome Therapy for Erectile Dysfunction",
        "url": "https://pshottreatment.com/exosome-therapy-erectile-dysfunction"
       },
       {
        "@type": "ListItem",
-       "position": 15,
+       "position": 16,
        "name": "Exosome Therapy for ED in Turkey",
        "url": "https://pshottreatment.com/exosome-therapy-turkey"
       },
       {
        "@type": "ListItem",
-       "position": 16,
+       "position": 17,
        "name": "Vasculogenic Erectile Dysfunction (Blood-Flow Related ED)",
        "url": "https://pshottreatment.com/vasculogenic-erectile-dysfunction"
       },
       {
        "@type": "ListItem",
-       "position": 17,
+       "position": 18,
        "name": "Venous Leak and Erectile Dysfunction",
        "url": "https://pshottreatment.com/venous-leak"
       },
       {
        "@type": "ListItem",
-       "position": 18,
+       "position": 19,
        "name": "Erectile Dysfunction After Prostate Surgery",
        "url": "https://pshottreatment.com/erectile-dysfunction-after-prostate-surgery"
       },
       {
        "@type": "ListItem",
-       "position": 19,
+       "position": 20,
        "name": "Diabetes and Erectile Dysfunction",
        "url": "https://pshottreatment.com/diabetes-erectile-dysfunction"
-      },
-      {
-       "@type": "ListItem",
-       "position": 20,
-       "name": "Erectile Dysfunction Over 50",
-       "url": "https://pshottreatment.com/erectile-dysfunction-over-50"
       }
      ]
     }
