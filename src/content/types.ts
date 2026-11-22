@@ -1,3 +1,5 @@
+import type { ClinicPhotoKey } from "./images";
+
 export type TreatmentId = "p-shot" | "shockwave" | "stem-cell" | "exosome" | "rehabilitation" | "not-sure";
 
 export type EvidenceLabel = "Established" | "Emerging" | "Experimental" | "Individualised" | "Mixed";
@@ -20,7 +22,8 @@ export type Block =
   | { type: "treatment-nav"; heading?: string; exclude?: TreatmentId[] }
   | { type: "price" }
   | { type: "location" }
-  | { type: "rating" };
+  | { type: "rating" }
+  | { type: "gallery"; heading: string; id?: string; intro?: string; photos: ClinicPhotoKey[] };
 
 export type PageKind = "money" | "condition" | "comparison" | "diagnostic" | "trust" | "article" | "legal";
 

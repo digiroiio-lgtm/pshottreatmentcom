@@ -1,4 +1,6 @@
 "use client";
+import Image from "next/image";
+import { CLINIC_LOGO } from "@/content/images";
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -33,9 +35,12 @@ export default function Navbar() {
   return (
     <header ref={root} className="sticky top-0 z-50 bg-black/95 backdrop-blur border-b border-slate-200">
       <nav aria-label="Main" className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
-        <Link href="/" className="leading-tight">
-          <span className="block font-extrabold text-heading">UZ Clinic <span className="text-teal-700">Antalya</span></span>
-          <span className="block text-[11px] text-slate-600">Male sexual health &amp; penile rehabilitation</span>
+        <Link href="/" className="flex items-center gap-2.5 leading-tight">
+          <Image src={CLINIC_LOGO.src} alt="" width={36} height={36} priority className="h-9 w-9 shrink-0" />
+          <span>
+            <span className="block font-extrabold text-heading">UZ Clinic <span className="text-teal-700">Antalya</span></span>
+            <span className="block text-[11px] text-slate-600">Male sexual health &amp; penile rehabilitation</span>
+          </span>
         </Link>
 
         <ul className="hidden lg:flex items-center gap-1">

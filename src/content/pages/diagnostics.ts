@@ -150,6 +150,7 @@ export const diagnosticPages: PageDef[] = [
     modified: DATE,
     priority: 0.8,
     blocks: [
+      { type: "gallery", heading: "The clinic in Antalya", id: "photos", photos: ["building", "reception", "consultationRoom"] },
       {
         type: "text",
         heading: "When a Doppler scan may be suggested",

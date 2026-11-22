@@ -565,7 +565,7 @@
     "h1": [
      "Erectile Dysfunction & Penile Rehabilitation in Antalya"
     ],
-    "words": 1851
+    "words": 1849
    },
    "schema": [
     {
@@ -579,10 +579,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -717,6 +740,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -875,7 +903,7 @@
     "h1": [
      "Erectile Dysfunction: Causes, Types and Specialist Assessment"
     ],
-    "words": 1787
+    "words": 1786
    },
    "schema": [
     {
@@ -889,10 +917,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -1027,6 +1078,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -1277,7 +1333,7 @@
     "h1": [
      "Erectile Dysfunction Treatment: A Cause-Based Plan"
     ],
-    "words": 1571
+    "words": 1570
    },
    "schema": [
     {
@@ -1291,10 +1347,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -1429,6 +1508,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -1683,7 +1767,7 @@
     "h1": [
      "ED Treatment Options Compared"
     ],
-    "words": 1318
+    "words": 1317
    },
    "schema": [
     {
@@ -1697,10 +1781,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -1835,6 +1942,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -2068,7 +2180,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Turkey"
     ],
-    "words": 1242
+    "words": 1241
    },
    "schema": [
     {
@@ -2082,10 +2194,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -2220,6 +2355,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -2416,7 +2556,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Istanbul"
     ],
-    "words": 1245
+    "words": 1244
    },
    "schema": [
     {
@@ -2430,10 +2570,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -2568,6 +2731,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -2800,7 +2968,7 @@
     "h1": [
      "Erectile Dysfunction Treatment in Antalya"
     ],
-    "words": 1092
+    "words": 1135
    },
    "schema": [
     {
@@ -2814,10 +2982,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -2952,6 +3143,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -3166,7 +3362,7 @@
     "h1": [
      "P-Shot PRP Treatment for Erectile Dysfunction"
     ],
-    "words": 2070
+    "words": 2069
    },
    "schema": [
     {
@@ -3180,10 +3376,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -3318,6 +3537,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -3689,7 +3913,7 @@
     "h1": [
      "P-Shot in Turkey: Information for International Patients"
     ],
-    "words": 1210
+    "words": 1209
    },
    "schema": [
     {
@@ -3703,10 +3927,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -3841,6 +4088,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -4128,7 +4380,7 @@
     "h1": [
      "P-Shot at UZ Clinic Antalya"
     ],
-    "words": 1082
+    "words": 1118
    },
    "schema": [
     {
@@ -4142,10 +4394,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -4280,6 +4555,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -4611,7 +4891,7 @@
     "h1": [
      "PRP for Erectile Dysfunction: What the Evidence Shows"
     ],
-    "words": 1099
+    "words": 1098
    },
    "schema": [
     {
@@ -4625,10 +4905,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -4763,6 +5066,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -5058,7 +5366,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction (EdSWT)"
     ],
-    "words": 1570
+    "words": 1569
    },
    "schema": [
     {
@@ -5072,10 +5380,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -5210,6 +5541,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -5490,7 +5826,7 @@
     "h1": [
      "EdSWT and Li-ESWT: Protocol, Device and Sessions"
     ],
-    "words": 846
+    "words": 845
    },
    "schema": [
     {
@@ -5504,10 +5840,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -5642,6 +6001,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -5849,7 +6213,7 @@
     "h1": [
      "Shockwave Therapy for Erectile Dysfunction in Turkey"
     ],
-    "words": 911
+    "words": 910
    },
    "schema": [
     {
@@ -5863,10 +6227,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -6001,6 +6388,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -6200,7 +6592,7 @@
     "h1": [
      "Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 1629
+    "words": 1628
    },
    "schema": [
     {
@@ -6214,10 +6606,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -6352,6 +6767,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -6665,7 +7085,7 @@
     "h1": [
      "Stem Cell Treatment for ED in Turkey: What to Know Before You Travel"
     ],
-    "words": 1021
+    "words": 1020
    },
    "schema": [
     {
@@ -6679,10 +7099,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -6817,6 +7260,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -7052,7 +7500,7 @@
     "h1": [
      "Exosome Therapy for Erectile Dysfunction"
     ],
-    "words": 1085
+    "words": 1084
    },
    "schema": [
     {
@@ -7066,10 +7514,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -7204,6 +7675,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -7449,7 +7925,7 @@
     "h1": [
      "Exosome Therapy for ED in Turkey"
     ],
-    "words": 860
+    "words": 859
    },
    "schema": [
     {
@@ -7463,10 +7939,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -7601,6 +8100,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -7816,7 +8320,7 @@
     "h1": [
      "Vasculogenic Erectile Dysfunction (Blood-Flow Related ED)"
     ],
-    "words": 1271
+    "words": 1270
    },
    "schema": [
     {
@@ -7830,10 +8334,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -7968,6 +8495,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -8188,7 +8720,7 @@
     "h1": [
      "Venous Leak and Erectile Dysfunction"
     ],
-    "words": 1293
+    "words": 1292
    },
    "schema": [
     {
@@ -8202,10 +8734,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -8340,6 +8895,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -8588,7 +9148,7 @@
     "h1": [
      "Erectile Dysfunction After Prostate Surgery"
     ],
-    "words": 787
+    "words": 786
    },
    "schema": [
     {
@@ -8602,10 +9162,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -8740,6 +9323,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -8940,7 +9528,7 @@
     "h1": [
      "Diabetes and Erectile Dysfunction"
     ],
-    "words": 741
+    "words": 740
    },
    "schema": [
     {
@@ -8954,10 +9542,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -9092,6 +9703,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -9292,7 +9908,7 @@
     "h1": [
      "Erectile Dysfunction Over 50"
     ],
-    "words": 978
+    "words": 977
    },
    "schema": [
     {
@@ -9306,10 +9922,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -9444,6 +10083,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -9644,7 +10288,7 @@
     "h1": [
      "Erectile Dysfunction Over 60"
     ],
-    "words": 965
+    "words": 964
    },
    "schema": [
     {
@@ -9658,10 +10302,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -9796,6 +10463,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -9996,7 +10668,7 @@
     "h1": [
      "Confidential Erectile Dysfunction Assessment"
     ],
-    "words": 715
+    "words": 714
    },
    "schema": [
     {
@@ -10010,10 +10682,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -10148,6 +10843,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -10350,7 +11050,7 @@
     "h1": [
      "Penile Doppler Ultrasound for Erectile Dysfunction"
     ],
-    "words": 1083
+    "words": 1082
    },
    "schema": [
     {
@@ -10364,10 +11064,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -10502,6 +11225,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -10746,7 +11474,7 @@
     "h1": [
      "Penile Doppler Ultrasound in Antalya"
     ],
-    "words": 1287
+    "words": 1321
    },
    "schema": [
     {
@@ -10760,10 +11488,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -10898,6 +11649,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -11146,7 +11902,7 @@
     "h1": [
      "P-Shot vs Shockwave Therapy for Erectile Dysfunction"
     ],
-    "words": 941
+    "words": 940
    },
    "schema": [
     {
@@ -11160,10 +11916,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -11298,6 +12077,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -11518,7 +12302,7 @@
     "h1": [
      "P-Shot vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 819
+    "words": 818
    },
    "schema": [
     {
@@ -11532,10 +12316,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -11670,6 +12477,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -11882,7 +12694,7 @@
     "h1": [
      "Shockwave Therapy vs Stem Cell Therapy for Erectile Dysfunction"
     ],
-    "words": 796
+    "words": 795
    },
    "schema": [
     {
@@ -11896,10 +12708,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -12034,6 +12869,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -12226,7 +13066,7 @@
     "h1": [
      "Penile Rehabilitation Programme"
     ],
-    "words": 994
+    "words": 993
    },
    "schema": [
     {
@@ -12240,10 +13080,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -12378,6 +13241,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -12636,7 +13504,7 @@
     "h1": [
      "Penile Implant for Erectile Dysfunction"
     ],
-    "words": 972
+    "words": 971
    },
    "schema": [
     {
@@ -12650,10 +13518,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -12788,6 +13679,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -12980,7 +13876,7 @@
     "h1": [
      "Dr. Niyazi Umut Özdemir, Urological Surgeon"
     ],
-    "words": 618
+    "words": 691
    },
    "schema": [
     {
@@ -12994,10 +13890,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -13132,6 +14051,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -13260,7 +14184,7 @@
     "h1": [
      "About UZ Clinic Antalya"
     ],
-    "words": 836
+    "words": 907
    },
    "schema": [
     {
@@ -13274,10 +14198,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -13412,6 +14359,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -13534,7 +14486,7 @@
     "h1": [
      "Travelling to Antalya for ED Treatment"
     ],
-    "words": 1161
+    "words": 1202
    },
    "schema": [
     {
@@ -13548,10 +14500,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -13686,6 +14661,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -13894,7 +14874,7 @@
     "h1": [
      "Patient Experiences"
     ],
-    "words": 519
+    "words": 541
    },
    "schema": [
     {
@@ -13908,10 +14888,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -14046,6 +15049,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -14174,7 +15182,7 @@
     "h1": [
      "P-Shot Price UK vs Turkey: Cost in GBP"
     ],
-    "words": 1126
+    "words": 1125
    },
    "schema": [
     {
@@ -14188,10 +15196,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -14326,6 +15357,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -14572,7 +15608,7 @@
     "h1": [
      "P-Shot Side Effects and Risks"
     ],
-    "words": 785
+    "words": 784
    },
    "schema": [
     {
@@ -14586,10 +15622,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -14724,6 +15783,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -14952,10 +16016,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -15090,6 +16177,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -15383,10 +16475,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -15521,6 +16636,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -15655,10 +16775,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -15793,6 +16936,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -15927,10 +17075,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -16065,6 +17236,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -16154,7 +17330,7 @@
     "h1": [
      "Low Testosterone and Erectile Dysfunction"
     ],
-    "words": 1094
+    "words": 1093
    },
    "schema": [
     {
@@ -16168,10 +17344,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -16306,6 +17505,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -16530,7 +17734,7 @@
     "h1": [
      "Finasteride and Persistent Sexual Symptoms"
     ],
-    "words": 907
+    "words": 906
    },
    "schema": [
     {
@@ -16544,10 +17748,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -16682,6 +17909,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -16890,7 +18122,7 @@
     "h1": [
      "P-Shot vs Viagra for Erectile Dysfunction"
     ],
-    "words": 894
+    "words": 893
    },
    "schema": [
     {
@@ -16904,10 +18136,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -17042,6 +18297,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -17262,7 +18522,7 @@
     "h1": [
      "When ED Tablets (Viagra, Cialis) Stop Working"
     ],
-    "words": 1484
+    "words": 1483
    },
    "schema": [
     {
@@ -17276,10 +18536,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -17414,6 +18697,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -17668,7 +18956,7 @@
     "h1": [
      "P-Shot vs Penile Injections (Alprostadil and Trimix)"
     ],
-    "words": 931
+    "words": 930
    },
    "schema": [
     {
@@ -17682,10 +18970,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -17820,6 +19131,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -18050,7 +19366,7 @@
     "h1": [
      "ED Treatment Evidence Tracker"
     ],
-    "words": 966
+    "words": 965
    },
    "schema": [
     {
@@ -18064,10 +19380,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -18202,6 +19541,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -18496,10 +19840,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -18634,6 +20001,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -18828,10 +20200,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -18966,6 +20361,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -19352,7 +20752,7 @@
     "h1": [
      "Erectile Dysfunction Under 40"
     ],
-    "words": 1370
+    "words": 1369
    },
    "schema": [
     {
@@ -19366,10 +20766,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -19504,6 +20927,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -19720,7 +21148,7 @@
     "h1": [
      "Losing an Erection During Sex"
     ],
-    "words": 1277
+    "words": 1276
    },
    "schema": [
     {
@@ -19734,10 +21162,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -19872,6 +21323,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -20080,7 +21536,7 @@
     "h1": [
      "Erectile Dysfunction and Heart Disease"
     ],
-    "words": 1122
+    "words": 1121
    },
    "schema": [
     {
@@ -20094,10 +21550,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -20232,6 +21711,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -20440,7 +21924,7 @@
     "h1": [
      "Blood Pressure Medicines and Erectile Dysfunction"
     ],
-    "words": 1131
+    "words": 1130
    },
    "schema": [
     {
@@ -20454,10 +21938,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -20592,6 +22099,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -20800,7 +22312,7 @@
     "h1": [
      "Antidepressants and Erectile Dysfunction"
     ],
-    "words": 1030
+    "words": 1029
    },
    "schema": [
     {
@@ -20814,10 +22326,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -20952,6 +22487,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -21162,7 +22702,7 @@
     "h1": [
      "Anxiety and Erectile Dysfunction"
     ],
-    "words": 1005
+    "words": 1004
    },
    "schema": [
     {
@@ -21176,10 +22716,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -21314,6 +22877,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -21524,7 +23092,7 @@
     "h1": [
      "Lifestyle and Erectile Dysfunction"
     ],
-    "words": 968
+    "words": 967
    },
    "schema": [
     {
@@ -21538,10 +23106,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -21676,6 +23267,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {
@@ -21884,7 +23480,7 @@
     "h1": [
      "How to Choose an ED Clinic Abroad"
     ],
-    "words": 1002
+    "words": 1001
    },
    "schema": [
     {
@@ -21898,10 +23494,33 @@
      "description": "A physician-led urology service in Antalya, Turkey, for erectile dysfunction assessment and penile rehabilitation, accepting international patients.",
      "logo": {
       "@type": "ImageObject",
-      "url": "https://pshottreatment.com/apple-icon",
+      "url": "https://pshottreatment.com/images/clinic/uz-clinic-logo.png",
       "width": 180,
       "height": 180
      },
+     "image": [
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-reception.webp",
+       "caption": "Reception at UZ Clinic Antalya",
+       "width": 980,
+       "height": 980
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-building-kanyon-plaza.webp",
+       "caption": "Kanyon Plaza, Bülent Ecevit Blv., Muratpaşa, Antalya",
+       "width": 209,
+       "height": 278
+      },
+      {
+       "@type": "ImageObject",
+       "url": "https://pshottreatment.com/images/clinic/uz-clinic-antalya-team.webp",
+       "caption": "The UZ Clinic Antalya team",
+       "width": 399,
+       "height": 269
+      }
+     ],
      "medicalSpecialty": "https://schema.org/Urologic",
      "isAcceptingNewPatients": true,
      "address": {
@@ -22036,6 +23655,11 @@
      "sameAs": [
       "https://www.doktorsitesi.com/op-dr-niyazi-umut-ozdemir/uroloji/antalya"
      ],
+     "image": {
+      "@type": "ImageObject",
+      "url": "https://pshottreatment.com/images/clinic/dr-niyazi-umut-ozdemir-urologist-antalya.webp",
+      "caption": "Dr. Niyazi Umut Özdemir, Urological Surgeon"
+     },
      "workLocation": {
       "@type": "Place",
       "address": {

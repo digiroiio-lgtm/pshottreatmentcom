@@ -402,6 +402,7 @@ export const corePages: PageDef[] = [
     modified: DATE,
     priority: 0.85,
     blocks: [
+      { type: "gallery", heading: "The clinic in Antalya", id: "photos", intro: "Where your consultation takes place: Kanyon Plaza, Muratpaşa, Antalya.", photos: ["building", "reception", "consultationRoom"] },
       {
         type: "steps",
         heading: "What a visit to the clinic involves",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CLINIC, DOCTOR } from "@/lib/clinic";
 import { AssessmentButton, WhatsAppCTA } from "./cta";
@@ -13,8 +14,7 @@ export function DoctorCredentials({ compact = false }: { compact?: boolean }) {
       <section aria-labelledby="doctor-heading" data-doctor className="rounded-2xl border border-slate-200 bg-surface p-6 md:p-8">
         <div className="flex flex-col sm:flex-row gap-6">
           {DOCTOR.photo ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={DOCTOR.photo} alt={`${DOCTOR.name}, ${DOCTOR.title}`} width={160} height={200} className="w-32 h-40 object-cover rounded-xl shrink-0" />
+            <Image src={DOCTOR.photo} alt={`${DOCTOR.name}, ${DOCTOR.title}, UZ Clinic Antalya`} width={160} height={200} sizes="(min-width: 640px) 10rem, 8rem" className="w-32 h-40 sm:w-40 sm:h-48 object-cover object-top rounded-xl shrink-0 border border-teal-700/50 glow-gold" />
           ) : (
             <div aria-hidden="true" className="w-24 h-24 sm:w-32 sm:h-32 rounded-2xl bg-black border border-teal-600 text-teal-400 flex items-center justify-center text-3xl font-bold shrink-0">{initials}</div>
           )}

@@ -1,3 +1,4 @@
+import PhotoGallery from "./PhotoGallery";
 import Image from "next/image";
 import { isSvg, pageImage } from "@/content/images";
 import Link from "next/link";
@@ -181,6 +182,8 @@ function BlockView({ block, page, index }: { block: Block; page: PageDef; index:
       return <PriceTable />;
     case "location":
       return <ClinicLocation />;
+    case "gallery":
+      return <PhotoGallery heading={block.heading} intro={block.intro} photos={block.photos} id={block.id} />;
     case "rating":
       return (
         <div className="flex flex-wrap items-center gap-3">

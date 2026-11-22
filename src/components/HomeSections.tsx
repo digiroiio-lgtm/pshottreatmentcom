@@ -58,7 +58,11 @@ export function Hero({ answer }: { answer: { q: string; a: string } }) {
         </div>
         <aside aria-label="Your physician" className="rounded-2xl bg-surface border border-teal-700/40 glow-gold p-6">
           <div className="flex items-center gap-4 mb-4">
-            <div aria-hidden="true" className="w-16 h-16 rounded-2xl bg-black border border-teal-600 text-teal-400 flex items-center justify-center text-2xl font-bold">{initials}</div>
+            {DOCTOR.photo ? (
+              <Image src={DOCTOR.photo} alt={`${DOCTOR.name}, ${DOCTOR.title}`} width={80} height={80} className="w-20 h-20 rounded-2xl object-cover object-top border border-teal-600" />
+            ) : (
+              <div aria-hidden="true" className="w-16 h-16 rounded-2xl bg-black border border-teal-600 text-teal-400 flex items-center justify-center text-2xl font-bold">{initials}</div>
+            )}
             <div>
               <p className="font-bold text-heading">{DOCTOR.name}</p>
               <p className="text-sm text-slate-700">{DOCTOR.title}</p>

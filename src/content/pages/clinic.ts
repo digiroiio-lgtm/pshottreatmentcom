@@ -130,6 +130,7 @@ export const clinicPages: PageDef[] = [
     priority: 0.7,
     blocks: [
       { type: "doctor" },
+      { type: "gallery", heading: "Dr. Özdemir at the clinic and in the field", id: "photos", intro: "Photos supplied by the clinic: at work in Antalya, speaking at a national sexual health congress and featured in the press.", photos: ["doctorScrubs", "congress", "magazine", "doctorWithTeam", "consultationRoom", "team"] },
       {
         type: "text",
         heading: "How the clinic works",
@@ -167,6 +168,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.6,
     blocks: [
+      { type: "gallery", heading: "Inside UZ Clinic Antalya", id: "photos", intro: "The clinic is on the 4th floor of Kanyon Plaza, Bülent Ecevit Boulevard, in Muratpaşa, Antalya.", photos: ["building", "reception", "consultationRoom", "team", "doctorWithTeam", "doctorScrubs"] },
       {
         type: "cards",
         heading: "What we treat at our male sexual health clinic",
@@ -217,6 +219,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.8,
     blocks: [
+      { type: "gallery", heading: "Arriving at the clinic", id: "photos", intro: "What to look for when you arrive in Antalya.", photos: ["building", "reception", "team"] },
       {
         type: "steps",
         heading: "The international patient process",
@@ -291,6 +294,7 @@ export const clinicPages: PageDef[] = [
     modified: DATE,
     priority: 0.6,
     blocks: [
+      { type: "gallery", heading: "The clinic team", id: "photos", photos: ["team", "reception", "doctorWithTeam"] },
       { type: "rating" },
       { type: "stories", heading: "What patients say" },
       {
