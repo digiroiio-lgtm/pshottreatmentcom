@@ -307,10 +307,10 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/price",
-    metaTitle: "P-Shot Price: UK vs Turkey | UZ Clinic Antalya",
+    metaTitle: "P-Shot Price UK vs Turkey: From £300 | UZ Clinic",
     description:
-      "P-Shot price in the UK compared with Turkey: our advertised fee, why quotes vary and the questions to ask before comparing any quotation.",
-    h1: "P-Shot Price: UK vs Turkey",
+      "P-Shot cost UK vs Turkey: advertised £300 fee in Antalya (also €/$), why UK quotes vary and what to ask before comparing any itemised quote.",
+    h1: "P-Shot Price UK vs Turkey: Cost in GBP",
     eyebrow: "Cost",
     kind: "money",
     treatment: "p-shot",
@@ -327,7 +327,7 @@ export const clinicPages: PageDef[] = [
       { type: "price" },
       {
         type: "text",
-        heading: "P Shot UK price: why quotes vary",
+        heading: "P-Shot cost UK (£): why quotes vary",
         id: "uk-price",
         paragraphs: [
           "Searching for a P-Shot price in the UK usually returns a wide range of figures. This site does not publish other clinics' prices, because quotes change and are rarely like for like. What makes them differ is more useful to know.",
@@ -363,6 +363,7 @@ export const clinicPages: PageDef[] = [
       { type: "doctor" },
     ],
     faqs: [
+      { q: "What is the P-Shot cost in the UK in pounds (£)?", a: "UK clinics set their own prices and there is no single figure, so ask each for an itemised written quote in pounds. For comparison, UZ Clinic Antalya's advertised P-Shot treatment fee is £300 when billed in GBP. Check sessions, clinician and follow-up before comparing." },
       { q: "How much is a P-Shot in the UK?", a: "It varies by clinic and by what the quote includes, so there is no single UK price. Ask each clinic for an itemised written quote that states the number of sessions, who treats you and what follow-up is included. UZ Clinic Antalya's advertised fee is shown above." },
       { q: "Why can a P-Shot cost less in Turkey than in the UK?", a: "Fees depend on clinician time, premises, regulation, consumables and local costs, so they differ between countries. A lower quote does not prove the protocol or provider is equivalent, and a higher one does not prove better outcomes. Compare qualifications, consent and follow-up as well as price." },
       { q: "Is the P-Shot price per session or per course?", a: "Ask for this in writing from any provider. Your written treatment plan at UZ Clinic Antalya confirms what the fee covers after assessment." },
@@ -432,9 +433,9 @@ export const clinicPages: PageDef[] = [
   },
   {
     path: "/ed-knowledge-hub",
-    metaTitle: "Erectile Dysfunction Knowledge Hub | UZ Clinic Antalya",
+    metaTitle: "ED Guides: Causes, Tests and Treatments | UZ Clinic",
     description:
-      "Guides to ED causes, conditions and treatments: P-Shot, shockwave, stem cells, exosomes, diagnosis and penile rehabilitation, written for patients.",
+      "Plain-English ED guides by a urologist-led clinic: causes, doppler tests, P-Shot, shockwave, stem cells, exosomes and penile rehabilitation.",
     h1: "Erectile Dysfunction Knowledge Hub",
     eyebrow: "Education",
     kind: "article",
