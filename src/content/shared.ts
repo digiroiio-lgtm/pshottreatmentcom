@@ -1,4 +1,6 @@
-export const DATE = "2026-10-02";
+// Last content update for every page. On 2026-11-22 every page changed (design, headings, FAQ titles, images, central prices).
+// The medical review date is kept separately in CONTENT_REVIEW and is not moved until the doctor reviews the new content.
+export const DATE = "2026-11-22";
 
 export const EAU_PRP =
   "The 2026 European Association of Urology (EAU) guideline says intracavernosal PRP for erectile dysfunction should be used only in a clinical-trial setting.";
