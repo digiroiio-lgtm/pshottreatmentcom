@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { absoluteUrl } from "@/lib/site-config";
+import { track } from "@/lib/analytics";
 
 /** "Cite this page" box: a ready-made reference with a link, so writers and journalists can attribute the data. */
 export default function CiteThis({ path, title, note }: { path: string; title: string; note?: string }) {
@@ -12,6 +13,7 @@ export default function CiteThis({ path, title, note }: { path: string; title: s
   const copy = async (text: string, which: string) => {
     try {
       await navigator.clipboard.writeText(text);
+      track("cite_copy", { type: which });
       setCopied(which);
       setTimeout(() => setCopied(null), 2000);
     } catch {
@@ -19,7 +21,7 @@ export default function CiteThis({ path, title, note }: { path: string; title: s
     }
   };
   return (
-    <section aria-labelledby="cite-heading" className="rounded-2xl border border-teal-700/40 bg-surface p-6">
+    <section data-track-section="cite_box" aria-labelledby="cite-heading" className="rounded-2xl border border-teal-700/40 bg-surface p-6">
       <h2 id="cite-heading" className="text-xl font-bold text-heading mb-2">Cite this page</h2>
       <p className="text-sm text-slate-700 mb-4">{note ?? "Writers, journalists and researchers are welcome to quote this page. Please credit and link to the source."}</p>
       <p className="rounded-lg bg-black/40 border border-slate-200 p-3 text-sm text-slate-800 break-words mb-3">{citation}</p>

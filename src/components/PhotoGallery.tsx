@@ -5,7 +5,7 @@ import { clinicPhotos, type ClinicPhotoKey } from "@/content/images";
 export default function PhotoGallery({ heading, intro, photos, id }: { heading: string; intro?: string; photos: ClinicPhotoKey[]; id?: string }) {
   const headingId = `${id ?? "gallery"}-heading`;
   return (
-    <section id={id} aria-labelledby={headingId}>
+    <section data-track-section="gallery" id={id} aria-labelledby={headingId}>
       <h2 id={headingId} className="text-2xl md:text-3xl font-bold text-heading mb-3">{heading}</h2>
       {intro && <p className="text-slate-700 mb-5">{intro}</p>}
       <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">

@@ -11,7 +11,29 @@ export type AnalyticsEvent =
   | "ed_general_lead"
   | "treatment_comparison_view"
   | "doctor_profile_view"
-  | "cta_click";
+  | "cta_click"
+  // Conversions (GA4 recommended name)
+  | "generate_lead"
+  // Assessment form funnel
+  | "form_step_view"
+  | "form_step_complete"
+  | "form_validation_error"
+  | "form_back"
+  | "form_submit_attempt"
+  | "form_submit_error"
+  | "form_abandon"
+  // Engagement and UX
+  | "scroll_depth"
+  | "section_view"
+  | "faq_open"
+  | "currency_switch"
+  | "cite_copy"
+  | "language_switch"
+  | "nav_open"
+  | "exit_intent_shown"
+  | "exit_intent_click"
+  | "outbound_click"
+  | "consent_choice";
 
 type Params = Record<string, string | number | boolean | undefined>;
 
@@ -56,7 +78,9 @@ export function getAttribution(): Partial<Attribution> {
 export function track(name: AnalyticsEvent, params: Params = {}): void {
   if (typeof window === "undefined") return;
   const w = window as AnalyticsWindow;
-  const payload = { ...getAttribution(), page: window.location.pathname.replace(/^\//, "") || "home", ...params };
+  const payload: Params = { ...getAttribution(), page: window.location.pathname.replace(/^\//, "") || "home", device: isMobile() ? "mobile" : "desktop", ...params };
+  // GA4 DebugView: add ?debug_mode=1 to any URL to see events live while testing.
+  if (/[?&]debug_mode=1\b/.test(window.location.search)) payload.debug_mode = true;
   if (typeof w.gtag === "function") w.gtag("event", name, payload);
   else if (process.env.NODE_ENV !== "production") console.debug("[analytics]", name, payload);
 }
@@ -70,3 +94,5 @@ export const leadEventFor = (interest: string): AnalyticsEvent =>
       exosome: "exosome_lead",
     } as Record<string, AnalyticsEvent>
   )[interest] ?? "ed_general_lead";
+
+export const isMobile = () => typeof window !== "undefined" && window.matchMedia?.("(max-width: 767px)").matches;

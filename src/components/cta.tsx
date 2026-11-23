@@ -111,7 +111,7 @@ export function CtaBlock({
   placement: string;
 }) {
   return (
-    <aside className="rounded-2xl bg-neutral-900 text-white p-7 md:p-9">
+    <aside data-track-section="cta_block" className="rounded-2xl bg-neutral-900 text-white p-7 md:p-9">
       <p className="text-2xl font-bold font-serif text-heading mb-2">{title}</p>
       <p className="text-neutral-200 mb-5 max-w-2xl">{text}</p>
       <div className="flex flex-col sm:flex-row gap-3">
