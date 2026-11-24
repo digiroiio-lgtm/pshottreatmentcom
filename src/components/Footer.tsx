@@ -2,6 +2,7 @@ import Link from "next/link";
 import { navGroups } from "@/content/nav";
 import { CLINIC, DOCTOR } from "@/lib/clinic";
 import { WhatsAppCTA } from "./cta";
+import CookieSettingsButton from "./CookieSettingsButton";
 
 export default function Footer() {
   return (
@@ -37,6 +38,7 @@ export default function Footer() {
           <Link href="/editorial-policy" className="hover:text-white inline-block py-2">Editorial policy</Link>
           <Link href="/evidence-methodology" className="hover:text-white inline-block py-2">Evidence methodology</Link>
           <Link href="/privacy" className="hover:text-white inline-block py-2">Privacy</Link>
+          <CookieSettingsButton />
         </p>
       </div>
     </footer>
