@@ -29,6 +29,10 @@ export default function Analytics() {
     } catch {
       setChoice("unset");
     }
+    // The footer "Cookie settings" button reopens the banner so visitors can change or withdraw consent.
+    const reopen = () => setChoice("unset");
+    window.addEventListener("open-cookie-settings", reopen);
+    return () => window.removeEventListener("open-cookie-settings", reopen);
   }, []);
 
   if (!GA_ID) return null;
