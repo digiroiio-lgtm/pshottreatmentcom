@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { track } from "@/lib/analytics";
 import { CurrencyProvider, useCurrency } from "@/context/CurrencyContext";
 import {
   CARD_MULTIPLIER,
@@ -28,7 +29,7 @@ function CurrencySwitch({ currency, setCurrency }: { currency: Currency; setCurr
   return (
     <div className="inline-flex rounded-full bg-slate-100 p-1 text-sm font-bold" role="group" aria-label="Currency">
       {CURRENCIES.map((c) => (
-        <button key={c} type="button" aria-pressed={currency === c} onClick={() => setCurrency(c)} className={`px-4 py-1.5 rounded-full ${currency === c ? "bg-teal-700 text-black" : "text-slate-700"}`}>
+        <button key={c} type="button" aria-pressed={currency === c} onClick={() => { if (c !== currency) track("currency_switch", { currency: c }); setCurrency(c); }} className={`px-4 py-1.5 rounded-full ${currency === c ? "bg-teal-700 text-black" : "text-slate-700"}`}>
           {SYMBOL[c]} {c}
         </button>
       ))}

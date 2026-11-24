@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { CLINIC_LOGO } from "@/content/images";
+import { track } from "@/lib/analytics";
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -50,7 +51,7 @@ export default function Navbar() {
                 type="button"
                 aria-expanded={openMenu === group.title}
                 aria-haspopup="true"
-                onClick={() => setOpenMenu(openMenu === group.title ? null : group.title)}
+                onClick={() => { if (openMenu !== group.title) track("nav_open", { menu: group.title }); setOpenMenu(openMenu === group.title ? null : group.title); }}
                 className="px-3 py-2 text-sm font-semibold text-slate-800 hover:text-teal-800 rounded-md"
               >
                 {group.title} <span aria-hidden="true">▾</span>
@@ -70,7 +71,7 @@ export default function Navbar() {
           <Link href={assessmentHref()} data-cta="Check Suitability" data-placement="header" className="hidden sm:inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-black text-sm font-bold uppercase tracking-wide px-5 py-2.5">
             Check Suitability
           </Link>
-          <button type="button" className="lg:hidden p-2 text-xl" aria-expanded={mobile} aria-controls="mobile-nav" aria-label="Toggle navigation" onClick={() => setMobile(!mobile)}>
+          <button type="button" className="lg:hidden p-2 text-xl" aria-expanded={mobile} aria-controls="mobile-nav" aria-label="Toggle navigation" onClick={() => { if (!mobile) track("nav_open", { menu: "mobile" }); setMobile(!mobile); }}>
             {mobile ? "✕" : "☰"}
           </button>
         </div>

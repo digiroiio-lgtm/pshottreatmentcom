@@ -8,7 +8,7 @@ import EvidenceChip from "./EvidenceChip";
 export default function TreatmentNavigation({ heading = "Explore treatments", exclude = [] }: { heading?: string; exclude?: TreatmentId[] }) {
   const cards = treatmentCards.filter((card) => !exclude.includes(card.id));
   return (
-    <section aria-labelledby="treatment-nav-heading">
+    <section data-track-section="treatment_cards" aria-labelledby="treatment-nav-heading">
       <h2 id="treatment-nav-heading" className="text-2xl md:text-3xl font-bold text-heading mb-5">{heading}</h2>
       <div className="grid sm:grid-cols-2 gap-5">
         {cards.map((card) => {

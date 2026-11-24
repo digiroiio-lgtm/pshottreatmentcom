@@ -9,6 +9,10 @@ export const SITE_DESCRIPTION =
 
 export const ASSESSMENT_PATH = "/erectile-dysfunction-assessment";
 
+// GA4 measurement ID (Admin → Data streams → Web → Measurement ID). The environment variable wins when set.
+// Leave empty to disable analytics. Property: Pshottreatmentcom (532906670).
+export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "";
+
 export const whatsappUrl = (message = "Hello, I would like a confidential assessment for erectile dysfunction.") =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 

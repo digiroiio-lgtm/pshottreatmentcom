@@ -3,6 +3,7 @@ import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
 import ClickTracker from "@/components/ClickTracker";
+import EngagementTracker from "@/components/EngagementTracker";
 import LazyWidgets from "@/components/LazyWidgets";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Footer from "@/components/Footer";
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <MobileStickyBar />
         <LazyWidgets />
         <ClickTracker />
+        <EngagementTracker />
         <Analytics />
       </body>
     </html>

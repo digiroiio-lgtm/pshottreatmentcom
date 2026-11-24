@@ -3,9 +3,10 @@
 import Link from "next/link";
 import Script from "next/script";
 import { useEffect, useState } from "react";
-import { captureAttribution } from "@/lib/analytics";
+import { captureAttribution, track } from "@/lib/analytics";
+import { GA_MEASUREMENT_ID } from "@/lib/site-config";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_ID = GA_MEASUREMENT_ID;
 const CONSENT_KEY = "uz_analytics_consent";
 
 type ConsentWindow = Window & { gtag?: (...args: unknown[]) => void };
@@ -39,6 +40,7 @@ export default function Analytics() {
       // Ignore storage failures; the choice still applies to this page view.
     }
     updateConsent(granted);
+    track("consent_choice", { choice: granted ? "granted" : "denied" });
     setChoice(granted ? "granted" : "denied");
   };
 

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { ASSESSMENT_PATH } from "@/lib/site-config";
+import { track } from "@/lib/analytics";
 
 const KEY = "uz_exit_intent_shown";
 
@@ -25,6 +26,7 @@ export default function ExitIntent() {
         return;
       }
       setOpen(true);
+      track("exit_intent_shown", {});
     };
     document.addEventListener("mouseout", onLeave);
     return () => document.removeEventListener("mouseout", onLeave);
@@ -45,7 +47,7 @@ export default function ExitIntent() {
         <button ref={closeRef} type="button" aria-label="Close" onClick={() => setOpen(false)} className="absolute top-3 right-4 text-2xl text-slate-500 hover:text-slate-900">×</button>
         <h2 id="exit-title" className="text-2xl font-bold text-heading mb-2">Not sure which ED treatment you need?</h2>
         <p className="text-slate-700 mb-6">Answer 6 short steps and send your case for confidential review. You do not need to know which treatment you need.</p>
-        <Link href={ASSESSMENT_PATH} onClick={() => setOpen(false)} data-cta="Start ED Assessment" data-placement="exit-intent" className="inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-7 py-3">
+        <Link href={ASSESSMENT_PATH} onClick={() => { track("exit_intent_click", {}); setOpen(false); }} data-cta="Start ED Assessment" data-placement="exit-intent" className="inline-flex rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-7 py-3">
           Start ED Assessment
         </Link>
       </div>

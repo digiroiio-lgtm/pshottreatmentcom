@@ -4,7 +4,7 @@ import TrackView from "./TrackView";
 export default function TreatmentComparison({ heading = "Compare ED treatments", intro, highlight = [] }: { heading?: string; intro?: string; highlight?: string[] }) {
   return (
     <TrackView event="treatment_comparison_view">
-      <section aria-labelledby="comparison-heading" data-comparison>
+      <section data-track-section="comparison" aria-labelledby="comparison-heading" data-comparison>
         <h2 id="comparison-heading" className="text-2xl font-bold text-heading mb-2">{heading}</h2>
         <p className="text-slate-700 mb-4">{intro ?? "The most appropriate treatment depends on the underlying cause of ED."}</p>
         <div className="overflow-x-auto rounded-xl border border-slate-200">

@@ -55,6 +55,9 @@ const STEPS = [
   { title: "Where should we send the reply?", hint: "Your details are used only to respond to your enquiry." },
 ];
 
+// Step names for analytics (no form values are ever sent).
+const STEP_NAMES = ["about", "ed_history", "medical_history", "interest", "location_contact", "details_consent"];
+
 const inputClass = "w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 focus:outline-none focus:ring-2 focus:ring-teal-600";
 
 function RadioGroup({ legend, name, options, value, onChange }: { legend: string; name: string; options: Option[]; value: string; onChange: (v: string) => void }) {
@@ -103,6 +106,11 @@ export default function AssessmentForm() {
   const started = useRef(false);
   const startedAt = useRef(0);
   const headingRef = useRef<HTMLHeadingElement>(null);
+  const stepStartedAt = useRef(Date.now());
+  const completed = useRef(false);
+  const abandoned = useRef(false);
+  const stepRef = useRef(0);
+  stepRef.current = step;
 
   useEffect(() => {
     const interest = params.get("interest");
@@ -126,46 +134,73 @@ export default function AssessmentForm() {
 
   useEffect(() => {
     headingRef.current?.focus();
+    stepStartedAt.current = Date.now();
+    track("form_step_view", { step: step + 1, step_name: STEP_NAMES[step] });
   }, [step]);
 
-  const validateStep = (): string => {
+  // Abandonment: the visitor started the form, then hid or left the page before sending. Fires once.
+  useEffect(() => {
+    const onHide = () => {
+      if (document.visibilityState !== "hidden" || !started.current || completed.current || abandoned.current) return;
+      abandoned.current = true;
+      track("form_abandon", { last_step: stepRef.current + 1, step_name: STEP_NAMES[stepRef.current], seconds_in_form: Math.round((Date.now() - startedAt.current) / 1000) });
+    };
+    document.addEventListener("visibilitychange", onHide);
+    return () => document.removeEventListener("visibilitychange", onHide);
+  }, []);
+
+  /** Returns [message, field] for the first problem on this step, or ["", ""] when valid. Field names only, never values. */
+  const validateStep = (): [string, string] => {
     if (step === 0) {
       const age = Number(state.age);
-      if (!age || age < 18 || age > 100) return "Please enter your age (18 or over).";
-      if (!state.problem) return "Please choose the main problem.";
+      if (!age || age < 18 || age > 100) return ["Please enter your age (18 or over).", "age"];
+      if (!state.problem) return ["Please choose the main problem.", "problem"];
     }
     if (step === 1) {
-      if (!state.duration) return "Please choose how long you have had the problem.";
-      if (!state.using.length) return "Please select what you currently use, or \"No treatment\".";
+      if (!state.duration) return ["Please choose how long you have had the problem.", "duration"];
+      if (!state.using.length) return ["Please select what you currently use, or \"No treatment\".", "using"];
     }
-    if (step === 2 && !state.history.length) return "Please select at least one option, or \"None\".";
-    if (step === 3 && !state.interest) return "Please choose an option. \"Not sure\" is fine.";
+    if (step === 2 && !state.history.length) return ["Please select at least one option, or \"None\".", "history"];
+    if (step === 3 && !state.interest) return ["Please choose an option. \"Not sure\" is fine.", "interest"];
     if (step === 4) {
-      if (!state.country.trim()) return "Please tell us which country you live in.";
-      if (!state.travel) return "Please choose your travel timing.";
-      if (!state.contactPref) return "Please choose how you would like to be contacted.";
+      if (!state.country.trim()) return ["Please tell us which country you live in.", "country"];
+      if (!state.travel) return ["Please choose your travel timing.", "travel"];
+      if (!state.contactPref) return ["Please choose how you would like to be contacted.", "contact_pref"];
     }
     if (step === 5) {
-      if (!state.name.trim()) return "Please enter your name.";
-      if (!/^[+()\d][\d\s()+-]{6,}$/.test(state.whatsapp.trim())) return "Please enter your WhatsApp number with country code.";
-      if (state.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.email)) return "Please check your email address.";
-      if (state.contactPref === "email" && !state.email) return "Please add your email address.";
-      if (!state.consentHealth) return "Please tick the first consent box so we can review your health information.";
-      if (!state.consentTransfer) return "Please tick the second consent box so we can pass your enquiry to our service providers.";
+      if (!state.name.trim()) return ["Please enter your name.", "name"];
+      if (!/^[+()\d][\d\s()+-]{6,}$/.test(state.whatsapp.trim())) return ["Please enter your WhatsApp number with country code.", "whatsapp"];
+      if (state.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.email)) return ["Please check your email address.", "email"];
+      if (state.contactPref === "email" && !state.email) return ["Please add your email address.", "email"];
+      if (!state.consentHealth) return ["Please tick the first consent box so we can review your health information.", "consent_health"];
+      if (!state.consentTransfer) return ["Please tick the second consent box so we can pass your enquiry to our service providers.", "consent_transfer"];
     }
-    return "";
+    return ["", ""];
   };
 
   const next = () => {
-    const message = validateStep();
-    if (message) return setError(message);
+    const [message, field] = validateStep();
+    if (message) {
+      track("form_validation_error", { step: step + 1, step_name: STEP_NAMES[step], field });
+      return setError(message);
+    }
+    track("form_step_complete", { step: step + 1, step_name: STEP_NAMES[step], seconds_on_step: Math.round((Date.now() - stepStartedAt.current) / 1000) });
     setStep((s) => s + 1);
+  };
+
+  const back = () => {
+    track("form_back", { step: step + 1, step_name: STEP_NAMES[step] });
+    setStep((n) => Math.max(0, n - 1));
   };
 
   const submit = async (event: React.FormEvent) => {
     event.preventDefault();
-    const message = validateStep();
-    if (message) return setError(message);
+    const [message, field] = validateStep();
+    if (message) {
+      track("form_validation_error", { step: step + 1, step_name: STEP_NAMES[step], field });
+      return setError(message);
+    }
+    track("form_submit_attempt", { step: step + 1, treatment_interest: state.interest });
     setStatus("sending");
     const payload: AssessmentPayload = {
       age: Number(state.age), problem: state.problem, duration: state.duration, using: state.using, helped: state.helped || "na",
@@ -178,6 +213,7 @@ export default function AssessmentForm() {
       const response = await fetch("/api/assessment", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
       const result = (await response.json()) as { ok: boolean; error?: string };
       if (!result.ok) {
+        track("form_submit_error", { reason: "server" });
         setError(result.error ?? "We could not send your case.");
         setStatus("failed");
         return;
@@ -185,8 +221,11 @@ export default function AssessmentForm() {
       // No health information is sent to analytics: only the treatment interest and country.
       track("assessment_complete", { treatment_interest: state.interest, country: state.country });
       track(leadEventFor(state.interest), { treatment_interest: state.interest, country: state.country });
+      track("generate_lead", { method: "form", treatment: state.interest || "not-sure", seconds_in_form: Math.round((Date.now() - (startedAt.current || Date.now())) / 1000) });
+      completed.current = true;
       setStatus("done");
     } catch {
+      track("form_submit_error", { reason: "network" });
       setError("We could not send your case just now. Please use WhatsApp to reach the clinic.");
       setStatus("failed");
     }
@@ -295,7 +334,7 @@ export default function AssessmentForm() {
       <p aria-live="polite" className={`min-h-6 text-sm mb-3 ${error ? "text-red-400" : ""}`}>{error}</p>
 
       <div className="flex items-center justify-between gap-3">
-        <button type="button" onClick={() => setStep((n) => Math.max(0, n - 1))} disabled={step === 0} className="rounded-full border border-slate-300 px-5 py-3 font-semibold disabled:opacity-40">Back</button>
+        <button type="button" onClick={back} disabled={step === 0} className="rounded-full border border-slate-300 px-5 py-3 font-semibold disabled:opacity-40">Back</button>
         {step < STEPS.length - 1 ? (
           <button type="button" onClick={next} className="rounded-full bg-teal-700 hover:bg-teal-800 text-black font-semibold px-7 py-3">Continue</button>
         ) : (
