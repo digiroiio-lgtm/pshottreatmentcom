@@ -1,4 +1,5 @@
 import { DATE, NO_GUARANTEE } from "../shared";
+import { priceText } from "../prices";
 import type { PageDef } from "../types";
 
 const EAU_STEM =
@@ -299,5 +300,82 @@ export const regenerativePages: PageDef[] = [
     sources: ["eau2026"],
     related: ["/exosome-therapy-erectile-dysfunction", "/international-patients", "/erectile-dysfunction-assessment", "/erectile-dysfunction-treatment-turkey", "/ed-treatment-options", "/stem-cell-treatment-ed-turkey"],
   },
+  {
+    path: "/nano-therapy-erectile-dysfunction",
+    metaTitle: "Nano Therapy for ED: Price & Evidence | UZ Clinic Antalya",
+    description:
+      "Nano therapy for erectile dysfunction: what it means, the approaches it covers, the limits of the evidence and the price at UZ Clinic Antalya.",
+    h1: "Nano Therapy for Erectile Dysfunction",
+    eyebrow: "Investigational treatment",
+    kind: "money",
+    treatment: "nano",
+    medical: true,
+    evidence: "Experimental",
+    answer: {
+      q: "What is nano therapy for ED?",
+      a: "Nano therapy for ED is an umbrella term for modern, experimental approaches to erection problems that use nanotechnology-based drug carrier systems, cell-released vesicles (exosomes) or energy waves focused at a micro level. Human evidence is very limited, and suitability is decided only after a specialist assessment.",
+    },
+    lead: "This page explains what the term covers, how the approaches differ and what is not yet known.",
+    takeaways: [
+      "Experimental. Human evidence for ED is very limited.",
+      `Nano Therapy at UZ Clinic Antalya is ${priceText("nano")}, confirmed in your written treatment plan.`,
+      "The clinic does not publish success rates or promise results.",
+    ],
+    ctaLabel: "Check Nano Therapy Suitability",
+    modified: DATE,
+    priority: 0.8,
+    schema: { therapy: "Nano therapy (investigational)", condition: "Erectile dysfunction" },
+    blocks: [
+      {
+        type: "cards",
+        heading: "What nano therapy can include",
+        id: "approaches",
+        cols: 3,
+        cards: [
+          { title: "Nano drug carriers", text: "Very small carrier particles studied as a way to deliver medicines more precisely to erectile tissue." },
+          { title: "Exosomes", text: "Tiny vesicles released by cells, investigated for signalling that may support tissue repair.", href: "/exosome-therapy-erectile-dysfunction" },
+          { title: "Focused energy waves", text: "Energy waves focused at a micro level, related to the low-intensity shockwave approach.", href: "/shockwave-therapy-ed" },
+        ],
+      },
+      { type: "cta", title: "Ask Whether Nano Therapy Is Suitable for Your Case", text: "Send your history. The urologist can say whether this investigational option is relevant, and what comes first.", label: "Ask Whether Nano Therapy Is Suitable for Your Case" },
+      {
+        type: "text",
+        heading: "Nano therapy price",
+        id: "price",
+        paragraphs: [
+          `Nano Therapy for ED at UZ Clinic Antalya is ${priceText("nano")}. Your written treatment plan confirms what is included and the final total before you book. A price is not evidence of outcome.`,
+        ],
+      },
+      {
+        type: "cards",
+        heading: "Candidate assessment and consultation",
+        id: "assessment",
+        cols: 2,
+        cards: [
+          { title: "Assessment first", text: "The urologist identifies the likely cause of your ED and considers established options before any investigational therapy." },
+          { title: "Individual plan", text: "Which approach is used, if any, depends on the clinical evaluation of your case." },
+          { title: "Informed consent", text: "If offered, you receive written information about the method, risks, evidence and alternatives." },
+          { title: "No outcome claims", text: "The clinic does not publish success rates or promise results for nano therapy." },
+        ],
+      },
+      {
+        type: "callout",
+        tone: "evidence",
+        title: "Current evidence limitations",
+        text: "Most nanotechnology and exosome research for ED is preclinical (laboratory and animal studies). Controlled human data are very limited, and there is no established protocol or approved indication for ED. " + NO_GUARANTEE,
+      },
+      { type: "cta", title: "Speak to the Clinic", text: "Ask whether any regenerative option makes sense for you.", label: "Ask the Urologist", whatsapp: true },
+      { type: "treatment-nav", heading: "Compare with other options", exclude: ["nano"] },
+      { type: "doctor" },
+    ],
+    faqs: [
+      { q: "Is nano therapy proven for ED?", a: "No. It is experimental. Evidence is mostly preclinical, and human data are very limited." },
+      { q: "How much does nano therapy for ED cost?", a: `Nano Therapy at UZ Clinic Antalya is ${priceText("nano")}. Your written treatment plan confirms the total before you book.` },
+      { q: "Is nano therapy the same as exosome therapy?", a: "Not exactly. Nano therapy is a broader term that can include exosomes, nano-scale drug carriers and focused energy waves." },
+      { q: "Does nano therapy increase penis size?", a: "No. It is discussed as an option for erectile function, not for enlargement." },
+      { q: "Do you promise results?", a: "No. " + NO_GUARANTEE },
+    ],
+    sources: ["eau2026", "clinicalTrial"],
+    related: ["/exosome-therapy-erectile-dysfunction", "/shockwave-therapy-ed", "/p-shot", "/price", "/ed-treatment-options", "/erectile-dysfunction-assessment"],
+  },
 ];
-

@@ -21,7 +21,7 @@ export const CARD_MULTIPLIER = 1.25;
 /** Card prices stay off the public site until tax treatment and consumer rules are confirmed. */
 export const CARD_PRICES_PUBLISHED = false;
 
-export type PriceItemId = "doppler" | "pshot" | "gcell" | "bloodTests" | "eswt" | "pelvicFloor" | "biofiller10" | "biofiller15" | "biofiller20";
+export type PriceItemId = "doppler" | "pshot" | "gcell" | "bloodTests" | "eswt" | "pelvicFloor" | "nano" | "biofiller10" | "biofiller15" | "biofiller20";
 
 type PriceItem = {
   id: PriceItemId;
@@ -42,6 +42,7 @@ export const PRICE_ITEMS: PriceItem[] = [
   { id: "bloodTests", name: "Comprehensive blood tests", source: { currency: "GBP", amount: 110 }, published: true, href: "/erectile-dysfunction-assessment" },
   { id: "eswt", name: "Shockwave therapy (ESWT)", unit: "per session", source: { currency: "GBP", amount: 110 }, published: true, href: "/shockwave-therapy-ed" },
   { id: "pelvicFloor", name: "Pelvic floor therapy", unit: "per session", source: { currency: "GBP", amount: 110 }, published: true },
+  { id: "nano", name: "Nano Therapy for ED", source: { currency: "GBP", amount: 1490 }, published: true, href: "/nano-therapy-erectile-dysfunction" },
   { id: "biofiller10", name: "Biofiller 10 cc", source: { currency: "GBP", amount: 1100 }, published: false },
   { id: "biofiller15", name: "Biofiller 15 cc", source: { currency: "GBP", amount: 1200 }, published: false },
   { id: "biofiller20", name: "Biofiller 20 cc", source: { currency: "GBP", amount: 1300 }, published: false },

@@ -145,6 +145,7 @@ export const corePages: PageDef[] = [
           { title: "Shockwave therapy (EdSWT)", text: "Emerging. Non-invasive sessions, mainly for vasculogenic ED.", href: "/shockwave-therapy-ed" },
           { title: "Stem cell therapy", text: "Experimental. Cell-based preparations injected into penile tissue.", href: "/stem-cell-therapy-erectile-dysfunction" },
           { title: "Exosome therapy", text: "Experimental. Investigational, with very limited human evidence.", href: "/exosome-therapy-erectile-dysfunction" },
+          { title: "Nano therapy", text: "Experimental. Nanotechnology-based approaches, with very limited human evidence.", href: "/nano-therapy-erectile-dysfunction" },
           { title: "Penile rehabilitation", text: "An individual plan, for example after prostate surgery.", href: "/penile-rehabilitation" },
           { title: "Established options", text: "Lifestyle changes, PDE5 tablets, injections, vacuum devices and implants, discussed when appropriate.", href: "/ed-treatment-options" },
         ],

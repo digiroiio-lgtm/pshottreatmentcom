@@ -37,6 +37,7 @@ export const treatmentImage: Record<TreatmentId, SiteImage> = {
   shockwave: images.shockwave,
   "stem-cell": images.cells,
   exosome: images.cells,
+  nano: images.cells,
   rehabilitation: images.couple,
   "not-sure": images.consultation,
 };

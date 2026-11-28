@@ -17,6 +17,7 @@ export const breadcrumbLabels: Record<string, string> = {
   "/stem-cell-treatment-ed-turkey": "Stem cells in Turkey",
   "/exosome-therapy-erectile-dysfunction": "Exosome therapy",
   "/exosome-therapy-turkey": "Exosomes in Turkey",
+  "/nano-therapy-erectile-dysfunction": "Nano therapy",
   "/vasculogenic-erectile-dysfunction": "Vasculogenic ED",
   "/venous-leak": "Venous leak",
   "/erectile-dysfunction-after-prostate-surgery": "ED after prostate surgery",

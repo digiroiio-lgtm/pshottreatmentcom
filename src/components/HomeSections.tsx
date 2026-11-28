@@ -12,6 +12,7 @@ const heroTreatments: [string, string][] = [
   ["/shockwave-therapy-ed", "Shockwave Therapy"],
   ["/stem-cell-therapy-erectile-dysfunction", "Stem Cell Therapy"],
   ["/exosome-therapy-erectile-dysfunction", "Exosome Therapy"],
+  ["/nano-therapy-erectile-dysfunction", "Nano Therapy"],
   ["/penile-rehabilitation", "Penile Rehabilitation"],
 ];
 
