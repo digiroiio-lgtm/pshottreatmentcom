@@ -1,6 +1,6 @@
 import type { ClinicPhotoKey } from "./images";
 
-export type TreatmentId = "p-shot" | "shockwave" | "stem-cell" | "exosome" | "rehabilitation" | "not-sure";
+export type TreatmentId = "p-shot" | "shockwave" | "stem-cell" | "exosome" | "nano" | "rehabilitation" | "not-sure";
 
 export type EvidenceLabel = "Established" | "Emerging" | "Experimental" | "Individualised" | "Mixed";
 

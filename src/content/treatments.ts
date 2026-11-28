@@ -5,6 +5,7 @@ export const TREATMENT_LABEL: Record<TreatmentId, string> = {
   shockwave: "Shockwave",
   "stem-cell": "Stem Cell",
   exosome: "Exosome",
+  nano: "Nano Therapy",
   rehabilitation: "Penile Rehabilitation",
   "not-sure": "Not Sure",
 };
@@ -72,6 +73,18 @@ export const treatmentCards: TreatmentCard[] = [
     cta: "Check Exosome Therapy Suitability",
   },
   {
+    id: "nano",
+    name: "Nano Therapy for ED",
+    path: "/nano-therapy-erectile-dysfunction",
+    evidence: "Experimental",
+    evidenceNote: "Nanotechnology-based approaches for ED are investigational. Human evidence is very limited.",
+    bestFor: "Men who want to ask whether a modern investigational option could be relevant to their case.",
+    howItWorks: "An umbrella term for nanotechnology-based drug carriers, cell-released vesicles (exosomes) or focused micro-level energy waves.",
+    format: "The combination used is chosen and explained after clinical evaluation.",
+    assessment: "Yes. Treatment is considered only after specialist evaluation.",
+    cta: "Check Nano Therapy Suitability",
+  },
+  {
     id: "rehabilitation",
     name: "Penile Rehabilitation Programme",
     path: "/penile-rehabilitation",
@@ -91,6 +104,7 @@ export const treatmentFromPath = (path: string): TreatmentId => {
   if (p.includes("shockwave") || p.includes("edswt") || p.includes("li-eswt")) return "shockwave";
   if (p.includes("stem-cell")) return "stem-cell";
   if (p.includes("exosome")) return "exosome";
+  if (p.includes("nano")) return "nano";
   if (p.includes("rehabilitation")) return "rehabilitation";
   return "not-sure";
 };
@@ -141,6 +155,18 @@ export const comparisonRows: { id: string; name: string; cells: string[] }[] = [
       "Not established; confirmed only if offered",
       "Confirmed if offered",
       "Cell-derived vesicles, proposed to support repair signalling",
+      "Yes",
+    ],
+  },
+  {
+    id: "nano",
+    name: "Nano Therapy",
+    cells: [
+      "Men asking about a modern investigational option",
+      "Minimally invasive or non-invasive, depending on the approach",
+      "Individualised; explained at assessment",
+      "Confirmed by the clinic",
+      "Nano-scale drug carriers, exosomes or focused energy waves",
       "Yes",
     ],
   },

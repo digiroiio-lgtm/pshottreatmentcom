@@ -20,6 +20,7 @@ Source of truth: `src/lib/pricing.ts`. Every page, table, FAQ and the structured
 | Comprehensive blood tests | GBP 110 | £110 | €135 | $145 | £137.50 |
 | ESWT, per session | GBP 110 | £110 | €135 | $145 | £137.50 |
 | Pelvic floor therapy, per session | GBP 110 | £110 | €135 | $145 | £137.50 |
+| Nano Therapy for ED (added 2026-11-28) | GBP 1490 | £1,490 | €1,780 | $1,955 | £1,862.50 |
 | Biofiller 10 cc (not published) | GBP 1100 | £1,100 | €1,315 | $1,445 | £1,375.00 |
 | Biofiller 15 cc (not published) | GBP 1200 | £1,200 | €1,435 | $1,575 | £1,500.00 |
 | Biofiller 20 cc (not published) | GBP 1300 | £1,300 | €1,555 | $1,705 | £1,625.00 |

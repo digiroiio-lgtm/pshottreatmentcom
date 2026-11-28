@@ -50,6 +50,7 @@ export const interestOptions: Option[] = [
   { value: "shockwave", label: "Shockwave Therapy" },
   { value: "stem-cell", label: "Stem Cell Therapy" },
   { value: "exosome", label: "Exosome Therapy" },
+  { value: "nano", label: "Nano Therapy" },
   { value: "not-sure", label: "Not sure / doctor recommendation" },
 ];
 

@@ -8,6 +8,7 @@ export type AnalyticsEvent =
   | "shockwave_lead"
   | "stem_cell_lead"
   | "exosome_lead"
+  | "nano_lead"
   | "ed_general_lead"
   | "treatment_comparison_view"
   | "doctor_profile_view"
@@ -92,6 +93,7 @@ export const leadEventFor = (interest: string): AnalyticsEvent =>
       shockwave: "shockwave_lead",
       "stem-cell": "stem_cell_lead",
       exosome: "exosome_lead",
+      nano: "nano_lead",
     } as Record<string, AnalyticsEvent>
   )[interest] ?? "ed_general_lead";
 

@@ -7,6 +7,7 @@ const vasculogenic: Term = { name: "Vasculogenic erectile dysfunction", descript
 const venousLeak: Term = { name: "Venous leak", description: "Also called cavernosal insufficiency or veno-occlusive dysfunction: the penis cannot hold blood well enough to keep an erection." };
 const doppler: Term = { name: "Penile Doppler ultrasound", description: "A scan that measures blood flow into and out of the penis to help identify arterial insufficiency or venous leak." };
 const exosome: Term = { name: "Exosomes", description: "Tiny vesicles released by cells that carry signalling molecules; investigated as a cell-free regenerative approach." };
+const nano: Term = { name: "Nano therapy for ED", description: "An umbrella term for experimental ED approaches using nanotechnology-based drug carriers, exosomes or focused micro-level energy waves." };
 const stemCell: Term = { name: "Stem cell therapy", description: "An experimental approach using cells or cell-based preparations, studied for tissue repair in erectile dysfunction." };
 
 export const glossary: Record<string, Term[]> = {
@@ -22,6 +23,7 @@ export const glossary: Record<string, Term[]> = {
   "/penile-doppler-ultrasound": [doppler, venousLeak],
   "/exosome-therapy-erectile-dysfunction": [exosome, prp, stemCell],
   "/exosome-therapy-turkey": [exosome],
+  "/nano-therapy-erectile-dysfunction": [nano, exosome],
   "/stem-cell-therapy-erectile-dysfunction": [stemCell, prp, exosome],
   "/stem-cell-treatment-ed-turkey": [stemCell],
 };

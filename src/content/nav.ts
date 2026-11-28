@@ -16,6 +16,7 @@ export const navGroups = [
       ["/shockwave-therapy-ed", "Shockwave Therapy"],
       ["/stem-cell-therapy-erectile-dysfunction", "Stem Cell Therapy"],
       ["/exosome-therapy-erectile-dysfunction", "Exosome Therapy"],
+      ["/nano-therapy-erectile-dysfunction", "Nano Therapy"],
       ["/penile-rehabilitation", "Penile Rehabilitation"],
       ["/penile-implant", "Penile Implant"],
     ],
